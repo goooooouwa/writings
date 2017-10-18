@@ -5,6 +5,9 @@ title: iPad Pro vs MacBook，谁才是未来个人电脑的主流？
 
 继推出12寸的iPad Pro后，苹果又推出了全新MacBook。为什么苹果要同时推出两款功能如此接近的产品？到底哪一款会成为未来个人电脑的主流？
 
+![iPad Pro]({{ "/assets/images/ipad-pro.jpg" | absolute_url }})
+![MacBook]({{ "/assets/images/macbook.png" | absolute_url }})
+
 首先这两台设备有许多相似之处：相似的尺寸、相似的处理性能、相似的屏幕分辨率、相似的续航能力、相似的键盘手感。
 
 这两台设备最本质的差别就是它们的输入方式。iPad Pro采用触摸输入，MacBook则是鼠标输入。
