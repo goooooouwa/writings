@@ -1,3 +1,8 @@
+---
+layout: post
+title: Difference Between North America And China Dev Teams
+---
+
 Why do they ask more questions and understand stories better?
 NA dev team works directly with Product team and UI team, at the same location in the same timezone, has little cost of communication, it’s cheap to ask questions and thus get better understanding on stories.
 
