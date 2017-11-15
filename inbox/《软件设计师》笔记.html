@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.13 (455674)"/><meta name="author" content="Greg Xu"/><meta name="created" content="2012-10-22 03:04:04 +0000"/><meta name="latitude" content="30.5152687387133"/><meta name="longitude" content="114.1495344455929"/><meta name="source" content="mobile.iphone"/><meta name="updated" content="2013-05-04 05:35:28 +0000"/><title>《软件设计师》笔记</title></head><body><div>
+<table width="100%" border="0" bgcolor="#D4DDE5"><tr><td colspan="1" rowspan="1">
+<h1>关系数据库规范化：函数依赖</h1>
+</td></tr></table>
+</div>
+<div><img src="%E3%80%8A%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88%E3%80%8B%E7%AC%94%E8%AE%B0.resources/Evernote%20Snapshot%2020121022%20110554.jpg" height="777" width="992"/><img src="%E3%80%8A%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88%E3%80%8B%E7%AC%94%E8%AE%B0.resources/Evernote%20Snapshot%2020121022%20110621.jpg" height="1050" width="1400"/></div>
+<div><br clear="none"/></div>
+<div><br clear="none"/></div>
+<div><span style="background-color: rgba(255, 255, 255, 0.0078125);">产生冗余和异常的两个重要原因是部分依赖和传递依赖。关系模式的规范化处理就是将非3NF的1NF、2NF变换成为3NF或更高级别的范式的过程。</span></div>
+<table width="100%" border="0" bgcolor="#D4DDE5"><tr><td colspan="1" rowspan="1">
+<h1>PV操作</h1>
+</td></tr></table>
+<div><span style="font-family: '.HelveticaNeueUI'; font-size: 15px; line-height: 19px; white-space: nowrap; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(175, 192, 227, 0.230469); -webkit-composition-frame-color: rgba(77, 128, 180, 0.230469);">简单版本：</span></div>
+<div><span style="font-size: 15px; line-height: 19px; white-space: nowrap; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(175, 192, 227, 0.230469); -webkit-composition-frame-color: rgba(77, 128, 180, 0.230469);">信号量S表示资源量；</span></div>
+<div><span style="font-family: '.HelveticaNeueUI'; font-size: 15px; line-height: 19px; white-space: nowrap; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(175, 192, 227, 0.230469); -webkit-composition-frame-color: rgba(77, 128, 180, 0.230469);">P操作就是若还有资源，则占有一个；</span>
+<div><span style="font-family: '.HelveticaNeueUI'; font-size: 15px; line-height: 19px; white-space: nowrap; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(175, 192, 227, 0.230469); -webkit-composition-frame-color: rgba(77, 128, 180, 0.230469);">V操作就是释放一个资源</span><span style="font-size: 15px; line-height: 19px; white-space: nowrap; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(175, 192, 227, 0.230469); -webkit-composition-frame-color: rgba(77, 128, 180, 0.230469);">。</span></div>
+</div>
+<div><span style="font-size: 15px; line-height: 19px; white-space: nowrap; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(175, 192, 227, 0.230469); -webkit-composition-frame-color: rgba(77, 128, 180, 0.230469);"> </span></div>
+<div><span style="font-family: '.HelveticaNeueUI'; font-size: 15px; line-height: 19px; white-space: nowrap; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(175, 192, 227, 0.230469); -webkit-composition-frame-color: rgba(77, 128, 180, 0.230469);">复杂一点的版本：</span>
+<div><span style="font-size: 15px; line-height: 19px; white-space: nowrap; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(175, 192, 227, 0.230469); -webkit-composition-frame-color: rgba(77, 128, 180, 0.230469);">信号量S为正数时表示资源量，负数时表示排队人数；</span></div>
+<div><span style="font-family: '.HelveticaNeueUI'; font-size: 15px; line-height: 19px; white-space: nowrap; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(175, 192, 227, 0.230469); -webkit-composition-frame-color: rgba(77, 128, 180, 0.230469);">P操作就是若还有资源则占有一个(S&gt;0)，否则排在队伍后面(S=S-1)；</span>
+<div><span style="font-family: '.HelveticaNeueUI'; font-size: 15px; line-height: 19px; white-space: nowrap; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(175, 192, 227, 0.230469); -webkit-composition-frame-color: rgba(77, 128, 180, 0.230469);">V操作就是释放一个资源(S=S+1)，如果有人排队(S&lt;0)就叫一个上来使用资</span><span style="font-family: '.HelveticaNeueUI'; font-size: 15px; line-height: 19px; white-space: nowrap; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(175, 192, 227, 0.230469); -webkit-composition-frame-color: rgba(77, 128, 180, 0.230469);">源(S=S+1)。</span></div>
+</div>
+</div>
+<table width="100%" border="0" bgcolor="#D4DDE5"><tr><td colspan="1" rowspan="1">
+<h1>连通图</h1>
+</td></tr></table>
+<div>一个图中如果任意两点是可达的，则称为连通图。</div>
+<table width="100%" border="0" bgcolor="#D4DDE5"><tr><td colspan="1" rowspan="1">
+<h1>基本的设计模式</h1>
+</td></tr></table>
+<div><img src="%E3%80%8A%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88%E3%80%8B%E7%AC%94%E8%AE%B0.resources/Evernote%20Snapshot%2020121025%20190615.jpg" height="1400" width="1050"/><img src="%E3%80%8A%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88%E3%80%8B%E7%AC%94%E8%AE%B0.resources/Evernote%20Snapshot%2020121025%20190703.jpg" height="1010" width="704"/></div>
+<table width="100%" border="0" bgcolor="#D4DDE5"><tr><td colspan="1" rowspan="1">
+<h1>AOE图</h1>
+</td></tr></table>
+<div><span style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);">AOE图各顶点所有进入边的活动均已完成，从它出发的边上的活动才可以开始。</span></div>
+<table width="100%" border="0" bgcolor="#D4DDE5"><tr><td colspan="1" rowspan="1">
+<h1>结点的度等于其分支数</h1>
+</td></tr></table>
+<div><span style="color: #252525; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 23px; -webkit-composition-fill-color: rgba(175, 192, 227, 0.230469); -webkit-composition-frame-color: rgba(77, 128, 180, 0.230469); -webkit-text-size-adjust: auto; background-color: #ffffff;"> A tree with 'n' number of nodes has exactly 'n-1' branches or degree.</span></div>
+<div><span style="color: #252525; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 23px; -webkit-composition-fill-color: rgba(175, 192, 227, 0.230469); -webkit-composition-frame-color: rgba(77, 128, 180, 0.230469); -webkit-text-size-adjust: auto; background-color: #ffffff;"> </span></div>
+<div><span style="font-family: '.HelveticaNeueUI'; font-size: 15px; line-height: 19px; white-space: nowrap; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(175, 192, 227, 0.230469); -webkit-composition-frame-color: rgba(77, 128, 180, 0.230469);">结点的度等于其分支数；</span></div>
+<div><span style="font-family: '.HelveticaNeueUI'; font-size: 15px; line-height: 19px; white-space: nowrap; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(175, 192, 227, 0.230469); -webkit-composition-frame-color: rgba(77, 128, 180, 0.230469);">树的度等于其结点的最大分支数；</span></div>
+<div><span style="font-family: '.HelveticaNeueUI'; font-size: 15px; line-height: 19px; white-space: nowrap; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(175, 192, 227, 0.230469); -webkit-composition-frame-color: rgba(77, 128, 180, 0.230469);">树的总度数等于结点数-1。</span></div>
+<table width="100%" border="0" bgcolor="#D4DDE5"><tr><td colspan="1" rowspan="1">
+<h1>各种基本排序的时间复杂度</h1>
+</td></tr></table>
+<div><img src="%E3%80%8A%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88%E3%80%8B%E7%AC%94%E8%AE%B0.resources/Evernote%20Snapshot%2020121025%20114904.jpg" height="1050" width="1400"/></div>
+<table width="100%" border="0" bgcolor="#D4DDE5"><tr><td colspan="1" rowspan="1">
+<h1>关系代数运算</h1>
+</td></tr></table>
+<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);">关系代数运算</div>
+<div><span style="font-size: large;"><span style="line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);"><br clear="none"/></span></span>
+<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);"><em style="background-color: rgba(255, 255, 255, 0.0078125);">π 投影运算</em>  从关系中选取若干属性组成新的关系。（竖向选择）</div>
+<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);"/>
+<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);"><em style="background-color: rgba(255, 255, 255, 0.0078125);">σ 选择运算</em>  从关系中选择满足条件的元组组成新的关系。（横向选择）</div>
+<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);"/>
+<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);"><em style="background-color: rgba(255, 255, 255, 0.0078125);"><em style="background-color: rgba(255, 255, 255, 0.0078125);">× 笛卡尔积运算</em></em>  将左关系所有元组与右关系所有元组连接组成新的关系。（笛卡尔积可看作无条件连接）</div>
+<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);"/>
+<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);"><em style="background-color: rgba(255, 255, 255, 0.0078125);">ϕ 连接运算</em>  从两个关系的笛卡尔积中选择满足条件的元组组成新的关系。（条件分为：θ连接，等值连接和自然连接）</div>
+<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);"/>
+<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);">P.S. 关系=集合, 元组=记录</div>
+</div>
+<table width="100%" border="0" bgcolor="#D4DDE5"><tr><td colspan="1" rowspan="1">
+<h1>分层数据流图例图</h1>
+<a shape="rect" href="http://maps.google.com/maps?z=6&amp;q=30.518622957944714,114.1629556645097" target="_blank"><strong>Map</strong></a></td></tr></table>
+<div><img src="%E3%80%8A%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88%E3%80%8B%E7%AC%94%E8%AE%B0.resources/Evernote%20Snapshot%2020121105%20110206.jpg" height="1400" width="1050"/></div>
+<table width="100%" border="0" bgcolor="#D4DDE5"><tr><td colspan="1" rowspan="1">
+<h1>Java异常处理</h1>
+<a shape="rect" href="http://maps.google.com/maps?z=6&amp;q=30.51554029898512,114.1511949047909" target="_blank"><strong>Map</strong></a></td></tr></table>
+<div><img src="%E3%80%8A%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88%E3%80%8B%E7%AC%94%E8%AE%B0.resources/Evernote%20Snapshot%2020121107%20171300.jpg" height="1050" width="1400"/></div>
+<div><span style="background-color: rgba(255, 255, 255, 0.0078125);">（4）throw语句用来明确地抛出一个＂异常＂。在catch子句进行异常处理。</span></div>
+<table width="100%" border="0" bgcolor="#D4DDE5"><tr><td colspan="1" rowspan="1">
+<h1>序列图</h1>
+<a shape="rect" href="http://maps.google.com/maps?z=6&amp;q=30.515272899999985,114.15040693999995" target="_blank"><strong>Map</strong></a></td></tr></table>
+<div>序列图只显示对象间通信（messaging）的消息，不显示对象内部消息处理过程。所以当你看到一个类接到其他对象发送的消息却不做任何行为时，不要惊讶，它可能已经在内部将消息处理了。</div></body></html>

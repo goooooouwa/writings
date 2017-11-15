@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.13 (455674)"/><meta name="keywords" content="云梯"/><meta name="author" content="Greg Xu"/><meta name="created" content="2015-11-11 02:58:53 +0000"/><meta name="source" content="desktop.mac"/><meta name="updated" content="2015-11-11 03:01:04 +0000"/><title>如何使用云梯智能加速，且不影响公司内网的访问</title></head><body>
+<div><b>Problem</b></div>
+<div>公司内网使用保留ip 10.0.0.0/8, 使用智能加速工具后无法访问内网网址（DNS服务器也在内网）。Chrome下具体错误内容如下：</div>
+<div><br/></div>
+<div>This webpage is not available</div>
+<div><br/></div>
+<div>ERR_NAME_NOT_RESOLVED</div>
+<div>Hide details</div>
+<div>The server at ***.***.com（公司内部网址，保密） can't be found, because the DNS lookup failed. DNS is the network service that translates a website's name to its Internet address. This error is most often caused by having no connection to the Internet or a misconfigured network. It can also be caused by an unresponsive DNS server or a firewall preventing Google Chrome from accessing the network.</div>
+<div><br/></div>
+<div><b>Solution</b></div>
+<div>Steps to properly setup VPN speed up tool with intranet</div>
+<div>1. install VPN speed up tool as normal</div>
+<div>2. use company DNS servers for VPN connection</div>
+<div>3. add the following line to /etc/ppp/ip-up:</div>
+<div>route add 10.0.0.0/8 "${OLDGW}"</div>
+<div>4. add the following line to /etc/ppp/ip-down:</div>
+<div>route delete 10.0.0.0/8 ${OLDGW}</div>
+<div><br/></div>
+<div>基本上讲就是1.使用内网DNS解析网址，2. 将内网ip路由给本地网络。这样内网网址就会被内网DNS解析得到对应的内网ip，然后在本地网络访问此内网ip，就成功访问了。也欢迎你们将此方法分享给其他小伙伴。</div>
+</body></html>

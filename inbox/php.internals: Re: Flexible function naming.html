@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.13 (455674)"/><meta name="keywords" content="php"/><meta name="created" content="2016-12-28 02:12:52 +0000"/><meta name="source" content="web.clip"/><meta name="source-url" content="http://news.php.net/php.internals/70691"/><meta name="updated" content="2016-12-28 02:12:52 +0000"/><title>php.internals: Re: Flexible function naming</title></head><body><div style="-evernote-webclip:true"><br/><div style="font-size: 16px; display: inline-block;"><div><div style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;background:rgb(255, 255, 255);color:rgb(0, 0, 0);word-break:break-word;">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" style="font-size:inherit;font-weight:inherit;font-style:inherit;font-variant:inherit;background:rgb(153, 153, 204);border-bottom:17px solid rgb(102, 102, 153);">
+   <tbody><tr>
+    <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);">
+     <a href="http://news.php.net/index.php" style="color:rgb(0, 0, 153);"><img src="php.internals%3A%20Re%3A%20Flexible%20function%20naming.resources/l.gif" height="67" width="120"/></a>
+    </td>
+    <td align="right" valign="bottom" style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);">
+     PHP.net <a href="http://news.php.net/php.internals/70691news://news.php.net/" style="color:rgb(0, 0, 153);text-decoration:none;">news server</a> web interface
+    </td>
+   </tr>
+  </tbody></table>
+  <blockquote>
+   <table border="0" cellpadding="2" cellspacing="2" width="100%" style="font-size:inherit;font-weight:inherit;font-style:inherit;font-variant:inherit;">
+    <tbody><tr>
+     <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(204, 204, 204);font-weight:bold;text-align:right;">From:</td>
+     <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(238, 238, 238);"><a href="http://news.php.net/php.internals/70691mailto:rasmus+at+lerdorf+dot+com" style="color:rgb(0, 0, 153);">Rasmus Lerdorf</a></td>
+     <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(204, 204, 204);font-weight:bold;text-align:right;">Date:</td>
+     <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(238, 238, 238);">Mon Dec 16 20:24:06 2013</td>
+    </tr>
+    <tr>
+     <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(204, 204, 204);font-weight:bold;text-align:right;">Subject:</td>
+     <td colspan="3" style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(238, 238, 238);">Re:  Flexible function naming</td>
+    </tr>
+    <tr>
+     <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(204, 204, 204);font-weight:bold;text-align:right;">References:</td>
+     <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(238, 238, 238);"><a href="http://news.php.net/php.internals/70634" style="color:rgb(0, 0, 153);">1</a> <a href="http://news.php.net/php.internals/70665" style="color:rgb(0, 0, 153);">2</a> <a href="http://news.php.net/php.internals/70691http:" style="color:rgb(0, 0, 153);">3</a> <a href="http://news.php.net/php.internals/70673" style="color:rgb(0, 0, 153);">4</a> <a href="http://news.php.net/php.internals/70679" style="color:rgb(0, 0, 153);">5</a> <a href="http://news.php.net/php.internals/70688" style="color:rgb(0, 0, 153);">6</a> </td>
+     <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(204, 204, 204);font-weight:bold;text-align:right;">Groups:</td>
+     <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(238, 238, 238);"><a href="http://news.php.net/php.internals" style="color:rgb(0, 0, 153);">php.internals</a> </td>
+    </tr>
+   </tbody></table>
+  </blockquote>
+  <blockquote>
+   <pre>On 12/16/2013 07:30 PM, Rowan Collins wrote:
+
+<span style="color:green;">&gt; The core functions which follow neither rule include C-style
+</span><span style="color:green;">&gt; abbreviations like "strptime" which couldn't be automatically swapped to
+</span><span style="color:green;">&gt; either format, and complete anomalies like "nl2br". If you named those
+</span><span style="color:green;">&gt; functions as part of a consistent style, you would probably also follow
+</span><span style="color:green;">&gt; stronger naming conventions than Rasmus did when he named
+</span><span style="color:green;">&gt; "htmlspecialchars".
+</span>
+Well, there were other factors in play there. htmlspecialchars was a
+very early function. Back when PHP had less than 100 functions and the
+function hashing mechanism was strlen(). In order to get a nice hash
+distribution of function names across the various function name lengths
+names were picked specifically to make them fit into a specific length
+bucket. This was circa late 1994 when PHP was a tool just for my own
+personal use and I wasn't too worried about not being able to remember
+the few function names.
+
+-Rasmus<br/><br/>   </pre>
+  </blockquote>
+  <table border="0" cellpadding="2" cellspacing="2" width="100%" style="font-size:inherit;font-weight:inherit;font-style:inherit;font-variant:inherit;">
+   <tbody><tr>
+    <th style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(204, 204, 204);font-weight:bold;text-align:center;width:20%;">     <a href="http://news.php.net/php.internals/70690" style="color:rgb(0, 0, 153);"><b>« previous</b></a>    </th>
+    <th align="center" style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(204, 204, 204);font-weight:bold;text-align:center;">php.internals (#70691)</th>
+    <th align="right" style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(204, 204, 204);font-weight:bold;text-align:center;width:20%;">     <a href="http://news.php.net/php.internals/70692" style="color:rgb(0, 0, 153);"><b>next »</b></a>    </th>
+   </tr>
+  </tbody></table>
+  <hr/>
+  <div style="font-size:75%;text-align:right;">
+   Written by Jim Winstead. no rights reserved. (<a href="https://git.php.net/?p=web/news.git" style="color:rgb(0, 0, 153);">source code</a>)
+  </div>
+ 
+
+<div style="visibility:hidden;position:fixed;left:-10000px;top:0px;border:0px;"/><div style="visibility:hidden;position:fixed;left:-10000px;top:0px;border:0px;"/><div style="margin:0px;padding:0px;border:none;position:absolute;width:5px;height:5px;top:-10px;left:-10px;"><div style="margin:0px;padding:0px;border:none;position:absolute;width:5px;height:5px;top:-10px;left:-10px;"/></div></div></div></div><div style="font-size: 16px; display: inline-block;"><div><div style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;background:rgb(255, 255, 255);color:rgb(0, 0, 0);word-break:break-word;">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" style="font-size:inherit;font-weight:inherit;font-style:inherit;font-variant:inherit;background:rgb(153, 153, 204);border-bottom:17px solid rgb(102, 102, 153);">
+   <tbody><tr>
+    <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);">
+     <a href="http://news.php.net/index.php" style="color:rgb(0, 0, 153);"><img src="php.internals%3A%20Re%3A%20Flexible%20function%20naming.resources/l.gif" height="67" width="120"/></a>
+    </td>
+    <td align="right" valign="bottom" style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);">
+     PHP.net <a href="http://news.php.net/php.internals/70691news://news.php.net/" style="color:rgb(0, 0, 153);text-decoration:none;">news server</a> web interface
+    </td>
+   </tr>
+  </tbody></table>
+  <blockquote>
+   <table border="0" cellpadding="2" cellspacing="2" width="100%" style="font-size:inherit;font-weight:inherit;font-style:inherit;font-variant:inherit;">
+    <tbody><tr>
+     <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(204, 204, 204);font-weight:bold;text-align:right;">From:</td>
+     <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(238, 238, 238);"><a href="http://news.php.net/php.internals/70691mailto:rasmus+at+lerdorf+dot+com" style="color:rgb(0, 0, 153);">Rasmus Lerdorf</a></td>
+     <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(204, 204, 204);font-weight:bold;text-align:right;">Date:</td>
+     <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(238, 238, 238);">Mon Dec 16 20:24:06 2013</td>
+    </tr>
+    <tr>
+     <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(204, 204, 204);font-weight:bold;text-align:right;">Subject:</td>
+     <td colspan="3" style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(238, 238, 238);">Re:  Flexible function naming</td>
+    </tr>
+    <tr>
+     <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(204, 204, 204);font-weight:bold;text-align:right;">References:</td>
+     <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(238, 238, 238);"><a href="http://news.php.net/php.internals/70634" style="color:rgb(0, 0, 153);">1</a> <a href="http://news.php.net/php.internals/70665" style="color:rgb(0, 0, 153);">2</a> <a href="http://news.php.net/php.internals/70691http:" style="color:rgb(0, 0, 153);">3</a> <a href="http://news.php.net/php.internals/70673" style="color:rgb(0, 0, 153);">4</a> <a href="http://news.php.net/php.internals/70679" style="color:rgb(0, 0, 153);">5</a> <a href="http://news.php.net/php.internals/70688" style="color:rgb(0, 0, 153);">6</a> </td>
+     <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(204, 204, 204);font-weight:bold;text-align:right;">Groups:</td>
+     <td style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(238, 238, 238);"><a href="http://news.php.net/php.internals" style="color:rgb(0, 0, 153);">php.internals</a> </td>
+    </tr>
+   </tbody></table>
+  </blockquote>
+  <blockquote>
+   <pre>On 12/16/2013 07:30 PM, Rowan Collins wrote:
+
+<span style="color:green;">&gt; The core functions which follow neither rule include C-style
+</span><span style="color:green;">&gt; abbreviations like "strptime" which couldn't be automatically swapped to
+</span><span style="color:green;">&gt; either format, and complete anomalies like "nl2br". If you named those
+</span><span style="color:green;">&gt; functions as part of a consistent style, you would probably also follow
+</span><span style="color:green;">&gt; stronger naming conventions than Rasmus did when he named
+</span><span style="color:green;">&gt; "htmlspecialchars".
+</span>
+Well, there were other factors in play there. htmlspecialchars was a
+very early function. Back when PHP had less than 100 functions and the
+function hashing mechanism was strlen(). In order to get a nice hash
+distribution of function names across the various function name lengths
+names were picked specifically to make them fit into a specific length
+bucket. This was circa late 1994 when PHP was a tool just for my own
+personal use and I wasn't too worried about not being able to remember
+the few function names.
+
+-Rasmus<br/><br/>   </pre>
+  </blockquote>
+  <table border="0" cellpadding="2" cellspacing="2" width="100%" style="font-size:inherit;font-weight:inherit;font-style:inherit;font-variant:inherit;">
+   <tbody><tr>
+    <th style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(204, 204, 204);font-weight:bold;text-align:center;width:20%;">     <a href="http://news.php.net/php.internals/70690" style="color:rgb(0, 0, 153);"><b>« previous</b></a>    </th>
+    <th align="center" style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(204, 204, 204);font-weight:bold;text-align:center;">php.internals (#70691)</th>
+    <th align="right" style="font-family:verdana, arial, helvetica, sans-serif;font-size:95%;color:rgb(0, 0, 0);background:rgb(204, 204, 204);font-weight:bold;text-align:center;width:20%;">     <a href="http://news.php.net/php.internals/70692" style="color:rgb(0, 0, 153);"><b>next »</b></a>    </th>
+   </tr>
+  </tbody></table>
+  <hr/>
+  <div style="font-size:75%;text-align:right;">
+   Written by Jim Winstead. no rights reserved. (<a href="https://git.php.net/?p=web/news.git" style="color:rgb(0, 0, 153);">source code</a>)
+  </div>
+ 
+
+<div style="visibility:hidden;position:fixed;left:-10000px;top:0px;border:0px;"/><div style="visibility:hidden;position:fixed;left:-10000px;top:0px;border:0px;"/><div style="margin:0px;padding:0px;border:none;position:absolute;width:5px;height:5px;top:-10px;left:-10px;"><div style="margin:0px;padding:0px;border:none;position:absolute;width:5px;height:5px;top:-10px;left:-10px;"/></div></div></div></div><br/></div></body></html>

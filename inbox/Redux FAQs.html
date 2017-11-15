@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.13 (455674)"/><meta name="keywords" content="Redux"/><meta name="altitude" content="32.91963577270508"/><meta name="author" content="Greg Xu"/><meta name="created" content="2016-07-26 16:05:21 +0000"/><meta name="latitude" content="30.63773204015776"/><meta name="longitude" content="114.2611734524955"/><meta name="source" content="desktop.mac"/><meta name="updated" content="2016-07-27 03:31:02 +0000"/><title>Redux FAQs</title></head><body>
+<div>Demo on two way binding problem</div>
+<div><br/></div>
+<div><br/></div>
+<div><b>Why is state management all of a sudden such an important topic?</b></div>
+<div><span style="color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; letter-spacing: 0.20000000298023224px; -webkit-text-size-adjust: none; background-color: rgb(255, 255, 255);">As the requirements for JavaScript single-page applications have become increasingly complicated, </span><strong style="box-sizing: border-box; -webkit-overflow-scrolling: touch; -webkit-text-size-adjust: none; -webkit-touch-callout: none; -webkit-font-smoothing: antialiased; color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; letter-spacing: 0.20000000298023224px;">our code must manage more state than ever before</strong><span style="color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; letter-spacing: 0.20000000298023224px; -webkit-text-size-adjust: none; background-color: rgb(255, 255, 255);">.</span> Managing this ever-changing state is hard. If a model can update another model, then a view can update a model, which updates another model, and this, in turn, might cause another view to update. </div>
+<div><a href="http://redux.js.org/docs/introduction/Motivation.html">http://redux.js.org/docs/introduction/Motivation.html</a></div>
+<div><br/></div>
+<div><b>What is Redux, really?</b></div>
+<div>Redux a predictable state container. It serves only one purpose: manage a state tree. It does one thing only: <i>new_state = root_reducer(old_state, action)</i>.</div>
+<div><br/></div>
+<div><b>What is Redux not?</b></div>
+<div>Redux is not a full web framework or persistance solution. Redux is conceptually different from the traditional Model layer in MVC.</div>
+<div><br/></div>
+<div><b>Do I need Redux?</b></div>
+<div>Probably not. Certain scenarios are quite suitable.</div>
+<div><a href="https://medium.com/swlh/the-case-for-flux-379b7d1982c6#.fih7um7po">https://medium.com/swlh/the-case-for-flux-379b7d1982c6#.fih7um7po</a></div>
+<div><br/></div>
+<div><b>What is functional programming? What is Reactive Programming?</b></div>
+<div><a href="https://en.wikipedia.org/wiki/Functional_programming">https://en.wikipedia.org/wiki/Functional_programming</a></div>
+<div><a href="https://en.wikipedia.org/wiki/Reactive_programming">https://en.wikipedia.org/wiki/Reactive_programming</a></div>
+<div><br/></div>
+<div><b>What has Redux to do with Flux? React? Rx?</b></div>
+<div><a href="http://redux.js.org/docs/introduction/PriorArt.html">http://redux.js.org/docs/introduction/PriorArt.html</a></div>
+<div><a href="http://redux.js.org/docs/basics/UsageWithReact.html">http://redux.js.org/docs/basics/UsageWithReact.html</a></div>
+<div><br/></div>
+<div><b>Caveats</b></div>
+<ul>
+<li><b>How is an action dispatched?</b> Each time an action is dispatched, the root reducer will cascadingly call all other reducers with the action and the state slice <a href="http://redux.js.org/docs/basics/DataFlow.html">http://redux.js.org/docs/basics/DataFlow.html</a></li>
+<li><b>How to subscribe to single property change in Redux store?</b> There is no way to subscribe to part of the store when using subscribe directly, but as the creator of Redux says himself - don't use subscribe directly! <a href="http://redux.js.org/docs/api/Store.html#subscribe">http://redux.js.org/docs/api/Store.html#subscribe</a></li>
+<li><b>Can I do two way data binding in Redux? How?</b> Yes, you can. For a two way binding between property A and B. You need to check if property A is changed in <i>subscribe()</i> change listener, and if it's changed, you dispatch an action to change property B, vise versa.</li>
+</ul>
+</body></html>

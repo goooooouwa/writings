@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.13 (455674)"/><meta name="altitude" content="36"/><meta name="author" content="Greg Xu"/><meta name="created" content="2014-05-20 12:11:05 +0000"/><meta name="latitude" content="30.63759737093488"/><meta name="longitude" content="114.2614587886845"/><meta name="updated" content="2014-11-07 03:21:31 +0000"/><title>elasticsearch deb Ubuntu install path</title></head><body style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+it’s installed in  <span style="font-size: 18px; font-family: Monaco; color: rgb(245, 245, 245); background-color: rgb(45, 45, 45);">/usr/share/elasticsearch</span>
+<div><span style="font-size: 18px; font-family: Monaco; color: rgb(245, 245, 245); background-color: rgb(45, 45, 45);"><br/></span></div>
+<div><span style="font-size: 18px; font-family: Monaco; color: rgb(74, 206, 57); background-color: rgb(45, 45, 45);">➜ </span> <span style="font-size: 18px; font-family: Monaco; color: rgb(74, 203, 215); background-color: rgb(45, 45, 45);">~ </span> <span style="font-size: 18px; font-family: Monaco; color: rgb(245, 245, 245); background-color: rgb(45, 45, 45);">sudo dpkg -i elasticsearch-1.1.1.deb<br/>
+[sudo] password for greg:<br/>
+Selecting previously unselected package elasticsearch.<br/>
+(Reading database ... 138118 files and directories currently installed.)<br/>
+Unpacking elasticsearch (from elasticsearch-1.1.1.deb) ...<br/>
+Setting up elasticsearch (1.1.1) ...<br/>
+Adding system user `elasticsearch' (UID 109) ...<br/>
+Adding new user `elasticsearch' (UID 109) with group `elasticsearch' ...<br/>
+Not creating home directory `/usr/share/elasticsearch'.<br/>
+### NOT starting elasticsearch by default on bootup, please execute<br/>
+ sudo update-rc.d elasticsearch defaults 95 10<br/>
+### In order to start elasticsearch, execute<br/>
+ sudo /etc/init.d/elasticsearch start<br/>
+Processing triggers for ureadahead ...</span><span style="font-size: 18px; font-family: Monaco; color: rgb(245, 245, 245); background-color: rgb(45, 45, 45);"><br/></span></div>
+</body></html>

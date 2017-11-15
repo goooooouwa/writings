@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.13 (455674)"/><meta name="keywords" content="Authentication, Cookie, session, Token-based Auth"/><meta name="altitude" content="488.86328125"/><meta name="created" content="2015-10-14 12:42:37 +0000"/><meta name="latitude" content="30.64036735634468"/><meta name="longitude" content="104.0979378095116"/><meta name="source" content="mobile.iphone"/><meta name="updated" content="2015-10-14 13:12:34 +0000"/><title>为什么 APP 要用 token 而不用 session 认证？</title></head><body><br/>
+	
+	
+	
+	
+	
+	
+	<table cellspacing="0" style="table-layout: fixed; color: rgb(0, 0, 0); font-family: 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif; font-size: 12px; line-height: 14px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961);" cellpadding="0" border="0" width="100%">
+		
+		
+		
+		
+		
+		
+		
+		<tbody>
+			
+			
+			
+			
+			
+			
+			
+			<tr>
+				
+				
+				
+				
+				
+				
+				
+				<td width="48" align="center" valign="top"><img src="%E4%B8%BA%E4%BB%80%E4%B9%88%20APP%20%E8%A6%81%E7%94%A8%20token%20%E8%80%8C%E4%B8%8D%E7%94%A8%20session%20%E8%AE%A4%E8%AF%81%EF%BC%9F.resources/7DC28D93-D51D-4EA4-970A-B2AE6719ED3F.png" height="48" width="48"/></td>
+				
+				
+				
+				
+				
+				
+				
+				<td width="10" valign="top"/>
+				
+				
+				
+				
+				
+				
+				
+				<td width="auto" align="left" valign="top">
+					
+					
+					
+					
+					
+					
+					
+					<div style="float: right; text-align: right;">   <span> </span><span style="font-size: 9px; line-height: 9px; font-weight: 500; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; display: inline-block; background-color: rgb(240, 240, 240); color: rgb(204, 204, 204); padding: 2px 5px;">36</span></div>
+					
+					
+					
+					
+					
+					
+					
+					<div style="height: 3px;"/><strong><a style="color: gray; text-decoration: none; word-break: break-all;" href="https://www.v2ex.com/member/zhicheng">zhicheng</a></strong>   <span style="color: rgb(204, 204, 204); font-size: 11px;">326 天前</span>
+					
+					
+					
+					
+					
+					
+					
+					<div style="height: 5px;"/>
+					
+					
+					
+					
+					
+					
+					
+					<div style="font-size: 14px; line-height: 1.6; color: rgb(0, 0, 0); word-break: break-all; word-wrap: break-word;">Session 是一种HTTP存储机制，目的是为无状态的HTTP提供的持久机制。所谓 Session 认证只是简单的把 User 信息存储到 Session 里，因为 SID 的不可预测性，暂且认为是安全的。这是一种认证手段。<span> </span><br style="margin-top: 0px !important;"/><br/>而 Token ，如果指的是 OAuth Token 或类似的机制的话，提供的是 认证 和 授权 ，认证是针对用户，授权是针对 App 。其目的是让 某App 有权利访问 某用户 的信息。这里的 Token 是唯一的。不可以转移到其它 App 上，也不可以转到其它 用户 上。<span> </span><br/><br/>转过来说 Session 。Session 只提供一种简单的认证，即有此 SID ，即认为有此 User 的全部权利。是需要严格保密的，这个数据应该只保存在站方，不应该共享给其它网站或者第三方App。<span> </span><br/><br/>所以简单来说，如果你的用户数据可能需要和第三方共享，或者允许第三方调用 API 接口，用 Token 。<span> </span><br style="margin-bottom: 0px !important;"/>如果永远只是自己的网站，自己的 App ，用什么就无所谓了。</div><div style="font-size: 14px; line-height: 1.6; color: rgb(0, 0, 0); word-break: break-all; word-wrap: break-word;"><br/></div></td></tr></tbody></table>
+
+
+
+
+
+
+
+
+
+</body></html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.13 (455674)"/><meta name="altitude" content="37.11447143554688"/><meta name="created" content="2014-09-14 00:16:24 +0000"/><meta name="latitude" content="30.63786032191259"/><meta name="longitude" content="114.2611560104542"/><meta name="source" content="mobile.iphone"/><meta name="updated" content="2014-11-07 03:33:35 +0000"/><title>A basic understanding of the characteristics of atomic operation</title></head><body>Atomicity does not prevent an operation from failure( e.g. power lose), it only ensures that when it fails, it fails completely.<div><div>
+	<div>Basically a system treats an atomic operation as failed by default from the beginning, and only accept it as successful until the last instruction is completed. If anything causes the operation failure( e.g. Power lose), the system will simply treat it as failed and will not attempt to recover it afterwards.</div>
+	<div>So data lose caused by failure is inevitable, atomicity only means if it fails, if fails completely.</div>
+	<div>Any state before the final state is treated  as failure in an atomic operation.</div>
+
+
+
+
+</div></div></body></html>

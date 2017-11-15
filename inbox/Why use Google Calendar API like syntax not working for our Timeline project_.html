@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.13 (455674)"/><meta name="altitude" content="43.01649475097656"/><meta name="author" content="Greg Xu"/><meta name="created" content="2013-10-09 09:08:47 +0000"/><meta name="latitude" content="30.52228129711647"/><meta name="longitude" content="114.3618451860372"/><meta name="updated" content="2013-10-09 09:37:09 +0000"/><title>Why use Google Calendar API like syntax not working for our Timeline project?</title></head><body style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<div>Google Calendar API is like this:</div>
+<div><span style="font-family: 'courier new', courier, monospace;">POST <span style="text-decoration: underline;">https://www.googleapis.com/calendar/v3/calendars/primary/events?key={YOUR_API_KEY}</span></span><br clear="none"/>
+<br clear="none"/>
+<span style="font-family: 'courier new', courier, monospace;">Content-Type:  application/json</span><br clear="none"/>
+<span style="font-family: 'courier new', courier, monospace;">Authorization:  Bearer ya29.AHES6ZQUNMWMkHUvmEuYStK_vcbfkFAozW2PhGiovkgJqrIKxg</span><br clear="none"/>
+<span style="font-family: 'courier new', courier, monospace;">X-JavaScript-User-Agent:  Google APIs Explorer</span><br clear="none"/>
+<br clear="none"/>
+<span style="font-family: 'courier new', courier, monospace;">{</span><br clear="none"/>
+<span style="font-family: 'courier new', courier, monospace;">  "end": {</span><br clear="none"/>
+<span style="font-family: 'courier new', courier, monospace;">    "dateTime": "2013-01-23T10:00:00+08:00"</span><br clear="none"/>
+<span style="font-family: 'courier new', courier, monospace;">  },</span><br clear="none"/>
+<span style="font-family: 'courier new', courier, monospace;">  "start": {</span><br clear="none"/>
+<span style="font-family: 'courier new', courier, monospace;">    "dateTime": "2013-01-13T10:00:00+08:00"</span><br clear="none"/>
+<span style="font-family: 'courier new', courier, monospace;">  }</span><br clear="none"/>
+<span style="font-family: 'courier new', courier, monospace;">}</span></div>
+<div><br clear="none"/></div>
+<div><span style="font-family: helvetica, arial, sans-serif;">They do not have the redundant resource name within the json object( which is usually the case of Rails params hash object), which should look like this:</span></div>
+<div><span style="font-family: 'courier new', courier, monospace;">{</span></div>
+<div><span style="font-family: 'courier new', courier, monospace;">  "event":<br clear="none"/>
+  {<br clear="none"/>
+    "end": {<br clear="none"/>
+      "dateTime": "2013-01-23T10:00:00+08:00"<br clear="none"/>
+    },<br clear="none"/>
+    "start": {<br clear="none"/>
+      "dateTime": "2013-01-13T10:00:00+08:00"<br clear="none"/>
+    }<br clear="none"/>
+  }</span></div>
+<div><span style="font-family: 'courier new', courier, monospace;">}</span></div>
+<div><br clear="none"/></div>
+<div><span style="font-family: helvetica, arial, sans-serif;">So, why use Google Calendar API like syntax not working for our Timeline project?</span></div>
+<div><span style="font-family: helvetica, arial, sans-serif;">Because we use Grape as API server. Grape will add route_info into the params hash object, like below( which is the <span>content of a "Graped" params hash object)</span>:</span></div>
+<div><span style="font-family: 'courier new', courier, monospace;">#&lt;Hashie::Mash category=\"c3\" <font color="#941751" style="background-color:rgb(255, 250, 165);-evernote-highlight:true;"><span style="-evernote-last-insertion-point:true;"></span>route_info=#&lt;Grape::Route:0x007fe687842108 @options={:description=&gt;\"Create an event.\", :jbuilder=&gt;\"event\", :prefix=&gt;nil, :version=&gt;\"v1\", :namespace=&gt;\"/events\", :method=&gt;\"POST\", :path=&gt;\"/:version/events(.:format)\", :params=&gt;{}, :compiled=&gt;/\\A\\/(?&lt;version&gt;v1)\\/events(?:\\.(?&lt;format&gt;[^\\/.?]+))?\\Z/}&gt;</font> title=\"t3\"&gt;</span></div>
+<div><br clear="none"/></div>
+<div>Conclusion:</div>
+<div>Some third party libraries often add extra info to the data transfered( e.g. model in Canjs, params in Grape), this causes the difficultly to create a simple API like the <span>Google Calendar API. So it's safer to surround your parameter data explicitly in params hash. This can be seen as an example of how using <span>third party library carelessly can cause problem.</span></span></div>
+</body></html>

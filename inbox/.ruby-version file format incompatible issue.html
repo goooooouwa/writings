@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.13 (455674)"/><meta name="keywords" content="rbenv, ruby, RubyMine, rvm"/><meta name="altitude" content="662"/><meta name="author" content="Greg Xu"/><meta name="created" content="2015-04-14 02:24:59 +0000"/><meta name="latitude" content="30.65830363999999"/><meta name="longitude" content="104.07932977"/><meta name="source" content="desktop.mac"/><meta name="updated" content="2015-04-14 02:38:53 +0000"/><title>.ruby-version file format incompatible issue</title></head><body>
+<div>There are two formats for .ruby-version file:</div>
+<ol>
+<li>version number with "ruby-“ prefix, like “ruby-2.1.2"</li>
+<li>version number without “ruby-“ prefix, like “2.1.2"</li>
+</ol>
+<div><br/></div>
+<div>The support of these two formats of the major ruby version managers are as following:</div>
+<div>rbenv <s>only supports “2.1.2”</s> supports both “2.1.2” and "ruby-2.1.2"</div>
+<div>rvm supports both “2.1.2” and "ruby-2.1.2"</div>
+<div>RubyMine only supports "ruby-2.1.2” for now</div>
+<div><br/></div>
+<div>UPDATE:</div>
+<div>rbenv now supports "ruby-2.1.2" as well. <a href="https://github.com/sstephenson/rbenv/commit/6820704c91afdd875e2a11bc647659c4d557aa5d">https://github.com/sstephenson/rbenv/commit/6820704c91afdd875e2a11bc647659c4d557aa5d</a></div>
+<div>RubyMine will support in version 7.1. <a href="https://youtrack.jetbrains.com/issue/RUBY-15058">https://youtrack.jetbrains.com/issue/RUBY-15058</a></div>
+<div><br/></div>
+<div>So I recommend we use “ruby-2.1.2” format in our .ruby-version file.</div>
+</body></html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.13 (455674)"/><meta name="keywords" content="ruby"/><meta name="author" content="Greg Xu"/><meta name="created" content="2013-04-11 06:37:24 +0000"/><meta name="updated" content="2013-05-04 05:35:27 +0000"/><title>note on ruby: parentheses on function calls are optional.</title></head><body><p>We are now nearly in a position to understand this. As mentioned briefly in <a shape="rect" href="http://ruby.railstutorial.org/chapters/rails-flavored-ruby#sec-motivation" target="_blank">Section 4.1</a>, Rails defines a special function to include stylesheets, and</p>
+<div>
+<div>
+<pre xml:space="preserve"><span>stylesheet_link_tag</span> <span>"application"</span><span>,</span> <span>:media</span> <span>=&gt;</span> <span>"all"</span>
+</pre>
+</div>
+</div>
+<p>is a call to this function. But there are two mysteries. First, where are the parentheses? In Ruby, they are optional; these two lines are equivalent:</p>
+<div>
+<div>
+<pre xml:space="preserve"><span># Parentheses on function calls are optional.</span>
+<span>stylesheet_link_tag</span><span>(</span><span>"application"</span><span>,</span> <span>:media</span> <span>=&gt;</span> <span>"all"</span><span>)</span>
+<span>stylesheet_link_tag</span> <span>"application"</span><span>,</span> <span>:media</span> <span>=&gt;</span> <span>"all"</span>
+</pre>
+</div>
+</div>
+<p>Second, the <code>:media</code> argument sure looks like a hash, but where are the curly braces? When hashes are the <em>last</em> argument in a function call, the curly braces are optional; these two lines are equivalent:</p>
+<div>
+<div>
+<pre xml:space="preserve"><span># Curly braces on final hash arguments are optional.</span>
+<span>stylesheet_link_tag</span> <span>"application"</span><span>,</span> <span>{</span> <span>:media</span> <span>=&gt;</span> <span>"all"</span> <span>}</span>
+<span>stylesheet_link_tag</span> <span>"application"</span><span>,</span> <span>:media</span> <span>=&gt;</span> <span>"all"</span></pre>
+</div>
+</div></body></html>

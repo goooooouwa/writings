@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.13 (455674)"/><meta name="author" content="goooooouwa"/><meta name="created" content="2012-12-31 13:02:22 +0000"/><meta name="updated" content="2013-05-04 05:35:28 +0000"/><title>eldk directory analysis</title></head><body>
+	<div>&lt;target&gt;/</div>
+
+	<div style="margin-left: 30px;">
+
+		<div>sysroot/</div>
+
+		<div style="margin-left: 30px;">&lt;host&gt;/: everything needed to build and run qt programs on host, like qmake, uic and moc for host.</div>
+
+		<div style="margin-left: 60px;">usr/bin/&lt;target&gt;/: cross tool-chain for host to target.</div>
+
+		<div style="margin-left: 30px;">&lt;target&gt;/: everything needed to build and run qt programs on target, like qmake, uic and moc for target.</div>
+
+	</div>
+
+	<div style="margin-left: 30px;">environment-setup-&lt;target&gt;: environment variables for target.</div>
+
+	<div style="margin-left: 30px;">site-config-&lt;target&gt;: site configuration for target.</div>
+
+	<div style="margin-left: 30px;">version-&lt;target&gt;: version of eldk for target.</div>
+
+	<div style="margin-left: 30px;"/>
+
+	<div style="margin-left: 30px;">rootfs-&lt;type&gt;/: root filesystem to install on target device, for purpose on &lt;type&gt;.</div>
+
+	<div><br clear="none"/></div>
+
+	<div>p.s. &lt;host&gt; example: i686-eldk-linux, &lt;target&gt; example: arm-linux-gnueabi, &lt;type&gt; example: lsb, see <a target="_blank" shape="rect" href="http://www.denx.de/wiki/view/ELDK-5/WebHome#Section_1.5.">Supported Target Configurations</a>. </div>
+
+	<div>The Embedded Linux Development Kit (<a target="_blank" shape="rect" href="http://www.denx.de/wiki/DULG/ELDK">ELDK</a>) includes the GNU cross development tools, such as the compilers, binutils, gdb, etc., and a number of pre-built target tools and libraries necessary to provide some functionality on the target system.</div>
+</body></html>

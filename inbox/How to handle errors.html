@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.13 (455674)"/><meta name="keywords" content="programming"/><meta name="altitude" content="42.68461990356445"/><meta name="author" content="Greg Xu"/><meta name="created" content="2013-09-26 07:15:18 +0000"/><meta name="latitude" content="30.52234420026051"/><meta name="longitude" content="114.3617984051915"/><meta name="updated" content="2013-09-26 07:24:23 +0000"/><title>How to handle errors</title></head><body style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<div><b>Error handling( Exception handling)</b></div>
+<div><br/></div>
+<div>For errors that should never occur, use assertion, which typically causes execution to abort( technically not an error handling method).</div>
+<div><br/></div>
+For errors that you do expect to occur, depending on the specific circumstances, you might want to:
+<div>
+<ul>
+<li>return a neutral value<br/></li>
+<li>substitute the next piece of valid data<br/></li>
+<li>return the same answer as the previous time<br/></li>
+<li>substitute the closest legal value<br/></li>
+<li>log a warning message to a file<span style="-evernote-last-insertion-point:true;"></span><br/></li>
+<li>return an error code<br/></li>
+<li>call an error processing routine or object<br/></li>
+<li>display an error message, or shutdown<br/></li>
+</ul>
+</div>
+<div>These are some typical error handling methods. Some languages have built-in support for Exception handling.</div>
+</body></html>

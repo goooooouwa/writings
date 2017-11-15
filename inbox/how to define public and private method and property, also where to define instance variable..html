@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.13 (455674)"/><meta name="keywords" content="objective-c"/><meta name="author" content="Greg Xu"/><meta name="created" content="2013-08-30 07:30:24 +0000"/><meta name="updated" content="2013-08-30 09:48:32 +0000"/><title>how to define public and private method and property, also where to define instance variable.</title></head><body><div><span>Note: There're three things in an object: property, method and instance variable. </span>The difference between property and instance variable is instance variable has no getter and setter so it can not be accessed from outside , and the ARC thing. <span>You should always access the instance variables directly from within an initialization method because at the time a property is set, the rest of the object may not yet be completely initialized.</span></div>
+<div><br clear="none"/></div>
+<div><br clear="none"/></div>
+<div>// in .h file</div>
+<div><br clear="none"/></div>
+<div><span>@interface className : parentClassName </span>{</div>
+<div><br clear="none"/></div>
+<div><span>//instance variables declaration can go here</span></div>
+<div><span><span>type *instanceVariable;</span></span></div>
+<div><br clear="none"/></div>
+<div><br clear="none"/></div>
+<div><span>}</span></div>
+<div><br clear="none"/></div>
+<div><span>//<span>public properties and methods declaration goes here</span></span></div>
+<div><span>@property type *publicProperty;</span></div>
+<div><span>-(type)publicMethod;</span></div>
+<div><br clear="none"/></div>
+<div><span>@end</span></div>
+<div><br clear="none"/></div>
+<div><br clear="none"/></div>
+<div><br clear="none"/></div>
+<div><br clear="none"/></div>
+<div><span><span>// in .m file</span></span></div>
+<div><br clear="none"/></div>
+<div>
+<div>@interface className () {</div>
+<div><br clear="none"/></div>
+<div><span>//instance variables declaration can also go here</span></div>
+<div><span>type *AnotherinstanceVariable;</span></div>
+<div><br clear="none"/></div>
+<div>}</div>
+<div><br clear="none"/></div>
+<div>//private properties and methods declaration goes here</div>
+<div>
+<div>@property type *privateProperty;</div>
+<div>-(type)privateMethod;</div>
+</div>
+<div><br clear="none"/></div>
+<div>@end</div>
+<div><br clear="none"/></div>
+<div>@implementation</div>
+<div><br clear="none"/></div>
+<div>//implementation for public and private methods go here</div>
+<div><br clear="none"/></div>
+<div>@end</div>
+</div></body></html>

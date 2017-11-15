@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.13 (455674)"/><meta name="keywords" content="ruby"/><meta name="created" content="2015-05-27 02:21:06 +0000"/><meta name="source" content="web.clip"/><meta name="source-url" content="http://stackoverflow.com/questions/3337285/what-does-send-do-in-ruby"/><meta name="updated" content="2015-05-27 02:21:06 +0000"/><title>What does send() do in Ruby?</title></head><body><br/><div style="font-size: 16px"><div style="font-size:100%;"><div style="font-size:13px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;line-height:1.3em;color:rgb(34, 34, 34);background:rgb(255, 255, 255);"><div style="font-size:100%;text-align:left;"><div style="font-size:100%;box-sizing:content-box;background-color:rgb(255, 255, 255);"><div style="font-size:100%;"><div style="font-size:100%;"><div style="font-size:100%;"><div style="font-size:100%;"><table style="font-size:100%;font-weight:inherit;font-style:inherit;font-variant:inherit;"><tbody style="font-size:100%;"><tr style="margin:0px;padding:0px;border:0px;font-size:100%;">
+            <td style="margin:0px;padding:0px;border:0px;font-size:100%;vertical-align:top;padding-right:15px;">
+                
+
+<div style="margin:0px;padding:0px;border:0px;font-size:100%;text-align:center;min-width:46px;">
+        
+        <a title="This answer is useful" style="margin:0px auto 2px;padding:0px;border:0px;font-size:1px;text-decoration:none;cursor:pointer;color:rgb(0, 119, 204);overflow:hidden;background-image:url(http://cdn.sstatic.net/stackoverflow/img/sprites.svg?v=1bc768be1b3c), none;background-repeat:no-repeat;display:block;text-indent:-9999em;width:40px;height:30px;background-position:0px -170px;background-size:initial;">up vote</a>
+        <span style="margin:8px 0px;padding:0px;border:0px;font-size:20px;display:block;color:rgb(119, 119, 119);">19</span>
+        <a title="This answer is not useful" style="margin:0px auto 2px;padding:0px;border:0px;font-size:1px;text-decoration:none;cursor:pointer;color:rgb(0, 119, 204);overflow:hidden;background-image:url(http://cdn.sstatic.net/stackoverflow/img/sprites.svg?v=1bc768be1b3c), none;background-repeat:no-repeat;display:block;text-indent:-9999em;width:40px;height:30px;margin-bottom:10px;background-position:0px -220px;background-size:initial;">down vote</a>
+
+
+
+        <span title="loading when this answer was accepted..." style="margin:0px auto;padding:0px;border:0px;font-size:1px;overflow:hidden;background-image:url(http://cdn.sstatic.net/stackoverflow/img/sprites.svg?v=1bc768be1b3c), none;background-repeat:no-repeat;display:block;text-indent:-9999em;width:40px;height:40px;background-position:-40px -270px;background-size:initial;color:rgb(119, 119, 119);">accepted</span>
+
+</div>
+
+            </td>
+            
+
+
+<td style="margin:0px;padding:0px;border:0px;font-size:100%;vertical-align:top;">
+    <div style="margin:0px;padding:0px;border:0px;font-size:15px;width:660px;margin-bottom:5px;word-wrap:break-word;line-height:1.3;">
+<p style="margin:0px;padding:0px;border:0px;font-size:100%;clear:both;margin-bottom:1em;"><code style="margin:0px;padding:1px 5px;border:0px;font-size:13px;font-family:Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, sans-serif;background-color:rgb(238, 238, 238);white-space:pre-wrap;">send</code> sends a message to an object instance and its ancestors in class hierarchy until some method reacts (because its name matches the first argument).</p>
+
+<p style="margin:0px;padding:0px;border:0px;font-size:100%;clear:both;margin-bottom:1em;">Practically speaking, those lines are equivalent:</p>
+
+<pre style="margin:0px;padding:5px;border:0px;font-size:13px;overflow:auto;width:auto;max-height:600px;margin-bottom:1em;font-family:Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, sans-serif;background-color:rgb(238, 238, 238);display:block;color:rgb(57, 51, 24);word-wrap:normal;"><code style="margin:0px;padding:0px;border:0px;font-size:13px;font-family:Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, sans-serif;background-color:rgb(238, 238, 238);white-space:inherit;"><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(128, 0, 0);">1.send</span><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(0, 0, 0);" /><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(128, 0, 0);">'+'</span><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(0, 0, 0);">,</span><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(0, 0, 0);" /><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(128, 0, 0);">2</span><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(0, 0, 0);"
+/><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(128, 0, 0);">1.</span><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(0, 0, 0);">+(</span><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(128, 0, 0);">2</span><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(0, 0, 0);">)</span><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(0, 0, 0);"
+/><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(128, 0, 0);">1</span><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(0, 0, 0);" /><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(0, 0, 0);">+</span><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(0, 0, 0);" /><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(128, 0, 0);">2</span></code></pre>
+
+<p style="margin:0px;padding:0px;border:0px;font-size:100%;clear:both;margin-bottom:1em;"><span style="x-evernote:highlighted;background-color:#F6EE96;">N</span><span style="x-evernote:highlighted;background-color:#F6EE96;">ote that </span><code style="margin:0px;padding:1px 5px;border:0px;font-size:13px;font-family:Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, sans-serif;background-color:rgb(238, 238, 238);white-space:pre-wrap;"><span style="x-evernote:highlighted;background-color:#F6EE96;">send</span></code><span style="x-evernote:highlighted;background-color:#F6EE96;"> bypasses visibility checks, so that you can call private methods, too (useful for unit testing).</span></p>
+
+<hr style="border:0px;color:rgb(221, 221, 221);height:1px;margin-bottom:20px;background-color:rgb(221, 221, 221);"/>
+
+<p style="margin:0px;padding:0px;border:0px;font-size:100%;clear:both;margin-bottom:1em;">If there is really no variable before send, that means that the global Object is used:</p>
+
+<pre style="margin:0px;padding:5px;border:0px;font-size:13px;overflow:auto;width:auto;max-height:600px;margin-bottom:1em;font-family:Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, sans-serif;background-color:rgb(238, 238, 238);display:block;color:rgb(57, 51, 24);word-wrap:normal;"><code style="margin:0px;padding:0px;border:0px;font-size:13px;font-family:Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, sans-serif;background-color:rgb(238, 238, 238);white-space:inherit;"><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(0, 0, 0);">send </span><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(0, 0, 0);">:</span><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(0, 0, 0);">to_s    </span><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(128, 128, 128);"># "main"</span><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(0, 0, 0);">
+send </span><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(0, 0, 0);">:</span><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(0, 0, 139);">class</span><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(0, 0, 0);"   /><span style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(128, 128, 128);"># Object</span></code></pre>
+    </div>
+    <table style="font-size:100%;font-weight:inherit;font-style:inherit;font-variant:inherit;margin:0px;padding:0px;border:0px;border-collapse:collapse;border-spacing:0px;width:100%;margin-bottom:4px;">
+    <tbody style="margin:0px;padding:0px;border:0px;font-size:100%;"><tr style="margin:0px;padding:0px;border:0px;font-size:100%;">
+    <td style="margin:0px;padding:0px;border:0px;font-size:100%;vertical-align:top;">
+<div style="margin:0px;padding:0px;border:0px;font-size:100%;padding-top:2px;"><a href="http://stackoverflow.com/a/3337954/1462707" title="short permalink to this answer" style="margin:0px;padding:0px 3px 2px;border:0px;font-size:100%;text-decoration:none;cursor:pointer;color:rgb(136, 136, 136);">share</a><span style="margin:0px;padding:0px;border:0px;font-size:1px;color:rgb(27, 64, 114);visibility:hidden;">|</span><a href="http://stackoverflow.com/posts/3337954/edit" title="revise and improve this post" style="margin:0px;padding:0px 3px 2px;border:0px;font-size:100%;text-decoration:none;cursor:pointer;color:rgb(136, 136, 136);">edit</a></div>                    </td>
+    <td align="right" style="margin:0px;padding:5px;border:0px;font-size:100%;text-align:left;vertical-align:top;width:175px;height:58px;">
+<div style="margin:0px;padding:0px;border:0px;font-size:100%;height:35px;width:190px;">
+    <div style="margin:0px;padding:0px;border:0px;font-size:100%;margin-top:2px;margin-bottom:4px;">
+        <a href="http://stackoverflow.com/posts/3337954/revisions" title="show all edits to this post" style="margin:0px;padding:0px;border:0px;font-size:100%;text-decoration:none;cursor:pointer;color:rgb(0, 119, 204);">edited <span title="2010-07-26 20:35:21Z" style="margin:0px;padding:0px;border:0px;font-size:100%;text-decoration:none;">Jul 26 '10 at 20:35</span></a>
+    </div>
+    <div style="margin:0px;padding:0px;border:0px;font-size:100%;float:left;width:32px;height:32px;"
+        
+    />
+    <div style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(136, 136, 136);line-height:17px;float:left;margin-left:5px;width:150px;overflow:hidden;white-space:nowrap;">
+        <br/>
+        
+    </div>
+</div>    </td>
+            
+
+
+    <td align="right" style="margin:0px;padding:5px;border:0px;font-size:100%;text-align:left;vertical-align:top;width:175px;height:58px;">   
+       
+
+    <div style="margin:0px;padding:0px;border:0px;font-size:100%;height:35px;width:190px;">
+    <div style="margin:0px;padding:0px;border:0px;font-size:100%;margin-top:2px;margin-bottom:4px;">
+        answered <span title="2010-07-26 18:49:49Z" style="margin:0px;padding:0px;border:0px;font-size:100%;text-decoration:none;">Jul 26 '10 at 18:49</span>
+    </div>
+    <div style="margin:0px;padding:0px;border:0px;font-size:100%;float:left;width:32px;height:32px;">
+        <a href="http://stackoverflow.com/users/75017/giraff" style="margin:0px;padding:0px;border:0px;font-size:100%;text-decoration:none;cursor:pointer;color:rgb(0, 119, 204);"><div style="margin:0px;padding:0px;border:0px;font-size:100%;width:32px;height:32px;overflow:hidden;"><img src="What%20does%20send()%20do%20in%20Ruby_.resources/c0b2ddc83e576b33d4f5781010872909.png" height="32" width="32"/></div></a>
+    </div>
+    <div style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(136, 136, 136);line-height:17px;float:left;margin-left:5px;width:150px;overflow:hidden;white-space:nowrap;">
+        <a href="http://stackoverflow.com/users/75017/giraff" style="margin:0px;padding:0px;border:0px;font-size:100%;text-decoration:none;cursor:pointer;color:rgb(0, 119, 204);">giraff</a><br/>
+        <span title="reputation score " dir="ltr" style="margin:0px;padding:0px;border:0px;font-size:12px;font-weight:bold;margin-right:2px;">2,078</span><span title="8 silver badges" style="margin:0px;padding:0px;border:0px;font-size:100%;"><span style="margin:0px;padding:0px;border:0px;font-size:100%;overflow:hidden;background-image:url(http://cdn.sstatic.net/stackoverflow/img/sprites.svg?v=1bc768be1b3c), none;background-repeat:no-repeat;display:inline-block;line-height:inherit;vertical-align:text-bottom;width:14px;height:14px;background-position:-77px -398px;background-size:initial;"/><span style="margin:0px;padding:0px;border:0px;font-size:12px;font-weight:normal;padding-left:2px;color:rgb(128, 129, 133);">8</span></span><span title="22 bronze badges" style="margin:0px;padding:0px;border:0px;font-size:100%;"><span style="margin:0px;padding:0px;border:0px;font-size:100%;overflow:hidden;background-image:url(http://cdn.sstatic.net/stackoverflow/img/sprites.svg?v=1bc768be1b3c), none;background-repeat:no-repeat;display:inline-block;line-height:inherit;vertical-align:text-bottom;width:14px;height:14px;background-position:-57px -398px;background-size:initial;"/><span style="margin:0px;padding:0px;border:0px;font-size:12px;font-weight:normal;padding-left:2px;color:rgb(128, 129, 133);">22</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr style="margin:0px;padding:0px;border:0px;font-size:100%;">
+    <td style="margin:0px;padding:0px;border:0px;font-size:100%;vertical-align:top;padding-right:15px;"/>
+    <td style="margin:0px;padding:0px;border:0px;font-size:100%;">
+	    <div style="margin:0px;padding:0px;border:0px;font-size:13px;width:660px;margin-top:10px;padding-bottom:10px;line-height:135%;border-top-width:1px;border-top-style:solid;border-top-color:rgb(224, 224, 224);-webkit-tap-highlight-color:rgba(255, 255, 255, 0);">
+		    <table style="font-size:100%;font-weight:inherit;font-style:inherit;font-variant:inherit;margin:0px;padding:0px;border:0px;border-collapse:collapse;border-spacing:0px;width:100%;">
+                <tbody style="margin:0px;padding:0px;border:0px;font-size:100%;">
+
+
+
+    <tr style="margin:0px;padding:0px;border:0px;font-size:100%;">
+        <td style="margin:0px;padding:6px 6px 6px 0px;border:0px;font-size:13px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgb(240, 240, 240);line-height:1.3;vertical-align:top;">
+            <table style="font-size:100%;font-weight:inherit;font-style:inherit;font-variant:inherit;margin:0px;padding:0px;border:0px;border-collapse:collapse;border-spacing:0px;">
+                <tbody style="margin:0px;padding:0px;border:0px;font-size:100%;">
+                    <tr style="margin:0px;padding:0px;border:0px;font-size:100%;">
+                        <td style="margin:0px;padding:0px;border:0px;font-size:100%;">
+                                  
+                        </td>
+                        <td style="margin:0px;padding:0px;border:0px;font-size:100%;">
+                                 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td style="margin:0px;padding:6px 6px 6px 0px;border:0px;font-size:13px;vertical-align:top;line-height:1.3;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgb(240, 240, 240);">
+            <div style="margin:0px;padding:0px;border:0px;font-size:100%;display:block;">
+                <span style="margin:0px;padding:0px;border:0px;font-size:100%;">Oh I see, so one might use send if one wanted to store something like 1.month on the database instead of statically saying the number of days.</span>
+                – 
+                    <a href="http://stackoverflow.com/users/400461/christian-bankester" title="483 reputation" style="margin:0px;padding:1px 5px;border:0px;font-size:100%;text-decoration:none;cursor:pointer;color:rgb(0, 119, 204);background-color:rgb(224, 234, 241);white-space:nowrap;">Christian Bankester</a>
+                <span dir="ltr" style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(153, 153, 153);border-bottom-style:none;"><a href="http://stackoverflow.com/questions/3337285/what-does-send-do-in-ruby#comment3463574_3337954" style="margin:0px;padding:0px;border:0px;font-size:100%;text-decoration:none;cursor:pointer;color:rgb(153, 153, 153);border-bottom-style:none;"><span title="2010-07-26 20:00:04Z" style="margin:0px;padding:0px;border:0px;font-size:100%;">Jul 26 '10 at 20:00</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr style="margin:0px;padding:0px;border:0px;font-size:100%;">
+        <td style="margin:0px;padding:6px 6px 6px 0px;border:0px;font-size:13px;width:15px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgb(240, 240, 240);line-height:1.3;vertical-align:top;">
+            <table style="font-size:100%;font-weight:inherit;font-style:inherit;font-variant:inherit;margin:0px;padding:0px;border:0px;border-collapse:collapse;border-spacing:0px;">
+                <tbody style="margin:0px;padding:0px;border:0px;font-size:100%;">
+                    <tr style="margin:0px;padding:0px;border:0px;font-size:100%;">
+                        <td style="margin:0px;padding:0px;border:0px;font-size:100%;">
+                                <span title="number of 'useful comment' votes received" style="margin:0px;padding:0px;border:0px;font-size:13px;color:rgb(153, 153, 153);font-weight:normal;padding-right:4px;">2</span>
+                        </td>
+                        <td style="margin:0px;padding:0px;border:0px;font-size:100%;">
+                                 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td style="margin:0px;padding:6px 6px 6px 0px;border:0px;font-size:13px;vertical-align:top;line-height:1.3;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgb(240, 240, 240);">
+            <div style="margin:0px;padding:0px;border:0px;font-size:100%;display:block;">
+                <span style="margin:0px;padding:0px;border:0px;font-size:100%;">True, you could use it to call method with names that are computed, not static. (You shouldn't allow unrestricted user input, though, to avoid calling private methods... You could, however, give them a unique prefix: send 'user_method_'+methodname, *args)</span>
+                – 
+                    <a href="http://stackoverflow.com/users/75017/giraff" title="2078 reputation" style="margin:0px;padding:0px;border:0px;font-size:100%;text-decoration:none;cursor:pointer;color:rgb(0, 119, 204);white-space:nowrap;">giraff</a>
+                <span dir="ltr" style="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(153, 153, 153);border-bottom-style:none;"><a href="http://stackoverflow.com/questions/3337285/what-does-send-do-in-ruby#comment3463648_3337954" style="margin:0px;padding:0px;border:0px;font-size:100%;text-decoration:none;cursor:pointer;color:rgb(153, 153, 153);border-bottom-style:none;"><span title="2010-07-26 20:06:40Z" style="margin:0px;padding:0px;border:0px;font-size:100%;">Jul 26 '10 at 20:06</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div style="margin:0px;padding:0px;border:0px;font-size:100%;">
+
+                <a title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”." style="margin:0px;padding:0px 3px 2px;border:0px;font-size:100%;text-decoration:none;cursor:pointer;color:rgb(136, 136, 136);opacity:0.6;">add a comment</a>
+            
+        </div>         
+    </td>
+</tr>    </tbody></table></div></div></div></div></div></div></div></div></div><br/></body></html>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.13 (455674)"/><meta name="keywords" content="ruby"/><meta name="author" content="Greg Xu"/><meta name="created" content="2013-04-11 06:54:04 +0000"/><meta name="updated" content="2013-05-04 05:35:27 +0000"/><title>note on ruby: "?" question mark, return value, "@" instance variable</title></head><body><p> <strong>"?" question mark</strong></p>
+<div>
+<div>
+<pre xml:space="preserve"><span>&gt;&gt; </span><span>"foobar"</span><span>.</span><span>empty?</span>
+<span>=&gt; false</span>
+<span>&gt;&gt; </span><span>""</span><span>.</span><span>empty?</span>
+<span>=&gt; true</span>
+</pre>
+</div>
+</div>
+<p>Note the question mark at the end of the <code>empty?</code> method. This is a Ruby convention indicating that the return value is <em>boolean</em>: <code>true</code> or <code>false</code>. </p>
+<p> </p>
+<p><strong>return value</strong></p>
+<div>
+<div>
+<pre xml:space="preserve"><span>&gt;&gt; </span><span>def</span> <span>string_message</span><span>(</span><span>string</span><span>)</span>
+<span>&gt;&gt; </span>  <span>if</span> <span>string</span><span>.</span><span>empty?</span>
+<span>&gt;&gt; </span>    <span>"It's an empty string!"</span>
+<span>&gt;&gt; </span>  <span>else</span>
+<span>&gt;&gt; </span>    <span>"The string is nonempty."</span>
+<span>&gt;&gt; </span>  <span>end</span>
+<span>&gt;&gt; </span><span>end</span>
+<span>=&gt; nil</span>
+<span>&gt;&gt; </span><span>puts</span> <span>string_message</span><span>(</span><span>""</span><span>)</span>
+<span>It's an empty string!</span>
+<span>&gt;&gt; </span><span>puts</span> <span>string_message</span><span>(</span><span>"foobar"</span><span>)</span>
+<span>The string is nonempty.</span>
+</pre>
+</div>
+</div>
+<p>Note that Ruby functions have an <em>implicit return</em>, meaning they return the last statement evaluated—in this case, one of the two message strings, depending on whether the method’s argument<code>string</code> is empty or not. Ruby also has an explicit return option; the following function is equivalent to the one above:</p>
+<div>
+<div>
+<pre xml:space="preserve"><span>&gt;&gt; </span><span>def</span> <span>string_message</span><span>(</span><span>string</span><span>)</span>
+<span>&gt;&gt; </span>  <span>return</span> <span>"It's an empty string!"</span> <span>if</span> <span>string</span><span>.</span><span>empty?</span>
+<span>&gt;&gt; </span>  <span>return</span> <span>"The string is nonempty."</span>
+<span>&gt;&gt; </span><span>end<br clear="none"/></span><br clear="none"/><span style="font-size: small; font-family: arial, helvetica, sans-serif;"><strong>"@" instance variable</strong><br clear="none"/>In Rails, the principal importance of instance variables is that they are automatically available in the views, but in general they are used for variables that need to be available throughout a Ruby class. <br clear="none"/></span></pre>
+</div>
+</div></body></html>
