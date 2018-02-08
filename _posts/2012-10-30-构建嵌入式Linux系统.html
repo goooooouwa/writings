@@ -1,276 +1,347 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.13 (455674)"/><meta name="author" content="goooooouwa"/><meta name="created" content="2012-10-30 12:37:17 +0000"/><meta name="latitude" content="30.52014351343398"/><meta name="longitude" content="114.1545707608088"/><meta name="source" content="mobile.iphone"/><meta name="updated" content="2013-05-04 05:35:28 +0000"/><title>构建嵌入式Linux系统</title></head><body><div><table width="100%" border="0" bgcolor="#D4DDE5">
-		<tbody>
-			<tr>
-				<td>
-					<h1/>
-					<table width="100%" border="0" bgcolor="#D4DDE5">
-						<tbody>
-							<tr>
-								<td>
-									<h1>流程综述</h1>
-				
-								</td>
-			
-							</tr>
-		
-						</tbody>
-	
-					</table>
-				</td>
-			</tr>
-		</tbody>
-	</table></div><div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); -webkit-text-size-adjust: auto; ">
-		<ol>
-			<li style="margin: 0px; ">将系统磁盘挂载在host主机上，</li>
-			<li style="margin: 0px; ">使用主机对磁盘进行分区，</li>
-			<li style="margin: 0px; ">安装文件系统和swap到分区（格式化），</li>
-			<li style="margin: 0px; ">将cross-compiling得到的基本文件系统（包括：boot，dev，etc，kernel image，kernel modules，等）拷贝到磁盘的文件系统中，</li>
-			<li style="margin: 0px; ">将bootloader安装到磁盘volume boot record上，</li>
-		</ol>
-	</div>
-	
-	<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); -webkit-text-size-adjust: auto; ">这样就构建了一个基本的嵌入式系统。
-		
-		<div>后面阶段（如，调试）便可以通过串口或网口连接主机和嵌入式系统的方式来完成，不用再移动嵌入式系统磁盘。</div>
-	
-	</div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="exporter-version" content="Evernote Mac 6.13 (455674)"/>
+    <meta name="author" content="goooooouwa"/>
+    <meta name="created" content="2012-10-30 12:37:17 +0000"/>
+    <meta name="latitude" content="30.52014351343398"/>
+    <meta name="longitude" content="114.1545707608088"/>
+    <meta name="source" content="mobile.iphone"/>
+    <meta name="updated" content="2013-05-04 05:35:28 +0000"/>
+    <title>构建嵌入式Linux系统</title></head>
+<body>
+<div>
+    <table width="100%" border="0" bgcolor="#D4DDE5">
+        <tbody>
+        <tr>
+            <td>
+                <h1/>
+                <table width="100%" border="0" bgcolor="#D4DDE5">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <h1>流程综述</h1>
+
+                        </td>
+
+                    </tr>
+
+                    </tbody>
+
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); -webkit-text-size-adjust: auto; ">
+    <ol>
+        <li style="margin: 0px; ">将系统磁盘挂载在host主机上，</li>
+        <li style="margin: 0px; ">使用主机对磁盘进行分区，</li>
+        <li style="margin: 0px; ">安装文件系统和swap到分区（格式化），</li>
+        <li style="margin: 0px; ">将cross-compiling得到的基本文件系统（包括：boot，dev，etc，kernel image，kernel modules，等）拷贝到磁盘的文件系统中，
+        </li>
+        <li style="margin: 0px; ">将bootloader安装到磁盘volume boot record上，</li>
+    </ol>
+</div>
+
+<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); -webkit-text-size-adjust: auto; ">
+    这样就构建了一个基本的嵌入式系统。
+
+    <div>后面阶段（如，调试）便可以通过串口或网口连接主机和嵌入式系统的方式来完成，不用再移动嵌入式系统磁盘。</div>
+
+</div>
 
 
+<table width="100%" border="0" bgcolor="#D4DDE5">
+    <tbody>
+    <tr>
+        <td>
+            <h1>Storage device setup</h1>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<span style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">1.Partition storage device.</span>
 
 
-	<table width="100%" border="0" bgcolor="#D4DDE5">
-		<tbody>
-			<tr>
-				<td>
-					<h1>Storage device setup</h1>
-				</td>
-			</tr>
-		</tbody>
-	</table><span style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">1.Partition storage device.</span>
-	
-	
-	<div><img src="%E6%9E%84%E5%BB%BA%E5%B5%8C%E5%85%A5%E5%BC%8FLinux%E7%B3%BB%E7%BB%9F.resources/Evernote%20Camera%20Roll%2020121218%20221750.png" height="386" width="956"/><font size="4" face=".Helvetica NeueUI"><span style="line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);"><br/></span></font>
-		
-		
-		<div><span style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">「<u style="background-color: rgba(255, 255, 255, 0.0078125);">Bootloader</u></span><span style="background-color: rgba(255, 255, 255, 0.0078125);"
-	/>
-	
-			
-			
-			<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); "><span style="background-color: rgba(255, 255, 255, 0);">   </span><u style="background-color: rgba(255, 255, 255, 0.0078125);">Boot parameters</u></div>
-	
-	
-			
-			
-			<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); "><span style="background-color: rgba(255, 255, 255, 0);">   </span><u style="background-color: rgba(255, 255, 255, 0.0078125);">Kernel</u></div>
-	
-	
-			
-			
-			<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); "><span style="background-color: rgba(255, 255, 255, 0);">   </span><u style="background-color: rgba(255, 255, 255, 0.0078125);">Root filesystem</u>」</div>
-	
-	
-			
-			
-			<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">2.Install bootloader, kernel and root filesystem.</div>
-	
-	
-			
-			
-			<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">3.Config bootloader to boot kernel.</div>
+<div><img
+        src="{{ '/assets/images/2012-10-30-%E6%9E%84%E5%BB%BA%E5%B5%8C%E5%85%A5%E5%BC%8FLinux%E7%B3%BB%E7%BB%9F/Evernote%20Camera%20Roll%2020121218%20221750.png' | absolute_url }}"
+        height="386" width="956"/><font size="4" face=".Helvetica NeueUI"><span
+        style="line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);"><br/></span></font>
 
 
+    <div><span
+            style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">「<u
+            style="background-color: rgba(255, 255, 255, 0.0078125);">Bootloader</u></span><span
+            style="background-color: rgba(255, 255, 255, 0.0078125);"
+    />
 
 
-
-		
-		
-		</div>
-
-
-	
-	
-	</div>
+        <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+            <span style="background-color: rgba(255, 255, 255, 0);">   </span><u
+                style="background-color: rgba(255, 255, 255, 0.0078125);">Boot parameters</u></div>
 
 
-	<table width="100%" border="0" bgcolor="#D4DDE5">
-		<tbody>
-			<tr>
-				<td>
-					<h1>Kernel compilation</h1>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-	
-	<div/>
-	
-	
-	<div><span style="font-family: TimesNewRomanPSMT; font-size: 12pt; ">Compiling the kernel involves a number of steps: </span></div>
-	
-	<div><span style="font-family: TimesNewRomanPSMT; font-size: 12pt; ">building the kernel dependencies, </span></div>
-	
-	<div><span style="font-family: TimesNewRomanPSMT; font-size: 12pt; ">building the kernel
+        <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+            <span style="background-color: rgba(255, 255, 255, 0);">   </span><u
+                style="background-color: rgba(255, 255, 255, 0.0078125);">Kernel</u></div>
+
+
+        <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+            <span style="background-color: rgba(255, 255, 255, 0);">   </span><u
+                style="background-color: rgba(255, 255, 255, 0.0078125);">Root filesystem</u>」
+        </div>
+
+
+        <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+            2.Install bootloader, kernel and root filesystem.
+        </div>
+
+
+        <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+            3.Config bootloader to boot kernel.
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+<table width="100%" border="0" bgcolor="#D4DDE5">
+    <tbody>
+    <tr>
+        <td>
+            <h1>Kernel compilation</h1>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<div/>
+
+
+<div><span
+        style="font-family: TimesNewRomanPSMT; font-size: 12pt; ">Compiling the kernel involves a number of steps: </span>
+</div>
+
+<div><span style="font-family: TimesNewRomanPSMT; font-size: 12pt; ">building the kernel dependencies, </span></div>
+
+<div><span style="font-family: TimesNewRomanPSMT; font-size: 12pt; ">building the kernel
 image, </span></div>
-	
-	<div><span style="font-family: TimesNewRomanPSMT; font-size: 12pt; ">and building the kernel modules.</span></div>
-	<div><span style="font-family: TimesNewRomanPSMT; font-size: 12pt; "> </span></div>
-	<div><span style="font-family: TimesNewRomanPSMT; font-size: 12pt; ">具体如下：</span></div>
-	<div>
-		<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">Compile the Kernel</div>
-	
-		<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">1.Config</div><span style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">$make menuconfig</span>
-	
-		<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">2.Build</div>
-	
-		<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">2.1Build kernel dependencies</div>
-	
-		<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">$make clean dep</div>
-	
-		<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">2.2Build kernel image</div>
-	
-		<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">$make zImage</div>
-	
-		<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">2.3Build kernel modules</div>
-	
-		<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">$make modules</div>
-	
-		<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">2.4(Optional) clean up source( !backup .config first)</div>
-	
-		<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">$make distclean</div>
-	
-		<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">3.Install</div>
-	
-		<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">3.1 install kernel</div>
-	
-		<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">3.1.1 for bootloader which reads filesystem</div>
-	
-		<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">$cp vmlinuz /boot</div>
-	
-		<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
-		
-			<div>3.1.2 for bootloader which cant read filesystem</div>
-		
-			<div>$dd if=vmlinux.img of=/dev/sda1</div>
-	
-		</div>
-	
-		<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">3.2 install kernel modules</div>
-	
-		<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">$make modules_install</div>
-	</div>
+
+<div><span style="font-family: TimesNewRomanPSMT; font-size: 12pt; ">and building the kernel modules.</span></div>
+<div><span style="font-family: TimesNewRomanPSMT; font-size: 12pt; "> </span></div>
+<div><span style="font-family: TimesNewRomanPSMT; font-size: 12pt; ">具体如下：</span></div>
+<div>
+    <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+        Compile the Kernel
+    </div>
+
+    <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+        1.Config
+    </div>
+    <span style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">$make menuconfig</span>
+
+    <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+        2.Build
+    </div>
+
+    <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+        2.1Build kernel dependencies
+    </div>
+
+    <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+        $make clean dep
+    </div>
+
+    <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+        2.2Build kernel image
+    </div>
+
+    <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+        $make zImage
+    </div>
+
+    <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+        2.3Build kernel modules
+    </div>
+
+    <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+        $make modules
+    </div>
+
+    <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+        2.4(Optional) clean up source( !backup .config first)
+    </div>
+
+    <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+        $make distclean
+    </div>
+
+    <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+        3.Install
+    </div>
+
+    <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+        3.1 install kernel
+    </div>
+
+    <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+        3.1.1 for bootloader which reads filesystem
+    </div>
+
+    <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+        $cp vmlinuz /boot
+    </div>
+
+    <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+
+        <div>3.1.2 for bootloader which cant read filesystem</div>
+
+        <div>$dd if=vmlinux.img of=/dev/sda1</div>
+
+    </div>
+
+    <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+        3.2 install kernel modules
+    </div>
+
+    <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.296875); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); ">
+        $make modules_install
+    </div>
+</div>
 
 
+<table width="100%" border="0" bgcolor="#D4DDE5">
+    <tbody>
+    <tr>
+        <td>
+            <h1>C library compilation</h1>
+        </td>
+    </tr>
+    </tbody>
+</table>
 
 
-
-	<table width="100%" border="0" bgcolor="#D4DDE5">
-		<tbody>
-			<tr>
-				<td>
-					<h1>C library compilation</h1>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-	
-	
-	<p>1. Extract archive</p>
-
-	
-	
-	<p>As with the previous packages, we start by extracting the C library from the archive we downloaded <br clear="none"/>earlier:</p>
-
-	
-	
-	<p>$ cd ${PRJROOT}/build-tools<br clear="none"/>$ tar xvzf glibc-2.2.3.tar.gz</p>
-
-	
-	
-	<p>2. configure</p>
-
-	
-	
-	<p>We can now proceed to preparing the build of the C library in the build-glibc directory:</p>
-
-	
-	
-	<p>$ cd build-glibc<br clear="none"/>$ CC=i386-linux-gcc ../glibc-2.2.3/configure --host=$TARGET \<br clear="none"/>&gt; --prefix="/usr" --enable-add-ons \<br clear="none"/>&gt; --with-headers=${TARGET_PREFIX}/include</p>
-
-	
-	
-	<p>3. make</p>
-
-	
-	
-	<p>With the configuration script done, we can now compile glibc: <br clear="none"/>$ make</p>
-
-	
-	
-	<p>4. install</p>
-
-	
-	
-	<p>Once the C library is built, we can now install it: <br clear="none"/>$ make install_root=${TARGET_PREFIX} prefix="" install</p>
-
-	
-	
-	<p>5. one more thing</p>
-
-	
-	
-	<p>There is one last step we must carry out to finalize glibc's installation: the configuration of the libc.so file. <br clear="none"/>This file is used during the linking of applications to the C library and is actually a link script. It contains <br clear="none"/>references to the various libraries needed for the real linking. The installation carried out by our make <br clear="none"/>install above assumes that the library is being installed on a root filesystem and hence uses absolute <br clear="none"/>pathnames in the libc.so link script to reference the libraries. Since we have installed the C library in a <br clear="none"/>nonstandard directory, we must modify the link script so that the linker will use the appropriate libraries. <br clear="none"/>Along with the other components of the C library, the link script has been installed in the <br clear="none"/>${TARGET_PREFIX}/lib directory. <br clear="none"/>In its original form, libc.so looks like this: <br clear="none"/>/* GNU ld script <br clear="none"/> Use the shared library, but some functions are only in <br clear="none"/> the static library, so try that secondarily. */ <br clear="none"/>GROUP ( /lib/libc.so.6 /lib/libc_nonshared.a ) <br clear="none"/>This is actually quite similar, if not identical, to the libc.so that has already been installed by your <br clear="none"/>distribution for your native C library in /usr/lib/. Since you may need your target's default script <br clear="none"/>sometime, I suggest you make a copy before modifying it: <br clear="none"/>$ cd ${TARGET_PREFIX}/lib<br clear="none"/>$ cp ./libc.so ./libc.so.orig</p>
+<p>1. Extract archive</p>
 
 
-	<table width="100%" border="0" bgcolor="#D4DDE5">
-		<tbody>
-			<tr>
-				<td>
-					<h1>设置bootloader</h1>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-	<h1>设置U-Boot</h1>
-
-	<h2>Introduction</h2>
-
-	<div><span style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);">    构建U-Boot</span><span style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);">之前，你需要针对你的目标系统来设定它。该套件为相当多的开发板预先设定了一些配置，所以你的目标系统可能已经预先设定好的配置。对于每个受到支持的开发板，U-Boot的Makefile通常都会包含一个相应的boardname_config构建目标，可用于替特定的开发板设定U-Boot的构建设置。</span>
-
-		<div><br clear="none"/>
-
-			<h2>Configure&amp;build U-Boot</h2>
-
-			<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);">
-
-				<div>$ make gta01_config</div>
-
-				<div>$ make ARCH=arm CROSS_COMPILE=arm-linux- u-boot.udfu</div>
-
-			</div>
-
-			<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);"/>
-
-			<h2>U-Boot编译期间所产生的文件</h2>
-
-			<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);">
-				<ol>
-					<li style="margin: 0px;"><em style="background-color: rgba(255, 255, 255, 0.0078125);">u-boot.map</em>   符号对应</li>
-					<li style="margin: 0px;"><em style="background-color: rgba(255, 255, 255, 0.0078125);">u-boot</em>   U-Boot可执行文件，采用ELF二进制格式</li>
-					<li style="margin: 0px;"><em style="background-color: rgba(255, 255, 255, 0.0078125);">u-boot.bin</em>   U-Boot原始二进制映像，可以被写入引导存储设备</li>
-					<li style="margin: 0px;"><em style="background-color: rgba(255, 255, 255, 0.0078125);">u-boot.udfu</em>   U-Boot映像，采用OpenMoKo设备所使用的特殊文件格式 U-Boot Device Firmware Upgrade( DFU)</li>
-				</ol>
-			</div>
-
-			<h2>Install U-Boot</h2>
-
-			<div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);">    现在可以使用适当的程序将U-Boot映像下载到你的目标系统的引导存储设备。如果你的目标系统上没有安装任何bootloader，你需要使用一个硬件烧录设备，例如一个Flash编程器或一个BDM/JTAG调试器，将U-Boot复制到所设定的Flash地址。</div>
-
-		</div>
-
-	</div>
+<p>As with the previous packages, we start by extracting the C library from the archive we downloaded <br clear="none"/>earlier:
+</p>
 
 
-</body></html>
+<p>$ cd ${PRJROOT}/build-tools<br clear="none"/>$ tar xvzf glibc-2.2.3.tar.gz</p>
+
+
+<p>2. configure</p>
+
+
+<p>We can now proceed to preparing the build of the C library in the build-glibc directory:</p>
+
+
+<p>$ cd build-glibc<br clear="none"/>$ CC=i386-linux-gcc ../glibc-2.2.3/configure --host=$TARGET \<br clear="none"/>&gt;
+    --prefix="/usr" --enable-add-ons \<br clear="none"/>&gt; --with-headers=${TARGET_PREFIX}/include</p>
+
+
+<p>3. make</p>
+
+
+<p>With the configuration script done, we can now compile glibc: <br clear="none"/>$ make</p>
+
+
+<p>4. install</p>
+
+
+<p>Once the C library is built, we can now install it: <br clear="none"/>$ make install_root=${TARGET_PREFIX} prefix=""
+    install</p>
+
+
+<p>5. one more thing</p>
+
+
+<p>There is one last step we must carry out to finalize glibc's installation: the configuration of the libc.so file. <br
+        clear="none"/>This file is used during the linking of applications to the C library and is actually a link
+    script. It contains <br clear="none"/>references to the various libraries needed for the real linking. The
+    installation carried out by our make <br clear="none"/>install above assumes that the library is being installed on
+    a root filesystem and hence uses absolute <br clear="none"/>pathnames in the libc.so link script to reference the
+    libraries. Since we have installed the C library in a <br clear="none"/>nonstandard directory, we must modify the
+    link script so that the linker will use the appropriate libraries. <br clear="none"/>Along with the other components
+    of the C library, the link script has been installed in the <br clear="none"/>${TARGET_PREFIX}/lib directory. <br
+            clear="none"/>In its original form, libc.so looks like this: <br clear="none"/>/* GNU ld script <br
+            clear="none"/> Use the shared library, but some functions are only in <br clear="none"/> the static library,
+    so try that secondarily. */ <br clear="none"/>GROUP ( /lib/libc.so.6 /lib/libc_nonshared.a ) <br clear="none"/>This
+    is actually quite similar, if not identical, to the libc.so that has already been installed by your <br
+            clear="none"/>distribution for your native C library in /usr/lib/. Since you may need your target's default
+    script <br clear="none"/>sometime, I suggest you make a copy before modifying it: <br clear="none"/>$ cd
+    ${TARGET_PREFIX}/lib<br clear="none"/>$ cp ./libc.so ./libc.so.orig</p>
+
+
+<table width="100%" border="0" bgcolor="#D4DDE5">
+    <tbody>
+    <tr>
+        <td>
+            <h1>设置bootloader</h1>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<h1>设置U-Boot</h1>
+
+<h2>Introduction</h2>
+
+<div><span
+        style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);">    构建U-Boot</span><span
+        style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);">之前，你需要针对你的目标系统来设定它。该套件为相当多的开发板预先设定了一些配置，所以你的目标系统可能已经预先设定好的配置。对于每个受到支持的开发板，U-Boot的Makefile通常都会包含一个相应的boardname_config构建目标，可用于替特定的开发板设定U-Boot的构建设置。</span>
+
+    <div><br clear="none"/>
+
+        <h2>Configure&amp;build U-Boot</h2>
+
+        <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);">
+
+            <div>$ make gta01_config</div>
+
+            <div>$ make ARCH=arm CROSS_COMPILE=arm-linux- u-boot.udfu</div>
+
+        </div>
+
+        <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);"/>
+
+        <h2>U-Boot编译期间所产生的文件</h2>
+
+        <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);">
+            <ol>
+                <li style="margin: 0px;"><em style="background-color: rgba(255, 255, 255, 0.0078125);">u-boot.map</em> 
+                     符号对应
+                </li>
+                <li style="margin: 0px;"><em style="background-color: rgba(255, 255, 255, 0.0078125);">u-boot</em> 
+                     U-Boot可执行文件，采用ELF二进制格式
+                </li>
+                <li style="margin: 0px;"><em style="background-color: rgba(255, 255, 255, 0.0078125);">u-boot.bin</em> 
+                     U-Boot原始二进制映像，可以被写入引导存储设备
+                </li>
+                <li style="margin: 0px;"><em style="background-color: rgba(255, 255, 255, 0.0078125);">u-boot.udfu</em> 
+                     U-Boot映像，采用OpenMoKo设备所使用的特殊文件格式 U-Boot Device Firmware Upgrade( DFU)
+                </li>
+            </ol>
+        </div>
+
+        <h2>Install U-Boot</h2>
+
+        <div style="font-family: '.Helvetica NeueUI'; font-size: 18px; line-height: 24px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-composition-fill-color: rgba(130, 98, 83, 0.0976563); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094);">
+               
+            现在可以使用适当的程序将U-Boot映像下载到你的目标系统的引导存储设备。如果你的目标系统上没有安装任何bootloader，你需要使用一个硬件烧录设备，例如一个Flash编程器或一个BDM/JTAG调试器，将U-Boot复制到所设定的Flash地址。
+        </div>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
