@@ -1,0 +1,1 @@
+We can’t read on computers. So many distractions, concentrate for even 10 minutes is hard. Books and Radio less is more.
