@@ -1,7 +1,7 @@
 ---  
 layout: post  
-title: What does horsepower mean in layman’s term  
-category: auto  
+title: "What does horsepower mean in layman's term"  
+category: Car  
 ---  
 
 Horsepower means number of unit of work can be done in a unit of time. 马力跟功率都是用于描述单位时间做的功。以车为例，最大马力或最大功率是指发动机能带动单位质量的最高速度(Kw/h或Kg\*m/s)。

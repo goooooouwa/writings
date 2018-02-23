@@ -1,4 +1,8 @@
-# Assetto Corsa racing notes
+---
+layout: post
+title: 'Assetto Corsa racing notes'
+categories: 'Assetto Corsa', 'Racing'
+---
 
 进弯踩刹，瞄准弯心和出弯的直线调整好角度，全油门，一次性过弯，最理想情况不做任何调整。
 

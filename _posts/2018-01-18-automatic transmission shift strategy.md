@@ -1,4 +1,8 @@
-# automatic transmission shift strategy
+---
+layout: post
+title: 'automatic transmission shift strategy'
+categories: 'Car', 'Engineering'
+---
 
 Matlab: computeThreshold(engine speed, throttle)
 Engine speed: RPM

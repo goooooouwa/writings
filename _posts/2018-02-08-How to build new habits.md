@@ -1,4 +1,8 @@
-How to build new habits 
+---
+layout: post
+title: 'How to build new habits'
+categories: 'How to'
+--- 
 
 Set ambitious goals:  
 Join open source communities/projects( stack overflow, GitHub, Reddit, personal blog, etc) 

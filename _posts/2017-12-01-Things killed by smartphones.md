@@ -1,4 +1,8 @@
-Things killed by smartphones
+---
+layout: post
+title: 'Things killed by smartphones'
+categories: 'Mobile', 'Business'
+---
 
 Music player
 Feature phones

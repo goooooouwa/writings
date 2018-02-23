@@ -1,4 +1,7 @@
-# Writing tools and process
+---
+layout: post
+title: 'Writing tools and process'
+---
 
 1. Record thoughts (questions, ideas) in Things.
 2. Write content in Ulysses. Once a thought grown into some content, remove the todo item.

@@ -1,4 +1,8 @@
-Is talking to services over network that slow?
+---
+layout: post
+title: 'Is talking to services over network that slow?'
+categories: 'Network'
+---
 
 By slow, we mean longer than one second. 
 
