@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'What I've learned in schools'
+title: "What I've learned in schools"
 --- 
 
 What I've learned in junior school is be naive, confidence and dreaming. 

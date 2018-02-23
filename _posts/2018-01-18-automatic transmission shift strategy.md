@@ -1,7 +1,9 @@
 ---
 layout: post
 title: 'automatic transmission shift strategy'
-categories: 'Car', 'Engineering'
+categories:
+    - 'Car'
+    - 'Engineering'
 ---
 
 Matlab: computeThreshold(engine speed, throttle)

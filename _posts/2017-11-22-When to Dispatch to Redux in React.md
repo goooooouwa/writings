@@ -1,7 +1,9 @@
 ---
 layout: post
 title: 'When to Dispatch to Redux in React?'
-categories: 'React', 'Redux'
+categories:
+    - 'React'
+    - 'Redux'
 ---
 
 dispatch is one way bridge between React and Redux.

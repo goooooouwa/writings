@@ -1,7 +1,9 @@
 ---
 layout: post
 title: 'A keyboard for my use cases. Or do I really need one?'
-categories: 'Keyboard', 'Product'
+categories:
+    - 'Keyboard'
+    - 'Product'
 ---
 
 What I want is improved input experience, thus increase productivity. 
