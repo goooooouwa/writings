@@ -2,3 +2,5 @@ _site
 .sass-cache
 .jekyll-metadata
 .idea/
+_posts/.Ulysses-Group.plist
+_posts/.Ulysses-favorites.plist
