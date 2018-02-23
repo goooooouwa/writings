@@ -3,7 +3,7 @@ layout: post
 title: 'Relation between Engine Torque Map and Dyno Result'
 categories:
     - 'Car'
-    - 'Engineering'
+    - 'Vehicle Engineering'
 ---
 
 Engine Torque Map draws relation between engine speed & throttle position & engine torque
