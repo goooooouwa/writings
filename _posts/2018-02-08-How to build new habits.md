@@ -1,8 +1,9 @@
 ---
 layout: post
 title: 'How to build new habits'
-categories: 'How to'
---- 
+categories:
+    - How to
+---
 
 Set ambitious goals:  
 Join open source communities/projects( stack overflow, GitHub, Reddit, personal blog, etc) 
