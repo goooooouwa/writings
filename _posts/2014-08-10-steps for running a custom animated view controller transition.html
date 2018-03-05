@@ -1,19 +1,44 @@
 ---
 layout: post
 title: 'steps for running a custom animated view controller transition'
-categories: Animation iOS User Interface
+categories:
+    - Animation
+    - iOS
+    - User Interface
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.13 (455674)"/><meta name="keywords" content="Animation, iOS, User Interface"/><meta name="altitude" content="35"/><meta name="author" content="Greg Xu"/><meta name="created" content="2014-08-10 12:09:51 +0000"/><meta name="latitude" content="30.63739495875851"/><meta name="longitude" content="114.2615299023762"/><meta name="updated" content="2014-08-11 02:48:15 +0000"/><title>steps for running a custom animated view controller transition</title></head><body style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="exporter-version" content="Evernote Mac 6.13 (455674)"/>
+    <meta name="keywords" content="Animation, iOS, User Interface"/>
+    <meta name="altitude" content="35"/>
+    <meta name="author" content="Greg Xu"/>
+    <meta name="created" content="2014-08-10 12:09:51 +0000"/>
+    <meta name="latitude" content="30.63739495875851"/>
+    <meta name="longitude" content="114.2615299023762"/>
+    <meta name="updated" content="2014-08-11 02:48:15 +0000"/>
+    <title>steps for running a custom animated view controller transition</title></head>
+<body style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
 <ol>
-<li>set transitioning delegate( UIViewControllerTransitioningDelegate) who is responsible for managing the custom transition<br/></li>
-<li>call presentViewController on presentingController to start the presenting process of the presented controller<br/></li>
-<li>then the system will call animationControllerForPresentedController:presentingController:sourceController on your transitioning delegate to get the animator objects<br/></li>
-<li>if return is not nil( meaning you have implemented a animationController)<br/></li>
-<li>then the system will call transitionDuration on your animationController by passing in the view transition context( UIViewControllerContextTransitioning) to get the transition duration<br/></li>
-<li>and then call animateTransition on your animationController by passing in the view transition context to actually animate the transition<br/></li>
-<li>in your animateTransition method, you will setup the from and to view controller( not clear what this is), then you call [UIView animateWithDuration] (the actual UIViewAnimation APIs to render the animation) with a completeTransition block.</li>
-<li>finally when your custom transition animation is complete, the system will call your completeTransition on the context by passing in the animationController.<br/></li>
+    <li>set transitioning delegate( UIViewControllerTransitioningDelegate) who is responsible for managing the custom
+        transition<br/></li>
+    <li>call presentViewController on presentingController to start the presenting process of the presented
+        controller<br/></li>
+    <li>then the system will call animationControllerForPresentedController:presentingController:sourceController on
+        your transitioning delegate to get the animator objects<br/></li>
+    <li>if return is not nil( meaning you have implemented a animationController)<br/></li>
+    <li>then the system will call transitionDuration on your animationController by passing in the view transition
+        context( UIViewControllerContextTransitioning) to get the transition duration<br/></li>
+    <li>and then call animateTransition on your animationController by passing in the view transition context to
+        actually animate the transition<br/></li>
+    <li>in your animateTransition method, you will setup the from and to view controller( not clear what this is), then
+        you call [UIView animateWithDuration] (the actual UIViewAnimation APIs to render the animation) with a
+        completeTransition block.
+    </li>
+    <li>finally when your custom transition animation is complete, the system will call your completeTransition on the
+        context by passing in the animationController.<br/></li>
 </ol>
-</body></html>
+</body>
+</html>
