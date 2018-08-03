@@ -2,7 +2,7 @@
 layout: post
 title: 小窍门： 如何在Keynote中插入代码且不丢失样式？
 categories:
-    - Gaming
+    - life hack
 ---
 
 步骤:

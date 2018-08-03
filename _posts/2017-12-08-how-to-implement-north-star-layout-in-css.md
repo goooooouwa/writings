@@ -1,3 +1,12 @@
+---
+layout: post
+title: 'How to implement north star layout in css'
+categories:
+    - 'programming'
+    - 'css'
+---
+
+
 design requirements:
 
 tab text centering in navigation tab, a red dot relatively positioned at the upper right of tab text (text content might vary).

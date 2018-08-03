@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 昂克赛拉实际感受
+categories:
+    - cars
 ---
 
 外观、转速表好看
