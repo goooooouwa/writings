@@ -1,6 +1,6 @@
 ---
 layout: post
-title: bug analysis: invoice view
+title: 'bug analysis: invoice view'
 categories:
     - Programming
 ---
