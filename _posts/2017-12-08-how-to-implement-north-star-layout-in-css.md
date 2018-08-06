@@ -10,18 +10,18 @@ categories:
 
 ![Desired Style]({{ "/assets/images/2017-12-08-how-to-implement-north-star-layout-in-css/desired-style.png" | absolute_url }})
 
-## design requirements:
+## Design Requirements
 
 tab text centering in navigation tab, a red dot relatively positioned at the upper right of tab text (text content might vary).
 
-### constraints:
+### Constraints:
 
 navigation tab has `display` set as `flex`, so `float`, `clear` and `vertical-align` will have no effect on children (flex items).
 
 ### Box model
 ![Box model]({{ "/assets/images/2017-12-08-how-to-implement-north-star-layout-in-css/north-star-layout-in-css.png" | absolute_url }})
 
-## solution:
+## Solution
 
 1. wrap the tab text and red dot inside a `div` or `span`
 2. set `align-items: center` on the wrapper in preparation for text centering (note: by now the tab text are not center aligned since the red dot taking up some space of the wrapper)
