@@ -29,11 +29,7 @@ categories:
 
 便于将笔记做成Flashcards，便于巩固记忆。
 
-![](/Users/sfxu/Library/Mobile Documents/com~apple~CloudDocs/Documents/goooooouwa/assets/images/2018-09-17-how-to-organize-notes/how-to-organize-notes.png)
-
-以上理想笔记管理来自于MarginNote的all in one place笔记法。
-
-![](/Users/sfxu/Library/Mobile Documents/com~apple~CloudDocs/Documents/goooooouwa/assets/images/2018-09-17-how-to-organize-notes/margin-note-all-in-one-place.png)
+![]({{ "/assets/images/2018-09-17-how-to-organize-notes/how-to-organize-notes.png" | absolute_url }})
 
 ## 实践方法
 
@@ -75,3 +71,11 @@ categories:
 #### Step 4：温习
 
 将笔记导出，使用Flashcards（比如Reflect app）温习笔记
+
+
+
+---
+
+Note: 以上理想笔记管理思路来自于[MarginNote](https://marginnote.com/)的all in one place笔记法。
+
+![]({{ "/assets/images/2018-09-17-how-to-organize-notes/margin-note-all-in-one-place.png" | absolute_url }})
