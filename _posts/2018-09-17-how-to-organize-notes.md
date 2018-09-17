@@ -5,7 +5,7 @@ categories:
     - Productivity
 ---
 
-## 理想的笔记管理
+## 笔记管理的理想状态
 
 ### 笔记内容
 
@@ -72,7 +72,7 @@ categories:
 
 将笔记导出，使用Flashcards（比如Reflect app）温习笔记
 
-
+<iframe src="http://www.xmind.net/embed/Ng8c" width="900px" height="540px" frameborder="0" scrolling="no"></iframe>
 
 ---
 
