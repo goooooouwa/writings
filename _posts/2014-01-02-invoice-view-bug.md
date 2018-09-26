@@ -2,7 +2,7 @@
 layout: post
 title: 'bug analysis: invoice view'
 categories:
-    - Programming
+    - Coding
 ---
 
 bug: when PT mark an invoice which has been viewed more than once as "paid", it won't be moved to paid invoice section.

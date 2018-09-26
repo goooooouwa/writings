@@ -2,7 +2,7 @@
 layout: post
 title: Git Tips & Tricks
 categories:
-    - Programming
+    - Coding
 ---
 
 ## Git gitignore syntax
