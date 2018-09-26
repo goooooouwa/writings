@@ -5,8 +5,6 @@ categories:
     - Programming
 ---
 
-# Git Tips & Tricks
-
 ## Git gitignore syntax
 
 A leading slash matches the beginning of the pathname. For example, "/*.c" matches "cat-file.c" but not "mozilla-sha1/sha1.c".
