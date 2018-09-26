@@ -2,7 +2,7 @@
 layout: post
 title: 'What should we store in redux state tree?'
 categories:
-    - programming
+    - Programming
     - redux
 ---
 
