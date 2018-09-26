@@ -11,7 +11,6 @@ permalink: /about/
 - [JavaScript](https://www.evernote.com/pub/goooooouwa/javascript)
 - [Programming](https://www.evernote.com/pub/goooooouwa/programming)
 - [React & Redux](https://www.evernote.com/pub/goooooouwa/reactredux)
-- [Ruby](https://www.evernote.com/pub/goooooouwa/ruby)
 - [Japanese](https://www.evernote.com/pub/goooooouwa/japanese)
 - [Drawing](https://www.evernote.com/pub/goooooouwa/drawing)
 
