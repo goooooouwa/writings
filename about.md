@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-## List of my published Evernote notebooks:
+## List of my public Evernote notebooks:
 
 - [Business](https://www.evernote.com/pub/goooooouwa/business)
 - [Cars](https://www.evernote.com/pub/goooooouwa/cars)
