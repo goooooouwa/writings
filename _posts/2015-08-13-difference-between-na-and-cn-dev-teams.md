@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Difference Between North America And China Dev Teams
+published: false
 ---
 
 Why do they ask more questions and understand stories better?
