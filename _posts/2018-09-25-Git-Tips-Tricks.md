@@ -5,9 +5,7 @@ categories:
     - Coding
 ---
 
-## Git gitignore syntax
-
-A leading slash matches the beginning of the pathname. For example, "/*.c" matches "cat-file.c" but not "mozilla-sha1/sha1.c".
+{{TOC}}
 
 ## Find and restore a deleted file in a Git repo
 
@@ -84,3 +82,7 @@ Updates: `git rev-list --all | xargs git grep expression` will work if you run i
 
 1. Edit `.gitignore` to match the file you want to ignore
 2. `git rm --cached /path/to/file`
+
+## Git gitignore syntax
+
+A leading slash matches the beginning of the pathname. For example, "/*.c" matches "cat-file.c" but not "mozilla-sha1/sha1.c".
