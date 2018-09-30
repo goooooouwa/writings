@@ -17,4 +17,4 @@ categories:
 
 打印PDF中文拷贝影响因素包括：网站、应用程序、制作程序。
 
-Download test report [here]({{ "/assets/attachments/2018-09-12-issue-safari-export-pdf-chinese-characters-copy-fail/test-report.numbers" | absolute_url }}).
+Download test report [here](/assets/attachments/2018-09-12-issue-safari-export-pdf-chinese-characters-copy-fail/test-report.numbers).

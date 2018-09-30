@@ -13,8 +13,8 @@ categories:
 
 此后不断回血并压制对方攻击的我最终赢得了比赛的胜利。
 
-![胜利画面]({{ "/assets/images/2016-04-09-hearthstone/shenglihuamian.png" | absolute_url }})
+![胜利画面](/assets/images/2016-04-09-hearthstone/shenglihuamian.png)
 
-![灵魂祭祀]({{ "/assets/images/2016-04-09-hearthstone/linghunjisi.png" | absolute_url }})
+![灵魂祭祀](/assets/images/2016-04-09-hearthstone/linghunjisi.png)
 
-![治疗之环]({{ "/assets/images/2016-04-09-hearthstone/zhiliaozhihuan.png" | absolute_url }})
+![治疗之环](/assets/images/2016-04-09-hearthstone/zhiliaozhihuan.png)

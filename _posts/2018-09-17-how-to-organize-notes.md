@@ -29,7 +29,7 @@ categories:
 
 便于将笔记做成Flashcards，便于巩固记忆。
 
-![]({{ "/assets/images/2018-09-17-how-to-organize-notes/how-to-organize-notes.png" | absolute_url }})
+![](/assets/images/2018-09-17-how-to-organize-notes/how-to-organize-notes.png)
 
 ## 实践方法
 
@@ -78,4 +78,4 @@ categories:
 
 Note: 以上理想笔记管理思路来自于[MarginNote](https://marginnote.com/)的all in one place笔记法。
 
-![]({{ "/assets/images/2018-09-17-how-to-organize-notes/margin-note-all-in-one-place.png" | absolute_url }})
+![](/assets/images/2018-09-17-how-to-organize-notes/margin-note-all-in-one-place.png)
