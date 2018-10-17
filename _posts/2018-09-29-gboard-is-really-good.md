@@ -2,7 +2,7 @@
 layout: post
 title: Gboard is really good
 category: Product
-published: false
+published: true
 ---
 ![2nd-iteration.png]({{site.baseurl}}/assets/images/2nd-iteration.png)
 
