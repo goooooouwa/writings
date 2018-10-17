@@ -2,7 +2,9 @@
 layout: post
 title: Gboard is really good
 category: Product
+published: false
 ---
+![2nd-iteration.png]({{site.baseurl}}/assets/images/2nd-iteration.png)
 
 ### Pros
 - Quick access Emojis, search GIFs and hand drawings
@@ -14,5 +16,3 @@ category: Product
 - Trackpad only moves horizontal, but luckily wrapping lines fast.
 - No quick character selection by swapping with direction in 9-keys keyboard layout, e.g. quick select question mark.
 - Keys are shorter and smaller, harder to type (maybe saving space for Google search).
-
-
