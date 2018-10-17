@@ -4,7 +4,6 @@ title: Gboard is really good
 category: Product
 published: true
 ---
-![2nd-iteration.png]({{site.baseurl}}/assets/images/2nd-iteration.png)
 
 ### Pros
 - Quick access Emojis, search GIFs and hand drawings
