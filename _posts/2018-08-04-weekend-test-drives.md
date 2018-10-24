@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 周末试驾小记
 layout: post
 category: Cars
