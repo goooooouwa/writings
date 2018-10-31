@@ -1,9 +1,8 @@
 ---
-layout: home
 published: true
-title: Wiki Home
+title: Wiki
 ---
 
-[Product]({% link product/index.md %})
-Driving
-Productivitiy
+- [Product]({% link product/index.md %})
+- Driving
+- Productivitiy
