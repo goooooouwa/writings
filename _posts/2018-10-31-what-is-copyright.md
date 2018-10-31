@@ -53,7 +53,7 @@ title: 什么是版权？
 
 根据 [Creative Commons网站](https://creativecommons.org/licenses/)：
 
-> "The Creative Commons copyright licenses and tools forge a balance inside the traditional “all rights reserved” setting that copyright law creates. Our tools give everyone from individual creators to large companies and institutions a simple, standardized way to grant copyright permissions to their creative work. The combination of our tools and our users is a [vast and growing digital commons](https://creativecommons.org/videos/a-shared-culture), a pool of content that can be [copied, distributed, edited, remixed, and built upon](https://creativecommons.org/videos/wanna-work-together), all within the boundaries of copyright law."
+> "The Creative Commons copyright licenses and tools forge a balance inside the traditional “all rights reserved” setting that copyright law creates. Our tools give everyone from individual creators to large companies and institutions a simple, standardized way to grant copyright permissions to their creative work. The combination of our tools and our users is a vast and growing digital commons, a pool of content that can be copied, distributed, edited, remixed, and built upon, all within the boundaries of copyright law."
 
 ## 总结
 
