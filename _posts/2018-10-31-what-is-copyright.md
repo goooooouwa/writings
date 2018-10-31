@@ -33,8 +33,9 @@ title: 什么是版权？
 
 根据 [DMLP项目](http://www.dmlp.org/legal-guide/fair-use)：
 
-- "The policy behind copyright law is not simply to protect the rights of those who produce content, but to "promote the progress of science and useful arts.""
-- "Fair use will not permit you to merely copy another’s work and profit from it, but when your use contributes to society by continuing the public discourse or creating a new work in the process, fair use may protect you."
+> "The policy behind copyright law is not simply to protect the rights of those who produce content, but to "promote the progress of science and useful arts.""
+> 
+> "Fair use will not permit you to merely copy another’s work and profit from it, but when your use contributes to society by continuing the public discourse or creating a new work in the process, fair use may protect you."
 
 ### 有哪些使用行为属于Fair Use呢？
 
