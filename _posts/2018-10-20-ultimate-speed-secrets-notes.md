@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Ultimate Speed Secrets notes
 layout: post
 ---
@@ -34,4 +34,3 @@ layout: post
 
 
 ![](/assets/images/2018-10-20-ultimate-speed-secrets-notes/6.jpeg)
-
