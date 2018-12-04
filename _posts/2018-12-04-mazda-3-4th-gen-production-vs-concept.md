@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: 第4代马自达3量产车与概念车的高度一致性
 ---
@@ -17,4 +17,3 @@ title: 第4代马自达3量产车与概念车的高度一致性
 ![]({{site.baseurl}}/https://res.cloudinary.com/goooooouwa/image/upload/v1543917222/IMG_3142.jpg)
 ![]({{site.baseurl}}/https://res.cloudinary.com/goooooouwa/image/upload/v1543917225/IMG_3145.jpg)
 ![]({{site.baseurl}}/https://res.cloudinary.com/goooooouwa/image/upload/v1543917227/IMG_3120.jpg)
-
