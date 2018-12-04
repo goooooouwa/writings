@@ -10,7 +10,7 @@ title: 第4代马自达3量产车与概念车的高度一致性
 ![](https://res.cloudinary.com/goooooouwa/image/upload/v1543917197/IMG_3132.jpg)
 ![](https://res.cloudinary.com/goooooouwa/image/upload/v1543917204/IMG_3135.jpg)
 ![](https://res.cloudinary.com/goooooouwa/image/upload/v1543917207/IMG_3116.jpg)
-![](/https://res.cloudinary.com/goooooouwa/image/upload/v1543917212/IMG_3143.jpg)
+![](https://res.cloudinary.com/goooooouwa/image/upload/v1543917212/IMG_3143.jpg)
 ![](https://res.cloudinary.com/goooooouwa/image/upload/v1543917215/IMG_3129.jpg)
 ![](https://res.cloudinary.com/goooooouwa/image/upload/v1543917219/IMG_3119.jpg)
 ![](https://res.cloudinary.com/goooooouwa/image/upload/v1543917220/IMG_3147.jpg)
