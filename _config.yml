@@ -44,8 +44,6 @@ header_pages:
   - category/coding.html
   - category/design.html
   - category/product.html
-  - category/productivity.html
-  - wiki.md
 
 # Build settings
 markdown: kramdown
