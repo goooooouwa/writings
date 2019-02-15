@@ -1,8 +1,7 @@
 ---
 layout: post
 title: 小窍门： 如何在Keynote中插入代码且不丢失样式？
-categories:
-    - How to
+category: How to
 ---
 
 步骤:

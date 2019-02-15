@@ -1,8 +1,7 @@
 ---
 layout: post
 title: 'The car I want'
-categories:
-    - Cars
+category: Cars
 published: false
 ---
 

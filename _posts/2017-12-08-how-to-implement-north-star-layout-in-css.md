@@ -1,9 +1,8 @@
 ---
 layout: post
 title: 'How to implement north star layout in css'
-categories:
-    - Coding
-    - CSS
+category: Coding
+tags: css
 ---
 
 

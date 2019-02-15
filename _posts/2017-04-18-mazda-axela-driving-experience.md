@@ -1,8 +1,7 @@
 ---
 layout: post
 title: 昂克赛拉驾驶感受
-categories:
-    - Cars
+category: Cars
 ---
 
 车型：2014款1.5L自动 昂克赛拉

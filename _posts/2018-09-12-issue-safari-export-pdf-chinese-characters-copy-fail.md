@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "issue: Safari导出的PDF中文无法拷贝"
-categories:
-    - Coding
+category: Coding
 ---
 
 ## Issue Description

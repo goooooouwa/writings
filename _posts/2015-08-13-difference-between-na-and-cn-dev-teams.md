@@ -1,8 +1,7 @@
 ---
 layout: post
 title: 'Difference Between North America And China Dev Teams'
-categories:
-    - Career
+category: Career
 published: false
 ---
 

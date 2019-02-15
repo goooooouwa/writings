@@ -1,9 +1,7 @@
 ---
 layout: post
 title: '怎样用5V0.5A电源驱动5V1A的移动硬盘？'
-categories:
-    - How to
-    - Hardware
+category: Lifehacks
 ---
 
 我刚买 MacBook Air 那会儿，很想尝试 Mac 系统的 Time Machine 功能。因为不舍得买 Time Capsule, 了解到也可以外接移动硬盘来使用，便去电脑城买了个东芝的移动硬盘，500元。

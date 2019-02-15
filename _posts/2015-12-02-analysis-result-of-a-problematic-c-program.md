@@ -1,8 +1,7 @@
 ---
 layout: post
 title: '对一道C语言习题错误结果的分析'
-categories:
-    - Coding
+category: Coding
 ---
 
 老婆最近在网上学C语言。晚上她跟我说有一章的习题她看不懂，让我帮忙看看。题目在这儿（http://c.biancheng.net/cpp/html/58.html）。

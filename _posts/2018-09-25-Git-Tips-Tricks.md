@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Git Tips & Tricks
-categories:
-    - Coding
+category: Coding
 ---
 
 {{TOC}}
