@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Ng service vs factory'
-category: Coding
+category: coding
 tags: angular
 ---
 

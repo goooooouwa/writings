@@ -2,7 +2,7 @@
 published: true
 title: 周末试驾小记
 layout: post
-category: Cars
+category: cars
 ---
 
 周末专程安排了一天去各个4S店试驾，基本是走马观花，所以点评也基本是一两句话印象。

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gboard is really good
-category: Product
+category: product
 published: true
 ---
 

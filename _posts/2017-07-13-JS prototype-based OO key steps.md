@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'JS prototype-based OO key steps'
-category: Coding
+category: coding
 tags: javascript
 ---
 

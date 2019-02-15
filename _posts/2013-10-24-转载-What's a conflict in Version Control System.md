@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "【转载】What's a conflict in Version Control System?"
-category: Coding
+category: coding
 tags: 
 ---
 

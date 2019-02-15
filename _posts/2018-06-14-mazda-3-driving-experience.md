@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '马自达3驾驶感受'
-category: Cars
+category: cars
 ---
 
 车型：2007款 2.0L 5MT

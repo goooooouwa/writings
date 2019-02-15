@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Automatic Transmission Shift Strategy'
-category: Cars
+category: cars
 tags: 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '把软件做好是有成本的'
-category: Business
+category: business
 tags: 
 ---
 

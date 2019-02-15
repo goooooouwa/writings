@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Angular 2 Changes'
-category: Coding
+category: coding
 tags: angular
 ---
 

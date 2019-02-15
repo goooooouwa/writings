@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Peak traction/breaking forces vs Slip Ratio with different Slip Angle'
-category: Cars
+category: cars
 tags: vehicle_dynamics
 ---
 

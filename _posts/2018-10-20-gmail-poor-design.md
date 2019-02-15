@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Gmail poor design'
-category: Product
+category: product
 tags: gmail, ux, product_review
 ---
 

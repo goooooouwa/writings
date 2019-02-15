@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Migrate away from Evernote'
-category: Productivity
+category: productivity
 tags: 
 ---
 

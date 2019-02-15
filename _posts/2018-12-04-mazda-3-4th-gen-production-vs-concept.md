@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: 第4代马自达3量产车与概念车的高度一致性
-category: Cars
+category: cars
 ---
 
 马自达是我见过唯一一家量产车与概念车保持高度一致的厂商。他们在外观上太大胆了（当然也牺牲了很多实用性）。

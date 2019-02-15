@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: 日常驾驶有乐趣可言吗？
-category: Cars
+category: cars
 ---
 
 汽车媒体总会让人感觉“车辆性能越好的车，驾驶乐趣越多”，那是否是说，只要你买一辆性能很好的车，你就能获得很多驾驶乐趣呢？要回答这个问题，我们首先要明确，什么是驾驶乐趣。

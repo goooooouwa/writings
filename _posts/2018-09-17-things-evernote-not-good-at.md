@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Evernote不适合做的事
-category: Product
+category: product
 ---
 
 Evernote可以做很多事，比如：

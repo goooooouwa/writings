@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Working plan 周期'
-category: Product
+category: product
 tags: product_management, agile
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Webpage highlight & annotation tool comparison'
-category: Product
+category: product
 tags: product_review
 ---
 

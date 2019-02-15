@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Confusing iOS UI text
-category: Product
+category: product
 tags: ios, ux
 ---
 

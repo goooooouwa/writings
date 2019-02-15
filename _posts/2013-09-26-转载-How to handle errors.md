@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '【转载】How to handle errors'
-category: Coding
+category: coding
 tags: 
 ---
 

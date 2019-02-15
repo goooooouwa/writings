@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'webpack url-loader'
-category: Coding
+category: coding
 tags: webpack
 published: false
 ---

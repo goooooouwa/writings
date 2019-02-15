@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Redux FAQs Slide script'
-category: Coding
+category: coding
 tags: redux
 published: false
 ---

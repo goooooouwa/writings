@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '智能车赛道图像识别'
-category: Coding
+category: coding
 published: false
 ---
 

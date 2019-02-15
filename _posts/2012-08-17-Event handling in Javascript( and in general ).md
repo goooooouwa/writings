@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Event handling in Javascript( and in general )'
-category: Coding
+category: coding
 tags: javascript
 ---
 

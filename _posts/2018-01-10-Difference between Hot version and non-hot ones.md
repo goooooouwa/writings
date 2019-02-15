@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Difference between Hot version and non-hot ones'
-category: Cars
+category: cars
 tags: 
 ---
 

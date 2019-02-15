@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'test sepcial characters in evernote note export filename'
-category: Coding
+category: coding
 tags: evernote
 ---
 

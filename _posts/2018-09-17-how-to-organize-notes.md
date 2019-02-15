@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "如何整理笔记：理论与实践"
-category: Productivity
+category: productivity
 ---
 
 ## 笔记管理的理想状态
