@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '商业环境下如何追求技术卓越'
-category: Career
+category: career
 tags: 
 ---
 

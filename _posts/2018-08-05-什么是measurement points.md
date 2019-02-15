@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '什么是measurement points'
-category: Drawing
+category: drawing
 tags: 
 ---
 
