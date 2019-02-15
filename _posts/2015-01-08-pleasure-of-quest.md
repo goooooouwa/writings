@@ -1,8 +1,7 @@
 ---
 layout: post
 title: '探索的乐趣'
-categories:
-    - Design
+category: Product
 ---
 
 我想象你也是爱动脑筋爱动手的人，与你分享一次探索的经历，共同享受其中的乐趣。
