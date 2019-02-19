@@ -29,6 +29,9 @@ github_username:  goooooouwa
 paginate: 5
 paginate_path: "/blog/page:num/"
 
+jekyll_compose:
+  auto_open: true
+
 defaults:
   -
     scope:
@@ -43,11 +46,22 @@ header_pages:
   - category/coding.html
   - category/product.html
 
+jekyll-archives:
+  enabled: all
+  layout: archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
+
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-archives
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
