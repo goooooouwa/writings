@@ -5,6 +5,14 @@ category: coding
 tags: vpn, shadowsocks
 ---
 
+## UPDATE-2019-02-28
+
+用了5天VPS的IP就被封了，网上搜了一通发现2017年就有人反应shadowsocks[被封IP的问题](https://github.com/shadowsocks/shadowsocks/issues/993)，看来作者被请喝茶之后，Shadowsocks基本就被ZF掌握了。
+
+换了一个IP，如果短时间再被封，就放弃shadowsocks了。网上又推荐[v2ray](https://github.com/v2ray)，以后再看吧。
+
+---
+
 网上随便搜了2个教程，[一个](https://moshuqi.github.io/2017/07/20/自己搭建VPN服务器)使用的搬瓦工，[另一个](http://www.zliu633.com/2018/07/13/%E4%B8%AA%E4%BA%BAvpn%E7%9A%84%E6%90%AD%E5%BB%BA%E6%96%B9%E6%B3%95-mac-os/)使用的Vultr。搬瓦工名字熟悉些，并且教程里说搬瓦工可以直接安装shadowsocks，不需要运行命令，就先跟着第一个走了。
 
 ## 购买VPS
