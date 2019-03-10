@@ -3,7 +3,6 @@ layout: post
 title: 'webpack url-loader'
 category: coding
 tags: webpack
-published: false
 ---
 
 The url loader works like the file loader, but can return a Data Url if the file is smaller than a byte limit.

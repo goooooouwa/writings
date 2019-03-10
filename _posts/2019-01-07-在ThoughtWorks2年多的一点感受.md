@@ -3,7 +3,7 @@ layout: post
 title: '在ThoughtWorks2年多的一点感受'
 category: career
 tags: thoughtworks
-published: false
+hidden: true
 ---
 
 写这封邮件不是针对哪个人，只是想分享我的一点经历，同时听听大家的看法。
