@@ -1,5 +1,4 @@
 ---
-published: true
 layout: post
 title: 第4代马自达3量产车与概念车的高度一致性
 category: cars

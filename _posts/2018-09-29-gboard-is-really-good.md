@@ -2,7 +2,6 @@
 layout: post
 title: Gboard is really good
 category: product
-published: true
 ---
 
 ### Pros

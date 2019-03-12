@@ -1,5 +1,4 @@
 ---
-published: true
 layout: post
 title: 什么是版权？
 ---
