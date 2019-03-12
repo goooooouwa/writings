@@ -1,4 +1,10 @@
-Top Language论坛邮件分析
+---
+layout: post
+title: 'Top Language论坛邮件分析'
+date: 2019-03-12
+categories: draft
+hidden: true
+---
 
 以我在邮件组里发的内容为例，思考：
 我的这种不喜欢深入探究，就想得出最终结论的思维方式背后的心理是怎样的？

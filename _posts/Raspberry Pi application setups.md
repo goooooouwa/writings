@@ -1,4 +1,10 @@
-Raspberry Pi application setups
+---
+layout: post
+title: 'Raspberry Pi application setups'
+date: 2019-03-12
+categories: draft
+hidden: true
+---
 
 Setups: 
 

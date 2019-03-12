@@ -1,6 +1,10 @@
-Marketing Research course notes
-
-2018-08-03-Marketing Research course notes
+---
+layout: post
+title: 'Marketing Research course notes'
+date: 2019-03-12
+categories: draft
+hidden: true
+---
 
 Primary Research methods - Marketing Research
 

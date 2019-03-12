@@ -1,4 +1,10 @@
-User journey和story是否存在对应关系
+---
+layout: post
+title: 'User journey和story是否存在对应关系'
+date: 2019-03-12
+categories: draft
+hidden: true
+---
 
 User journey 好像不是能很好的mapping 到stories, 两者是不是有直接关系？
 

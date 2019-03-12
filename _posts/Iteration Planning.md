@@ -1,4 +1,10 @@
-Iteration Planning
+---
+layout: post
+title: 'Iteration Planning'
+date: 2019-03-12
+categories: draft
+hidden: true
+---
 
 Iteration分2股泳道，new features 和 refinements。并行管理。
 

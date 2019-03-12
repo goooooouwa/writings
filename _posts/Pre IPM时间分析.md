@@ -1,4 +1,10 @@
-Pre IPM时间差分析
+---
+layout: post
+title: 'Pre IPM时间差分析'
+date: 2019-03-12
+categories: draft
+hidden: true
+---
 
 Pre IPM，技术方案和IPM越接近发生的迭代实效性越好，交付价值周期越短（如果需要修改就比较麻烦）。
 
