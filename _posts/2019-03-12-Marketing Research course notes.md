@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Marketing Research course notes'
-date: 2019-03-12
+date: 2018-08-03
 categories: draft
 hidden: true
 ---

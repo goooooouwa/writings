@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Encountered a Siri Shortcuts app bug'
-date: 2019-03-12
+date: 2019-02-15
 categories: draft
 hidden: true
 ---
