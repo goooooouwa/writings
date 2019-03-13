@@ -20,10 +20,10 @@ categories:
 1. 服务器通过对比用户上传的节目声音与各个电视台实时传来的节目声音进行对比，成功找出匹配的节目；
 1. 最后将节目的互动信息发送给用户。
 
-![Shake TV 3](/assets/images/2016-04-09-wechat-shack-tv-feature-technical-details-discovery/shake-tv-3.jpg)
-![Shake TV 4](/assets/images/2016-04-09-wechat-shack-tv-feature-technical-details-discovery/shake-tv-4.jpg)
-![Shake TV 5](/assets/images/2016-04-09-wechat-shack-tv-feature-technical-details-discovery/shake-tv-5.jpg)
-![Shake TV 6](/assets/images/2016-04-09-wechat-shack-tv-feature-technical-details-discovery/shake-tv-6.jpg)
+![Shake TV 3](https://i.imgur.com/UW6sw9e.jpg)
+![Shake TV 4](https://i.imgur.com/wzozYQq.jpg)
+![Shake TV 5](https://i.imgur.com/LoVEsLG.jpg)
+![Shake TV 6](https://i.imgur.com/7k5cmja.jpg)
 
 ## 后记
 

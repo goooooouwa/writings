@@ -28,7 +28,7 @@ category: productivity
 
 便于将笔记做成Flashcards，便于巩固记忆。
 
-![](/assets/images/2018-09-17-how-to-organize-notes/how-to-organize-notes.png)
+![how-to-organize-notes](https://i.imgur.com/yo3TQnE.png)
 
 ## 实践方法
 
@@ -77,4 +77,4 @@ category: productivity
 
 Note: 以上理想笔记管理思路来自于[MarginNote](https://marginnote.com/)的all in one place笔记法。
 
-![](/assets/images/2018-09-17-how-to-organize-notes/margin-note-all-in-one-place.png)
+![margin-note-all-in-one-place](https://i.imgur.com/RJOY6rJ.png)

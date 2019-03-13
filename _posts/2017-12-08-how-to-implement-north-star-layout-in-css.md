@@ -7,7 +7,7 @@ tags: css
 
 
 
-![Desired Style](/assets/images/2017-12-08-how-to-implement-north-star-layout-in-css/desired-style.png)
+![Desired Style](https://i.imgur.com/K5AXNzB.png)
 
 ## Design Requirements
 
@@ -18,7 +18,7 @@ tab text centering in navigation tab, a red dot relatively positioned at the upp
 navigation tab has `display` set as `flex`, so `float`, `clear` and `vertical-align` will have no effect on children (flex items).
 
 ### Box model
-![Box model](/assets/images/2017-12-08-how-to-implement-north-star-layout-in-css/north-star-layout-in-css.png)
+![Box model](https://i.imgur.com/4uKCNvQ.png)
 
 ## Solution
 
