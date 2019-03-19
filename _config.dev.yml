@@ -43,9 +43,9 @@ defaults:
 header_pages:
   - about.md
   - category/business.html
+  - category/cars.html
   - category/coding.html
   - category/product.html
-  - category/cars.html
   - category/log.html
   - category/draft.html
 
