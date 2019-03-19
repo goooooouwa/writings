@@ -2,7 +2,7 @@
 layout: post
 title: 'The car I want'
 category: cars
-hidden: true
+published: false
 ---
 
 我不是想赛车，而是想体验各种车子的外观和驾驶感受（产品设计）。我只想ride along，在路上自由行驶，操控自如。

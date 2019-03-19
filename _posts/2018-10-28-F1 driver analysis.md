@@ -4,7 +4,7 @@ title: 'F1 driver analysis'
 date: 2018-10-28
 category: draft
 tags: racing
-hidden: true
+published: false
 ---
 
 Braking point

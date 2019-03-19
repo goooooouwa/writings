@@ -3,7 +3,7 @@ layout: post
 title: 'Iteration Planning'
 date: 2018-12-22
 category: draft
-hidden: true
+published: false
 ---
 
 Iteration分2股泳道，new features 和 refinements。并行管理。

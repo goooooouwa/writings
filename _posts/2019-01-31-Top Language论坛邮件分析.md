@@ -3,7 +3,7 @@ layout: post
 title: 'Top Language论坛邮件分析'
 date: 2019-01-31
 category: draft
-hidden: true
+published: false
 ---
 
 以我在邮件组里发的内容为例，思考：

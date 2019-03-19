@@ -3,7 +3,7 @@ layout: post
 title: 'Marketing Research course notes'
 date: 2018-08-03
 category: draft
-hidden: true
+published: false
 ---
 
 Primary Research methods - Marketing Research

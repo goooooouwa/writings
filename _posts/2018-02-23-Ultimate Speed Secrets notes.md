@@ -3,7 +3,7 @@ layout: post
 title: 'Ultimate Speed Secrets notes'
 date: 2018-02-23
 category: draft
-hidden: true
+published: false
 ---
 
 走线，找好turn in point（开始转向的点，Turn in point之后逐步加大油门，提高速度，在midcorner阶段需要维持油门以维持速度和转弯半径来过弯。）, apex（转向中离内道最近的点，不一定是开始全油门的点，过了apex就开始驶离弯道，转向角度一定是逐渐减小）, turn out point（转向回0的点）

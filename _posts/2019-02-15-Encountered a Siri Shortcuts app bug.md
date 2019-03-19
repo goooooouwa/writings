@@ -3,7 +3,7 @@ layout: post
 title: 'Encountered a Siri Shortcuts app bug'
 date: 2019-02-15
 category: draft
-hidden: true
+published: false
 ---
 
 一些action的配置在切换语言后失效了。
