@@ -18,4 +18,5 @@ group :jekyll_plugins do
   gem "jekyll-compose"
   gem 'jekyll-admin'
   gem 'jekyll-archives'
+  gem 'jekyll-paginate-v2'
 end
