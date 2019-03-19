@@ -2,7 +2,7 @@
 layout: post
 title: 'Raspberry Pi application setups'
 date: 2019-03-12
-categories: draft
+category: draft
 hidden: true
 ---
 

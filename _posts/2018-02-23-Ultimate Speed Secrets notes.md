@@ -2,7 +2,7 @@
 layout: post
 title: 'Ultimate Speed Secrets notes'
 date: 2018-02-23
-categories: draft
+category: draft
 hidden: true
 ---
 

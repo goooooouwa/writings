@@ -2,7 +2,7 @@
 layout: post
 title: 'Car sales number'
 date: 2019-01-31
-categories: draft
+category: draft
 hidden: true
 ---
 

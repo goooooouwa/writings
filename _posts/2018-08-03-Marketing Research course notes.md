@@ -2,7 +2,7 @@
 layout: post
 title: 'Marketing Research course notes'
 date: 2018-08-03
-categories: draft
+category: draft
 hidden: true
 ---
 

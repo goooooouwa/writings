@@ -2,7 +2,7 @@
 layout: post
 title: 'Iteration Planning'
 date: 2018-12-22
-categories: draft
+category: draft
 hidden: true
 ---
 

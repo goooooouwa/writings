@@ -2,7 +2,7 @@
 layout: post
 title: 'User journey和story是否存在对应关系'
 date: 2018-12-23
-categories: draft
+category: draft
 hidden: true
 ---
 
