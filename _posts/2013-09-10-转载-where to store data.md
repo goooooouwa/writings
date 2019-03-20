@@ -2,7 +2,6 @@
 layout: post
 title: '【转载】where to store data?'
 category: coding
-tags: 
 ---
 
 此文为转载，出处找不到了，如果知道请告知。

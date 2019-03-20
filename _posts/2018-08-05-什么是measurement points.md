@@ -2,7 +2,6 @@
 layout: post
 title: '什么是measurement points'
 category: drawing
-tags: 
 ---
 
 a y b are the result of folding the segments D' - V and D - V, respectively, upon LH.

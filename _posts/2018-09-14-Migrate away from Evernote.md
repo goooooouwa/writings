@@ -2,7 +2,6 @@
 layout: post
 title: 'Migrate away from Evernote'
 category: productivity
-tags: 
 ---
 
 ## Evernote organization 2018/9/14

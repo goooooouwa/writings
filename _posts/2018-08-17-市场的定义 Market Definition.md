@@ -2,7 +2,6 @@
 layout: post
 title: '市场的定义 Market Definition'
 category: business
-tags: 
 ---
 
 Market的需求端 = 现有客户 + 潜在客户
