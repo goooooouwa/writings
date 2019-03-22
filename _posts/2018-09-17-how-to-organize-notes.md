@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "如何整理笔记：理论与实践"
+title: '如何整理笔记：理论与实践'
 category: productivity
 ---
 
