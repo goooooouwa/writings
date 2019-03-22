@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Iteration Planning'
+title: Iteration Planning
 date: '2018-12-22'
 category: draft
 published: false

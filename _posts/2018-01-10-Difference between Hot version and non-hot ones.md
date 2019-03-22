@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Difference between Hot version and non-hot ones'
+title: Difference between Hot version and non-hot ones
 category: cars
 ---
 

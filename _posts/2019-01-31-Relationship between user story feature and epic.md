@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Relationship between user story, feature, and epic'
+title: Relationship between user story, feature, and epic
 date: '2019-01-31'
 category: draft
 published: false

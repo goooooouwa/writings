@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '探索的乐趣'
+title: 探索的乐趣
 category: product
 ---
 

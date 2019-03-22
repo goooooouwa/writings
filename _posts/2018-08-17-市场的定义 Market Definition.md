@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '市场的定义 Market Definition'
+title: 市场的定义 Market Definition
 category: business
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Migrate away from Evernote'
+title: Migrate away from Evernote
 category: productivity
 ---
 

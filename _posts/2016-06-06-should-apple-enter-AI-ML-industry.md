@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '苹果是否该进入AI&ML领域'
+title: 苹果是否该进入AI&ML领域
 category: business
 tags: apple
 ---

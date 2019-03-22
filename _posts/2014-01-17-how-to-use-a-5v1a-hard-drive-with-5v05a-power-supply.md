@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '怎样用5V0.5A电源驱动5V1A的移动硬盘？'
+title: 怎样用5V0.5A电源驱动5V1A的移动硬盘？
 category: lifehacks
 ---
 

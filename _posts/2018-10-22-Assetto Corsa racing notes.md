@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Assetto Corsa racing notes'
+title: Assetto Corsa racing notes
 date: '2018-10-22'
 category: draft
 published: false

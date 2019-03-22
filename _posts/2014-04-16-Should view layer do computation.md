@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'is it good practice to do computation in view layer?'
+title: is it good practice to do computation in view layer?
 category: coding
 ---
 

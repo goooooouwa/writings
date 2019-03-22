@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'F1 driver analysis'
+title: F1 driver analysis
 date: '2018-10-28'
 category: draft
 tags: racing

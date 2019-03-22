@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Intro to Economics- Crash Course'
+title: Intro to Economics- Crash Course
 date: '2018-08-07'
 category: draft
 published: false

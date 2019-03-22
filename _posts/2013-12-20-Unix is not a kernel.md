@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Unix is not a kernel'
+title: Unix is not a kernel
 category: coding
 tags: unix
 ---

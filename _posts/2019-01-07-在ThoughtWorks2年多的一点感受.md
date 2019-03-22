@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '在ThoughtWorks2年多的一点感受'
+title: 在ThoughtWorks2年多的一点感受
 category: career
 tags: thoughtworks
 published: false

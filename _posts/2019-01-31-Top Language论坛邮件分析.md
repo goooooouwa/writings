@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Top Language论坛邮件分析'
+title: Top Language论坛邮件分析
 date: '2019-01-31'
 category: draft
 published: false

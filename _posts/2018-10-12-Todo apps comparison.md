@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Todo apps comparison'
+title: Todo apps comparison
 date: '2018-10-12'
 categories: product
 tags: product_review

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Car sales number'
+title: Car sales number
 date: '2019-01-31'
 category: draft
 published: false

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'How to convert outline text to mindmap'
+title: How to convert outline text to mindmap
 category: productivity
 tags: outline, freemind, mindmap
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Event handling in Javascript( and in general )'
+title: Event handling in Javascript( and in general )
 category: coding
 tags: javascript
 ---

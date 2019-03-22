@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '手机外接键盘是个好主意吗？'
+title: 手机外接键盘是个好主意吗？
 date: '2017-11-03'
 categories: product
 published: false

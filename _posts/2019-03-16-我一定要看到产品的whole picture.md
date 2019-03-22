@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '我一定要看到产品的whole picture'
+title: 我一定要看到产品的whole picture
 date: '2019-03-16'
 categories: career
 published: false

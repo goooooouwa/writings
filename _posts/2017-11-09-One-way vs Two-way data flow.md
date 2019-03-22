@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'One-way vs Two-way data flow'
+title: One-way vs Two-way data flow
 category: coding
 tags: react, angular
 ---

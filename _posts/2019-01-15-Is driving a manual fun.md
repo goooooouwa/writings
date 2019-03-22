@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Is driving a manual fun?'
+title: Is driving a manual fun?
 date: '2019-01-15'
 category: draft
 published: false

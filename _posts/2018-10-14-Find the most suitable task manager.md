@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Find the most suitable task manager'
+title: Find the most suitable task manager
 date: '2018-10-14'
 categories: productivity
 published: false
