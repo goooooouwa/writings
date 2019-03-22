@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Automatic Transmission Shift Strategy
+layout: post
 category: cars
 ---
 

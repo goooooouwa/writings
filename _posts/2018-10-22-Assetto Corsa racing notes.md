@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Assetto Corsa racing notes
+layout: post
 date: '2018-10-22'
 category: draft
 published: false

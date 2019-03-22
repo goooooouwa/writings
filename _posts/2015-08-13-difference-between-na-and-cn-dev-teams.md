@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Difference Between North America And China Dev Teams
+layout: post
 category: career
 published: false
 ---

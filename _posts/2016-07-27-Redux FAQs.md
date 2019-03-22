@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Redux FAQs Slide script
+layout: post
 category: coding
 tags: redux
 ---

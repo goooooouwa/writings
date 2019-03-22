@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Angular 2 Changes
+layout: post
 category: coding
 tags: angular
 ---

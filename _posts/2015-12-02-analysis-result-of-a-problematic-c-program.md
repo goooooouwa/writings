@@ -1,6 +1,6 @@
 ---
-layout: post
 title: 对一道C语言习题错误结果的分析
+layout: post
 category: coding
 ---
 

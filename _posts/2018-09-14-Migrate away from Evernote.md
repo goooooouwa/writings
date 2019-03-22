@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Migrate away from Evernote
+layout: post
 category: productivity
 ---
 

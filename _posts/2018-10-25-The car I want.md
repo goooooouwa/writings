@@ -1,6 +1,6 @@
 ---
-layout: post
 title: The car I want
+layout: post
 category: cars
 published: false
 ---

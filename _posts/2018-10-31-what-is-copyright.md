@@ -1,6 +1,6 @@
 ---
-layout: post
 title: 什么是版权？
+layout: post
 ---
 
 ## TL'DR

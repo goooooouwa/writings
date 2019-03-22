@@ -1,6 +1,6 @@
 ---
-layout: post
 title: work with ActiveRecord associations in Elasticsearch
+layout: post
 category: coding
 tags: elasticsearch, rails
 ---

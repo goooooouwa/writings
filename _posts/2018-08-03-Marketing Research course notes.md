@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Marketing Research course notes
+layout: post
 date: '2018-08-03'
 category: draft
 published: false

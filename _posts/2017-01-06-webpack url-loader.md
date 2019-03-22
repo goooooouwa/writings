@@ -1,6 +1,6 @@
 ---
-layout: post
 title: webpack url-loader
+layout: post
 category: coding
 tags: webpack
 ---

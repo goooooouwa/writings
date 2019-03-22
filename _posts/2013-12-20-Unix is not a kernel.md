@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Unix is not a kernel
+layout: post
 category: coding
 tags: unix
 ---

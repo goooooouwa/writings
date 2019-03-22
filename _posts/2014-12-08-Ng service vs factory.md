@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Ng service vs factory
+layout: post
 category: coding
 tags: angular
 ---

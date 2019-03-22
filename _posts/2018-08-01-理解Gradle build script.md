@@ -1,6 +1,6 @@
 ---
-layout: post
 title: 理解Gradle build script
+layout: post
 category: coding
 tags: java, gradle
 ---

@@ -1,6 +1,6 @@
 ---
-layout: post
 title: How to implement north star layout in css
+layout: post
 category: coding
 tags: css
 ---

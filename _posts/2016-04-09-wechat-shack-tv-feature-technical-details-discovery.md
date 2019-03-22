@@ -1,6 +1,6 @@
 ---
-layout: post
 title: 微信摇电视功能技术探秘
+layout: post
 categories:
   - Coding
 ---

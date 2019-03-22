@@ -1,6 +1,6 @@
 ---
-layout: post
 title: VPS购买及shadowsocks搭建经验分享
+layout: post
 category: coding
 tags: vpn, shadowsocks
 ---

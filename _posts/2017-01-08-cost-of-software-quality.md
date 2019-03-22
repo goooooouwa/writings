@@ -1,6 +1,6 @@
 ---
-layout: post
 title: 把软件做好是有成本的
+layout: post
 category: business
 ---
 

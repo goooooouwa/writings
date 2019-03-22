@@ -1,6 +1,6 @@
 ---
-layout: post
 title: MarginNote 3 Review
+layout: post
 date: '2018-09-16'
 categories: product
 tags: product_review

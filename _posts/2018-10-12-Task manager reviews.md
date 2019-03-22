@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Task manager reviews
+layout: post
 date: '2018-10-12'
 categories: product
 tags: product_review

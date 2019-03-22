@@ -1,6 +1,6 @@
 ---
-layout: post
 title: F1 driver analysis
+layout: post
 date: '2018-10-28'
 category: draft
 tags: racing

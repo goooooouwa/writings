@@ -1,6 +1,6 @@
 ---
-layout: post
 title: 什么是measurement points
+layout: post
 category: drawing
 ---
 

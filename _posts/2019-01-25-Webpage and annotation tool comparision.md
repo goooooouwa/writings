@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Webpage highlight & annotation tool comparison
+layout: post
 category: product
 tags: product_review
 ---

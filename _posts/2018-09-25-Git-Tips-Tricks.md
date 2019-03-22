@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Git Tips & Tricks
+layout: post
 category: coding
 ---
 

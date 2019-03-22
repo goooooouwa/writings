@@ -1,6 +1,6 @@
 ---
-layout: post
 title: 炉石传说：一场奇迹般的胜利
+layout: post
 category: gaming
 ---
 

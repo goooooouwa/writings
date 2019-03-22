@@ -1,6 +1,6 @@
 ---
-layout: post
 title: JS prototype-based OO key steps
+layout: post
 category: coding
 tags: javascript
 ---

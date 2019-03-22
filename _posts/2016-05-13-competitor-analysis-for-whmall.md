@@ -1,6 +1,6 @@
 ---
-layout: post
 title: 网化商城国内竞品分析
+layout: post
 date: '2016-05-13'
 categories: product
 published: false
