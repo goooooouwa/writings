@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Marketing Research course notes'
-date: 2018-08-03
+date: '2018-08-03'
 category: draft
 published: false
 ---

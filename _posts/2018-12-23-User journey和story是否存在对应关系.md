@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'User journey和story是否存在对应关系'
-date: 2018-12-23
+date: '2018-12-23'
 category: draft
 published: false
 ---

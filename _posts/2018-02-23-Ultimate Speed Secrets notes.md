@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Ultimate Speed Secrets notes'
-date: 2018-02-23
+date: '2018-02-23'
 category: draft
 published: false
 ---

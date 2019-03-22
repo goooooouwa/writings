@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Task manager reviews'
-date: 2018-10-12
+date: '2018-10-12'
 categories: product
 tags: product_review
 published: false

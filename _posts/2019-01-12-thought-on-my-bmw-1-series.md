@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '对一系的态度'
-date: 2019-01-12
+date: '2019-01-12'
 category: log
 tags: cars
 published: false
