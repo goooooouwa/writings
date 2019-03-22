@@ -1,8 +1,14 @@
-2019-01-11-净网行动 don’t feed the trolls
+---
+layout: post
+title: '净网行动 don’t feed the trolls'
+date: 2019-01-11
+tags: community, society
+published: false
+---
 
 don’t feed the trolls
 
-#community #society
+
 
 What’s great about Online community 
 我最喜欢互联网的一点就是它bring people together。看到社区激发创造力（Linux Kernel project, GitHub，Stack Overflow），但同时我们也面临着新的社会问题：How to treat people online, who you might never meet in person?

@@ -1,6 +1,10 @@
-2018-10-14-Find the most suitable task manager
-
-#productivity
+---
+layout: post
+title: 'Find the most suitable task manager'
+date: 2018-10-14
+categories: productivity
+published: false
+---
 
 There’re basically two kinds of tasks to manage: small things to forget
 important things to track

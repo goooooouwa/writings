@@ -1,9 +1,10 @@
-2017-11-03-a-keyboard-for-my-use-cases
-
-手机外接键盘是个好主意吗？
-
-#product #smartphone
-
+---
+layout: post
+title: '手机外接键盘是个好主意吗？'
+date: 2017-11-03
+categories: product
+published: false
+---
 
 我希望能提高在手机上输入的效率，想来想去，除了语音输入外，似乎只有外接键盘了。
 

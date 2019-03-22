@@ -1,7 +1,11 @@
-2018-09-16-MarginNote 3 Review
-
-MarginNote 3 Review 
-#product #review
+---
+layout: post
+title: 'MarginNote 3 Review'
+date: 2018-09-16
+categories: product
+tags: product_review
+published: false
+---
 
 MarginNote 3，作者：Sun Min
 

@@ -1,8 +1,11 @@
-2018-10-12-Todo apps comparison
-
-Todo apps comparison
-
-#product
+---
+layout: post
+title: 'Todo apps comparison'
+date: 2018-10-12
+categories: product
+tags: product_review
+published: false
+---
 
 Wrike
 iOS basically a todo list

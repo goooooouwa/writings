@@ -1,8 +1,10 @@
-2016-05-13-competitor-analysis-for-whmall
-
-网化商城国内竞品分析
-
-#business
+---
+layout: post
+title: '网化商城国内竞品分析'
+date: 2016-05-13
+categories: product
+published: false
+---
 
 选择竞品
 

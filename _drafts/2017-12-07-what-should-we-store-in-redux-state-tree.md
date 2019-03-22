@@ -1,9 +1,10 @@
-2017-12-07-what-should-we-store-in-redux-state-tree
-
-What should we store in redux state tree?
-
-#redux
-
+---
+layout: post
+title: 'What should we store in redux state tree?'
+date: 2017-12-07
+categories: redux
+published: false
+---
 
 keep local state in component, props passed in either from other presentational component or a container component( mapped from state).
 

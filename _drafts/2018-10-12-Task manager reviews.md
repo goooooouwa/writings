@@ -1,8 +1,12 @@
-2018-10-12-Task manager reviews
+---
+layout: post
+title: 'Task manager reviews'
+date: 2018-10-12
+categories: product
+tags: product_review
+published: false
+---
 
-# Task manager reviews
-
-#product #review
 ## Zenkit review
 
 ### Pros

@@ -1,4 +1,10 @@
-2019-03-16-我一定要看到产品的whole picture
+---
+layout: post
+title: '我一定要看到产品的whole picture'
+date: 2019-03-16
+categories: career
+published: false
+---
 
 我想管产品，但是我不会管（比如市场营销），所以先从局部做起。
 
