@@ -43,3 +43,5 @@ FAQ:
   - Sadly no. I've tried to drag the HTML into MS PPT on both Mac and PC, the format is only partially preserved. But you can still try out other methods mentioned in [this article](http://hints.macworld.com/article.php?story=20091104002118164).
 
 Source: [Embed formatted, syntax-highlighted source code in Keynote](http://hints.macworld.com/article.php?story=20091104002118164)
+
+Download the example [here](/assets/downloads/2014-12-12-how-to-preserve-the-format-of-my-code-while-posting-in-keynote/example_HTML_converted_from_source_code.html).
