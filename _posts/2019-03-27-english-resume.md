@@ -10,26 +10,23 @@ tags: resume
 ## Shunfa Xu
 
   * Email: gouwa5700 (at) gmail (dot) com
-
   * Phone / WeChat: Available on request
-
   * Github: [https://github.com/goooooouwa](https://github.com/goooooouwa)
-
   * Blog: [https://goooooouwa.github.io](https://goooooouwa.github.io)
 
 ## Introduction
 
-Business Analyst at ThoughtWorks, product enthusiast. 6 years total working experience, and have been at ThoughtWorks for almost 3 years.
+Business Analyst at ThoughtWorks. 6 years of total working experience, have been at ThoughtWorks for almost 3 years.
 
-## work experience
+## Working experience
 
-  * Business Analyst, Consultant, THOUGHTWORKS SOFTWARE TECHNOLOGIES(WUHAN)LTD., 2019/02/26 - Present
+  * Business Analyst, Consultant, ThoughtWorks Software Technologies (Wuhan) LTD., 2019/02/26 - Present
 
-  * Developer, Consultant, THOUGHTWORKS SOFTWARE TECHNOLOGIES(WUHAN)LTD., 2016/07/04 - 2019/02/25
+  * Developer, Consultant, ThoughtWorks Software Technologies (Wuhan) LTD., 2016/07/04 - 2019/02/25
 
   * Software Developer - Ruby, ActiveNetwork (Chengdu) Co., Ltd., 2015/03/23 - 2016/06/23
 
-  * Junior Software Developer - Ruby, Beijing Shengande Technology Development Co., Ltd. Wuhan Branch, 2013/04/16 - 2015/02/28
+  * Junior Software Developer - Ruby, Beijing Shinetech Technology Development Co., Ltd. Wuhan Branch, 2013/04/16 - 2015/02/28
 
 ## Project experience
 
@@ -59,7 +56,7 @@ During my time with the team, I participated in the early design and delivery of
 
   * Feasibility validation of the API OAuth OIDC authorization scheme
 
-  * Requirements analysis and functional design for API & system reliability monitoring
+  * Requirements analysis and functional design for API system reliability monitoring
 
 In addition to ensuring the successful delivery of iterations, I went a step further to optimize team's current requirements management process and improved the overall delivery processes, including:
 
@@ -177,12 +174,6 @@ As the only full-stack developer, responsible for product requirements communica
 
 In addition to ensuring the successful delivery of the product, I also improved several product features, including:
 
-  * Redesign the once complicated and incomprehensible supplier bidding interface to a new interface with clear logic and easy operation, which significantly reduces the difficulty of use and better user experience.
+  * Redesigned the once complicated and incomprehensible supplier bidding interface to a new interface with clear logic and easy operation, which significantly reduces the difficulty of use and better user experience.
 
   * Found missing an API that Dropbox Ruby SDK did not provide while implementing a feature, so submitted a Pull Request to the Dropbox Ruby SDK project which later merged by the maintainer.
-
-
-
-
-  
-
