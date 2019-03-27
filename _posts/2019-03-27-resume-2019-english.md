@@ -3,7 +3,7 @@ title: Shunfa Xu's resume (2019)
 layout: post
 category: career
 date: '2019-03-27'
-hidden: false
+hidden: true
 tags: resume
 ---
 
