@@ -1,6 +1,7 @@
 ---
 title: 把软件做好是有成本的
 layout: post
+published: false
 category: business
 ---
 

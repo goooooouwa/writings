@@ -1,6 +1,7 @@
 ---
 title: Difference between Hot version and non-hot ones
 layout: post
+published: false
 category: cars
 ---
 

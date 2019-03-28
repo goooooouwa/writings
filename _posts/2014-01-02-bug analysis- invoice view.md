@@ -1,6 +1,7 @@
 ---
 title: 'bug analysis: invoice view'
 layout: post
+published: false
 category: coding
 tags: bug_analysis
 ---

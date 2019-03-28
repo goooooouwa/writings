@@ -1,6 +1,7 @@
 ---
 title: 理解Gradle build script
 layout: post
+published: false
 category: coding
 tags: java, gradle
 ---

@@ -1,6 +1,7 @@
 ---
 title: Unix is not a kernel
 layout: post
+published: false
 category: coding
 tags: unix
 ---

@@ -1,6 +1,7 @@
 ---
 title: is it good practice to do computation in view layer?
 layout: post
+published: false
 category: coding
 ---
 
