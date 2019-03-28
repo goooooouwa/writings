@@ -2,7 +2,7 @@
 title: Difference between Hot version and non-hot ones
 layout: post
 published: false
-category: cars
+category: car
 ---
 
 Type R跟普通Civic是从头到脚的不同，而不是只是改改样式，发动机加点马力。

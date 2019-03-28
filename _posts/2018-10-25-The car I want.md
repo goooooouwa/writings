@@ -1,7 +1,7 @@
 ---
 title: The car I want
 layout: post
-category: cars
+category: car
 published: false
 ---
 
