@@ -2,7 +2,8 @@
 title: Marketing Research course notes
 layout: post
 date: '2018-08-03'
-category: draft
+category: product
+tags: draft, marketing
 published: false
 ---
 

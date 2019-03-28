@@ -2,7 +2,8 @@
 title: Intro to Economics- Crash Course
 layout: post
 date: '2018-08-07'
-category: draft
+category: business
+tags: draft
 published: false
 ---
 

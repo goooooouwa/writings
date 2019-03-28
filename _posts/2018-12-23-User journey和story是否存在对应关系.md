@@ -2,7 +2,8 @@
 title: User journey和story是否存在对应关系
 layout: post
 date: '2018-12-23'
-category: draft
+category: product
+tags: draft, agile
 published: false
 ---
 

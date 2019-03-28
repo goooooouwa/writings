@@ -2,7 +2,8 @@
 title: Encountered a Siri Shortcuts app bug
 layout: post
 date: '2019-02-15'
-category: draft
+category: product
+tags: draft, bug, apple
 published: false
 ---
 

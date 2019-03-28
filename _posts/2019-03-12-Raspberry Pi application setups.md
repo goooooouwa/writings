@@ -2,7 +2,7 @@
 title: Raspberry Pi application setups
 layout: post
 date: '2019-03-12'
-category: draft
+tags: draft
 published: false
 ---
 

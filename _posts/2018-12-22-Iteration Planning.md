@@ -2,7 +2,8 @@
 title: Iteration Planning
 layout: post
 date: '2018-12-22'
-category: draft
+category: product
+tags: draft, agile
 published: false
 ---
 

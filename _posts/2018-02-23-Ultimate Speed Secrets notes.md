@@ -2,7 +2,8 @@
 title: Ultimate Speed Secrets notes
 layout: post
 date: '2018-02-23'
-category: draft
+category: car
+tags: draft, racing
 published: false
 ---
 

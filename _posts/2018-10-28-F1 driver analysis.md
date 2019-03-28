@@ -2,8 +2,8 @@
 title: F1 driver analysis
 layout: post
 date: '2018-10-28'
-category: draft
-tags: racing
+category: car
+tags: draft, racing
 published: false
 ---
 

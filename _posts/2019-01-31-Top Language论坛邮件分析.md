@@ -2,7 +2,8 @@
 title: Top Language论坛邮件分析
 layout: post
 date: '2019-01-31'
-category: draft
+category: log
+tags: draft, introspection
 published: false
 ---
 

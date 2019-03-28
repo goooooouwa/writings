@@ -2,7 +2,8 @@
 title: Is driving a manual fun?
 layout: post
 date: '2019-01-15'
-category: draft
+category: car
+tags: draft
 published: false
 ---
 
