@@ -25,14 +25,10 @@ disqus:
   shortname: goooooouwa
 
 github_username:  goooooouwa
+twitter_username: Goooooouwa
 
 google_analytics: UA-137406515-1
 
-minima:
-  social_links:
-    twitter: Goooooouwa
-    github: goooooouwa
-    
 pagination:
   enabled: true
   per_page: 10
