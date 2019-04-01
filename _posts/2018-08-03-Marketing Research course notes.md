@@ -23,9 +23,9 @@ PESTEL external environment analysis - Marketing Research
 
 Three Levels of a Product
 
-Core Product：产品的价值所在
-Actual Product：实际的产品本身
-Augmented Product: 产品配套的服务
+- Core Product：产品的价值所在
+- Actual Product：实际的产品本身
+- Augmented Product: 产品配套的服务
 
 
 ![](https://i.imgur.com/TgIuDY9.png)
