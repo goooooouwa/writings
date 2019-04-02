@@ -2,7 +2,7 @@
 
 # run below commands in your jekyll root directory
 
-jekyll build --unpublished --config _config.dev.yml
+jekyll build --unpublished --config _config.yml,_config.dev.yml
 cd _site
 git init
 git remote add origin git@github.com:goooooouwa/drafts.git
