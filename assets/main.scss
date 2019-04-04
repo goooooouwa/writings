@@ -1,0 +1,32 @@
+---
+---
+
+@import "minima";
+
+.google-custom-search {
+  table {
+    margin-bottom: initial;
+    width: initial;
+    text-align: initial;
+    color: initial;
+    border-collapse: initial;
+    border: initial;
+    tr {
+      &:nth-child(even) {
+        background-color: initial;
+      }
+    }
+    th,
+    td {
+      padding: initial;
+    }
+    th {
+      background-color: initial;
+      border: initial;
+      border-bottom-color: initial;
+    }
+    td {
+      border: initial;
+    }
+  }
+}
