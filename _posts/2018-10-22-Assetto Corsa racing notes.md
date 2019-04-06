@@ -38,15 +38,15 @@ Oversteer type 2: power oversteer
 
 救车时不要深踩油门，否则只会让打滑的轮胎更加失控。
 
-https://i.imgur.com/BN6uIlG.png
-https://i.imgur.com/fpm8eh5.png
+![](https://i.imgur.com/BN6uIlG.png)
+![](https://i.imgur.com/fpm8eh5.png)
 
 
 
 刹车、转向、油门的initial input 不能太sudden，要gradual，但又一定要达到极限程度（踏板深度、转向角度），撑满traction circle.
 如下图
 
-https://i.imgur.com/VZUCsc1.png
+![](https://i.imgur.com/VZUCsc1.png)
 
 找到一点cornering的感觉了。过弯时找到大致的极限，如果转向角度不变小，就不能加油门，否则突破轮胎极限。
 转向前刹一脚车有助于转向（重心前移）。

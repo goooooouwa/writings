@@ -19,7 +19,7 @@ business, user和team的voice as input -> feature roadmap
 
 1.2 user input: 给用户提供new feature投票的渠道（比如类似dynalist的feature trello)
 
-https://i.imgur.com/kQbe75C.png
+![](https://i.imgur.com/kQbe75C.png)
 
 1.3 Team input
 收集团队input 
