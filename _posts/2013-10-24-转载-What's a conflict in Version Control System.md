@@ -1,5 +1,5 @@
 ---
-title: 【转载】What's a conflict in Version Control System?
+title: 转载|What's a conflict in Version Control System?
 layout: post
 category: coding
 ---
