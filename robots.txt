@@ -6,3 +6,5 @@ Disallow:
 
 User-agent: Googlebot-Image
 Disallow:
+
+Sitemap: https://goooooouwa.github.io/sitemap.xml
