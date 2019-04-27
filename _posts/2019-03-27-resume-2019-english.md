@@ -16,7 +16,9 @@ tags: resume
 
 ## Introduction
 
-Business Analyst at ThoughtWorks. 6 years of total working experience, have been at ThoughtWorks for almost 3 years.
+Business Analyst at ThoughtWorks. 6 years of total working experience, have been at ThoughtWorks for almost 3 years. 
+
+I'm passionate about make products that users love. Attention to details.
 
 ## Working experience
 
