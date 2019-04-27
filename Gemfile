@@ -19,4 +19,5 @@ group :jekyll_plugins do
   gem 'jekyll-admin'
   gem 'jekyll-archives'
   gem 'jekyll-paginate-v2'
+  gem 'jekyll-seo'
 end
