@@ -18,7 +18,7 @@ tags: resume
 
 Business Analyst at ThoughtWorks. 6 years of total working experience, have been at ThoughtWorks for almost 3 years. 
 
-I'm passionate about make products that users love. Attention to details.
+With technical background and a business mindset, I'm passionate about make products that users love. Constantly paying attention to details.
 
 ## Working experience
 
@@ -30,7 +30,30 @@ I'm passionate about make products that users love. Attention to details.
 
   * Junior Software Developer - Ruby, Beijing Shinetech Technology Development Co., Ltd. Wuhan Branch, 2013/04/16 - 2015/02/28
 
+## Education
+
+* Bachelor, Automation, Jianghan University, 2009/09/01 - 2013/06/30
+
+### Certificates
+
+* CET-6: 529 points
+
 ## Project experience
+
+
+### Jedis API, an Australian low-cost airline, Business Analyst, 2019/04/08 - present
+
+#### Project Description
+
+The JEDIS API is the company's API platform which:
+
+- Enable high quality, personalized customer experiences. Doing this by providing the data and features required AND abstracting away details to let front-end teams focus on what they do best.
+- Be a revenue stream for partner bookings.
+- Give the company a more agile and responsive posture by being a platform that makes it easy to collect, mix and leverage data -which in turn allows Jetstar to take advantage of and rapidly respond to market changes, opportunities and future unknown technology developments.
+
+#### Personal responsibility
+
+As the Jedis API team's Business Analyst, responsible for the requirements management through out the whole prodcut lifecycle.
 
 ### API Gateway, TechOps Platform, Business Analyst, 2018/11/19 - 2019/01/18
 
@@ -179,3 +202,4 @@ In addition to ensuring the successful delivery of the product, I also improved 
   * Redesigned the once complicated and incomprehensible supplier bidding interface to a new interface with clear logic and easy operation, which significantly reduces the difficulty of use and better user experience.
 
   * Found missing an API that Dropbox Ruby SDK did not provide while implementing a feature, so submitted a Pull Request to the Dropbox Ruby SDK project which later merged by the maintainer.
+
