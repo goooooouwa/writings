@@ -94,10 +94,31 @@ pip install git+https://github.com/shadowsocks/shadowsocks.git@master
 
 iOS客户端官网推荐的[Outline](https://itunes.apple.com/app/outline-app/id1356177741)（美国App Store免费下载）。我简单搜索了一下，中国区商店一类shadowsocks客户端貌似都下架了。
 
+### 配置信息二维码生成说明：
+
+根据官方的配置说明，可以看到SS协议采用的协议格式为：
+
+`ss://method[-auth]:password@hostname:port`
+
+并且采用BASE64的加密方式对SS协议的内容进行加密操作`method[-auth]:password@hostname:port`，然后再与`ss://`进行拼接即可。
+
+`ss://BASE64-ENCODED-STRING-WITHOUT-PADDING`
+
+可以在Chrome Console中使用JavaScript的`btoa()`方法进行base64编码，如下：
+
+![](https://i.imgur.com/SSzucyN.png)
+
+例如，将`ss://bf-cfb-auth:test@192.168.100.1:8888`，这个内容转换成标准的SS协议内容就成了：
+
+`ss://YmYtY2ZiLWF1dGg6dGVzdEAxOTIuMTY4LjEwMC4xOjg4ODg`
+
+然后直接将这段字符串生成二维码即可。
+
 ## 参考：
 
 - https://moshuqi.github.io/2017/07/20/自己搭建VPN服务器
 - http://www.zliu633.com/2018/07/13/%E4%B8%AA%E4%BA%BAvpn%E7%9A%84%E6%90%AD%E5%BB%BA%E6%96%B9%E6%B3%95-mac-os/
+- https://blog.csdn.net/lecepin/article/details/52063843
 - https://segmentfault.com/a/1190000010528542
 - https://github.com/shadowsocks/shadowsocks/blob/master/README.md
 - https://shadowsocks.org/en/download/clients.html
