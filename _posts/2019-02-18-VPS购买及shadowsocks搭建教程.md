@@ -30,7 +30,51 @@ tags: vpn, shadowsocks
 
 于是买了半年$25.99（176元）的Los Angales服务器。继续跟着教程进行下一步。
 
-# 安装Shadowsocks
+## 服务端安装Shadowsocks
+
+跟着[官方教程](https://github.com/shadowsocks/shadowsocks/tree/master)运行以下命令：
+
+```
+apt update 
+
+# if you don't have git installed
+apt-get install git
+
+apt-get install python-pip
+pip install git+https://github.com/shadowsocks/shadowsocks.git@master
+```
+
+到此shadowsocks安装成功。
+
+### 配置
+
+复制官网教程的基本配置，后台运行shadowsock，服务端就OK了。
+
+## 客户端
+
+iOS客户端官网推荐的[Outline](https://itunes.apple.com/app/outline-app/id1356177741)（美国App Store免费下载）。我简单搜索了一下，中国区商店一类shadowsocks客户端貌似都下架了。
+
+### 配置信息二维码生成说明：
+
+根据官方的配置说明，可以看到SS协议采用的协议格式为：
+
+`ss://method[-auth]:password@hostname:port`
+
+并且采用BASE64的加密方式对SS协议的内容进行加密操作`method[-auth]:password@hostname:port`，然后再与`ss://`进行拼接即可。
+
+`ss://BASE64-ENCODED-STRING-WITHOUT-PADDING`
+
+可以在Chrome Console中使用JavaScript的`btoa()`方法进行base64编码，如下：
+
+![](https://i.imgur.com/SSzucyN.png)
+
+例如，将`ss://bf-cfb-auth:test@192.168.100.1:8888`，这个内容转换成标准的SS协议内容就成了：
+
+`ss://YmYtY2ZiLWF1dGg6dGVzdEAxOTIuMTY4LjEwMC4xOjg4ODg`
+
+然后直接将这段字符串生成二维码即可。
+
+## 中间的曲折
 
 打开搬瓦工服务器管理界面，竟然找不到第一个教程里的"Shadowsocks Server 选项"。没办法，找到官网，跟着[说明](https://github.com/shadowsocks/shadowsocks/blob/master/README.md)进行安装。
 
@@ -70,49 +114,11 @@ SyntaxError: invalid syntax
 
 崩溃...
 
-决定换操作系统，用熟悉的Ubuntu。再一次重新安装系统后，跟着[官方教程](https://github.com/shadowsocks/shadowsocks/tree/master)运行以下命令：
-
-```
-apt update 
-
-# if you don't have git installed
-apt-get install git
-
-apt-get install python-pip
-pip install git+https://github.com/shadowsocks/shadowsocks.git@master
-```
-
-成功安装shadowsocks了。还是Ubuntu对新手友好。安装完了，才看到shadowsocks[中文教程](https://github.com/shadowsocks/shadowsocks/wiki/Shadowsocks-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)上有一句：
+最后还是换了Ubuntu，然后一下子就安装成功了。还是Ubuntu对新手友好。安装完了，才看到shadowsocks[中文教程](https://github.com/shadowsocks/shadowsocks/wiki/Shadowsocks-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)上有一句：
 
 > 除非有明确理由，不建议用对新手不友好的 CentOS。
 
-## 配置
-
-复制官网教程的基本配置，后台运行shadowsock，服务端就OK了。
-
-## 使用
-
-iOS客户端官网推荐的[Outline](https://itunes.apple.com/app/outline-app/id1356177741)（美国App Store免费下载）。我简单搜索了一下，中国区商店一类shadowsocks客户端貌似都下架了。
-
-### 配置信息二维码生成说明：
-
-根据官方的配置说明，可以看到SS协议采用的协议格式为：
-
-`ss://method[-auth]:password@hostname:port`
-
-并且采用BASE64的加密方式对SS协议的内容进行加密操作`method[-auth]:password@hostname:port`，然后再与`ss://`进行拼接即可。
-
-`ss://BASE64-ENCODED-STRING-WITHOUT-PADDING`
-
-可以在Chrome Console中使用JavaScript的`btoa()`方法进行base64编码，如下：
-
-![](https://i.imgur.com/SSzucyN.png)
-
-例如，将`ss://bf-cfb-auth:test@192.168.100.1:8888`，这个内容转换成标准的SS协议内容就成了：
-
-`ss://YmYtY2ZiLWF1dGg6dGVzdEAxOTIuMTY4LjEwMC4xOjg4ODg`
-
-然后直接将这段字符串生成二维码即可。
+...
 
 ## 参考：
 
