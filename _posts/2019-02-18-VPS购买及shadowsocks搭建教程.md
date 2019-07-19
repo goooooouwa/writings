@@ -70,7 +70,7 @@ iOS客户端官网推荐的[Outline](https://itunes.apple.com/app/outline-app/id
 
 例如，将`ss://bf-cfb-auth:test@192.168.100.1:8888`，这个内容转换成标准的SS协议内容就成了：
 
-`ss://YmYtY2ZiLWF1dGg6dGVzdEAxOTIuMTY4LjEwMC4xOjg4ODg`
+`ss://YmYtY2ZiLWF1dGg6dGVzdEAxOTIuMTY4LjEwMC4xOjg4ODg=`
 
 然后直接将这段字符串生成二维码即可。
 
