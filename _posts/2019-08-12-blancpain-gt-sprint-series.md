@@ -12,7 +12,7 @@ According to [Red Bull](https://www.redbull.com/sg-en/gt-racing-101-a-guide-for-
 ### Name history of Blancpain GT Sprint series
 
 - The **FIA GT Championship** At the end of 2009, was replaced by the **FIA GT1 World Championship**.
-- The FIA GT1 World Championship was held from 2010 to 2012. Morphed into the ** FIA GT Series**  for 2013.
+- The FIA GT1 World Championship was held from 2010 to 2012. Morphed into the **FIA GT Series**  for 2013.
 - The FIA GT Series was renamed to **Blancpain Sprint Series** in 2014 and 2015, and **Blancpain GT Series Sprint Cup** from 2016 to 2018.
 - The **Blancpain GT World Challenge Europe**, 2019.
 
