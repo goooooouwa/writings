@@ -9,13 +9,12 @@ According to [Red Bull](https://www.redbull.com/sg-en/gt-racing-101-a-guide-for-
 
 > “As costs escalated, GT2 was ignored and GT1 cars weren’t suitable for the likes of a 24-hour race at Spa, so GT3 cars joined the fray and that was where the idea of Blancpain came from,” affirms Addison. “GT3 became so popular, interest in the GT1 series dissipated – GT3 was cheaper – the FIA GT Championship then became the Blancpain GT Sprint series, jettisoned the FIA tag and all associated expenses.”
 
-### Name changes of Blancpain GT Sprint series
+### Name history of Blancpain GT Sprint series
 
-The **FIA GT Championship** At the end of 2009, was replaced by the **FIA GT1 World Championship**.
-The FIA GT1 World Championship was held from 2010 to 2012. 
-The FIA GT1 World Championship morphed into the** FIA GT Series** for 2013.
-The FIA GT Series was renamed to **Blancpain Sprint Series** in 2014 and 2015, and **Blancpain GT Series Sprint Cup** from 2016 to 2018.
-The **Blancpain GT World Challenge Europe**, 2019.
+- The **FIA GT Championship** At the end of 2009, was replaced by the **FIA GT1 World Championship**.
+- The FIA GT1 World Championship was held from 2010 to 2012. Morphed into the ** FIA GT Series**  for 2013.
+- The FIA GT Series was renamed to **Blancpain Sprint Series** in 2014 and 2015, and **Blancpain GT Series Sprint Cup** from 2016 to 2018.
+- The **Blancpain GT World Challenge Europe**, 2019.
 
 ### Blancpain GT3 classes
 
