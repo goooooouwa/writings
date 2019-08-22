@@ -41,3 +41,47 @@ Black windscreen sticker is Blancpain GT3 cars
 
 - Intercontenental GT Challenge
 - FIA GT World Cup (Macau, November)
+
+### List of GT3 Race Series
+
+Since 2006, Group GT3 cars have been either exclusive to or in a distinct class in each of the following series:
+bold indicates an active series that currently uses Group GT3 cars.
+
+* 24H GT Series
+* ADAC GT Masters
+* Asian Le Mans Series
+* Australian GT Championship
+* Belgian GT Championship
+* Blancpain GT World Challenge America
+* Blancpain GT World Challenge Asia
+* Blancpain GT World Challenge Europe
+* Blancpain GT Series Endurance Cup
+* Brazilian GT Championship
+* China GT Championship
+* British GT Championship
+* European Le Mans Series
+* FFSA GT Championship
+* FIA GT World Cup
+* FIA GT Nations Cup
+* FIA GT1 World Championship
+* FIA GT3 European Championship
+* GT Asia Series
+* Michelin Le Mans Cup
+* Intercontinental GT Challenge
+* International GTSprint Series
+* International GT Open
+* Italian GT Championship
+* Portuguese GT Championship
+* Spanish GT Championship
+* Super Taikyu Series
+* Veranstaltergemeinschaft Langstreckenpokal Nürburgring
+* WeatherTech SportsCar Championship
+
+Additionally, the following series allow certain Group GT3 cars to participate alongside other competitors:
+
+* Britcar
+* Dutch Supercar Challenge
+* Rolex Sports Car Series
+* Super GT
+* Swedish GT Series
+* V de V Sports Challenge Endurance/GT Tourisme
