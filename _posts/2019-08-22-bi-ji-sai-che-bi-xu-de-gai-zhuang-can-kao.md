@@ -1,6 +1,7 @@
 ---
 title: 笔记 | 赛车必需的改装参考
 layout: post
+tags: racing, notes
 ---
 
 来源：[平民赛车特辑 编辑参加北方房车精英赛](https://www.autohome.com.cn/tuning/201406/813653.html)
