@@ -1,10 +1,1 @@
-baseurl: "/drafts" # the subpath of your site, e.g. /blog
-
-header_pages:
-  - about.md
-  - category/business.html
-  - category/cars.html
-  - category/coding.html
-  - category/product.html
-
-google_custom_engine: 001725026263712877590:y4m3cmagzrq
+title: Test

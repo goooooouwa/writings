@@ -57,6 +57,8 @@ header_pages:
 jekyll-archives:
   enabled:
     - year
+    - categories
+    - tags
   layout: archive
   permalinks:
     year: '/:year/'
