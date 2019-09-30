@@ -8,4 +8,4 @@ Hi, I'm Shunfa, a product lover.
 
 ## Resume
 
-[徐顺发的简历（2019）]({{ site.baseurl }}{% post_url 2019-03-27-resume-2019-english %})
+[Shunfa Xu's Resume 2019]({{ site.baseurl }}{% post_url 2019-03-27-resume-2019-english %})
