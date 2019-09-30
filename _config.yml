@@ -34,7 +34,7 @@ google_custom_engine: 001725026263712877590:cfivcwakujs
 
 pagination:
   enabled: true
-  per_page: 10
+  per_page: 15
   sort_reverse: true
 
 jekyll_compose:
