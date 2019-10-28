@@ -7,11 +7,11 @@ categories:
 
 ## Background
 
-### Current Situation:
+Current Situation:
 
 我电影漫画都存在硬盘上，想用iPad/iPhone看电影、漫画。目前需要连接硬盘和设备到电脑上拷贝。
 
-### Ideal Situation:
+Ideal Situation:
 
 躺在床上，直接用iPad浏览硬盘上的文件，stream on demand到设备上看。
 
