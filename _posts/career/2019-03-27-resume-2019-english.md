@@ -41,19 +41,19 @@ With technical background and a business mindset, I'm passionate about make prod
 ## Project experience
 
 
-### Jedis API, an Australian low-cost airline, Business Analyst, 2019/04/08 - present
+### Digital API, an Australian low-cost airline, Business Analyst, 2019/04/08 - present
 
 #### Project Description
 
-The JEDIS API is the company's API platform which:
+The Digital API is the company's API platform which:
 
-- Enable high quality, personalized customer experiences. Doing this by providing the data and features required AND abstracting away details to let front-end teams focus on what they do best.
+- Enable high quality, personalized customer experiences. Doing this by providing the data and features required and abstracting away details to let front-end teams focus on what they do best.
 - Be a revenue stream for partner bookings.
-- Give the company a more agile and responsive posture by being a platform that makes it easy to collect, mix and leverage data -which in turn allows Jetstar to take advantage of and rapidly respond to market changes, opportunities and future unknown technology developments.
+- Give the company a more agile and responsive posture by being a platform that makes it easy to collect, mix and leverage data -which in turn allows the company to take advantage of and rapidly respond to market changes, opportunities and future unknown technology developments.
 
 #### Personal responsibility
 
-As the Jedis API team's Business Analyst, responsible for the requirements management through out the whole prodcut lifecycle.
+As the Digital API team's Business Analyst, responsible for the requirements management through out the whole prodcut lifecycle.
 
 ### API Gateway, TechOps Platform, Business Analyst, 2018/11/19 - 2019/01/18
 
