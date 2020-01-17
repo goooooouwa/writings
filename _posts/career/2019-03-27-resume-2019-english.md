@@ -16,9 +16,9 @@ tags: resume
 
 ## Introduction
 
-Business Analyst at ThoughtWorks. 7 years of total working experience, have been at ThoughtWorks for almost 4 years. 
+Business Analyst at ThoughtWorks. 7 years of total working experience, 4 years with ThoughtWorks. 
 
-With technical background and a business mindset, I'm passionate about make products that users love.
+With technical background and a business mindset, I'm passionate about make digital products that users love.
 
 ## Working experience
 
@@ -36,9 +36,16 @@ With technical background and a business mindset, I'm passionate about make prod
 
 ### English
 
-* Near native speaker
+* Near native speaking
 
 ## Project experience
+
+- Digital API, an Australian low-cost airline, Business Analyst, 2019/04/08 - present
+- API Gateway, ThoughtWorks TechOps Platform, Business Analyst, 2018/11/19 - 2019/01/18
+- ThoughtWorks School, ThoughtWorks, Agile Coach, 2017/02/27 - 2018/09/30
+- Self Service, major telecom operator in Australia, full stack developer, 2016/07/04 - 2017/02/24
+- ActivityCloud, an American multinational corporation, Ruby Developer, 2015/03 —2016/06
+- TenderChase, an Australian construction company, full stack developer, 2014/02 — 2015/02
 
 
 ### Digital API, an Australian low-cost airline, Business Analyst, 2019/04/08 - present
@@ -78,7 +85,7 @@ Besides ensuring the successful production release of Digital API, I also have a
   * Helped team aligning on many conventions, like API naming and time format standardization, which serves as a framework for our future API design
   * Actively communicate with both API team and client teams, weekly catchup with key roles, to make sure requirements gets understood and delivered exactly as our clients expected, which greatly reduce the number of requirements redo.
 
-### API Gateway, TechOps Platform, Business Analyst, 2018/11/19 - 2019/01/18
+### API Gateway, ThoughtWorks TechOps Platform, Business Analyst, 2018/11/19 - 2019/01/18
 
 #### Project Description
 
@@ -119,7 +126,7 @@ In addition to ensuring the successful delivery of iterations, I went a step fur
   * Shortened the user feedback cycle time, by doing user interviews before each iteration, and verifying the accuracy and prioritization of requirements through product prototypes and user validation before actual development.
 
 
-### ThoughtWorks School, Agile Coach, 2017/02/27 - 2018/09/30
+### ThoughtWorks School, ThoughtWorks, Agile Coach, 2017/02/27 - 2018/09/30
 
 #### Project Description
 
@@ -190,7 +197,7 @@ In addition to ensuring the successful delivery, I strived to improve code quali
 
   * MBB, German luxury car company, front-end developer, 2017/11/20 - 2018/01/26
 
-### ActivityCloud, Ruby Developer, 2015/03 —2016/06
+### ActivityCloud, an American multinational corporation, Ruby Developer, 2015/03 —2016/06
 
 #### Project Description
 
@@ -208,7 +215,7 @@ In addition to ensuring the successful delivery of iterations, I continued to im
 
   * Found a FireFox browser bug while debugging a production issue, and later submited a bug to Mozila and watched it fixed.
 
-### TenderChase, full stack developer, 2014/02 — 2015/02
+### TenderChase, an Australian construction company, full stack developer, 2014/02 — 2015/02
 
 #### Project Description
 
