@@ -16,9 +16,9 @@ tags: resume
 
 ## Introduction
 
-Business Analyst at ThoughtWorks. 6 years of total working experience, have been at ThoughtWorks for almost 3 years. 
+Business Analyst at ThoughtWorks. 7 years of total working experience, have been at ThoughtWorks for almost 4 years. 
 
-With technical background and a business mindset, I'm passionate about make products that users love. Constantly paying attention to details.
+With technical background and a business mindset, I'm passionate about make products that users love.
 
 ## Working experience
 
@@ -45,7 +45,7 @@ With technical background and a business mindset, I'm passionate about make prod
 
 #### Project Description
 
-The Digital API is the company's API platform which:
+Digital API is the company's API platform which:
 
 - Enable high quality, personalized customer experiences. Doing this by providing the data and features required and abstracting away details to let front-end teams focus on what they do best.
 - Be a revenue stream for partner bookings.
@@ -53,7 +53,30 @@ The Digital API is the company's API platform which:
 
 #### Personal responsibility
 
-As the Digital API team's Business Analyst, responsible for the requirements management through out the whole prodcut lifecycle.
+As the Digital API team's Business Analyst, responsible for the requirements and project management through out the whole prodcut lifecycle, including:
+
+- Business requirements analysis
+- API design
+- Project management
+- Release management
+- Client relationship management
+
+#### Team contribution
+
+As the first offshore BA in the whole account, by working closely with our delivery team, I helped achieving:
+
+  * First production release of Digital API
+  * Success delivery of 36 APIs, ranging from Notification to Payment, from scratch
+  * Facilitaing all kinds of scrum meetings like sprint planning, backlog refinement, retrospective and showcases.
+  * Ensuring stable delivery during project migration period
+
+Besides ensuring the successful production release of Digital API 1.0, I also have a habit of consistently improving our process and ways of working, including:
+
+  * Revised our story template and Definition of Done, which unifies every checkpoint spreading across multiple sub-tasks into one single checklist. This makes it much easier to gaining context and work progress of every story.
+  * Continuiously improve our backlog by elimilating the use of sub-tasks to manage different aspects of story ticket, which greatly reduced our number of tickets in backlog (from 180 tickets to 40)
+  * Utilizing technique like User Story Map to visualize our Beta and MVP release scope and current delivery status, which helps both API team and client teams get a clear picture of our roadmap
+  * Helped team aligning on many conventions, like API naming and time format standardization, which serves as a framework for our future API design
+  * Actively communicate with both API team and client teams, weekly catchup with key roles, to make sure requirements gets understood and delivered exactly as our clients expected, which greatly reduce the number of requirements redo.
 
 ### API Gateway, TechOps Platform, Business Analyst, 2018/11/19 - 2019/01/18
 
@@ -65,11 +88,11 @@ The TechOps Platform team is a global delivery team that implements the ThoughtW
 
 As the API Gateway team's Tech BA, responsible for the requirements management through out the whole prodcut lifecycle, including:
 
-- business requirements gathering
-- feature design
-- iteration management
-- user testing
-- feedback management
+- Business requirements gathering
+- Feature design
+- Iteration management
+- User testing
+- Feedback management
 
 #### Team contribution
 
