@@ -34,9 +34,9 @@ With technical background and a business mindset, I'm passionate about make prod
 
 * Bachelor, Automation, Jianghan University, 2009/09/01 - 2013/06/30
 
-### Certificates
+### English
 
-* CET-6: 529 points
+* Near native speaker
 
 ## Project experience
 
@@ -70,7 +70,7 @@ As the first offshore BA in the whole account, by working closely with our deliv
   * Facilitaing all kinds of scrum meetings like sprint planning, backlog refinement, retrospective and showcases.
   * Ensuring stable delivery during project migration period
 
-Besides ensuring the successful production release of Digital API 1.0, I also have a habit of consistently improving our process and ways of working, including:
+Besides ensuring the successful production release of Digital API, I also have a habit of consistently improving our process and ways of working, including:
 
   * Revised our story template and Definition of Done, which unifies every checkpoint spreading across multiple sub-tasks into one single checklist. This makes it much easier to gaining context and work progress of every story.
   * Continuiously improve our backlog by elimilating the use of sub-tasks to manage different aspects of story ticket, which greatly reduced our number of tickets in backlog (from 180 tickets to 40)
