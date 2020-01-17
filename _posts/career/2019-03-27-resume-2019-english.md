@@ -54,9 +54,9 @@ With a technical background and business mindset, I'm passionate about make digi
 
 Digital API is the company's enterprise API platform which:
 
-- Utilizing Micro-service architecture with Domain Driven Design
-- Enable high quality, personalized customer experiences. Doing this by providing the data and features required and abstracting away details to let front-end teams focus on what they do best.
-- Give the company a more agile and responsive posture by being a platform that makes it easy to collect, mix and leverage data -which in turn allows the company to take advantage of and rapidly respond to market changes, opportunities and future unknown technology developments.
+- Utilizes Micro-service architecture with Domain Driven Design
+- Enables high quality, personalized customer experiences. Doing this by providing the data and features required and abstracting away details to let front-end teams focus on what they do best.
+- Gives the company a more agile and responsive posture by being a platform that makes it easy to collect, mix and leverage data -which in turn allows the company to take advantage of and rapidly respond to market changes, opportunities and future unknown technology developments.
 
 #### Personal responsibility
 
