@@ -18,7 +18,7 @@ tags: resume
 
 Business Analyst at ThoughtWorks. 7 years of total working experience, 4 years with ThoughtWorks. 
 
-With a technical background and business mindset, I'm passionate about make digital products that users love.
+With a technical background and business mindset, I'm passionate about making digital products that users love.
 
 ## Working experience
 
