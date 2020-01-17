@@ -70,7 +70,7 @@ As the Digital API team's Business Analyst, responsible for the requirements and
 
 #### Team contribution
 
-As the first offshore BA in the whole account, by working closely with our delivery team, I helped achieving:
+As the first offshore BA for the account, by working closely with our delivery team, I helped achieving:
 
   * First production release of Digital API
   * Success delivery of 36 APIs, ranging from Notification to Payment, from scratch
