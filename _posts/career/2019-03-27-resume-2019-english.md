@@ -44,7 +44,7 @@ With technical background and a business mindset, I'm passionate about make digi
 - API Gateway, ThoughtWorks TechOps Platform, Business Analyst, 2018/11/19 - 2019/01/18
 - ThoughtWorks School, ThoughtWorks, Agile Coach, 2017/02/27 - 2018/09/30
 - Self Service, major telecom operator in Australia, full stack developer, 2016/07/04 - 2017/02/24
-- ActivityCloud, an American multinational corporation, Ruby Developer, 2015/03 —2016/06
+- ActivityCloud, ActiveNetwork, Ruby Developer, 2015/03 —2016/06
 - TenderChase, an Australian construction company, full stack developer, 2014/02 — 2015/02
 
 
@@ -197,7 +197,7 @@ In addition to ensuring the successful delivery, I strived to improve code quali
 
   * MBB, German luxury car company, front-end developer, 2017/11/20 - 2018/01/26
 
-### ActivityCloud, an American multinational corporation, Ruby Developer, 2015/03 —2016/06
+### ActivityCloud, ActiveNetwork, Ruby Developer, 2015/03 —2016/06
 
 #### Project Description
 
