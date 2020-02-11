@@ -2,6 +2,7 @@
 title: 炉石传说：一场奇迹般的胜利
 layout: post
 category: gaming
+published: false
 ---
 
 今晚赢得了一场奇迹般的胜利：被还有20滴血的对手打得只剩一滴血，最后反败为胜。真是神迹般的出牌！难以置信！
