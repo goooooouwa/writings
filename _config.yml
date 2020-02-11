@@ -16,21 +16,11 @@
 title: Shunfa's Blog
 email: gouwa5700 (at) gmail (dot) com
 description: > # this means to ignore newlines until "baseurl:"
-  Thoughts and stuff.
+  Make products people love.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://goooooouwa.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 author: Shunfa Xu
 show_excerpts: false
-
-disqus:
-  shortname: goooooouwa
-
-github_username:  goooooouwa
-twitter_username: Goooooouwa
-
-google_analytics: UA-137406515-1
-
-google_custom_engine: 001725026263712877590:cfivcwakujs
 
 pagination:
   enabled: true
