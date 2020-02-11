@@ -2,9 +2,8 @@
 title: Iteration Planning
 layout: post
 date: '2018-12-22'
-category: product
+category: agile
 tags: draft, agile
-published: false
 ---
 
 Iteration分2股泳道，new features 和 refinements。并行管理。
