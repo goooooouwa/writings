@@ -2,7 +2,6 @@
 
 # run below commands in your jekyll root directory
 
-cd ..
 JEKYLL_ENV=production jekyll build --config _config.yml,_config.prod.yml --unpublished
 cd _site
 git init
