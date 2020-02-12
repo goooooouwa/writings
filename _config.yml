@@ -38,12 +38,6 @@ defaults:
     values:
       layout: "post"
 
-header_pages:
-  - about.md
-  - category/business.html
-  - category/coding.html
-  - category/product.html
-
 jekyll-archives:
   enabled:
     - year
@@ -77,3 +71,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude:
+  - scripts/
