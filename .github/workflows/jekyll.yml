@@ -20,7 +20,7 @@ jobs:
       run: |
         cd ${{ github.workspace }}/_site
         git config --local user.email "action@github.com"
-        git config --local user.name "GitHub 
+        git config --local user.name "GitHub"
         git init
         git remote add origin https://goooooouwa:PERSONAL_ACCESS_TOKEN@github.com/goooooouwa/blog.git
         git add .
