@@ -23,6 +23,6 @@ jobs:
         sudo git config --local user.email "sfxu@thoughtworks.com"
         sudo git config --local user.name "Shunfa Xu"
         sudo git remote add origin https://goooooouwa:$PERSONAL_ACCESS_TOKEN@github.com/goooooouwa/blog.git
-        git add .
-        git commit -m "jekyll build at $(date)"
-        git push origin master -f
+        sudo git add .
+        sudo git commit -m "jekyll build at $(date)"
+        sudo git push origin master -f
