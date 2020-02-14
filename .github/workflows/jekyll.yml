@@ -19,10 +19,10 @@ jobs:
         PERSONAL_ACCESS_TOKEN: bcfdbfdd0be16c80e6b85bf714ab17799bd7883d
       run: |
         cd ${{ github.workspace }}/_site
-        git config --local user.email "gouwa5700@gmail.com"
-        git config --local user.name "Greg Xu"
+        git config --local user.email "sfxu@thoughtworks.com"
+        git config --local user.name "Shunfa Xu"
         git init
         git remote add origin https://goooooouwa:PERSONAL_ACCESS_TOKEN@github.com/goooooouwa/blog.git
-        git add .
-        git commit -m "jekyll build at $(date)"
-        git push origin master -f
+        echo git add .
+        echo git commit -m "jekyll build at $(date)"
+        git pull origin master
