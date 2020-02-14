@@ -26,6 +26,6 @@ jobs:
         git config --local user.name "Shunfa Xu"
         git init
         git remote add origin https://goooooouwa:PERSONAL_ACCESS_TOKEN@github.com/goooooouwa/blog.git
-        echo git add .
-        echo git commit -m "jekyll build at $(date)"
+        git add .
+        git commit -m "jekyll build at $(date)"
         git push origin master -f
