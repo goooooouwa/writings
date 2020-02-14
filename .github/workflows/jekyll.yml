@@ -18,14 +18,11 @@ jobs:
       env:
         PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
-        echo cd ${{ github.workspace }}/_site
-        mkdir abc
-        cd abc
-        echo "happy" > file.txt
+        cd ${{ github.workspace }}/_site
         git init
         git config --local user.email "sfxu@thoughtworks.com"
         git config --local user.name "Shunfa Xu"
         git remote add origin https://goooooouwa:$PERSONAL_ACCESS_TOKEN@github.com/goooooouwa/blog.git
         git add .
         git commit -m "jekyll build at $(date)"
-        git push origin master -f
+        sudo git push origin master -f
