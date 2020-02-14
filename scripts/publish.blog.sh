@@ -1,8 +1,5 @@
 #!/bin/bash
 
-echo $1
-echo $2
-
 cd $1
 JEKYLL_ENV=production jekyll build --config _config.yml,_config.prod.blog.yml --unpublished
 
