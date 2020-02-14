@@ -2,6 +2,7 @@
 
 # run below commands in your jekyll root directory
 
+rm -rf _site
 JEKYLL_ENV=production jekyll build --config _config.yml,_config.prod.resume.yml
 cd _site
 git init
