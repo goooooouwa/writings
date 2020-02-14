@@ -19,6 +19,8 @@ jobs:
         PERSONAL_ACCESS_TOKEN: bcfdbfdd0be16c80e6b85bf714ab17799bd7883d
       run: |
         cd ${{ github.workspace }}/_site
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub 
         git init
         git remote add origin https://goooooouwa:PERSONAL_ACCESS_TOKEN@github.com/goooooouwa/blog.git
         git add .
