@@ -76,3 +76,4 @@ exclude:
   - scripts/
   - Gemfile
   - Gemfile.lock
+  - README.md
