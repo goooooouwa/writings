@@ -16,13 +16,7 @@ jobs:
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && JEKYLL_ENV=production jekyll build --config _config.yml,_config.prod.blog.yml --unpublished"
     - name: Deploy to My Blog
       env:
+        WORKSPACE: ${{ github.workspace }}
         PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
-        cd ${{ github.workspace }}/_site
-        git init
-        git config --local user.email "sfxu@thoughtworks.com"
-        git config --local user.name "Shunfa Xu"
-        git remote add origin https://goooooouwa:$PERSONAL_ACCESS_TOKEN@github.com/goooooouwa/blog.git
-        git add .
-        git commit -m "jekyll build at $(date)"
-        sudo git push origin master -f
+        sudo ./scripts/publish.blog.sh
