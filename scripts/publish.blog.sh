@@ -1,13 +1,10 @@
 #!/bin/bash
 
-# run below commands in your jekyll root directory
-
-rm -rf _site
-JEKYLL_ENV=production jekyll build --config _config.yml,_config.prod.blog.yml --unpublished
-cd _site
+cd $WORKSPACE/_site
 git init
-git remote add origin git@github.com:goooooouwa/blog.git
+git config --local user.email "sfxu@thoughtworks.com"
+git config --local user.name "Shunfa Xu"
+git remote add origin https://goooooouwa:$PERSONAL_ACCESS_TOKEN@github.com/goooooouwa/blog.git
 git add .
 git commit -m "jekyll build at $(date)"
 git push origin master -f
-rm -rf .git
