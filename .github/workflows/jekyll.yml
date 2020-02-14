@@ -13,4 +13,14 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && JEKYLL_ENV=production jekyll build --config _config.yml,_config.prod.blog.yml --unpublished"
+    - name: Deploy to My Blog
+      env:
+        BLOG_REPO_PERSONAL_ACCESS_TOKEN: bcfdbfdd0be16c80e6b85bf714ab17799bd7883d
+      run: |
+        cd ${{ github.workspace }}/_site
+        git init
+        git remote add origin https://BLOG_REPO_PERSONAL_ACCESS_TOKEN@github.com:goooooouwa/blog.git
+        git add .
+        git commit -m "jekyll build at $(date)"
+        git push origin master -f
