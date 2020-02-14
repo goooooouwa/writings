@@ -22,9 +22,9 @@ jobs:
         mkdir abc
         cd abc
         echo "happy" > file.txt
+        git init
         git config --local user.email "sfxu@thoughtworks.com"
         git config --local user.name "Shunfa Xu"
-        git init
         git remote add origin https://goooooouwa:PERSONAL_ACCESS_TOKEN@github.com/goooooouwa/blog.git
         git add .
         git commit -m "jekyll build at $(date)"
