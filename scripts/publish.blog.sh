@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo $WORKSPACE
 cd $WORKSPACE/_site
 git init
 git config --local user.email "sfxu@thoughtworks.com"
