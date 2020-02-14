@@ -10,11 +10,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the site in the jekyll/builder container
-      env:
-        WORKSPACE: ${{ github.workspace }}
-        PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
         docker run \
         -e WORKSPACE -e PERSONAL_ACCESS_TOKEN \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && ./scripts/publish.blog.sh $WORKSPACE $PERSONAL_ACCESS_TOKEN"
+        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && ./scripts/publish.blog.sh ${{ github.workspace }} ${{ secrets.PERSONAL_ACCESS_TOKEN }}"
