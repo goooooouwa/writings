@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Shunfa Xu is a product guy who hasn't make any product yet.
+Shunfa Xu is a product guy who hasn't made any product yet.
 
 ## Resume
 
