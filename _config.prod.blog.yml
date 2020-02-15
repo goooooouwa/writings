@@ -1,4 +1,5 @@
 # Site settings for https://goooooouwa.github.io/blog
+title: My Blog
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 
 disqus:
