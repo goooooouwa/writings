@@ -8,3 +8,7 @@ header_pages:
     - category/business.html
     - category/coding.html
     - category/product.html
+
+google_analytics: UA-137406515-1
+
+google_custom_engine: 001725026263712877590:cfivcwakujs

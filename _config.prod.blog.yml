@@ -7,6 +7,13 @@ disqus:
 github_username:  goooooouwa
 twitter_username: Goooooouwa
 
-google_analytics: UA-137406515-1
+header_pages:
+  - about.md
+  - category/business.html
+  - category/cars.html
+  - category/coding.html
+  - category/product.html
 
-google_custom_engine: 001725026263712877590:cfivcwakujs
+google_analytics: UA-137406515-2
+
+google_custom_engine: 001725026263712877590:9lrhbwyoknb
