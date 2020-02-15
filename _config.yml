@@ -27,9 +27,6 @@ pagination:
   per_page: 15
   sort_reverse: true
 
-jekyll_compose:
-  auto_open: true
-
 defaults:
   -
     scope:
@@ -37,19 +34,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-
-jekyll-archives:
-  enabled:
-    - year
-    - categories
-    - tags
-  layout: archive
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
 
 # Build settings
 markdown: kramdown

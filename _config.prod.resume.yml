@@ -4,6 +4,19 @@ title: My Resume
 github_username:  goooooouwa
 twitter_username: Goooooouwa
 
+jekyll-archives:
+    enabled:
+      - year
+      - categories
+      - tags
+    layout: archive
+    permalinks:
+      year: '/:year/'
+      month: '/:year/:month/'
+      day: '/:year/:month/:day/'
+      tag: '/tag/:name/'
+      category: '/category/:name/'
+
 header_pages:
     - about.md
     - category/business.html
