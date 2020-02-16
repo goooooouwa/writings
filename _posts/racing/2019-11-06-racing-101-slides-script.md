@@ -8,7 +8,7 @@ published: false
 
 你心目中的赛车（粗暴、大脚油门、大脚刹车、大力转向） 
 
-https://chejiahao.autohome.com.cn/info/1028504
+[https://chejiahao.autohome.com.cn/info/1028504](https://chejiahao.autohome.com.cn/info/1028504)
 
 可能大家以为，赛车手平常就拽拽的吃喝玩乐。比赛的时候就去跑几圈，然后拿个奖，喷香槟，拍照。到了晚上就跟车模出去high到不回家。 
 
@@ -16,7 +16,7 @@ https://chejiahao.autohome.com.cn/info/1028504
 
 Precision, Smooth 
 
-https://www.youtube.com/watch?v=Q7ArQhEprco&t=400s
+[https://www.youtube.com/watch?v=Q7ArQhEprco&t=400s](https://www.youtube.com/watch?v=Q7ArQhEprco&t=400s)
 
 Practice 
 
@@ -26,7 +26,7 @@ Seat time 
 
 1.6L 
 
-https://www.autohome.com.cn/tuning/201406/813653-6.html
+[https://www.autohome.com.cn/tuning/201406/813653-6.html](https://www.autohome.com.cn/tuning/201406/813653-6.html)
 
 赛事类型 
 
@@ -62,7 +62,7 @@ ctcc 
 
 高级方向盘（座椅） 
 
-https://www.zhihu.com/question/64709024
+[https://www.zhihu.com/question/64709024](https://www.zhihu.com/question/64709024)
 
 费用 
 
@@ -70,19 +70,19 @@ https://www.zhihu.com/question/64709024
 
 大约的花费，一年至少应该是在40万左右。最少最少30万。 
 
-https://zhuanlan.zhihu.com/p/20045768
+[https://zhuanlan.zhihu.com/p/20045768](https://zhuanlan.zhihu.com/p/20045768)
 
 为什么那么多人买飞度改装成赛车下赛道？ 
 
-https://www.zhihu.com/question/53181248
+[https://www.zhihu.com/question/53181248](https://www.zhihu.com/question/53181248)
 
 林志凌玩票 
 
-https://www.zhihu.com/question/20117856
+[https://www.zhihu.com/question/20117856](https://www.zhihu.com/question/20117856)
 
 韩寒专业（受薪车手） 
 
-https://www.zhihu.com/question/25368130
+[https://www.zhihu.com/question/25368130](https://www.zhihu.com/question/25368130)
 
 Prioritizing Corners 
 
@@ -114,8 +114,7 @@ It depends，比如赛道的抓地力。 
 
 Weight transfer 
 
-https://www.youtube.com/watch?v=-QRgyK414qU
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-QRgyK414qU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 创始人：土屋圭市，藤原拓海原型 
 
 家庭一般，地下飙车 
@@ -142,4 +141,4 @@ Breaking (Threshold Breaking, Trail Breaking) 
 
 Ultimate Speed Secrets 
 
-https://www.amazon.com/Ultimate-Speed-Secrets-Complete-High-Performance/dp/0760340501
+[https://www.amazon.com/Ultimate-Speed-Secrets-Complete-High-Performance/dp/0760340501](https://www.amazon.com/Ultimate-Speed-Secrets-Complete-High-Performance/dp/0760340501)
