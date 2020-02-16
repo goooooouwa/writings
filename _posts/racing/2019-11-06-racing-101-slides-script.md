@@ -16,7 +16,7 @@ published: false
 
 Precision, Smooth 
 
-[https://www.youtube.com/watch?v=Q7ArQhEprco&t=400s](https://www.youtube.com/watch?v=Q7ArQhEprco&t=400s)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q7ArQhEprco" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Practice 
 
