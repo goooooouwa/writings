@@ -28,7 +28,7 @@ With a technical background and business mindset, I'm passionate about making di
 
 ## Education
 
-* Bachelor, Automation, Jianghan University, 2009/09/01 - 2013/06/30
+* Bachelor's Degree of Engineering, Automation, Jianghan University, 2009/09/01 - 2013/06/30
 
 ### English
 
