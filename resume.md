@@ -12,13 +12,13 @@ layout: post
 
 ## Introduction
 
-Business Analyst at ThoughtWorks. 7 years of total working experience, 4 years with ThoughtWorks. 
-
-With a technical background and business mindset, I'm passionate about making digital products that users love.
+Senior Business Analyst with 7 years experience in agile software development. With a strong technical background and business mindset, I'm passionate about making digital products that users love.
 
 ## Working experience
 
-  * Business Analyst, Consultant, ThoughtWorks Software Technologies (Wuhan) LTD., 2019/02/26 - Present
+  * Business Analyst, Senior Consultant, ThoughtWorks Software Technologies (Wuhan) LTD., 2020/03/01 - Present
+
+  * Business Analyst, Consultant, ThoughtWorks Software Technologies (Wuhan) LTD., 2019/02/26 - 2020/02/29
 
   * Developer, Consultant, ThoughtWorks Software Technologies (Wuhan) LTD., 2016/07/04 - 2019/02/25
 
