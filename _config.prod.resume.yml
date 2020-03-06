@@ -1,5 +1,6 @@
-# Site settings for https://goooooouwa.github.io/
+# Site settings for https://goooooouwa.github.io/resume
 title: A Product Guy
+baseurl: "/resume" # the subpath of your site, e.g. /blog
 
 github_username:  goooooouwa
 twitter_username: Goooooouwa
