@@ -20,6 +20,7 @@ gem "minima", "~> 2.0"
 group :jekyll_plugins do
   # Plugins included in github-pages gem that I use
   # https://pages.github.com/versions/
+  # https://help.github.com/articles/configuring-jekyll-plugins/
   
   # gem 'jekyll'
   # gem 'github-pages-health-check'
