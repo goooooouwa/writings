@@ -18,9 +18,8 @@ gem "minima", "~> 2.0"
 # gem "github-pages", group: :jekyll_plugins
 
 group :jekyll_plugins do
-  # Plugins included in github-pages gem that I use
-  # https://pages.github.com/versions/
-  # https://help.github.com/articles/configuring-jekyll-plugins/
+  # Plugins included in github-pages gem: https://pages.github.com/versions/
+  # Help doc: https://help.github.com/articles/configuring-jekyll-plugins/
   
   # gem 'jekyll'
   # gem 'github-pages-health-check'
@@ -68,7 +67,8 @@ group :jekyll_plugins do
   gem 'safe_yaml'
   gem 'sass'
   
-  # Custom plugins
+  # Custom Jekyll plugins: https://jekyllrb.com/docs/plugins/installation/
+
   gem "jekyll-compose"
   gem 'jekyll-admin'
   gem 'jekyll-archives'
