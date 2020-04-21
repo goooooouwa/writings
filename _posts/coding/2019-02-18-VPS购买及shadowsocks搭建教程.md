@@ -1,5 +1,5 @@
 ---
-title: Shadowsocks搭建经验分享
+title: 如何搭建Shadowsocks服务
 layout: post
 category: coding
 tags: vpn, shadowsocks
