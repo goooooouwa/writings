@@ -1,35 +1,10 @@
 ---
-title: VPS购买及shadowsocks搭建经验分享
+title: Shadowsocks搭建经验分享
 layout: post
 category: coding
 tags: vpn, shadowsocks
 published: false
 ---
-
-## UPDATE-2019-02-28
-
-用了5天VPS的IP就被封了，网上搜了一通发现2017年就有人反应shadowsocks[被封IP的问题](https://github.com/shadowsocks/shadowsocks/issues/993)，看来作者被请喝茶之后，Shadowsocks基本就被ZF掌握了。
-
-换了一个IP，如果短时间再被封，就放弃shadowsocks了。网上又推荐[v2ray](https://github.com/v2ray)，以后再看吧。
-
----
-
-网上随便搜了2个教程，[一个](https://moshuqi.github.io/2017/07/20/自己搭建VPN服务器)使用的搬瓦工，[另一个](http://www.zliu633.com/2018/07/13/%E4%B8%AA%E4%BA%BAvpn%E7%9A%84%E6%90%AD%E5%BB%BA%E6%96%B9%E6%B3%95-mac-os/)使用的Vultr。搬瓦工名字熟悉些，并且教程里说搬瓦工可以直接安装shadowsocks，不需要运行命令，就先跟着第一个走了。
-
-## 购买VPS
-
-跟着教程选择VPS，结果发现搬瓦工10G $19.99/yr的套餐下架了，最便宜的20G $49.99/yr（342.62元）；Vultr最便宜的$3.5/mon，算下来$42/yr（287.86元/年），稍微便宜一点。
-
-准备买Vultr，比较了一下服务器，湖北电信ping洛杉矶的服务器[延迟最低](https://zhuanlan.zhihu.com/p/38166614)，[另一篇文章](https://www.cnvultr.com/368.html)也印证这一点。
-
-在Vultr界面选择洛杉矶，结果下面没有$3.5/mon套餐，最便宜的套餐是$5/mon ($60/yr)。很郁闷，是不是过个年也准备涨价了？给Support发了封邮件，秒回:
-
-> ...currently sold out in that location ...
-> the new capacity will be online within the next 2 to 4 weeks.
-
-于是换了几个服务器试了一下，只有Atlanta下面有$3.5套餐。觉得有点坑爹，又在网上搜了一下搬瓦工和Vultr的对比，感觉旗鼓相当，决定就选搬瓦工，先入为主吧。
-
-于是买了半年$25.99（176元）的Los Angales服务器。继续跟着教程进行下一步。
 
 ## 服务端安装Shadowsocks
 
@@ -74,6 +49,33 @@ iOS客户端官网推荐的[Outline](https://itunes.apple.com/app/outline-app/id
 `ss://YmYtY2ZiLWF1dGg6dGVzdEAxOTIuMTY4LjEwMC4xOjg4ODg=`
 
 然后直接将这段字符串生成二维码即可。
+
+## Update 2019-07-18
+
+Bandwagon推出了一款专用于Shadowsocks的服务，Just My Socks，价格比VPS稍贵。该服务提供域名连接，会定期更换IP，再也不用因为IP被封所烦恼了。
+
+## Update 2019-02-28
+
+用了5天VPS的IP就被封了，网上搜了一通发现2017年就有人反应shadowsocks[被封IP的问题](https://github.com/shadowsocks/shadowsocks/issues/993)，看来作者被请喝茶之后，Shadowsocks基本就被ZF掌握了。
+
+换了一个IP，如果短时间再被封，就放弃shadowsocks了。网上又推荐[v2ray](https://github.com/v2ray)，以后再看吧。
+
+---
+
+## 购买VPS
+
+跟着教程选择VPS，结果发现搬瓦工10G $19.99/yr的套餐下架了，最便宜的20G $49.99/yr（342.62元）；Vultr最便宜的$3.5/mon，算下来$42/yr（287.86元/年），稍微便宜一点。
+
+准备买Vultr，比较了一下服务器，湖北电信ping洛杉矶的服务器[延迟最低](https://zhuanlan.zhihu.com/p/38166614)，[另一篇文章](https://www.cnvultr.com/368.html)也印证这一点。
+
+在Vultr界面选择洛杉矶，结果下面没有$3.5/mon套餐，最便宜的套餐是$5/mon ($60/yr)。很郁闷，是不是过个年也准备涨价了？给Support发了封邮件，秒回:
+
+> ...currently sold out in that location ...
+> the new capacity will be online within the next 2 to 4 weeks.
+
+于是换了几个服务器试了一下，只有Atlanta下面有$3.5套餐。觉得有点坑爹，又在网上搜了一下搬瓦工和Vultr的对比，感觉旗鼓相当，决定就选搬瓦工，先入为主吧。
+
+于是买了半年$25.99（176元）的Los Angales服务器。继续跟着教程进行下一步。
 
 ## 中间的曲折
 
