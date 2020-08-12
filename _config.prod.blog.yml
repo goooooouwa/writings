@@ -22,7 +22,7 @@ jekyll-archives:
     category: '/category/:name/'
 
 header_pages:
-  - about.md
+  - pages/about.md
   - category/business.html
   - category/cars.html
   - category/coding.html
