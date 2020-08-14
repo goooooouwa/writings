@@ -1,0 +1,5 @@
+I"Ê<h1 id="what-is-rack-middleware">What is Rack Middleware</h1>
+
+<p>Rack Middleware is a filter that can be used to intercept a request and alter the response as a request is made to an application.</p>
+
+:ET

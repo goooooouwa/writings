@@ -1,0 +1,21 @@
+I"þ<h1 id="how-to-get-object-reference-by-memory-address-hexadecimal-number-in-inspect-result">How to get object reference by memory address (hexadecimal number in inspect result)</h1>
+
+<ol>
+  <li>
+    <p>calculate object_id from memory address
+object_id returns half the objectâ€™s memory address, so you need to multiply by 2 to get the actual address. (Vice versa, divide memory address by 2 to get object_id)</p>
+  </li>
+  <li>
+    <p>get reference of object by object_id
+<code class="language-plaintext highlighter-rouge">obj = ObjectSpace._id2ref(object_id)</code></p>
+  </li>
+  <li>
+    <p>inspect referenced object
+<code class="language-plaintext highlighter-rouge">obj.inspect</code></p>
+  </li>
+</ol>
+
+<h3 id="references">References:</h3>
+<p>Object address in Ruby http://stackoverflow.com/questions/4010547/object-address-in-ruby
+Can I or SHOULD I find an object by the object_id attribute in ruby? http://stackoverflow.com/questions/8264732/can-i-or-should-i-find-an-object-by-the-object-id-attribute-in-ruby</p>
+:ET

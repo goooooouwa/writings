@@ -1,0 +1,5 @@
+I"<h1 id="how-can-i-list-the-keys-in-the-in-memory-cache-store-on-ruby-on-rails">How can I list the keys in the in-memory cache store on Ruby on Rails?</h1>
+
+<p><code class="language-plaintext highlighter-rouge">Rails.cache.instance_variable_get(:@data).keys</code></p>
+
+:ET

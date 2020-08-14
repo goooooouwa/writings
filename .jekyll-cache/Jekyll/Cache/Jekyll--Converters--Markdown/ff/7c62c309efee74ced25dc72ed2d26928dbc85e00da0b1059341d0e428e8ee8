@@ -1,0 +1,13 @@
+I"�<h1 id="regex---sed-beginner-changing-all-occurrences-in-a-folder">regex - sed beginner: changing all occurrences in a folder</h1>
+
+<p>There is no way to do it using only sed. You’ll need to use at least the find utility together:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find . -type f -exec sed -i.bak "s/foo/bar/g" {} \;
+</code></pre></div></div>
+<p>This command will create a <code class="language-plaintext highlighter-rouge">.bak</code> file for each changed file.
+Notes:</p>
+
+<ul>
+  <li>The <code class="language-plaintext highlighter-rouge">-i</code> argument for <code class="language-plaintext highlighter-rouge">sed</code> command is a GNU extension, so, if you are running this command with the BSD’s <code class="language-plaintext highlighter-rouge">sed</code> you will need to redirect the output to a new file then rename it.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">find</code> utility does not implement the <code class="language-plaintext highlighter-rouge">-exec</code> argument in old UNIX boxes, so, you will need to use a <code class="language-plaintext highlighter-rouge">| xargs</code> instead.</li>
+</ul>
+:ET

@@ -1,0 +1,18 @@
+I"�<h1 id="jump-to-closing-bracket-in-visual-studio-code">Jump to closing bracket in Visual Studio Code</h1>
+
+<p>VS code 收起花括号的键盘快捷键</p>
+
+<p><strong>Mac</strong> <code class="language-plaintext highlighter-rouge">Cmd+Shift+\</code></p>
+
+<p><strong>Windows</strong> <code class="language-plaintext highlighter-rouge">Ctrl+Shift+\</code></p>
+
+<p>As well you can do:</p>
+
+<p><code class="language-plaintext highlighter-rouge">Ctrl+Shift+p</code></p>
+
+<p>And select</p>
+
+<p><code class="language-plaintext highlighter-rouge">Preferences: Open Keyboard Shortcuts</code></p>
+
+<p>There you will be able to see all the shortcuts, and create your own.</p>
+:ET

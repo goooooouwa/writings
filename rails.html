@@ -1,0 +1,13 @@
+---
+layout: default
+title: Rails
+---
+<h1>Rails</h1>
+
+<ul>
+  {% for doc in site.rails %}
+    <li>
+      <h2><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></h2>
+    </li>
+  {% endfor %}
+</ul>

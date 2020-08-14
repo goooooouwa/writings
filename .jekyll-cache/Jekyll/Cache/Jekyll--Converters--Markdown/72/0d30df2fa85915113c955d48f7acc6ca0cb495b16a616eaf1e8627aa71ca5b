@@ -1,0 +1,40 @@
+I"R<h2 id="c语言指针数组学习笔记">C语言指针、数组学习笔记</h2>
+
+<p>数组无法作为返回值。因为数组的内容无法作返回值（返回值只能返一个值）赋值给另一个数组。同时，数组一经声明，其首地址就无法改变。无法将另一个数组的首地址赋于该数组。</p>
+
+<ol>
+  <li>指针作实参，传递给形参的是它的地址值。格式如：
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>char *p;
+fun(char *pt);
+fun(p);
+</code></pre></div>    </div>
+  </li>
+  <li>数组作实参，传递的也是其首地址。格式如：
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>char s[10];
+fun(char su[ ]);
+fun(s);
+</code></pre></div>    </div>
+  </li>
+  <li>指针作返回值，同理也是返回其首地址。如：
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>char* fun();
+char *p;
+p=fun();
+</code></pre></div>    </div>
+  </li>
+  <li>另外，对指向数组的指针，可以如此使用：
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>char *p;
+char s[10];
+p=s;
+x=p[1];
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="数组">数组</h2>
+
+<p>一个数组实质上是一个常量指针，指向数组首地址。下标运算的实现，就是找到对应元素地址，并返回其值。</p>
+
+<p>数组做参数时，形参里需要<code class="language-plaintext highlighter-rouge">(type arrayname[] , type size)</code>两个变量来确定数组，而且数组做参数是按（指针）引用方式传递的。可以将数组首地址做返回值，但数组无法做返回值，因为一个数组创建后就无法重新赋地址值了，所以没有数组可以接收这个返回值。</p>
+
+<p>BTW，指针也可以使用下标变量访问变量的值。如<code class="language-plaintext highlighter-rouge">p[3]</code>就对应一个值，此时就不用加 * 符号了，见上面的下标运算 。</p>
+:ET

@@ -1,0 +1,6 @@
+I"Y<h1 id="how-to-access-attached-screen-after-connection-dropped">How to access attached screen after connection dropped</h1>
+
+<p>a simple way to take back that screen session.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>screen -D -r '1234.somescreensession'
+</code></pre></div></div>
+:ET

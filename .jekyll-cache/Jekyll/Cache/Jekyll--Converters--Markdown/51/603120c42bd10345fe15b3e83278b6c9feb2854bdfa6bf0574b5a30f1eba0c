@@ -1,0 +1,5 @@
+I"Ã<h1 id="view-content-of-memcached">View content of memcached</h1>
+
+<p>Try stats items - i.e.
+<code class="language-plaintext highlighter-rouge">echo "stats items" | nc 127.0.0.1 11211</code></p>
+:ET

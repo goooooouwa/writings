@@ -1,0 +1,8 @@
+I"²<h1 id="accessing-host-machine-from-within-docker-container">Accessing host machine from within docker container</h1>
+
+<p>no network nor hosts are needed. As @rohaq and @kevinpmcc mentioned,</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>for windows : docker.for.win.localhost
+for mac : docker.for.mac.localhost
+</code></pre></div></div>
+<p>It works like a charm for me.</p>
+:ET

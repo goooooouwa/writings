@@ -1,0 +1,6 @@
+I"I<h1 id="see-which-ports-are-open-and-which-application-is-on-each-one">see which ports are open and which application is on each one</h1>
+
+<p>you can see which ports are open and which application is on each one by typing in this command.</p>
+
+<p><code class="language-plaintext highlighter-rouge">sudo netstat -plunt</code></p>
+:ET

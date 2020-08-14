@@ -1,0 +1,16 @@
+I"�<h1 id="how-to-split-the-terminal-into-more-than-one-view">How to split the terminal into more than one “view”</h1>
+
+<p>You can do it in <code class="language-plaintext highlighter-rouge">screen</code> the terminal multiplexer.
+To split vertically: <code class="language-plaintext highlighter-rouge">ctrl a</code> then <code class="language-plaintext highlighter-rouge">|</code>.
+To split horizontally: <code class="language-plaintext highlighter-rouge">ctrl a</code> then <code class="language-plaintext highlighter-rouge">S</code> (uppercase ‘s’).
+To unsplit: <code class="language-plaintext highlighter-rouge">ctrl a</code> then <code class="language-plaintext highlighter-rouge">Q</code> (uppercase ‘q’).
+To switch from one to the other:  <code class="language-plaintext highlighter-rouge">ctrl a</code> then <code class="language-plaintext highlighter-rouge">tab</code>
+Note: After splitting, you need to go into the new region and start a new session via <code class="language-plaintext highlighter-rouge">ctrl a</code> then <code class="language-plaintext highlighter-rouge">c</code> before you can use that area.
+EDIT, basic screen usage:
+New terminal: <code class="language-plaintext highlighter-rouge">ctrl a</code> then <code class="language-plaintext highlighter-rouge">c</code>.
+Next terminal: <code class="language-plaintext highlighter-rouge">ctrl a</code> then <code class="language-plaintext highlighter-rouge">space</code>.
+Previous terminal: <code class="language-plaintext highlighter-rouge">ctrl a</code> then <code class="language-plaintext highlighter-rouge">backspace</code>.
+N’th terminal <code class="language-plaintext highlighter-rouge">ctrl a</code> then <code class="language-plaintext highlighter-rouge">[n]</code>. (works for n∈{0,1…9})
+Switch between terminals using list: <code class="language-plaintext highlighter-rouge">ctrl a</code> then <code class="language-plaintext highlighter-rouge">"</code> (useful when more than 10 terminals)
+Send <code class="language-plaintext highlighter-rouge">ctrl a</code> to the underlying terminal <code class="language-plaintext highlighter-rouge">ctrl a</code> then <code class="language-plaintext highlighter-rouge">a</code>.</p>
+:ET

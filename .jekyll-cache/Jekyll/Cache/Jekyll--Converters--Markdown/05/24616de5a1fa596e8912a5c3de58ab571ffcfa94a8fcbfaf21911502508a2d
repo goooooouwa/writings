@@ -1,0 +1,40 @@
+I"�<h1 id="如何使用vjoy--ucr来将键盘鼠标作为游戏控制器">如何使用vJoy + UCR来将键盘鼠标作为游戏控制器</h1>
+
+<p>Vjoy: 用来创建虚拟控制器驱动（光有它不能用键盘或鼠标控制控制器，还需要用映射工具将键盘鼠标按键映射到控制器按键）
+UCR: Universal Controller Remapper，将键盘鼠标按键映射到控制器按键</p>
+
+<p>Step 1: Download and Install Vjoy
+Step 2: Setup Vjoy device (不要设为第1个设备，会跟实际插入电脑的控制器冲突）
+<img src="https://i.imgur.com/ZqA9t8Z.png" alt="" /></p>
+
+<p>Step 3: Download and Install UCR
+Step 3.1 Setup UCR
+On first run of UCR, check the vJoy log to make sure vJoy loaded OK
+From the UCR main menu: IOClasses -&gt; vJoy -&gt; Show vJoy log
+If all went well, install the SCPVBus:
+From the UCR main menu: IOClasses -&gt; vJoy -&gt; Install SCPVBus
+If this step fails, open an admin command prompt and navigate to UCR’s resources folder, there are .bat files in there
+Step 4: 将键盘按键或者鼠标映射到控制器按钮或摇杆
+4.1 将键盘按键映射到控制器按钮
+4.1.1 选择button to button，点击add
+<img src="https://i.imgur.com/eXrtnPQ.png" alt="" /></p>
+
+<p>4.1.2 映射键盘按键到控制器按钮
+4.1.1 Input Button: 选择键盘按键
+4.1.2 Output Button: 选择vXBox Stick 2?（明确是模拟XBox控制器，我也不确定这里应该选择vJoy Stick 2还是vXBox Stick 2，自己试一下吧）
+4.1.3 Output Button: 选择vXBox Buttons -&gt; 具体Button
+<img src="https://i.imgur.com/uuZ87oi.png" alt="" /></p>
+
+<p>4.2.1 选择Mouse to Axis（注意，不是Axis to Mouse），点击add
+<img src="https://i.imgur.com/pgmcGmp.png" alt="" />
+4.2.2 映射鼠标到摇杆
+4.2.2.1 Input: 选择Any Mouse
+4.2.2.2 Outputs: 选择vJoy Stick 2
+4.2.2.3 Outputs: 选择vJoy Stick Axes -&gt; 1(X)（左摇杆横向移动）
+4.2.2.4 Outputs: 选择vJoy Stick Axes -&gt; 2(Y)（右摇杆纵向移动）
+<img src="https://i.imgur.com/p1nBK66.png" alt="" />
+4.3 点击Save Settings保存设置
+<img src="https://i.imgur.com/P4NZfr5.png" alt="" />
+Step 5: 可以使用设备管理器或者Vjoy Monitor来检查映射是不是成功
+<img src="https://i.imgur.com/B40GrZV.png" alt="" /></p>
+:ET

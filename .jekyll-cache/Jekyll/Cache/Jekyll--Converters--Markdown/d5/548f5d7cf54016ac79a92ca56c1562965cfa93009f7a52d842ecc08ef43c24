@@ -1,0 +1,8 @@
+I"4<h1 id="batch-resize-images-quickly-in-the-os-x-terminal">Batch Resize Images Quickly in the OS X Terminal</h1>
+
+<p>批量修改图片属性，如大小。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sips -Z 640 *.jpg
+</code></pre></div></div>
+
+:ET

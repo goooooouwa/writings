@@ -1,0 +1,18 @@
+I"Ô<h1 id="rails---validate-presence-of-association">Rails - Validate Presence Of Association</h1>
+
+<p>You can use <code class="language-plaintext highlighter-rouge">validates_presence_of</code> http://apidock.com/rails/ActiveModel/Validations/ClassMethods/validates_presence_of</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class A &lt; AR::Base
+  has_many :bs
+  validates_presence_of :bs
+end
+</code></pre></div></div>
+<p>or just <code class="language-plaintext highlighter-rouge">validates</code> http://apidock.com/rails/ActiveModel/Validations/ClassMethods/validates</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class A &lt; AR::Base
+  has_many :bs
+  validates :bs, :presence =&gt; true
+end
+</code></pre></div></div>
+
+<p>But there is a bug with it if you will use <code class="language-plaintext highlighter-rouge">accepts_nested_attributes_for</code> with <code class="language-plaintext highlighter-rouge">:allow_destroy =&gt; true</code>: <a href="http://stackoverflow.com/questions/5144527/nested-models-and-parent-validation">Nested models and parent validation</a>. In this topic you can find solution.</p>
+:ET

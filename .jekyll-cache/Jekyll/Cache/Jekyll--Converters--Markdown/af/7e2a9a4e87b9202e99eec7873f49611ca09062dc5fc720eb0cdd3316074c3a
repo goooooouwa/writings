@@ -1,0 +1,20 @@
+I"�<h1 id="update-ctags-with-brew">Update ctags with brew</h1>
+
+<p>The “ctags” coming with Mac OS is really a very old one (1993). We can update it with brew, and I think this <a href="http://gmarik.info/blog/2010/10/08/ctags-on-OSX">Article</a> is very useful.</p>
+
+<p>The point is:</p>
+
+<ul>
+  <li>Install latest ctags with brew: brew install ctags. This should be OK</li>
+  <li>Replace “ctags” with:
+    <ol>
+      <li>alias ctags=”<code class="language-plaintext highlighter-rouge">brew --prefix</code>/bin/ctags”</li>
+      <li>alias ctags » ~/.bash_profile</li>
+      <li>Please note that the original post uses ~/.bashrc but it won’t work in Mac OS. So use ~/.bash_profile instead</li>
+    </ol>
+  </li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brew --prefix</code> will display the install path of brew, and append it with /bin/ctags will get the new ctags pathname. Please note that “`” is the character with the key “~” on your keyboard.</p>
+
+:ET

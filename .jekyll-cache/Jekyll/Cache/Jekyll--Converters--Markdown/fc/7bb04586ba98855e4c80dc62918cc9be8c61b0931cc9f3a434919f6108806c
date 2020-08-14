@@ -1,0 +1,6 @@
+I"7<h1 id="tip-using-wget-to-recursively-download-whole-ftp-directories">tip: Using wget to recursively download whole FTP directories</h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget -m ftp://username:password@ftp.xxx.com
+</code></pre></div></div>
+
+:ET

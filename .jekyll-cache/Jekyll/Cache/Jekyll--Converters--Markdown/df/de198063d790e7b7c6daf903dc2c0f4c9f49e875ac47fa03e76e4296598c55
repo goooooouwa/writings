@@ -1,0 +1,9 @@
+I"F<h1 id="shadowsocks-命令">shadowsocks 命令</h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssserver -c /etc/shadowsocks.json -d start
+ssserver -c /etc/shadowsocks.json -d stop
+cat /etc/shadowsocks.json
+tail -f /var/log/shadowsocks.log
+</code></pre></div></div>
+
+:ET

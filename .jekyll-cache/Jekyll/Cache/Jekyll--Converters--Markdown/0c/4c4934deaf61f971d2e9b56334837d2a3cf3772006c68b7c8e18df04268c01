@@ -1,0 +1,14 @@
+I"-<h1 id="how-to-rename-with-prefixsuffix">How to rename with prefix/suffix</h1>
+
+<p>In Bash and zsh you can do this with <a href="http://www.gnu.org/software/bash/manual/bashref.html#Brace-Expansion">Brace Expansion</a>. This simply expands a list of items in braces. For example:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># echo {vanilla,chocolate,strawberry}-ice-cream</span>
+vanilla-ice-cream chocolate-ice-cream strawberry-ice-cream
+</code></pre></div></div>
+<p>So you can do your rename as follows:</p>
+
+<p><code class="language-plaintext highlighter-rouge">mv {,new.}original.filename</code></p>
+
+<p>as this expands to:</p>
+
+<p><code class="language-plaintext highlighter-rouge">mv original.filename new.original.filename</code></p>
+:ET

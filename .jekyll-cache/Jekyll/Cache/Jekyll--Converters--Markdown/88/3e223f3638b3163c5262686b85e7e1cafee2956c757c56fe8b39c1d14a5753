@@ -1,0 +1,10 @@
+I"><h1 id="set-secure-flag-on-session-cookie-in-ror-even-over-http">Set “secure” flag on session cookie in RoR even over HTTP</h1>
+
+<p>Secure cookies are not sent over non-secure connections by definition.</p>
+
+<p>Terminating SSL upstream is quite common, but you need to pass certain header fields through so that Rails knows and can do the right thing.</p>
+
+<p><a href="http://www.cyberciti.biz/faq/howto-linux-unix-setup-nginx-ssl-proxy/">Here’s a document</a> that explains the configuration in pretty good detail for nginx. Search for “Set headers” to jump to the section describing the specific headers you need to pass through.</p>
+
+<p>There are security considerations using this configuration, e.g., if the device terminating SSL is not on the same secure LAN as the Rails host, then you have a vulnerability.</p>
+:ET

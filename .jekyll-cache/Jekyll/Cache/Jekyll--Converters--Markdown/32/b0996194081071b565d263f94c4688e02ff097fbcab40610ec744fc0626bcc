@@ -1,0 +1,6 @@
+I"U<h1 id="how-to-monitor-redis-in-docker">How to monitor Redis in Docker</h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run -it --link some-redis:redis --rm redis sh -c 'exec redis-cli -h "$REDIS_PORT_6379_TCP_ADDR" -p "$REDIS_PORT_6379_TCP_PORT"'
+</code></pre></div></div>
+
+:ET

@@ -1,0 +1,188 @@
+I"a<h2 id="流程综述">流程综述</h2>
+
+<ol>
+  <li>将系统磁盘挂载在host主机上，</li>
+  <li>使用主机对磁盘进行分区，</li>
+  <li>安装文件系统和swap到分区（格式化），</li>
+  <li>将cross-compiling得到的基本文件系统（包括：boot，dev，etc，kernel image，kernel modules，等）拷贝到磁盘的文件系统中，</li>
+  <li>将bootloader安装到磁盘volume boot record上</li>
+</ol>
+
+<p>这样就构建了一个基本的嵌入式系统。</p>
+
+<p>后面阶段（如，调试）便可以通过串口或网口连接主机和嵌入式系统的方式来完成，不用再移动嵌入式系统磁盘。</p>
+
+<h2 id="storage-device-setup">Storage device setup</h2>
+
+<p>1.Partition storage device.</p>
+
+<p><img src="https://i.imgur.com/pMuTGYp.png" alt="Imgur" /></p>
+
+<p>Bootloader, Boot parameters, Kernel, Root filesystem</p>
+
+<p>2.Install bootloader, kernel and root filesystem.</p>
+
+<p>3.Config bootloader to boot kernel.</p>
+
+<h2 id="kernel-compilation">Kernel compilation</h2>
+
+<p>Compiling the kernel involves a number of steps:</p>
+
+<ol>
+  <li>building the kernel dependencies,</li>
+  <li>building the kernel image,</li>
+  <li>and building the kernel modules.</li>
+</ol>
+
+<p>具体如下：</p>
+
+<p>Compile the Kernel</p>
+
+<ol>
+  <li>Config<br />
+ <code class="language-plaintext highlighter-rouge">$make menuconfig</code></li>
+  <li>Build
+    <ol>
+      <li>Build kernel dependencies<br />
+ <code class="language-plaintext highlighter-rouge">$make clean dep</code></li>
+      <li>Build kernel image<br />
+ <code class="language-plaintext highlighter-rouge">$make zImage</code></li>
+      <li>Build kernel modules<br />
+ <code class="language-plaintext highlighter-rouge">$make modules</code></li>
+      <li>(Optional) clean up source( !backup .config first)<br />
+ <code class="language-plaintext highlighter-rouge">$make distclean</code></li>
+    </ol>
+  </li>
+  <li>Install
+    <ol>
+      <li>install kernel
+        <ol>
+          <li>for bootloader which reads filesystem<br />
+ <code class="language-plaintext highlighter-rouge">$cp vmlinuz /boot</code></li>
+          <li>for bootloader which cant read filesystem<br />
+ <code class="language-plaintext highlighter-rouge">$dd if=vmlinux.img of=/dev/sda1</code></li>
+        </ol>
+      </li>
+      <li>install kernel modules<br />
+ <code class="language-plaintext highlighter-rouge">$make modules_install</code></li>
+    </ol>
+  </li>
+</ol>
+
+<h2 id="c-library-compilation">C library compilation</h2>
+
+<ol>
+  <li>Extract archive</li>
+</ol>
+
+<p>As with the previous packages, we start by extracting the C library from the archive we downloaded earlier:</p>
+
+<p><code class="language-plaintext highlighter-rouge">$ cd ${PRJROOT}/build-tools</code>
+<code class="language-plaintext highlighter-rouge">$ tar xvzf glibc-2.2.3.tar.gz</code></p>
+
+<ol>
+  <li>configure</li>
+</ol>
+
+<p>We can now proceed to preparing the build of the C library in the build-glibc directory:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd build-glibc
+$ CC=i386-linux-gcc ../glibc-2.2.3/configure --host=$TARGET \
+&gt; --prefix="/usr" --enable-add-ons \
+&gt; --with-headers=${TARGET_PREFIX}/include
+</code></pre></div></div>
+
+<ol>
+  <li>make</li>
+</ol>
+
+<p>With the configuration script done, we can now compile glibc:</p>
+
+<p><code class="language-plaintext highlighter-rouge">$ make</code></p>
+
+<ol>
+  <li>install</li>
+</ol>
+
+<p>Once the C library is built, we can now install it:</p>
+
+<p><code class="language-plaintext highlighter-rouge">$ make install_root=${TARGET_PREFIX} prefix="" install</code></p>
+
+<ol>
+  <li>one more thing</li>
+</ol>
+
+<p>There is one last step we must carry out to finalize glibc’s installation: the configuration of the libc.so file.</p>
+
+<p>This file is used during the linking of applications to the C library and is actually a link script. It contains 
+references to the various libraries needed for the real linking. The installation carried out by our make 
+install above assumes that the library is being installed on a root filesystem and hence uses absolute 
+pathnames in the libc.so link script to reference the libraries. Since we have installed the C library in a 
+nonstandard directory, we must modify the link script so that the linker will use the appropriate libraries.</p>
+
+<p>Along with the other components of the C library, the link script has been installed in the ${TARGET_PREFIX}/lib directory.</p>
+
+<p>In its original form, libc.so looks like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/* GNU ld script 
+ Use the shared library, but some functions are only in 
+ the static library, so try that secondarily. */ 
+GROUP ( /lib/libc.so.6 /lib/libc_nonshared.a ) 
+</code></pre></div></div>
+
+<p>This is actually quite similar, if not identical, to the libc.so that has already been installed by your 
+distribution for your native C library in /usr/lib/. Since you may need your target’s default script 
+sometime, I suggest you make a copy before modifying it:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd ${TARGET_PREFIX}/lib
+$ cp ./libc.so ./libc.so.orig
+</code></pre></div></div>
+
+<h2 id="设置bootloader">设置bootloader</h2>
+
+<p>设置U-Boot</p>
+
+<h3 id="introduction">Introduction</h3>
+
+<p>构建U-Boot之前，你需要针对你的目标系统来设定它。该套件为相当多的开发板预先设定了一些配置，所以你的目标系统可能已经预先设定好的配置。对于每个受到支持的开发板，U-Boot的Makefile通常都会包含一个相应的boardname_config构建目标，可用于替特定的开发板设定U-Boot的构建设置。</p>
+
+<h3 id="configure--build-u-boot">Configure &amp; build U-Boot</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ make gta01_config
+$ make ARCH=arm CROSS_COMPILE=arm-linux- u-boot.udfu
+</code></pre></div></div>
+
+<h3 id="u-boot编译期间所产生的文件">U-Boot编译期间所产生的文件</h3>
+
+<ol>
+  <li>u-boot.map   符号对应</li>
+  <li>u-boot   U-Boot可执行文件，采用ELF二进制格式</li>
+  <li>u-boot.bin   U-Boot原始二进制映像，可以被写入引导存储设备</li>
+  <li>u-boot.udfu   U-Boot映像，采用OpenMoKo设备所使用的特殊文件格式 U-Boot Device Firmware Upgrade( DFU)</li>
+</ol>
+
+<h3 id="install-u-boot">Install U-Boot</h3>
+
+<p>现在可以使用适当的程序将U-Boot映像下载到你的目标系统的引导存储设备。如果你的目标系统上没有安装任何bootloader，你需要使用一个硬件烧录设备，例如一个Flash编程器或一个BDM/JTAG调试器，将U-Boot复制到所设定的Flash地址。</p>
+
+<h2 id="ptxdist-configuration-method">Ptxdist configuration method</h2>
+
+<ol>
+  <li>Install dependencies: <code class="language-plaintext highlighter-rouge">libncurses-dev gawk texinfo gettext</code></li>
+  <li>Exact <code class="language-plaintext highlighter-rouge">ptxdist-version.tar.bz2  OELAS.toolchain-version.tar.bz2</code></li>
+  <li>Install ptxdist in /install/path/<br />
+<code class="language-plaintext highlighter-rouge">$ cd ptxdist-version; ./configure --prefix=/install/path/; make; make install;</code></li>
+  <li>Next step is to select configuration for your (embedded) project using ptxdist.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd /project/path/
+$# setup project search path and source directories.
+$ ptxdist setup
+$# select ptxdist configuration file
+$ ptxdist select /path/to/OELAS.toolchain/ptxconfig/configuration-file.ptxconfig
+$# configure project options, like product install path, ptxdist version, etc.
+$ ptxdist menuconfig
+</code></pre></div>    </div>
+  </li>
+  <li>Build cross-tool<br />
+<code class="language-plaintext highlighter-rouge">$ ptxdist go</code></li>
+</ol>
+:ET

@@ -1,0 +1,6 @@
+I"™<h1 id="git-commands">git commands</h1>
+
+<p>Clear untracked files:</p>
+
+<p><code class="language-plaintext highlighter-rouge">git clean -f -d</code></p>
+:ET

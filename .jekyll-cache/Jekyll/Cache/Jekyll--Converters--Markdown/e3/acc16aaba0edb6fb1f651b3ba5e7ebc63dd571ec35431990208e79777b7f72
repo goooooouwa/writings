@@ -1,0 +1,5 @@
+I"é<h1 id="issue-activesupportmessageencryptorinvalidmessage">Issue: ActiveSupport::MessageEncryptor::InvalidMessage</h1>
+
+<p>This happened to me when I generated master.key locally. To fix i just deleted it from my config folder.</p>
+
+:ET

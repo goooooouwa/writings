@@ -1,0 +1,9 @@
+I"�<h1 id="form-processing">form processing</h1>
+
+<p>form syntax:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;form method="POST" action="/some/where/"&gt;
+&lt;/form&gt;
+</code></pre></div></div>
+
+<p>In rails, method=”POST” sends form data to action <strong>“</strong><strong>controller#create”</strong> to process. if data is valid, save it and redirect to action “/some/where/”, else render form with errors.</p>
+:ET

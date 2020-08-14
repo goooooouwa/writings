@@ -1,0 +1,6 @@
+I"Å<h1 id="manage-linux-hardware-with-udev">Manage Linux Hardware with udev</h1>
+
+<p>Difference between /proc and /sys</p>
+
+<p>The /sys directory is a cousin to /proc, only it‚Äôs well-organized rather than a chaotic mess. It exports kernel information into a human-browseable and program-parseable structure. Just like /proc uses the /proc filesystem, the /sys directory uses sysfs.</p>
+:ET

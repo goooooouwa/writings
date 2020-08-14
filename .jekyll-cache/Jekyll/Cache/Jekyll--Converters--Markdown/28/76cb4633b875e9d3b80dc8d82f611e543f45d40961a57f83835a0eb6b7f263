@@ -1,0 +1,14 @@
+I"<h3 id="why-associations">Why Associations?</h3>
+
+<p>Why do we need associations between models? Because they make common operations simpler and easier in your code.</p>
+
+<p><strong>example:</strong></p>
+
+<p>without association:</p>
+
+<p><code class="language-plaintext highlighter-rouge">@order = Order.create(:order_date =&gt; Time.now, :customer_id =&gt; @customer.id)</code></p>
+
+<p>with association:</p>
+
+<p><code class="language-plaintext highlighter-rouge">@order= @customer.orders.create(:order_date=&gt; Time.now)</code></p>
+:ET

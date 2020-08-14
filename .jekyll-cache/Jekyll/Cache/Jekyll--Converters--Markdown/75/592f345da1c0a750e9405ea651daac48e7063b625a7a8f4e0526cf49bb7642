@@ -1,0 +1,5 @@
+I"É<h1 id="fix-my-iphone-keeps-connecting-and-disconnect">fix: My iPhone keeps connecting and disconnect</h1>
+
+<p><code class="language-plaintext highlighter-rouge">sudo killall -STOP -c usbd</code></p>
+
+:ET

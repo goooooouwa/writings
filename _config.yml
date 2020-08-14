@@ -28,12 +28,15 @@ pagination:
   sort_reverse: true
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 # Build settings
 markdown: kramdown

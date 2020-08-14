@@ -1,0 +1,235 @@
+I"�5<p>两档位之间的Gear ratio差距决定了换挡后引擎转速会有多少差距，不同两挡之间ratio差距不同，因此转速回落大小也不同。一档升二档，齿比差距较大，转速落差更大。三档升四档，齿比差距较小，转速落差更小。</p>
+
+<p>转动运动如果没有力的作用，会保持角速度不变的旋转。</p>
+
+<p>引擎的转速和扭矩可以直接换算成车轮行驶的速度和牵引力加速度，因为驱动轴crankshaft跟驱动轮轴之间只是简单的齿比关系。想象一个大齿轮匹配一个小齿轮⚙️⚙️。</p>
+
+<h2 id="不同档位引擎扭矩转速与轮上扭矩和转速以及车速的关系">不同档位，引擎扭矩、转速与轮上扭矩和转速以及车速的关系</h2>
+
+<p>The combination of gear and differential acts as a multiplier from the torque on the crankshaft to the torque on the rear wheels. For example, the Corvette in first gear has a multiplier of 2.66 * 3.42 = 9.1. This means each Newton meter of torque on the crankshaft results in 9.1 Nm of torque on the rear axle. Accounting for 30% loss of energy, this leaves 6.4 N.m. Divide this by the wheel radius to get the force exerted by the wheels on the road (and conversely by the road back to the wheels). Let’s take a 34 cm wheel radius, that gives us 6.4 N.m/0.34 m = 2.2 N of force per N.m of engine torque. Of course, there’s no such thing as a free lunch. You can’t just multiply torque and not have to pay something in return. <strong>What you gain in torque, you have to pay back in angular velocity.</strong> You trade off strength for speed. For each rpm of the wheel, the engine has to do 9.1 rpm. The rotational speed of the wheel is directly related to the speed of the car (unless we’re skidding). One rpm (revolution per minute) is 1/60th of a revolution per second. Each revolution takes the wheel 2 pi R further, i.e. 2 * 3.14 * 0.34 = 2.14 m. So when the engine is doing 4400 rpm in first gear, that’s 483 rpm of the wheels, is 8.05 rotations per second is 17.2 m/s, about 62 km/h.</p>
+
+<p><img src="https://i.imgur.com/oRBnIEb.jpg" alt="Imgur" /></p>
+
+<p>这个图的彩色曲线是车轮转速和扭矩之间的关系(油门全开时)，黑色是引擎转速和扭矩关系。</p>
+
+<p>下图是斯巴鲁BRZ的轮上扭矩的曲线：</p>
+
+<p><img src="https://i.imgur.com/dEU7rW6.jpg" alt="Imgur" /></p>
+
+<p>高尔夫GTI 2.0T+DSG的轮上扭矩曲线：</p>
+
+<p><img src="https://i.imgur.com/zG7Xi4S.jpg" alt="Imgur" /></p>
+
+<p>结合全油门轮上扭矩图和下面的Engine Torque vs Throttle map 可以绘制出各种油门开度下的轮上扭矩图。</p>
+
+<p><img src="https://i.imgur.com/mrKze3L.png" alt="Imgur" /></p>
+
+<p><strong>重视加速性的换挡策略</strong>下，在某一油门开度，最佳换挡时机是，当前档位与下一档位轮上扭矩曲线之间的交叉点对应的引擎转速。如果油门开度变化，则换挡时机随着新的轮上扭矩曲线交叉点的变化而变化。油门开度越小，换挡时机越靠前，即换挡转速越低。<strong>油门深度决定了换挡转速。</strong></p>
+
+<p><strong>重视燃油经济性的换挡策略</strong>下，最佳换挡时机是，油门开度在0%到70%之间时，约1700转换挡（尽量维持发动机在1500转左右运转），当油门开度为70%到100%之间，随着油门开度增大，逐步升高发动机换挡转速（如70%时2000转，80%时2700转，90%时4000转），直到油门开度达到100%之后，随意换挡（维持发动机在4000～7000转之间即可）。</p>
+
+<p>可以比较，当一脚油门到底时，这两种换挡策略下，换挡时机的不同。</p>
+
+<p>重视加速性的换挡策略</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">当前档位</th>
+      <th style="text-align: left">油门深度</th>
+      <th style="text-align: left">升档时机(rpm)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">70</td>
+      <td style="text-align: left">4000</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2</td>
+      <td style="text-align: left">80</td>
+      <td style="text-align: left">5000</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">3</td>
+      <td style="text-align: left">90</td>
+      <td style="text-align: left">6000</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">4</td>
+      <td style="text-align: left">100</td>
+      <td style="text-align: left">7000</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>重视燃油经济性的换挡策略</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">当前档位</th>
+      <th style="text-align: left">油门深度</th>
+      <th style="text-align: left">升档时机(rpm)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">70</td>
+      <td style="text-align: left">1700</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2</td>
+      <td style="text-align: left">80</td>
+      <td style="text-align: left">2500</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">3</td>
+      <td style="text-align: left">90</td>
+      <td style="text-align: left">4000</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">4</td>
+      <td style="text-align: left">100</td>
+      <td style="text-align: left">5000</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>我怀疑变速箱的换挡逻辑会根据油门开度来选择不同策略。至少在不同驾驶模式下（Echo, Comfort, Sport），变速箱换挡时机不一样，比如Sport下，即使轻踩油门，也会在4000转换挡。</p>
+
+<p>想想带变速器的自行车，其实原理是一样的。骑车换挡时其实不会考虑最优换挡时机，只要觉得蹬得够快了就升档，觉得蹬不动就将挡。虽然最优换挡时机可能只有一个，但是允许换挡的时机却是一个区间。开车换挡感到顿挫，也许是档位间转速落差太大，还可能是换挡间油门控制不够平稳，还有可能是自动变速箱手动模式换挡torque converter结合较快，提供的转速匹配的时间较半集合更短。</p>
+
+<p>原来，汽车厂家对一款车型的定位不一样，变速箱的换挡逻辑标定的也不同。比如说定位经济的车型，变速箱的标定上可能会让它积极升挡和延迟降挡；而定位运动的车型，在变速箱的标定上则是偏向于延迟升挡和积极降挡；定位舒适的车型，变速箱在标定上可能会尽量减少频繁换挡。这就是经济模式、运动模式和舒适模式。</p>
+
+<h2 id="油门深度vs换挡时机">油门深度vs换挡时机</h2>
+
+<p>For a given throttle in a given gear, there is a unique vehicle speed（车速 ～ 车轮转速～引擎转速） at which an upshift takes place (gear shift goal unknown). The simulation operates similarly for a downshift.</p>
+
+<p><img src="https://i.imgur.com/KPDoKlS.png" alt="Imgur" /></p>
+
+<p>查表可知：</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">当前档位</th>
+      <th style="text-align: left">油门深度</th>
+      <th style="text-align: left">升档时机(mph)</th>
+      <th style="text-align: left">降档时机</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">90</td>
+      <td style="text-align: left">38</td>
+      <td style="text-align: left">无</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2</td>
+      <td style="text-align: left">20</td>
+      <td style="text-align: left">30</td>
+      <td style="text-align: left">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">3</td>
+      <td style="text-align: left">40</td>
+      <td style="text-align: left">53</td>
+      <td style="text-align: left">25</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">4</td>
+      <td style="text-align: left">50</td>
+      <td style="text-align: left">70</td>
+      <td style="text-align: left">50</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="fuel-optimal-gear-shift-strategy">Fuel-Optimal Gear Shift Strategy</h3>
+
+<p>early and frequent upshift pattern for the transmission. It renders the engine, on average, to operate at a lower speed and high torque region, and hence improving the fuel economy.</p>
+
+<p><img src="https://i.imgur.com/WbFr33A.png" alt="Imgur" /></p>
+
+<h3 id="driveability-optimal-gear-shift-strategy">Driveability-Optimal Gear Shift Strategy</h3>
+
+<p>transmission tends to shift up late to ensure a driveability satisfaction.
+Driveability measured by Power reserve = (Max Torque - Current Torque) * Engine Speed</p>
+
+<p><img src="https://i.imgur.com/Ip41BCf.png" alt="Imgur" /></p>
+
+<p>a req, fit红色的线表示90%概率的加速需要，所以只要扭矩大于或等于这个加速度即可。所以Method 3的结论其实是说，重视加速性策略下，最佳换挡时机是一个区间，只要发动机扭矩维持在这个区间内，均可满足90%的加速需要（由a req, fit表示）。</p>
+
+<p>The <strong>variable power reserve</strong> concept reveals itself to be able to apply in realtime by a control approach, e.g. model predictive control [148], to <strong>ensure a driveability satisfaction meanwhile still achieving a fuel economy benefit</strong>.</p>
+
+<p><strong>One of the key points in simplifying vehicle physics is to handle the longtitudinal and lateral forces separately</strong>.  Longtitudinal forces operate in the direction of the car body (or in the exact opposite direction).  These are wheel force, braking force, rolling resistance and drag (= airresistance).  Together these forces control the acceleration or deceleration of the car and therefore the speed of the car.  Lateral forces allow the car to turn.  These forces are caused by sideways friction on the wheels.  We’ll also have a look at the angular moment of the car and the torque caused by lateral forces.</p>
+
+<h2 id="典型起步加速和超车过程的油门动作换挡逻辑最终加速度和速度曲线">典型起步加速和超车过程的油门动作、换挡逻辑、最终加速度和速度曲线</h2>
+
+<p>Table 2: Throttle schedule for first simulation (passing maneuver)</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Time (sec)</th>
+      <th style="text-align: left">Throttle (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">0</td>
+      <td style="text-align: left">60</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14.9</td>
+      <td style="text-align: left">40</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15</td>
+      <td style="text-align: left">100</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">100</td>
+      <td style="text-align: left">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">200</td>
+      <td style="text-align: left">0</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The first column corresponds to time; the second column corresponds to throttle opening in percent. In this case no brake is applied (brake torque is zero). The vehicle speed starts at zero and the engine at 1000 RPM. Figure 12 shows the plot for the baseline results, using the default parameters. As the driver steps to 60% throttle at t=0, the engine immediately responds by more than doubling its speed. This brings about a low speed ratio across the torque converter and, hence, a large torque ratio (see Figure 6 and Figure 11). The vehicle accelerates quickly (no tire slip is modeled) and both the engine and the vehicle gain speed until about t = 2 sec, at which time a 1-2 upshift occurs. The engine speed characteristically drops abruptly, then resumes its acceleration. The 2-3 and 3-4 upshifts take place at about four and eight seconds, respectively. Notice that the vehicle speed remains much smoother due to its large inertia.</p>
+
+<p><img src="https://i.imgur.com/ZAl5NJD.png" alt="Imgur" /></p>
+
+<p>Figure 12: Passing maneuver simulation time history</p>
+
+<p>At t=15sec, the driver steps the throttle to 100% as might be typical of a passing maneuver. The transmission downshifts to third gear and the engine jumps from about 2600 RPM to about 3700 RPM. The engine torque thus increases somewhat, as well as the mechanical advantage of the transmission. With continued heavy throttle, the vehicle accelerates to about 100 mph and then shifts into overdrive at about t = 21 sec. The vehicle cruises along in fourth gear for the remainder of the simulation. Double click on the ManeuversGUI block and use the graphical interface to vary the throttle and brake history.</p>
+
+<p><img src="https://i.imgur.com/hhu0mJ1.png" alt="Imgur" /></p>
+
+<h3 id="高速转弯时的侧向加速度影响因素">高速转弯时的侧向加速度影响因素</h3>
+
+<p>The <strong>sideslip angle b (bèta</strong>) is the difference between the car orientation and the direction of movement. In other words, it’s the angle between the longtitudinal axis and the actual direction of travel. So it’s similar in concept to what the <strong>slip angle</strong> is for the tyres.</p>
+
+<p><img src="https://i.imgur.com/COiKwsi.jpg" alt="Imgur" /></p>
+
+<p>The following information is shown on screen:</p>
+
+<ul>
+  <li>steering angle (also known as delta)</li>
+  <li>side slip angle (also known as beta)</li>
+  <li>“rotation angle” (due to yaw rate)</li>
+  <li>slip angle front wheels</li>
+  <li>slip angle rear wheels</li>
+  <li>velocity vector relative to car reference frame</li>
+  <li>velocity vector in world space</li>
+</ul>
+
+<p><img src="https://i.imgur.com/cPDix4h.jpg" alt="Imgur" /></p>
+:ET

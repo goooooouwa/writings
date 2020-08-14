@@ -1,0 +1,76 @@
+I"�<h1 id="switch-准备">Switch 准备</h1>
+
+<h2 id="switch-rcm-准备">switch RCM 准备</h2>
+
+<p>[x]下载YouTube app</p>
+
+<p>[x]忘记所有网络连接</p>
+
+<p>[x]打开飞行模式</p>
+
+<p>[x]充满电</p>
+
+<p>[x]为了减少插入jig的次数，尽量先将sysNAND一切准备好，做好以后再也不进入sysNAND的准备。因为每次重启进入sysNAND，下次想进入emuNAND就需要插入jig，可能会损坏机器轨道。</p>
+
+<p><strong>if you want unthethered CFW, keep FW as low as possible</strong></p>
+
+<p>If you want the chance to maybe, one day, not have to use a external device, then it is recommended to stay on a FW as low as possible. Beware that this means that you potentially need to wait for a very long time (months to years) for this to happen, if ever.</p>
+
+<p>If your Switch is one of the older hardware revisions and you don’t mind having to use jigs/hardmods/AutoRCM and sending the exploit via computer, phone or dongle everytime you want to launch into CFW then it is completely safe to update.</p>
+
+<p><strong>Use emuMMC for offline CFW use</strong></p>
+
+<p>Atmosphere now supports emuMMC (emuNAND): a copy of Switch system software, run entirely from the SD card instead. This erases ban risks due to the fact that emuMMC is run in a quarantined, offline state, not touching the internal memory. You are still able to boot into original firmware to play online.</p>
+
+<p>If you use an emuNAND for CFW and keep your sysNAND clean for playing online, you should use 90DNS on your emuNAND.</p>
+
+<p><strong>FAT32 vs exFAT</strong></p>
+
+<p>FAT32 is the safest, because exfat by default doesn’t have any security safeties preventing partition table corruption (you can read that on Wikipedia). And Switch OS has special function that can read folder with archive attribute as file, so it’s splitting &gt;4GB files by default and put chunks to folder with archive bit even on exfat. So exfat doesn’t have any pros over FAT32 on Switch.</p>
+
+<p>But Switch is formatting by default to exfat larger than 32 GB (iirc) cards.</p>
+
+<h2 id="switch游戏">Switch游戏</h2>
+
+<p>nsp 热门游戏分享，共2页，第3页补丁</p>
+
+<p>https://docs.qq.com/sheet/DWEZCZnllVndYTFpO?c=D4A0A0</p>
+
+<h2 id="外设">外设</h2>
+
+<p>便携底座</p>
+
+<p>蓝牙</p>
+
+<p>支架</p>
+
+<p>边充电边接手柄边连蓝牙耳机</p>
+
+<p>缺点：</p>
+
+<p>非原装电路板</p>
+
+<p>蓝牙功能需要底座接电源使用</p>
+
+<p>不接电源的情况下底座可以连接有线手柄吗？</p>
+
+<p>解决办法：平时作为充电蓝牙转换器支架使用，尽量不用TV模式，只在短途出差时携带作为便携底座用。</p>
+
+<p>主要场景：</p>
+
+<p>飞机上接手柄玩（没有电源，想充电必须有快充充电宝，而且出现频率非常低）</p>
+
+<p>短期出差酒店玩（出现频率很低）</p>
+
+<p>办公室桌面玩（出现频率非常低）</p>
+
+<p>代替：</p>
+
+<p>Type C拓展线</p>
+
+<p>蓝牙转换器</p>
+
+<p>支架</p>
+
+<p>Saves data are stored only in two places: internal memory and cloud.</p>
+:ET

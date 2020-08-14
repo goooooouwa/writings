@@ -1,0 +1,13 @@
+---
+layout: default
+title: Linux
+---
+<h1>Linux</h1>
+
+<ul>
+  {% for doc in site.linux %}
+    <li>
+      <h2><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></h2>
+    </li>
+  {% endfor %}
+</ul>

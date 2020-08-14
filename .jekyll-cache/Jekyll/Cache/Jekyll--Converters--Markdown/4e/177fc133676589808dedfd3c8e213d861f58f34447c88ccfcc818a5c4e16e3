@@ -1,0 +1,32 @@
+I"V	<h1 id="how-do-i-find-all-files-containing-specific-text-on-linux">How do I find all files containing specific text on Linux</h1>
+
+<p>Do the following:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>grep -rnw '/path/to/somewhere/' -e 'pattern'
+</code></pre></div></div>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">-r</code> or <code class="language-plaintext highlighter-rouge">-R</code> is recursive,</li>
+  <li><code class="language-plaintext highlighter-rouge">-n</code> is line number, and</li>
+  <li><code class="language-plaintext highlighter-rouge">-w</code> stands for match the whole word.</li>
+  <li><code class="language-plaintext highlighter-rouge">-l</code> (lower-case L) can be added to just give the file name of matching files.</li>
+</ul>
+
+<p>Along with these, <code class="language-plaintext highlighter-rouge">--exclude</code>, <code class="language-plaintext highlighter-rouge">--include</code>, <code class="language-plaintext highlighter-rouge">--exclude-dir</code> or <code class="language-plaintext highlighter-rouge">--include-dir</code> flags could be used for efficient searching:</p>
+
+<ul>
+  <li>This will only search through those files which have .c or .h extensions:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>grep --include=\*.{c,h} -rnw '/path/to/somewhere/' -e "pattern"
+</code></pre></div>    </div>
+  </li>
+  <li>This will exclude searching all the files ending with .o extension:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>grep --exclude=*.o -rnw '/path/to/somewhere/' -e "pattern"
+</code></pre></div>    </div>
+  </li>
+  <li>Just like exclude files, it’s possible to exclude/include directories through –exclude-dir and –include-dir parameter. For example, this will exclude the dirs dir1/, dir2/ and all of them matching *.dst/:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>grep --exclude-dir={dir1,dir2,*.dst} -rnw '/path/to/somewhere/' -e "pattern"
+</code></pre></div>    </div>
+    <p>This works very well for me, to achieve almost the same purpose like yours.</p>
+  </li>
+</ul>
+
+<p>For more options check <code class="language-plaintext highlighter-rouge">man grep</code>.</p>
+:ET

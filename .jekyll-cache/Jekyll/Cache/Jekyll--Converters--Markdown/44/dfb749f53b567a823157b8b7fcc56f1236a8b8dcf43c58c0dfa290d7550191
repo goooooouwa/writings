@@ -1,0 +1,4 @@
+I"…<h1 id="active-record-callbacks--ruby-on-rails-guides">Active Record Callbacks â€” Ruby on Rails Guides</h1>
+
+<p>The whole callback chain is wrapped in a transaction. If any <em>before</em> callback method returns exactly false or raises an exception, the execution chain gets halted and a ROLLBACK is issued; <em>after</em> callbacks can only accomplish that by raising an exception.</p>
+:ET

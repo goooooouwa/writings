@@ -1,0 +1,22 @@
+I"g<h1 id="sed-command-with--i-option-failing-on-mac-but-works-on-linux">sed command with -i option failing on Mac, but works on Linux</h1>
+
+<p>If you use the -i option you need to provide an extension for your backups.</p>
+
+<p>If you have:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>File1.txt
+File2.cfg
+</code></pre></div></div>
+<p>The command:</p>
+
+<p><code class="language-plaintext highlighter-rouge">sed -i '.original' 's/old_link/new_link/g' *</code></p>
+
+<p>create 2 backup files like:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>File1.txt.original
+File2.cfg.original
+</code></pre></div></div>
+<p>You can use</p>
+
+<p><code class="language-plaintext highlighter-rouge">sed -i '' 's/old_link/new_link/g' *</code></p>
+
+<p>to ignore backups.</p>
+:ET
