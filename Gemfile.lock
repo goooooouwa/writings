@@ -204,7 +204,6 @@ DEPENDENCIES
   rouge
   safe_yaml
   sass
-  tzinfo-data
 
 BUNDLED WITH
    2.1.4
