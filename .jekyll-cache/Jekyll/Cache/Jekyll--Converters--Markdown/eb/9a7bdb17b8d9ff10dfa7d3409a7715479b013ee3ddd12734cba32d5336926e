@@ -1,6 +1,0 @@
-I"<h1 id="what-does-a-member-and-collection-route-mean">What does a member and collection route mean?</h1>
-
-<p>A member route adds a custom action to a <em>specific instance.</em></p>
-
-<p>Similarly, a collection route adds an overload to the collection and/or a non-specific instance.</p>
-:ET

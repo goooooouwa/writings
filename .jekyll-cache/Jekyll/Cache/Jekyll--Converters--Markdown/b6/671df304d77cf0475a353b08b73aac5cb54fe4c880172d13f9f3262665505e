@@ -1,7 +1,0 @@
-I"V<h1 id="custom-html-attribute-requires-a-custom-helper">Custom HTML attribute requires a custom helper</h1>
-
-<p>if I wanna add attribute ‘data-submit_clear=1’ to an text_field in rails, do this:</p>
-
-<p><code class="language-plaintext highlighter-rouge">&lt;%= f.text_field :somename,:data =&gt;{:submit_clear =&gt;'1'} %&gt;</code></p>
-
-:ET

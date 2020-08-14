@@ -1,5 +1,0 @@
-I"ë<h1 id="grep-in-text-search-for-files">grep: in-text search for files</h1>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>grep textString -r folder/file
-</code></pre></div></div>
-:ET

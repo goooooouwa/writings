@@ -1,6 +1,0 @@
-I"ê<p>curl: How to Download Files</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl -O http://www.openss7.org/repos/tarballs/strx25-0.9.2.1.tar.bz2
-</code></pre></div></div>
-
-:ET

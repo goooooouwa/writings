@@ -1,5 +1,0 @@
-I"×<h1 id="what-is-an-activerecord-object">What is an ActiveRecord object?</h1>
-
-<p>An object that wraps a row in a database table or view, encapsulates the database access, and adds domain logic on that data.â€</p>
-
-:ET

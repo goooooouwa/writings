@@ -1,6 +1,0 @@
-I"b<h1 id="combine-results-from-two-queries-and-order-by-created_at-rails-3">combine results from two queries and order by created_at? [rails 3]</h1>
-
-<p>I believe it should be as simple as:</p>
-
-<p><code class="language-plaintext highlighter-rouge">combined_sorted = (User.comments + User.likes).sort{|a,b| a.created_at &lt;=&gt; b.created_at }</code></p>
-:ET

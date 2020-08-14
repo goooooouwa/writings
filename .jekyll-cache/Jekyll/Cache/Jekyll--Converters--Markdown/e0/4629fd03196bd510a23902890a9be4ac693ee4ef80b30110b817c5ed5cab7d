@@ -1,9 +1,0 @@
-I"�<h1 id="using-rails-link_to-for-links-that-post">Using Rails link_to for links that post</h1>
-
-<p>The short answer is that if what you mean by “parameters” is form fields, then you simply can’t do this (at least not in a straightforward way that I can see). You should instead use a form with a submit button, styled to look like a link (if that’s what you want it to look like).</p>
-
-<p>If on the other hand you had meant <em>query</em> parameters, then this would work:</p>
-
-<p><code class="language-plaintext highlighter-rouge">link_to "Profile", profile_path(@profile.id, param1: 'value1', param2: 'value2'), method: :post</code></p>
-
-:ET

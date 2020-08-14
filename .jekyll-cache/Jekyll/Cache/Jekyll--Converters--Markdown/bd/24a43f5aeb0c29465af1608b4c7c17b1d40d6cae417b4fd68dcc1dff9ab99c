@@ -1,5 +1,0 @@
-I"´<h1 id="list-processes-currently-using-port-3000">list processes currently using port 3000</h1>
-
-<p><code class="language-plaintext highlighter-rouge">lsof -i tcp:3000</code></p>
-
-:ET

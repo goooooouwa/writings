@@ -1,6 +1,0 @@
-I"Z<h1 id="using-docker-in-docker-for-your-ci-or-testing-environment-think-twice">Using Docker-in-Docker for your CI or testing environment? Think twice.</h1>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run -v /var/run/docker.sock:/var/run/docker.sock ...
-</code></pre></div></div>
-
-:ET

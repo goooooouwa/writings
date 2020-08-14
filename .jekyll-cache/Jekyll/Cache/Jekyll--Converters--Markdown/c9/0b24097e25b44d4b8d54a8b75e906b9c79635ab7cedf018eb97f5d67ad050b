@@ -1,8 +1,0 @@
-I"Â<h1 id="ajax---rails-3-remote-form-how-do-i-specify-the-content-type">ajax - Rails 3 remote form: How do I specify the content type</h1>
-
-<p>You can set the content-type with:</p>
-
-<p><code class="language-plaintext highlighter-rouge">= form_for(@object, :remote =&gt; true, :html =&gt; {:'data-type' =&gt; 'json'})</code></p>
-
-<p>As described in <a href="https://github.com/rails/jquery-ujs/blob/master/src/rails.js#L106">rails.js</a> line 106.</p>
-:ET
