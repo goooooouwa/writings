@@ -1,5 +1,5 @@
 ---
-category: business-analysis
+category: business analysis
 ---
 # story template (bv, journey, mockup, ui, ac, ts)
 

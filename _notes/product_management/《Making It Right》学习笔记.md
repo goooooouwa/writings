@@ -1,5 +1,5 @@
 ---
-category: product-management
+category: product management
 ---
 《Making It Right》学习笔记
 

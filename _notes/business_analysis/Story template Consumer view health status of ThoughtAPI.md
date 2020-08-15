@@ -1,5 +1,5 @@
 ---
-category: business-analysis
+category: business analysis
 ---
 # Story template: Consumer: view health status of ThoughtAPI
 
