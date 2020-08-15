@@ -27,61 +27,16 @@ header_pages:
   - category/cars.html
   - category/coding.html
   - category/product.html
-  - rails.html
-  - ruby.html
-  - linux.html
+  - notes.html
 
-collections_dir: docs
 collections:
-  business:
-    output: true
-  business_analysis:
-    output: true
-  cars:
-    output: true
-  coding:
-    output: true
-  computer:
-    output: true
-  design:
-    output: true
-  gaming:
-    output: true
-  housing:
-    output: true
-  linux:
-    output: true
-  music:
-    output: true
-  personal:
-    output: true
-  product_management:
-    output: true
-  productivity:
-    output: true
-  racing:
-    output: true
-  rails:
-    output: true
-  ruby:
-    output: true
-  user_research:
+  notes:
     output: true
 
 defaults:
   - scope:
       path: ""
-      type: "rails"
-    values:
-      layout: "doc"
-  - scope:
-      path: ""
-      type: "ruby"
-    values:
-      layout: "doc"
-  - scope:
-      path: ""
-      type: "linux"
+      type: "notes"
     values:
       layout: "doc"
 
