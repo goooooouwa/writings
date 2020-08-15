@@ -19,10 +19,10 @@ date: "2020-05-03"
 
 至今最完美的方案是树莓派供电板接8605可充电锂电池，连接酷威N100p手柄适配器。供电板有开关控制，打开则持续供电，关闭则断开电源，板子上还可以接充电器给电池充电。因为只是一个电路板，自然重量也很轻，唯一就是裸露的电路板担心不小心弄坏，于是用纸板和透明胶带进行了保护。最终样子如下图：
 
-https://i.imgur.com/NBhRB5Y.png
+![](https://i.imgur.com/NBhRB5Y.png)
 
-https://i.imgur.com/2o69IR2.png
+![](https://i.imgur.com/2o69IR2.png)
 
-https://i.imgur.com/ei6X5QX.png
+![](https://i.imgur.com/ei6X5QX.png)
 
-https://i.imgur.com/FoFBW3K.png
+![](https://i.imgur.com/FoFBW3K.png)
