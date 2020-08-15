@@ -8,4 +8,4 @@ Shunfa Xu is a product guy who hasn't made any product yet.
 
 ## Resume
 
-[Shunfa Xu's Resume (2020)]({% link _notes/career/resume-2020.md %})
+[Shunfa Xu's Resume (2020)]({% link resume-2020.md %})
