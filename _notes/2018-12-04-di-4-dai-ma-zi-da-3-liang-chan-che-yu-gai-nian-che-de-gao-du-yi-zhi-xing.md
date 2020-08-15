@@ -7,22 +7,22 @@ date: "2018-12-04"
 
 如果不看注释，你能分辨马自达的魁概念车和量产车吗？
 
-![](https://res.cloudinary.com/goooooouwa/image/upload/v1543917197/mazda-3-4th-gen-production-vs-concept/IMG_3132.jpg)
+![](https://i.imgur.com/CzGrgcD.jpg)
 
-![](https://res.cloudinary.com/goooooouwa/image/upload/v1543917204/mazda-3-4th-gen-production-vs-concept/IMG_3135.jpg)
+![](https://i.imgur.com/9ervc8r.jpg)
 
-![](https://res.cloudinary.com/goooooouwa/image/upload/v1543917207/mazda-3-4th-gen-production-vs-concept/IMG_3116.jpg)
+![](https://i.imgur.com/YQGE06p.jpg)
 
-![](https://res.cloudinary.com/goooooouwa/image/upload/v1543917212/mazda-3-4th-gen-production-vs-concept/IMG_3143.jpg)
+![](https://i.imgur.com/CPJT1lX.jpg)
 
-![](https://res.cloudinary.com/goooooouwa/image/upload/v1543917215/mazda-3-4th-gen-production-vs-concept/IMG_3129.jpg)
+![](https://i.imgur.com/UxO96nv.jpg)
 
-![](https://res.cloudinary.com/goooooouwa/image/upload/v1543917219/mazda-3-4th-gen-production-vs-concept/IMG_3119.jpg)
+![](https://i.imgur.com/0JQ8d4s.jpg)
 
-![](https://res.cloudinary.com/goooooouwa/image/upload/v1543917220/mazda-3-4th-gen-production-vs-concept/IMG_3147.jpg)
+![](https://i.imgur.com/CYFjnL2.jpg)
 
-![](https://res.cloudinary.com/goooooouwa/image/upload/v1543917222/mazda-3-4th-gen-production-vs-concept/IMG_3142.jpg)
+![](https://i.imgur.com/lff1hKR.jpg)
 
-![](https://res.cloudinary.com/goooooouwa/image/upload/v1543917225/mazda-3-4th-gen-production-vs-concept/IMG_3145.jpg)
+![](https://i.imgur.com/RFj8X9O.jpg)
 
-![](https://res.cloudinary.com/goooooouwa/image/upload/v1543917227/mazda-3-4th-gen-production-vs-concept/IMG_3120.jpg)
+![](https://i.imgur.com/p9V5flC.jpg)

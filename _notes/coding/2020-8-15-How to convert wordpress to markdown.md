@@ -5,6 +5,23 @@
 1. Wordpress export xml
 1. convert export.xml to markdown files (no year, no day, no folder for each post, date prefix, not download images)
 
+```bash
+$ npx wordpress-export-to-markdown
+npx: installed 137 in 11.812s
+
+Starting wizard...
+? Path to WordPress export file? wordpress.xml
+? Path to output folder? output
+? Create year folders? No
+? Create month folders? No
+? Create a folder for each post? No
+? Prefix post folders/files with date? Yes
+? Save images attached to posts? Yes
+? Save images scraped from post body content? Yes
+```
+
+
+
 ### Get `pinyin.txt`
 
 1. print all file title and save as file `title.txt`
