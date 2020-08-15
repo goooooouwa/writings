@@ -1,32 +1,12 @@
 # Site settings for https://goooooouwa.github.io/blog
-title: My Blog
+title: Shunfa's Notes
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 
 disqus:
   shortname: goooooouwa
 
-github_username:  goooooouwa
-twitter_username: Goooooouwa
-
-jekyll-archives:
-  enabled:
-    - year
-    - categories
-    - tags
-  layout: archive
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
-
 header_pages:
-  - docs/about.md
-  - category/business.html
-  - category/cars.html
-  - category/coding.html
-  - category/product.html
+  - about.md
   - notes.html
 
 collections:
@@ -35,10 +15,10 @@ collections:
 
 defaults:
   - scope:
-      path: ""
-      type: "notes"
-    values:
-      layout: "doc"
+        path: ""
+        type: "notes"
+      values:
+        layout: "doc"
 
 google_analytics: UA-137406515-2
 
