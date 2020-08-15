@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 # How to POST JSON data with Curl from Terminal/Commandline to Test Spring REST
 

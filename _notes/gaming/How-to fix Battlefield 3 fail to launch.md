@@ -1,4 +1,5 @@
 ---
+category: gaming
 ---
 # How-to fix: Battlefield 3 fail to launch
 

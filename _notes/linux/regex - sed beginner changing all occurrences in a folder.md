@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 # regex - sed beginner: changing all occurrences in a folder
 

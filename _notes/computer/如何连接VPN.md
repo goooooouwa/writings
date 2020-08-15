@@ -1,4 +1,5 @@
 ---
+category: computer
 ---
 # 如何连接VPN
 

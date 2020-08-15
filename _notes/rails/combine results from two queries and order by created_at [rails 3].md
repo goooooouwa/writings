@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # combine results from two queries and order by created_at? [rails 3]
 

@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 # How to access attached screen after connection dropped
 

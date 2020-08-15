@@ -1,4 +1,5 @@
 ---
+category: business-analysis
 ---
 # BA mindset and skills
 

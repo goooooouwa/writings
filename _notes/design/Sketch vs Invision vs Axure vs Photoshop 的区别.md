@@ -1,4 +1,5 @@
 ---
+category: design
 ---
 # Sketch vs Invision vs Axure vs Photoshop 的区别
 

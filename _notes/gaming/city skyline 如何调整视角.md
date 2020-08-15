@@ -1,4 +1,5 @@
 ---
+category: gaming
 ---
 # city: skyline: 如何调整视角
 

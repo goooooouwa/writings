@@ -1,4 +1,5 @@
 ---
+category: gaming
 ---
 # Fix: Burnout: Paradise 天堂 方向盘方向自然状态下向右偏移，走不了直线
 

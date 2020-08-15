@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 # Screen不用鼠标拷贝粘贴的方法
 

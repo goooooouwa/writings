@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # Rails项目的MVC目录结构
 

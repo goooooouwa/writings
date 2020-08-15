@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # ruby on rails - How devise methods are available in ApplicationController.rb
 

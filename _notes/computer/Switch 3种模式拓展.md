@@ -1,4 +1,5 @@
 ---
+category: computer
 ---
 # Switch 3种模式拓展
 

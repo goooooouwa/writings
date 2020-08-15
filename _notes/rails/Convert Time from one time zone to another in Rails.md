@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # Convert Time from one time zone to another in Rails
 

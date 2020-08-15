@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # Set "secure" flag on session cookie in RoR even over HTTP
 

@@ -1,4 +1,5 @@
 ---
+category: gaming
 ---
 # fix: get rid of the black borders :: Assetto Corsa
 

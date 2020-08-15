@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # How can I list the keys in the in-memory cache store on Ruby on Rails?
 

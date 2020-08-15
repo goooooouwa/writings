@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 # Batch Resize Images Quickly in the OS X Terminal
 

@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 # Bindkey Examples - Screen User's Manual
 

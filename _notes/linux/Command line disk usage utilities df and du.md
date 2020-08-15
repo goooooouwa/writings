@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 # Command line disk usage utilities df and du
 

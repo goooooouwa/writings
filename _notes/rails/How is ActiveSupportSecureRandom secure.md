@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # How is ActiveSupport::SecureRandom secure?
 

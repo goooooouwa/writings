@@ -1,4 +1,5 @@
 ---
+category: gaming
 ---
 # fix: 狂飙：旧金山 Driver: SF G29方向盘支持
 

@@ -1,4 +1,5 @@
 ---
+category: ruby
 ---
 # How to get object reference by memory address (hexadecimal number in inspect result)
 

@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 # How do I add environment variables
 

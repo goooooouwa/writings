@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # Using Rails link_to for links that post
 

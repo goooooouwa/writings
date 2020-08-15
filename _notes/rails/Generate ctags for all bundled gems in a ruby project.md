@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # Generate ctags for all bundled gems in a ruby project
 

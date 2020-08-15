@@ -1,4 +1,5 @@
 ---
+category: coding
 ---
 # RFC 1796 - Not All RFCs are Standards
 

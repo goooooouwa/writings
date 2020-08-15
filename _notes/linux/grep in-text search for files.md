@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 # grep: in-text search for files
 

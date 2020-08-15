@@ -1,4 +1,5 @@
 ---
+category: business-analysis
 ---
 # BA onboarding actions
 

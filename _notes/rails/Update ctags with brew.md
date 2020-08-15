@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # Update ctags with brew
 

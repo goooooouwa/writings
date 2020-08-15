@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 # sed command with -i option failing on Mac, but works on Linux
 

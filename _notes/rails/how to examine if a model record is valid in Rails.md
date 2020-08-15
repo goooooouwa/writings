@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # how to examine if a model record is valid in Rails
 

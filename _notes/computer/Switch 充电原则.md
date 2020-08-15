@@ -1,4 +1,5 @@
 ---
+category: computer
 ---
 # Switch 充电原则
 

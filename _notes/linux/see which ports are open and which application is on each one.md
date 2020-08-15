@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 # see which ports are open and which application is on each one
 

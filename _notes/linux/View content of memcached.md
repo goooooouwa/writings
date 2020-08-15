@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 # View content of memcached
 

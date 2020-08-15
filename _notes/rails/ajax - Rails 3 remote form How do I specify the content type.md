@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # ajax - Rails 3 remote form: How do I specify the content type
 

@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # Capybara 测试机制分析
 

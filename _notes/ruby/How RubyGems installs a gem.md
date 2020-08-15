@@ -1,4 +1,5 @@
 ---
+category: ruby
 ---
 # How RubyGems installs a gem
 

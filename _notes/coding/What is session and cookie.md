@@ -1,4 +1,5 @@
 ---
+category: coding
 ---
 # What is session and cookie?
 

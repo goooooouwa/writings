@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # Convert duration to hours:minutes:seconds (or similar) in Rails 3 or Ruby
 

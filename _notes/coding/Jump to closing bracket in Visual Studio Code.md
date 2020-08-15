@@ -1,4 +1,5 @@
 ---
+category: coding
 ---
 # Jump to closing bracket in Visual Studio Code
 

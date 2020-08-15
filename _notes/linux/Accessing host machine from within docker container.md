@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 # Accessing host machine from within docker container
 

@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 # shadowsocks 命令
 

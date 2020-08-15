@@ -1,4 +1,5 @@
 ---
+category: gaming
 ---
 # Graphics settings explained
 

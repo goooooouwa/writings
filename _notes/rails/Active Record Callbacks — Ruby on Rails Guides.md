@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # Active Record Callbacks — Ruby on Rails Guides
 

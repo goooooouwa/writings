@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 # Using Docker-in-Docker for your CI or testing environment? Think twice.
 

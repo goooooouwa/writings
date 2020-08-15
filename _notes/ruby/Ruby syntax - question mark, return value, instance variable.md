@@ -1,4 +1,5 @@
 ---
+category: ruby
 ---
 # Ruby syntax: "?" question mark, return value, "@" instance variable
 

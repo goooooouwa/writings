@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 curl: How to Download Files
 

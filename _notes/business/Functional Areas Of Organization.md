@@ -1,4 +1,5 @@
 ---
+category: business
 ---
 # Functional Areas Of Organization
 

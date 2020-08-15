@@ -1,4 +1,5 @@
 ---
+category: computer
 ---
 # fix: My iPhone keeps connecting and disconnect
 

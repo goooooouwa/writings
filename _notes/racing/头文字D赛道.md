@@ -1,4 +1,5 @@
 ---
+category: racing
 ---
 # 头文字D赛道
 

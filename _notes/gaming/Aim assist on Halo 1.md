@@ -1,4 +1,5 @@
 ---
+category: gaming
 ---
 # Aim assist on Halo 1
 

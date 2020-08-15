@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 # How to rename with prefix/suffix
 

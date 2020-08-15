@@ -1,4 +1,5 @@
 ---
+category: gaming
 ---
 # Racing Games personal preference in order
 

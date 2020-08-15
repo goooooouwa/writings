@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # Custom HTML attribute requires a custom helper
 

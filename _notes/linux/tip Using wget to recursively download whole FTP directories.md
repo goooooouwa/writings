@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 # tip: Using wget to recursively download whole FTP directories
 

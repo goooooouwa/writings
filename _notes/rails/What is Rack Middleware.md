@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # What is Rack Middleware
 

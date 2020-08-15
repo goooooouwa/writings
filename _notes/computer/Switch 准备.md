@@ -1,4 +1,5 @@
 ---
+category: computer
 ---
 # Switch 准备
 

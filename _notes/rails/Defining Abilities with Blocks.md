@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 Defining Abilities with Blocks
 

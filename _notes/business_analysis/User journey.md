@@ -1,4 +1,5 @@
 ---
+category: business-analysis
 ---
 # User journey
 

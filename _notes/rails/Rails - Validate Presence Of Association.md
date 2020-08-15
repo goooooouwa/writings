@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # Rails - Validate Presence Of Association
 

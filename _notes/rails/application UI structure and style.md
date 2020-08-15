@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # application UI structure and style
 

@@ -1,4 +1,5 @@
 ---
+category: coding
 ---
 # Safari cache despite no cache
 

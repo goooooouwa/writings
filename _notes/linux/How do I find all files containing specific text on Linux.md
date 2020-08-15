@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 # How do I find all files containing specific text on Linux
 

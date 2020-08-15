@@ -1,4 +1,5 @@
 ---
+category: gaming
 ---
 # Games I like to play by genre 我喜欢玩的游戏类别
 

@@ -1,4 +1,5 @@
 ---
+category: business-analysis
 ---
 # Story template: Admin: add team member
 

@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # migration and model
 

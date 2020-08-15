@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 ### Why Associations?
 

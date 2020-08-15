@@ -5,9 +5,14 @@ title: Notes
 <h1>Notes</h1>
 
 <ul>
-  {% for doc in site.notes %}
-    <li>
-      <h2><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></h2>
-    </li>
+  {% assign mynotes = site.notes | group_by: 'category' %}
+  {% for category in mynotes %}
+  <h2>{{ category.name | capitalize }}</h2>
+  <ul>
+    {% assign notes = category.items | sort: 'date' %}
+    {% for note in notes %}
+    <li><a href="{{ note.url }}">{{ note.title }}</a><p> {{ note.date }}</p></li>
+    {% endfor %}
+  </ul>
   {% endfor %}
 </ul>

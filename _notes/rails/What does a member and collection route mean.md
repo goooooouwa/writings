@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # What does a member and collection route mean?
 

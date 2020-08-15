@@ -1,4 +1,5 @@
 ---
+category: linux
 ---
 # How to split the terminal into more than one "view"
 

@@ -1,4 +1,5 @@
 ---
+category: rails
 ---
 # Issue: ActiveSupport::MessageEncryptor::InvalidMessage
 

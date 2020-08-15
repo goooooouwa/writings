@@ -1,4 +1,5 @@
 ---
+category: coding
 ---
 # 如何在Visual Studio Code中新建JavaScript代码文件
 
