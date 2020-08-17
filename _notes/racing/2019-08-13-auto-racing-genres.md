@@ -1,4 +1,5 @@
 ---
+date: 2019-08-13
 title: Auto racing genres
 category: racing
 ---

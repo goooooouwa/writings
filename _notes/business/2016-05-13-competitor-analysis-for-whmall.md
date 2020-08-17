@@ -1,7 +1,7 @@
 ---
+date: 2016-05-13
 title: 网化商城国内竞品分析
 layout: post
-date: '2016-05-13'
 category: product management
 published: false
 ---

@@ -1,4 +1,5 @@
 ---
+date: 2017-12-08
 title: How to implement north star layout in css
 layout: post
 category: coding

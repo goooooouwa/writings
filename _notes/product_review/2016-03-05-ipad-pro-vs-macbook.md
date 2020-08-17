@@ -1,4 +1,5 @@
 ---
+date: 2016-03-05
 title: iPad Pro vs MacBook，谁才是未来个人电脑的主流？
 layout: post
 published: false

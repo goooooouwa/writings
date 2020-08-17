@@ -1,4 +1,5 @@
 ---
+date: 2019-08-12
 title: Blancpain GT Sprint series
 category: racing
 layout: post

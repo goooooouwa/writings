@@ -1,7 +1,7 @@
 ---
+date: 2017-12-07
 title: What should we store in redux state tree?
 layout: post
-date: '2017-12-07'
 category: redux
 published: false
 ---

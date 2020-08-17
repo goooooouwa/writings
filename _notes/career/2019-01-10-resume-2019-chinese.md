@@ -1,4 +1,5 @@
 ---
+date: 2019-01-10
 title: 徐顺发的简历（2019）
 layout: post
 category: career
