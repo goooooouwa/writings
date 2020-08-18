@@ -5,15 +5,15 @@ title: Notes
 <h1>Notes</h1>
 
 <ul>
-  {% assign mynotes = site.notes | sort: 'category' | group_by: 'category' %}
+  {% assign mynotes = site.notes | group_by: 'category' | sort: 'size' | reverse %}
   {% for category in mynotes %}
   <h2>{{ category.name | capitalize }} ({{ category.items.size }})</h2>
   <ul>
-    {% assign notes = category.items | sort: 'date' %}
-    {% for note in notes %}
+    {% assign posts = category.items | sort: 'date' %}
+    {% for post in posts %}
     <li>
-      <span class="post-meta">{{ note.date | date_to_string: "ordinal", "US" }}</span>
-      <a href="{{ note.url | relative_url }}">{{ note.title }}</a>
+      <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
     {% endfor %}
   </ul>
