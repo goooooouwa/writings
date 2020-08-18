@@ -7,11 +7,14 @@ title: Notes
 <ul>
   {% assign mynotes = site.notes | sort: 'category' | group_by: 'category' %}
   {% for category in mynotes %}
-  <h2>{{ category.name | capitalize }}</h2>
+  <h2>{{ category.name | capitalize }} ({{ category.items.size }})</h2>
   <ul>
-    {% assign notes = category.items | sort: 'title' %}
+    {% assign notes = category.items | sort: 'date' %}
     {% for note in notes %}
-    <li><a href="{{ note.url | relative_url }}">{{ note.title }}</a></li>
+    <li>
+      <span class="post-meta">{{ note.date | date_to_string: "ordinal", "US" }}</span>
+      <a href="{{ note.url | relative_url }}">{{ note.title }}</a>
+    </li>
     {% endfor %}
   </ul>
   {% endfor %}

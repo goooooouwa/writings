@@ -2,7 +2,7 @@
 date: 2017-12-07
 title: What should we store in redux state tree?
 layout: post
-category: redux
+category: javascript
 published: false
 ---
 
