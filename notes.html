@@ -2,7 +2,7 @@
 layout: default
 title: Notes
 ---
-<h1>Notes</h1>
+<h1>Notes ({{ site.notes.size }})</h1>
 
 <ul>
   {% assign mynotes = site.notes | group_by: 'category' | sort: 'size' | reverse %}
