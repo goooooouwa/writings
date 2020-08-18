@@ -1,7 +1,7 @@
 ---
 date: 2019-10-02
 title: 用户访谈的注意事项
-category: user research
+category: design
 ---
 # 用户访谈的注意事项
 

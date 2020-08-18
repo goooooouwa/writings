@@ -1,5 +1,6 @@
 ---
 title: "我心中的《Devil wears Prada》结局"
+category: entertainment
 date: "2019-10-24"
 ---
 

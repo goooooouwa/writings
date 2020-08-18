@@ -1,5 +1,5 @@
 ---
-category: misc
+category: experience
 title: "一次“美国-泰国“国际包裹跟踪体验"
 date: "2020-04-01"
 ---

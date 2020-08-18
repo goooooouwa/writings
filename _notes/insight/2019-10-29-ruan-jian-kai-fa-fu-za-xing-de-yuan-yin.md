@@ -1,5 +1,5 @@
 ---
-category: coding
+category: insight
 title: "软件开发复杂性的原因"
 date: "2019-10-29"
 ---
