@@ -1,10 +1,4 @@
 2019-10-16 She is not bad
-Date:     2019-10-16 06:35:22
-
-     Weather:     Mostly Cloudy at Night
-
-     Location:     中国陕西省西安市雁塔区亚迪路与南三环交叉口西150米
-
 She is not bad
 
 She is not that bad, not that pretty but not bad. She is very cute, especially when she smiles. 她只是不太适合光额头，因为额头高且眉毛浅，有刘海就好很多。

@@ -1,9 +1,3 @@
-2019-06-20 Wait until a few things     Date:     2019-06-20 15:55:00
-
-     Weather:     Sunny
-
-     Location:     中国陕西省西安市雁塔区西三环路天谷八路211号
-
 Wait until a few things
 
 Wait until iOS 13 发布看CarPlay支持不
