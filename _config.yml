@@ -62,9 +62,12 @@ theme: minima
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
 #   - Gemfile
 #   - Gemfile.lock
-#   - node_modules
+#   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
@@ -72,6 +75,4 @@ theme: minima
 
 exclude:
   - scripts/
-  - Gemfile
-  - Gemfile.lock
   - README.md
