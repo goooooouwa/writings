@@ -1,3 +1,7 @@
+---
+date: 2019-03-29
+title: how to make my digital life easier
+---
 This is my life, wish I know how to make it easier.
 
 I use 2 todo apps: Things, Reminders

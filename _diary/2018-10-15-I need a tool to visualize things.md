@@ -1,3 +1,7 @@
+---
+date: 2018-10-15
+title: I need a tool to visualize things
+---
 I need a tool to visualize things
 
 Visualize my time spent, visualize my thoughts, visualize my whole life.

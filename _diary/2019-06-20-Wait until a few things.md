@@ -1,3 +1,7 @@
+---
+date: 2019-06-20
+title: Wait until a few things
+---
 Wait until a few things
 
 Wait until iOS 13 发布看CarPlay支持不

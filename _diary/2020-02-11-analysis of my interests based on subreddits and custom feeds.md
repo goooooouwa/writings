@@ -1,3 +1,7 @@
+---
+date: 2020-02-11
+title: analysis of my interests based on subreddits and custom feeds
+---
 Gaming
 
 Console News

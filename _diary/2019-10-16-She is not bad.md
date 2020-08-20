@@ -1,3 +1,7 @@
+---
+date: 2019-10-16
+title: She is not bad
+---
 She is not bad
 
 She is not that bad, not that pretty but not bad. She is very cute, especially when she smiles. 她只是不太适合光额头，因为额头高且眉毛浅，有刘海就好很多。

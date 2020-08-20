@@ -1,3 +1,7 @@
+---
+date: 2018-11-01
+title: BA role is Business heavy
+---
 BA role is Business heavy
 
 Structure / logical thinking

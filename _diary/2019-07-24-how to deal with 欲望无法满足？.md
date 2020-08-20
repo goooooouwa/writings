@@ -1,3 +1,7 @@
+---
+date: 2019-07-24
+title: how to deal with 欲望无法满足？
+---
 how to deal with 欲望无法满足？
 
 how to deal with 欲望无法满足？
