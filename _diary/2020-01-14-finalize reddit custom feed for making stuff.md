@@ -1,4 +1,3 @@
-2020-1-14 finalize reddit custom feed for making stuff
 发现reddit上找不到我想找的“Recent Development of 关注的产品或项目”。后来考虑过：
 
 Github上去follow开源项目（太琐碎）

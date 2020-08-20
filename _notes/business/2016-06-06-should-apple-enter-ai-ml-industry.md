@@ -17,5 +17,3 @@ AI&ML是未来几年必然的发展方向，占用户体验的比例越来越大
 
 苹果只有在AI&ML领域推出强有力的产品才能构成苹果生态圈用户体验的完整闭环，而是该大举进入数据市场，还是借盟友之力互助共赢？今年的WWDC，答案应该就会揭晓。
 
-2019-02-14 UPDATE：苹果找到了自己的价值定位，on-device Machine Learning. 换句话说，苹果不对开发者提供需要大量云计算的模型训练（Training)服务（Google的TenserFlow提供），仅通过Core ML框架提供模型推断（Inference）的支持。苹果自身则 in-house 优化自家的Siri等模型。
-
