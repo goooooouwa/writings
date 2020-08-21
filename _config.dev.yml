@@ -35,3 +35,5 @@ defaults:
 
 jekyll_compose:
   auto_open: true
+
+# remote_theme: pages-themes/merlot

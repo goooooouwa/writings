@@ -11,7 +11,7 @@ source 'https://rubygems.org'
 gem 'jekyll', '3.8.5'
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem 'minima', '~> 2.0'
+# gem 'minima', '~> 2.0'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -28,7 +28,7 @@ group :jekyll_plugins do
   gem 'jekyll-avatar'
   gem 'jekyll-coffeescript'
   gem 'jekyll-commonmark-ghpages'
-  gem 'jekyll-default-layout'
+  # gem 'jekyll-default-layout'
   gem 'jekyll-feed'
   gem 'jekyll-gist'
   # gem 'jekyll-github-metadata'
@@ -38,7 +38,7 @@ group :jekyll_plugins do
   gem 'jekyll-readme-index'
   gem 'jekyll-redirect-from'
   gem 'jekyll-relative-links'
-  # gem 'jekyll-remote-theme'
+  gem 'jekyll-remote-theme'
   gem 'jekyll-sass-converter'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
