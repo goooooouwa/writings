@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd $1
-JEKYLL_ENV=production jekyll build --config _config.yml,_config.prod.resume.yml
+JEKYLL_ENV=production jekyll build --config _config.yml,_config.resume.yml
 
 cd $1/_site
 git init
