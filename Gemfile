@@ -28,6 +28,7 @@ group :jekyll_plugins do
   gem 'jekyll-avatar'
   gem 'jekyll-coffeescript'
   gem 'jekyll-commonmark-ghpages'
+  # gem 'jekyll-default-layout'
   gem 'jekyll-feed'
   gem 'jekyll-gist'
   # gem 'jekyll-github-metadata'
