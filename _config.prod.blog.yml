@@ -5,6 +5,10 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog
 disqus:
   shortname: goooooouwa
 
+google_analytics: UA-137406515-2
+
+google_custom_engine: 001725026263712877590:9lrhbwyoknb
+
 header_pages:
   - about.md
   - notes.html
@@ -19,10 +23,17 @@ defaults:
       type: "notes"
     values:
       layout: "post"
-
-google_analytics: UA-137406515-2
-
-google_custom_engine: 001725026263712877590:9lrhbwyoknb
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 exclude:
+  - scripts/
+  - README.md
   - diary.html

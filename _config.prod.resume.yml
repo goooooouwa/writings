@@ -2,13 +2,15 @@
 title: A Product Guy
 baseurl: "/resume" # the subpath of your site, e.g. /blog
 
-header_pages:
-  - about.md
-
 google_analytics: UA-137406515-1
 
 google_custom_engine: 001725026263712877590:cfivcwakujs
 
+header_pages:
+  - about.md
+
 exclude:
+  - scripts/
+  - README.md
   - notes.html
   - diary.html

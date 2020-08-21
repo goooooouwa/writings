@@ -23,6 +23,15 @@ defaults:
       type: "diary"
     values:
       layout: "post"
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 jekyll_compose:
   auto_open: true
