@@ -44,5 +44,3 @@ exclude:
   - scripts/
   - README.md
   - diary.html
-
-remote_theme: pages-themes/merlot
