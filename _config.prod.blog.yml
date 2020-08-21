@@ -34,6 +34,15 @@ defaults:
       layout: "default"
 
 exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - scripts/
   - README.md
   - diary.html
+
+remote_theme: pages-themes/merlot
