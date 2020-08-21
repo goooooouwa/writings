@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -8,10 +8,10 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.0"
+gem 'jekyll', '~> 4.0'
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.0"
+gem 'minima', '~> 2.0'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -20,7 +20,7 @@ gem "minima", "~> 2.0"
 group :jekyll_plugins do
   # Plugins included in github-pages gem: https://pages.github.com/versions/
   # Help doc: https://help.github.com/articles/configuring-jekyll-plugins/
-  
+
   # gem 'jekyll'
   # gem 'github-pages-health-check'
   # gem 'github-pages'
@@ -66,15 +66,15 @@ group :jekyll_plugins do
   # gem 'ruby'
   gem 'safe_yaml'
   gem 'sass'
-  
+
   # Custom Jekyll plugins: https://jekyllrb.com/docs/plugins/installation/
 
-  gem "jekyll-compose"
   gem 'jekyll-admin'
   gem 'jekyll-archives'
+  gem 'jekyll-compose'
+  gem 'jekyll-favicon', '~> 0.2.8'
   gem 'jekyll-paginate-v2'
   gem 'jekyll-seo'
-  gem 'jekyll-favicon', '~> 0.2.8'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
