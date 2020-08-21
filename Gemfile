@@ -74,6 +74,7 @@ group :jekyll_plugins do
   gem 'jekyll-archives'
   gem 'jekyll-paginate-v2'
   gem 'jekyll-seo'
+  gem 'jekyll-favicon', '~> 0.2.8'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
