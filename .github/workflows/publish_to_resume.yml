@@ -5,10 +5,11 @@ on: [push]
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
     - uses: actions/checkout@v2
+    - run: brew install imagemagick
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
