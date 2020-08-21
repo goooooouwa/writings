@@ -1,5 +1,9 @@
 # writings
 
+![Publish to my blog](https://github.com/goooooouwa/writings/workflows/Publish%20to%20my%20blog/badge.svg)
+
+![Publish to my resume](https://github.com/goooooouwa/writings/workflows/Publish%20to%20my%20resume/badge.svg)
+
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0
