@@ -56,7 +56,7 @@ defaults:
 
 # Build settings
 markdown: kramdown
-# theme: minima
+
 remote_theme: jekyll/minima
 
 # Exclude from processing.
