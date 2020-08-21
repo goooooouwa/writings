@@ -33,6 +33,9 @@ defaults:
     values:
       layout: "default"
 
+minima:
+  skin: dark
+
 exclude:
   - Gemfile
   - Gemfile.lock
