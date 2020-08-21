@@ -72,7 +72,6 @@ group :jekyll_plugins do
   gem 'jekyll-admin'
   gem 'jekyll-archives'
   gem 'jekyll-compose'
-  gem 'jekyll-favicon', '~> 0.2.8'
   gem 'jekyll-paginate-v2'
   gem 'jekyll-seo'
 end
