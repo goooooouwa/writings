@@ -11,3 +11,4 @@ google_custom_engine: 001725026263712877590:cfivcwakujs
 
 exclude:
   - notes.html
+  - diary.html

@@ -2,5 +2,27 @@
 
 title: Local
 
+header_pages:
+  - notes.html
+  - diary.html
+
+collections:
+  diary:
+    output: true
+  notes:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "notes"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "diary"
+    values:
+      layout: "post"
+
 jekyll_compose:
-    auto_open: true
+  auto_open: true

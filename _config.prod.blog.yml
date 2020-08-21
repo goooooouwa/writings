@@ -18,8 +18,11 @@ defaults:
       path: ""
       type: "notes"
     values:
-      layout: "doc"
+      layout: "post"
 
 google_analytics: UA-137406515-2
 
 google_custom_engine: 001725026263712877590:9lrhbwyoknb
+
+exclude:
+  - diary.html
