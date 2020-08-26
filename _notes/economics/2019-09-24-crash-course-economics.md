@@ -1,7 +1,7 @@
 ---
 date: 2019-09-24
 title: 2019-09-24 Crash Course Economics
-category: study notes
+category: economics
 ---
 
 ## #1 Intro to Economics
