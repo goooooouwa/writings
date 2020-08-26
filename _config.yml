@@ -34,13 +34,11 @@ jekyll-archives:
   enabled:
     - year
     - categories
-    - tags
   layout: archive
   permalinks:
     year: '/:year/'
     month: '/:year/:month/'
     day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
     category: '/category/:name/'
 
 defaults:
@@ -61,6 +59,9 @@ remote_theme: jekyll/minima
 
 mermaid:
   src: '/assets/javascript/mermaid-8.7.0/mermaid.min.js'
+
+tag_page_layout: tag_page
+tag_page_dir: tag  
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
