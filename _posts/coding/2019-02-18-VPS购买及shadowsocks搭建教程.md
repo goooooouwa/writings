@@ -2,7 +2,7 @@
 title: 如何搭建Shadowsocks服务
 layout: post
 category: coding
-tags: vpn, shadowsocks
+tags: vpn shadowsocks
 published: false
 ---
 
