@@ -7,6 +7,11 @@ title: Notes
 <ul>
   {% assign mynotes = site.notes | group_by: 'category' | sort: 'size' | reverse %}
   {% for category in mynotes %}
+  <span style="font-size: {{ category.items.size  |  times: 5 | plus: 80  }}%">
+    {{ category.name }} ({{ category.items.size }})
+  </span>
+  {% endfor %}
+  {% for category in mynotes %}
   <h2>{{ category.name | capitalize }} ({{ category.items.size }})</h2>
   <ul>
     {% assign posts = category.items | sort: 'date' %}
