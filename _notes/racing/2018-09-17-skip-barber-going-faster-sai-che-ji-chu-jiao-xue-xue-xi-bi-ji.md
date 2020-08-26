@@ -16,9 +16,9 @@ Oversteer type 2: power oversteer
 
 救车时不要深踩油门，否则只会让打滑的轮胎更加失控。
 
-https://i.imgur.com/AJxiHS4.png
+![](https://i.imgur.com/AJxiHS4.png)
 
-https://i.imgur.com/LaHxS7A.png
+![](https://i.imgur.com/LaHxS7A.png)
 
 车辆极限状态过弯是否轻微打滑
 

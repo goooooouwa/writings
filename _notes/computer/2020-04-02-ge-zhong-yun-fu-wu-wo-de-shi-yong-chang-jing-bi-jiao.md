@@ -1,5 +1,5 @@
 ---
-category: computers
+category: computer
 date: 2020-04-02
 title: 各种云服务我的使用场景比较
 ---
