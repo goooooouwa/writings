@@ -57,9 +57,6 @@ markdown: kramdown
 
 remote_theme: jekyll/minima
 
-mermaid:
-  src: '/assets/javascript/mermaid-8.7.0/mermaid.min.js'
-
 tag_page_layout: tag_page
 tag_page_dir: tag  
 

@@ -9,9 +9,6 @@ google_custom_engine: 001725026263712877590:cfivcwakujs
 header_pages:
   - about.md
 
-mermaid:
-  src: '/resume/assets/javascript/mermaid-8.7.0/mermaid.min.js'
-
 exclude:
   - Gemfile
   - Gemfile.lock

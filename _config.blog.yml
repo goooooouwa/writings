@@ -33,9 +33,6 @@ defaults:
     values:
       layout: "default"
 
-mermaid:
-  src: '/blog/assets/javascript/mermaid-8.7.0/mermaid.min.js'
-
 minima:
   skin: dark
 
