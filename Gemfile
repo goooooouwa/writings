@@ -72,6 +72,7 @@ group :jekyll_plugins do
   gem 'jekyll-admin'
   gem 'jekyll-archives'
   gem 'jekyll-compose'
+  gem 'jekyll_figure'
   gem 'jekyll-paginate-v2'
   gem 'jekyll-seo'
   gem 'jekyll-spaceship'
