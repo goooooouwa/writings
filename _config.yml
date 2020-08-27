@@ -57,9 +57,6 @@ markdown: kramdown
 
 remote_theme: jekyll/minima
 
-tag_page_layout: tag_page
-tag_page_dir: tag  
-
 jekyll-spaceship:
   processors:
     - mermaid-processor
