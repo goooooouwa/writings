@@ -74,6 +74,7 @@ group :jekyll_plugins do
   gem 'jekyll-compose'
   gem 'jekyll-paginate-v2'
   gem 'jekyll-seo'
+  gem 'jekyll-spaceship'
   gem 'jekyll-tagging'
 end
 

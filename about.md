@@ -6,14 +6,14 @@ permalink: /about/
 
 Shunfa Xu is a product guy who hasn't made any product yet.
 
-{% mermaid %}
+```mermaid
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
-{% endmermaid %}
-  
+```
+
 ## Resume
 
 [Shunfa Xu's Resume (2020)]({% link resume-2020.md %})

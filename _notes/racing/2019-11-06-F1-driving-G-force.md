@@ -28,4 +28,4 @@ Cornering force 4.9G 
 
 JP GP pole lap video: 
 
-[https://youtu.be/UoCca4kUTf4](https://youtu.be/UoCca4kUTf4)
+![https://youtu.be/UoCca4kUTf4](https://youtu.be/UoCca4kUTf4)

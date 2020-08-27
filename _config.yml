@@ -60,6 +60,14 @@ remote_theme: jekyll/minima
 tag_page_layout: tag_page
 tag_page_dir: tag  
 
+jekyll-spaceship:
+  processors:
+    - mermaid-processor
+    - media-processor
+  mermaid-processor:
+    syntax:
+      code: 'mermaid'
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
