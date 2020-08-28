@@ -1,7 +1,6 @@
 #!/bin/bash
 
 cd $1
-npm install -g vega-cli vega-lite
 JEKYLL_ENV=production jekyll build --config _config.yml,_config.blog.yml --unpublished
 
 cd $1/_site
