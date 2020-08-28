@@ -12,7 +12,7 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '12'
-    - run: npm install -g vega-cli vega-lite
+    - run: npm install -g vega vega-cli vega-lite
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
