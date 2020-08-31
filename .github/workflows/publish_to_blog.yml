@@ -49,4 +49,5 @@ jobs:
       with:
         repository: goooooouwa/blog
         github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        directory: ./_site
         force: true
