@@ -34,7 +34,7 @@ defaults:
       layout: "default"
 
 minima:
-  skin: dark
+  skin: solarized-dark
 
 exclude:
   - Gemfile
