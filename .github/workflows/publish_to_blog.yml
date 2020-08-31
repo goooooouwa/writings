@@ -39,9 +39,9 @@ jobs:
     - name: Commit files
       run: |
         cd ./_site
+        git init
         git config --local user.name "GitHub Action"
         git config --local user.email "action@github.com"
-        git init
         git add .
         git commit -m "jekyll build at $(date)"
     - name: Push changes
