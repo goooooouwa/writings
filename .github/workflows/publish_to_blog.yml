@@ -38,9 +38,9 @@ jobs:
 
     - name: Commit files
       run: |
+        cd ./_site
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        cd ./_site
         git init
         git commit -m "jekyll build at $(date)" -a
     - name: Push changes
@@ -48,3 +48,4 @@ jobs:
       with:
         repository: https://goooooouwa:$2@github.com/goooooouwa/blog.git
         github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        force: true
