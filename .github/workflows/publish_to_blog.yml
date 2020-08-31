@@ -47,6 +47,6 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-        repository: https://goooooouwa:$2@github.com/goooooouwa/blog.git
+        repository: goooooouwa/blog
         github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         force: true
