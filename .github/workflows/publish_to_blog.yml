@@ -42,7 +42,8 @@ jobs:
         git config --local user.name "GitHub Action"
         git config --local user.email "action@github.com"
         git init
-        git commit -m "jekyll build at $(date)" -a
+        git add .
+        git commit -m "jekyll build at $(date)"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
