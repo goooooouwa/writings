@@ -1,4 +1,4 @@
-name: Publish to my resume
+name: Publish to my cv
 
 on: [push]
 
@@ -33,7 +33,7 @@ jobs:
         bundle install --jobs 4 --retry 3
     
     - name: Build Jekyll site
-      run: JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config.resume.yml
+      run: JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config.cv.yml
 
     - name: Commit files
       run: |
@@ -47,6 +47,6 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         directory: ./_site
-        repository: goooooouwa/resume
+        repository: goooooouwa/cv
         github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         force: true

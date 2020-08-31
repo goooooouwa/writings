@@ -1,6 +1,6 @@
 # Site settings for https://goooooouwa.github.io/resume
 title: A Product Guy
-baseurl: "/resume" # the subpath of your site, e.g. /blog
+baseurl: "/cv" # the subpath of your site, e.g. /blog
 
 google_analytics: UA-137406515-1
 
