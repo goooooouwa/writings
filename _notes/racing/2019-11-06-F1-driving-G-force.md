@@ -6,7 +6,7 @@ date: "2019-11-06"
 
 G force 
 
-![](https://i.imgur.com/8omGrnt.png)
+![](https://i.imgur.com/8omGrnt.png?width=600&height=350)
 
 Maximum braking 5.9G 
 
@@ -28,4 +28,4 @@ Cornering force 4.9G 
 
 JP GP pole lap video: 
 
-![https://youtu.be/UoCca4kUTf4](https://youtu.be/UoCca4kUTf4?width=600&height=350)
+![https://youtu.be/UoCca4kUTf4](https://youtu.be/UoCca4kUTf4)
