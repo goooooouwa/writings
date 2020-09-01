@@ -2,21 +2,6 @@
 title: Shunfa's Notes
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 
-disqus:
-  shortname: goooooouwa
-
-google_analytics: UA-137406515-2
-
-google_custom_engine: 001725026263712877590:9lrhbwyoknb
-
-header_pages:
-  - about.md
-  - notes.html
-
-collections:
-  notes:
-    output: true
-
 defaults:
   - scope:
       path: ""
@@ -33,17 +18,31 @@ defaults:
     values:
       layout: "default"
 
-minima:
-  skin: dark
+collections:
+  notes:
+    output: true
 
 exclude:
   - Gemfile
   - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
   - scripts/
   - README.md
   - diary.html
+
+# Theme settings for minima
+
+minima:
+  skin: dark
+
+disqus:
+  shortname: goooooouwa
+
+google_analytics: UA-137406515-2
+
+header_pages:
+  - about.md
+  - notes.html
+
+# Plugin settings
+
+google_custom_engine: 001725026263712877590:9lrhbwyoknb

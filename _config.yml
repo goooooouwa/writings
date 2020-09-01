@@ -14,32 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Shunfa's Blog
-email: gouwa5700 (at) gmail (dot) com
 description: > # this means to ignore newlines until "baseurl:"
   Make products people love.
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://goooooouwa.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-author: Shunfa Xu
-show_excerpts: false
-
-pagination:
-  enabled: true
-  per_page: 15
-  sort_reverse: true
-
-github_username:  goooooouwa
-twitter_username: Goooooouwa
-
-jekyll-archives:
-  enabled:
-    - year
-    - categories
-  layout: archive
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    category: '/category/:name/'
+baseurl: "" # the subpath of your site, e.g. /blog
 
 defaults:
   - scope:
@@ -52,30 +30,49 @@ defaults:
     values:
       layout: "default"
 
-# Build settings
-markdown: kramdown
-
-# remote_theme: jekyll/minima
-theme: minima
-
-jekyll-spaceship:
-  processors:
-    - mermaid-processor
-    - media-processor
-  mermaid-processor:
-    syntax:
-      code: 'mermaid'
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
   - Gemfile
   - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
   - scripts/
   - README.md
+
+# Build settings
+markdown: kramdown
+
+# Theme settings for minima
+
+theme: minima
+# remote_theme: jekyll/minima
+
+author:
+  name: Shunfa Xu
+  email: gouwa5700 (at) gmail (dot) com
+
+minima:
+  social_links:
+    twitter: Goooooouwa
+    github: goooooouwa
+    linkedin: gregxu
+
+show_excerpts: false
+
+# Plugin settings
+
+pagination:
+  enabled: true
+  per_page: 15
+  sort_reverse: true
+
+jekyll-archives:
+  enabled:
+    - year
+    - categories
+  layout: archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    category: '/category/:name/'

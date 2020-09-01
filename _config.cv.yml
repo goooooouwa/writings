@@ -1,26 +1,25 @@
-# Site settings for https://goooooouwa.github.io/resume
+# Site settings for https://goooooouwa.github.io/cv
 title: A Product Guy
 baseurl: "/cv" # the subpath of your site, e.g. /blog
-
-google_analytics: UA-137406515-1
-
-google_custom_engine: 001725026263712877590:cfivcwakujs
-
-header_pages:
-  - about.md
-
-minima:
-  skin: solarized
 
 exclude:
   - Gemfile
   - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
   - scripts/
   - README.md
   - notes.html
   - diary.html
+
+# Theme settings for minima
+
+minima:
+  skin: solarized
+
+google_analytics: UA-137406515-1
+
+header_pages:
+  - about.md
+
+# Plugin settings
+
+google_custom_engine: 001725026263712877590:cfivcwakujs
