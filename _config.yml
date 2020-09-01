@@ -55,7 +55,8 @@ defaults:
 # Build settings
 markdown: kramdown
 
-remote_theme: jekyll/minima
+# remote_theme: jekyll/minima
+theme: minima
 
 jekyll-spaceship:
   processors:

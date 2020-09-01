@@ -38,7 +38,7 @@ group :jekyll_plugins do
   gem 'jekyll-readme-index'
   gem 'jekyll-redirect-from'
   gem 'jekyll-relative-links'
-  gem 'jekyll-remote-theme'
+  # gem 'jekyll-remote-theme'
   gem 'jekyll-sass-converter'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
@@ -60,7 +60,7 @@ group :jekyll_plugins do
   gem 'jemoji'
   gem 'kramdown'
   gem 'liquid'
-  # gem 'minima'
+  gem 'minima', git: 'https://github.com/jekyll/minima'
   gem 'nokogiri'
   gem 'rouge'
   # gem 'ruby'
@@ -74,9 +74,10 @@ group :jekyll_plugins do
   gem 'jekyll-compose'
   gem 'jekyll-debug'
   gem 'jekyll-diagrams', git: 'https://github.com/zhustec/jekyll-diagrams'
+  gem 'jekyll-include-cache'
   gem 'jekyll-paginate-v2'
   gem 'jekyll-seo'
-  gem 'jekyll-spaceship'
+  # gem 'jekyll-spaceship'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
