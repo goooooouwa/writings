@@ -44,4 +44,4 @@ FAQ:
 
 Source: [Embed formatted, syntax-highlighted source code in Keynote](http://hints.macworld.com/article.php?story=20091104002118164)
 
-Download the example [here]({{ "/assets/downloads/2014-12-12-how-to-preserve-the-format-of-my-code-while-posting-in-keynote/example_HTML_converted_from_source_code.html" | relative_url }}).
+Download the example [here]({{ "/assets/downloads/2014-12-12-how-to-preserve-the-format-of-my-code-while-posting-in-keynote/example_HTML_converted_from_source_code.html" | relative_url }}){: download="example-html" }.
