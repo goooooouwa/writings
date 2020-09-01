@@ -6,13 +6,12 @@ permalink: /about/
 
 Shunfa Xu is a product guy who hasn't made any product yet.
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+<div class="mermaid">
+  graph LR
+   A --- B
+   B-->C[fa:fa-ban forbidden]
+   B-->D(fa:fa-spinner);
+</div>
 
 {% vegalite %}
 {
