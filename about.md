@@ -6,6 +6,8 @@ permalink: /about/
 
 Shunfa Xu is a product guy who hasn't made any product yet.
 
+[Resume (2020)]({% link resume-2020.md %})
+
 <div class="mermaid">
   graph LR
    A --- B
@@ -13,26 +15,25 @@ Shunfa Xu is a product guy who hasn't made any product yet.
    B-->D(fa:fa-spinner);
 </div>
 
-{% vegalite %}
-{
-  "": "https://vega.github.io/schema/vega-lite/v4.json",
-  "description": "A simple bar chart with embedded data.",
-  "data": {
-    "values": [
-      {"a": "A", "b": 28}, {"a": "B", "b": 55}, {"a": "C", "b": 43},
-      {"a": "D", "b": 91}, {"a": "E", "b": 81}, {"a": "F", "b": 53},
-      {"a": "G", "b": 19}, {"a": "H", "b": 87}, {"a": "I", "b": 52}
-    ]
-  },
-  "mark": "bar",
-  "encoding": {
-    "x": {"field": "a", "type": "ordinal"},
-    "y": {"field": "b", "type": "quantitative"}
-  }
-}
-{% endvegalite %}
+<canvas id="myChart"></canvas>
+<script>
+  var ctx = document.getElementById('myChart').getContext('2d');
+  var chart = new Chart(ctx, {
+      // The type of chart we want to create
+      type: 'line',
 
-## Resume
+      // The data for our dataset
+      data: {
+          labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+          datasets: [{
+              label: 'My First dataset',
+              backgroundColor: 'rgb(255, 99, 132)',
+              borderColor: 'rgb(255, 99, 132)',
+              data: [0, 10, 5, 2, 20, 30, 45]
+          }]
+      },
 
-[Shunfa Xu's Resume (2020)]({% link resume-2020.md %})
-
+      // Configuration options go here
+      options: {}
+  });
+</script>
