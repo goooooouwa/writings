@@ -45,7 +45,6 @@ markdown: kramdown
 # Theme settings for minima
 
 theme: minima
-# remote_theme: jekyll/minima
 
 author:
   name: Shunfa Xu

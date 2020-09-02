@@ -1,10 +1,6 @@
-# local development settings
+# Site settings for local
 
 title: Local
-
-header_pages:
-  - notes.html
-  - diary.html
 
 collections:
   diary:
@@ -33,8 +29,16 @@ defaults:
     values:
       layout: "default"
 
-jekyll_compose:
-  auto_open: true
+# Theme settings for minima
 
 minima:
   skin: dark
+
+header_pages:
+  - notes.html
+  - diary.html
+
+# Plugin settings
+
+jekyll_compose:
+  auto_open: true

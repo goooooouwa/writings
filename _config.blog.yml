@@ -2,6 +2,10 @@
 title: Shunfa's Notes
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 
+collections:
+  notes:
+    output: true
+
 defaults:
   - scope:
       path: ""
@@ -17,10 +21,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-
-collections:
-  notes:
-    output: true
 
 exclude:
   - Gemfile
