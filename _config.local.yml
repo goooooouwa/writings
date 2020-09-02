@@ -32,7 +32,7 @@ defaults:
 # Theme settings for minima
 
 minima:
-  skin: dark
+  skin: solarized-dark
 
 header_pages:
   - notes.html
