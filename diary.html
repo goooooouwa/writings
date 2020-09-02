@@ -5,7 +5,7 @@ title: Diary
 <h1>Diary ({{ site.diary.size }})</h1>
 
 <ul>
-  {% assign mydiary = site.diary | sort: 'date' %}
+  {% assign mydiary = site.diary | sort: 'date' | reverse %}
     {% for post in mydiary %}
     <li>
       <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
