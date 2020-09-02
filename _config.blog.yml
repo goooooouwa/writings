@@ -40,8 +40,8 @@ disqus:
 google_analytics: UA-137406515-2
 
 header_pages:
-  - about.md
   - notes.html
+  - about.md
 
 # Plugin settings
 

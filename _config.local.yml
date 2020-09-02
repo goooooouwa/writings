@@ -37,6 +37,7 @@ minima:
 header_pages:
   - notes.html
   - diary.html
+  - about.md
 
 # Plugin settings
 
