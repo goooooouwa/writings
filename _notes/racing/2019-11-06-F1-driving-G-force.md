@@ -6,16 +6,15 @@ date: "2019-11-06"
 
 G force 
 
-![](https://i.imgur.com/8omGrnt.png =100x20)
+![](https://i.imgur.com/8omGrnt.png)
 
 Maximum braking 5.9G 
 
 ![](https://i.imgur.com/ITum5mn.png)
-{: height="36px" width="36px"}
 
 Turn in 3.0G 
 
-![](https://i.imgur.com/IPgAWrz.png){:height="36px" width="36px"}
+![](https://i.imgur.com/IPgAWrz.png)
 
 Cornering force 3.6G 
 
