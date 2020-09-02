@@ -34,7 +34,7 @@ group :jekyll_plugins do
   # gem 'jekyll-github-metadata'
   gem 'jekyll-mentions'
   gem 'jekyll-optional-front-matter'
-  # gem 'jekyll-paginate'
+  gem 'jekyll-paginate'
   gem 'jekyll-readme-index'
   gem 'jekyll-redirect-from'
   gem 'jekyll-relative-links'
@@ -74,7 +74,7 @@ group :jekyll_plugins do
   gem 'jekyll-compose'
   gem 'jekyll-debug'
   gem 'jekyll-include-cache'
-  gem 'jekyll-paginate-v2'
+  # gem 'jekyll-paginate-v2'
   gem 'jekyll-seo'
 end
 
