@@ -6,16 +6,11 @@ layout: default
   {% include google-search.html %}
 </div>
 
-<h1>Home.html</h1>
-
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
+  
   {{ content }}
 
-  {% if site.paginate %}
+  {% if paginator.posts.size > 0 %}
     {% assign posts = paginator.posts %}
   {% else %}
     {% assign posts = site.posts %}
@@ -42,7 +37,7 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    {% if site.paginate %}
+    {% if paginator.posts.size > 0 %}
       <div class="pager">
         <ul class="pagination">
         {%- if paginator.previous_page %}
