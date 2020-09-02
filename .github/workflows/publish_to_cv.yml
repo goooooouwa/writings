@@ -12,12 +12,6 @@ jobs:
       with:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v1
-      with:
-        node-version: '12'
-    - run: npm install -g vega vega-cli vega-lite
-
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
     - name: Ruby gem cache

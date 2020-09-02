@@ -7,13 +7,6 @@ GIT
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
 
-GIT
-  remote: https://github.com/zhustec/jekyll-diagrams
-  revision: 5c42046e7a1d01fcc2e3f6d2c89ffb8bf6e7b69b
-  specs:
-    jekyll-diagrams (0.10.1)
-      jekyll (>= 3.8, < 5.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -207,7 +200,6 @@ DEPENDENCIES
   jekyll-commonmark-ghpages
   jekyll-compose
   jekyll-debug
-  jekyll-diagrams!
   jekyll-feed
   jekyll-gist
   jekyll-include-cache
