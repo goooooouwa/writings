@@ -1,5 +1,5 @@
 ---
-category: product-review
+category: product review
 title: "为什么相比于Drafts我更愿意用Evernote来管理想法"
 date: "2019-10-09"
 ---

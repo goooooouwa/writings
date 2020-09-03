@@ -1,5 +1,5 @@
 ---
-category: product-review
+category: product review
 title: "小米CC9 Pro的使用issues"
 date: "2019-12-19"
 ---

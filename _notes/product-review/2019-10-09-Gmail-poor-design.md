@@ -1,5 +1,5 @@
 ---
-category: product-review
+category: product review
 title: "Gmail poor design"
 date: "2019-10-09"
 ---

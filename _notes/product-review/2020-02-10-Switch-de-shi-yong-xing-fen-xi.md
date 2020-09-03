@@ -1,5 +1,5 @@
 ---
-category: product-review
+category: product review
 title: "Switch的实用性分析"
 date: "2020-02-10"
 ---

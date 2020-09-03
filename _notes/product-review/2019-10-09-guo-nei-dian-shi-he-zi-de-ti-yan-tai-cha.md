@@ -1,5 +1,5 @@
 ---
-category: product-review
+category: product review
 title: "国内电视盒子的体验太差"
 date: "2019-10-09"
 ---

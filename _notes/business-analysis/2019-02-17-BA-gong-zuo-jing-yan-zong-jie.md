@@ -1,5 +1,5 @@
 ---
-category: business-analysis
+category: business analysis
 title: "BA工作经验总结"
 date: "2019-02-17"
 ---

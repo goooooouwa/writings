@@ -1,5 +1,5 @@
 ---
-category: product-review
+category: product review
 title: "阿卡西斯USB 3.0采集卡使用体验"
 date: "2020-04-21"
 ---

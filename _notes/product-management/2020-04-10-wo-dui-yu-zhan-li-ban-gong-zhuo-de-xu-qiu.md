@@ -1,5 +1,5 @@
 ---
-category: product-management
+category: product management
 title: "我对于站立办公桌的需求"
 date: "2020-04-10"
 ---

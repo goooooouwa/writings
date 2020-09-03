@@ -1,5 +1,5 @@
 ---
-category: product-management
+category: product management
 title: "我的手机使用场景"
 date: "2020-01-13"
 ---

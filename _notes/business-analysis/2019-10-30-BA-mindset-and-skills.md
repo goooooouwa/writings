@@ -1,5 +1,5 @@
 ---
-category: business-analysis
+category: business analysis
 title: "BA mindset and skills"
 date: "2019-10-30"
 ---

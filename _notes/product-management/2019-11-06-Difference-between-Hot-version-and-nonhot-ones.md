@@ -1,5 +1,5 @@
 ---
-category: product-management
+category: product management
 title: "Difference between Hot version and non-hot ones"
 date: "2019-11-06"
 ---

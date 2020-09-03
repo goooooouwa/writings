@@ -1,5 +1,5 @@
 ---
-category: product-review
+category: product review
 title: "GoBigger zb156便携式显示屏使用体验"
 date: "2020-04-09"
 ---

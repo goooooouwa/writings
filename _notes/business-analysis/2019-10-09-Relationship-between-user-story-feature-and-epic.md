@@ -1,5 +1,5 @@
 ---
-category: business-analysis
+category: business analysis
 title: "Relationship between user story feature and epic"
 date: "2019-10-09"
 ---

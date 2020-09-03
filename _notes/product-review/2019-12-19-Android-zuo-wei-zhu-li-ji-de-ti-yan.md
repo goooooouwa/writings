@@ -1,5 +1,5 @@
 ---
-category: product-review
+category: product review
 title: "Android作为主力机的体验"
 date: "2019-12-19"
 ---

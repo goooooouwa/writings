@@ -1,7 +1,7 @@
 ---
 date: 2018-11-24
 title: BA mindset and skills
-category: business-analysis
+category: business analysis
 ---
 # BA mindset and skills
 

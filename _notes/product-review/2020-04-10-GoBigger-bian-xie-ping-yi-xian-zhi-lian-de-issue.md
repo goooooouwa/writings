@@ -1,5 +1,5 @@
 ---
-category: product-review
+category: product review
 title: "GoBigger便携屏一线直连的issue"
 date: "2020-04-10"
 ---

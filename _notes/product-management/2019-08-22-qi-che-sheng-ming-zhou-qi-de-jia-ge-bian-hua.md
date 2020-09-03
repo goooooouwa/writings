@@ -1,5 +1,5 @@
 ---
-category: product-management
+category: product management
 title: "汽车生命周期的价格变化"
 date: "2019-08-22"
 ---

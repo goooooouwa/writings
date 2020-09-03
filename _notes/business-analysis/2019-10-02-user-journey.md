@@ -1,7 +1,7 @@
 ---
 date: 2019-10-02
 title: User journey
-category: business-analysis
+category: business analysis
 ---
 # User journey
 

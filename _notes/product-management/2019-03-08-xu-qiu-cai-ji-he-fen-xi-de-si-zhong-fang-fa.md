@@ -1,7 +1,7 @@
 ---
 date: 2019-03-08
 title: 需求采集和分析的四种方法
-category: product-management
+category: product management
 ---
 # 需求采集和分析的四种方法
 

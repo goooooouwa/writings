@@ -1,5 +1,5 @@
 ---
-category: product-management
+category: product management
 title: "便携屏的主要场景"
 date: "2020-04-01"
 ---

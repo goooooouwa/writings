@@ -1,7 +1,7 @@
 ---
 date: 2018-10-31
 title: 产品经理面试宝典笔记
-category: product-management
+category: product management
 ---
 # 产品经理面试宝典笔记
 

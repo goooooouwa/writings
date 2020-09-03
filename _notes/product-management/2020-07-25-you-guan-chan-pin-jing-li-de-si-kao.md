@@ -1,5 +1,5 @@
 ---
-category: product-management
+category: product management
 date: 2020-07-25
 title: 有关产品经理的思考
 ---

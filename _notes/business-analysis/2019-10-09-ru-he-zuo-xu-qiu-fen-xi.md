@@ -1,5 +1,5 @@
 ---
-category: business-analysis
+category: business analysis
 title: "如何做需求分析"
 date: "2019-10-09"
 ---

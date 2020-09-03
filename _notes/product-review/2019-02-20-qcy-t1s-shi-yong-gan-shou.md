@@ -3,7 +3,7 @@ date: 2019-02-20
 title: QCY T1s 使用感受
 layout: post
 published: false
-category: product-review
+category: product review
 tags: qcy, earpods
 ---
 

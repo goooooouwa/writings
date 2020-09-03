@@ -1,5 +1,5 @@
 ---
-category: business-analysis
+category: business analysis
 title: "业务分析师不是商业分析师"
 date: "2019-03-28"
 ---

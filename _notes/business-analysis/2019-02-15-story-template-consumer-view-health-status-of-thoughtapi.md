@@ -1,7 +1,7 @@
 ---
 date: 2019-02-15
 title: Story template Consumer view health status of ThoughtAPI
-category: business-analysis
+category: business analysis
 ---
 # Story template: Consumer: view health status of ThoughtAPI
 

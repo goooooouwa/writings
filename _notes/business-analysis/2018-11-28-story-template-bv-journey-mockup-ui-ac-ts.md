@@ -1,7 +1,7 @@
 ---
 date: 2018-11-28
 title: story template (bv, journey, mockup, ui, ac, ts)
-category: business-analysis
+category: business analysis
 ---
 # story template (bv, journey, mockup, ui, ac, ts)
 

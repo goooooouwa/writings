@@ -1,7 +1,7 @@
 ---
 date: 2019-02-15
 title: Story template Admin add team member
-category: business-analysis
+category: business analysis
 ---
 # Story template: Admin: add team member
 
