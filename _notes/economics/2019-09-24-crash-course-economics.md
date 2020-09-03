@@ -7,12 +7,16 @@ category: economics
 ## #1 Intro to Economics
 
 Risk
+
 Scarcity：the tension between infinite wants and finite resources
+
 Everything has a cost
+
 Cost and benefits
-right Policy has right incentives
-Incentives 刺激
-A set of external ( rather than intrinsic) motivators that explain people’s choices.
+
+Right policy has right incentives
+
+Incentives 刺激: a set of external ( rather than intrinsic) motivators that explain people’s choices.
 
 Macro-economics
 
@@ -22,6 +26,7 @@ Macro-economics
 
 
 Micro-economics
+
 ![](https://i.imgur.com/l2eiq2v.png)
 
 
@@ -69,6 +74,7 @@ Real price 是指根据通货膨胀率调整过的过去的价格，Nominal pric
 ![https://i.imgur.com/nftF8BE.png](https://i.imgur.com/nftF8BE.png)
 
 Consumer Price Index 
+
 专家选取一系列能代表大众一年消费量的商品组合，基于其统计每年消费金额，观察历年金额的变化趋势。 
 ![https://i.imgur.com/3hZYRvZ.png](https://i.imgur.com/3hZYRvZ.png)
 
