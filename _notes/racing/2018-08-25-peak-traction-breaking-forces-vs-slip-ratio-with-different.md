@@ -3,7 +3,7 @@ date: 2018-08-25
 title: Peak traction/breaking forces vs Slip Ratio with different Slip Angle
 layout: post
 category: racing
-tags: vehicle_dynamics
+tags: vehicle-dynamics
 ---
 
 加速时，当车轮轻微打滑时的驱动力最大，此时slip ratio ~= 0.2，车轮的转速略高于实际行驶速度/轮半径。

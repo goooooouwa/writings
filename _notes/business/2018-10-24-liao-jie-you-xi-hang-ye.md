@@ -3,7 +3,7 @@ date: 2018-10-24
 title: 了解游戏行业
 layout: post
 category: business
-tags: gaming_industry
+tags: gaming-industry
 published: false
 ---
 

@@ -3,7 +3,7 @@ date: 2018-12-25
 title: Working plan 周期
 layout: post
 category: agile
-tags: product_management, agile
+tags: product-management agile
 ---
 
 ![Imgur](https://i.imgur.com/r6VWImg.png)

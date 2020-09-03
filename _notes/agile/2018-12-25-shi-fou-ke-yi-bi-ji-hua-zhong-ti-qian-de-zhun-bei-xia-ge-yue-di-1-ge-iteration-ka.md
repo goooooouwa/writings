@@ -4,7 +4,7 @@ title: 是否可以比计划中提前地准备下个月第1个iteration卡？
 layout: post
 published: false
 category: agile
-tags: agile, product_management
+tags: agile product-management
 ---
 
 ## TLDR 
