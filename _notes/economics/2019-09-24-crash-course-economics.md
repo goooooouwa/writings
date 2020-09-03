@@ -1,6 +1,6 @@
 ---
 date: 2019-09-24
-title: 2019-09-24 Crash Course Economics
+title: Crash Course Economics
 category: economics
 ---
 
