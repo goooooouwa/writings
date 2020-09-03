@@ -69,9 +69,5 @@ jekyll-archives:
   enabled:
     - year
     - categories
+    - tags
   layout: archive
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    category: '/category/:name/'
