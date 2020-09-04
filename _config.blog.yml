@@ -41,6 +41,7 @@ google_analytics: UA-137406515-2
 
 header_pages:
   - notes.html
+  - docs.html
   - about.md
 
 # Plugin settings

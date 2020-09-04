@@ -36,6 +36,7 @@ minima:
 
 header_pages:
   - notes.html
+  - docs.html
   - diary.html
   - about.md
 
