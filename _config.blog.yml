@@ -1,6 +1,6 @@
 # Site settings for https://goooooouwa.github.io/blog
-title: Shunfa's Notes
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+title: Shunfa's Blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 
 collections:
   notes:
