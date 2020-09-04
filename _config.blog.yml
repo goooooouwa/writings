@@ -32,7 +32,7 @@ exclude:
 # Theme settings for minima
 
 minima:
-  skin: dark
+  skin: solarized
 
 disqus:
   shortname: goooooouwa

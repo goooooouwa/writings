@@ -9,7 +9,7 @@ category: career
   * Email: gouwa5700 (at) gmail (dot) com
   * Phone / WeChat: Available on request
   * Github: [https://github.com/goooooouwa](https://github.com/goooooouwa)
-  * Blog: [https://goooooouwa.github.io/blog](https://goooooouwa.github.io/blog)
+  * Blog: [https://goooooouwa.github.io](https://goooooouwa.github.io)
 
 ## Introduction
 
