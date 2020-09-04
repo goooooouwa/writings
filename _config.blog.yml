@@ -29,9 +29,6 @@ exclude:
 
 # Theme settings for minima
 
-minima:
-  skin: solarized
-
 disqus:
   shortname: goooooouwa
 
