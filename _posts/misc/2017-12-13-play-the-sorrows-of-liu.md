@@ -1,7 +1,6 @@
 ---
 title: 年会话剧节目《小遛子的烦恼》
 layout: post
-published: false
 ---
 
 ## 目标：

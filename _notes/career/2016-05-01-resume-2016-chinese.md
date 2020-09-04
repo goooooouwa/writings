@@ -2,7 +2,6 @@
 date: 2016-05-01
 title: 徐顺发的简历（2016）
 layout: post
-published: false
 category: career
 tags: resume
 ---

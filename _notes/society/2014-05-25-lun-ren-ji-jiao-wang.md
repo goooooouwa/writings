@@ -4,7 +4,6 @@ title: 论人际交往
 layout: post
 category: society
 tags: social
-published: false
 ---
 
 我希望可以自由地与世界各地的人交流，并且最好是身在一起。

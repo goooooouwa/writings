@@ -3,7 +3,6 @@ date: 2017-12-07
 title: What should we store in redux state tree?
 layout: post
 category: javascript
-published: false
 ---
 
 keep local state in component, props passed in either from other presentational component or a container component( mapped from state).

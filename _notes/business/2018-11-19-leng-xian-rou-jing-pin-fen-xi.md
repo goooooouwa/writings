@@ -2,7 +2,6 @@
 date: 2018-11-19
 title: 冷鲜肉竞争力分析
 layout: post
-published: false
 category: business
 ---
 

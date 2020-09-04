@@ -3,7 +3,6 @@ title: 如何搭建Shadowsocks服务
 layout: post
 category: coding
 tags: vpn shadowsocks
-published: false
 ---
 
 ## 服务端安装Shadowsocks

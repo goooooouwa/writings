@@ -3,7 +3,6 @@ date: 2018-11-22
 title: 如何开口说英语
 layout: post
 category: english
-published: false
 ---
 
 ## 你已经学够了
