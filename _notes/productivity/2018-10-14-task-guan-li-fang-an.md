@@ -1,4 +1,9 @@
 ---
+category: productivity
+date: 2018-10-14
+title: Task管理方案
+---
+---
 title: Find the most suitable task manager
 layout: post
 date: '2018-10-14'

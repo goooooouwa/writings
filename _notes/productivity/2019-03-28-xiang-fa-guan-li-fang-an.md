@@ -1,4 +1,9 @@
 ---
+category: productivity
+date: 2019-03-28
+title: 想法管理方案
+---
+---
 title: 想法管理方案
 layout: post
 date: '2019-03-28'

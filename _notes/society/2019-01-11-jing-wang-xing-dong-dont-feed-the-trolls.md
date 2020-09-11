@@ -1,4 +1,9 @@
 ---
+category: society
+date: 2019-01-11
+title: 净网行动 dont feed the trolls
+---
+---
 title: 净网行动 don’t feed the trolls
 layout: post
 date: '2019-01-11'

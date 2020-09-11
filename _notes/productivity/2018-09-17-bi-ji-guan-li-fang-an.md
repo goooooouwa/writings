@@ -1,3 +1,8 @@
+---
+category: productivity
+date: 2018-09-17
+title: 笔记管理方案
+---
 
 2018-09-17-things-evernote-not-good-at
 
