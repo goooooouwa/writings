@@ -1,6 +1,6 @@
 ---
 title: "武汉病毒给我家泰国行程带来的直接经济损失为0"
-category: experience
+category: personal
 date: "2020-01-29"
 ---
 
