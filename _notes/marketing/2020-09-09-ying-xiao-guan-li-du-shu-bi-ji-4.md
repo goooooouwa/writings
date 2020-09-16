@@ -2,8 +2,7 @@
 category: marketing
 date: 2020-09-09
 title: 《营销管理》读书笔记：第4章 实施营销调研
-tags:
-  - marketing management
+tags: marketing-management
 ---
 
 ## 第4章 实施营销调研

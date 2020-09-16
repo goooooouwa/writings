@@ -2,8 +2,7 @@
 category: marketing
 date: 2020-09-09
 title: 《营销管理》读书笔记：第1章 定义营销新现实
-tags:
-  - marketing management
+tags: marketing-management
 ---
 
 ## 什么是市场营销？

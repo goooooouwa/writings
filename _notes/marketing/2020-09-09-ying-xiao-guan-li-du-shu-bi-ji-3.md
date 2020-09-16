@@ -2,8 +2,7 @@
 category: marketing
 date: 2020-09-09
 title: 《营销管理》读书笔记：第3章 信息收集与需求预测
-tags:
-  - marketing management
+tags: marketing-management
 ---
 
 ## 营销情报 

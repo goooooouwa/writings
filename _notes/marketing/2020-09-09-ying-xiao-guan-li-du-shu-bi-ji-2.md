@@ -2,8 +2,7 @@
 category: marketing
 date: 2020-09-09
 title: 《营销管理》读书笔记：第2章 制定营销战略与营销计划
-tags:
-  - marketing management
+tags: marketing-management
 ---
 
 ## 营销和顾客价值
