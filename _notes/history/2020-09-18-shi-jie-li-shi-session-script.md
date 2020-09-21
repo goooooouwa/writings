@@ -1,3 +1,8 @@
+---
+category: history
+date: 2020-09-18
+title: 世界历史session script
+---
 世界历史session script
 
 什么是文明？
