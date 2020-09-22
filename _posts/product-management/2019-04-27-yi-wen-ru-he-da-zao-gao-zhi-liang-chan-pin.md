@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 译文|如何打造高质量的产品
+title: 译文 | 如何打造高质量的产品
 date: '2019-04-27'
 category: product management
 ---
