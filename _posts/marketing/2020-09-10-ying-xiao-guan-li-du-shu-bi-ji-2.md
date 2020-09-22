@@ -1,7 +1,7 @@
 ---
 category: marketing
 date: 2020-09-09
-title: 读书笔记 | 《营销管理》第2章 制定营销战略与营销计划
+title: 读书笔记 |《营销管理》第2章 制定营销战略与营销计划
 tags: marketing-management
 ---
 
