@@ -21,7 +21,16 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 permalink: /:slugified_categories/:year/:month/:day/:slug:output_ext
 
+collections:
+  notes:
+    output: true
+
 defaults:
+  - scope:
+      path: ""
+      type: "notes"
+    values:
+      layout: "post"
   - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
@@ -40,6 +49,7 @@ exclude:
   - Gemfile.lock
   - scripts/
   - README.md
+  - diary.html
 
 # Build settings
 markdown: kramdown
@@ -59,6 +69,16 @@ minima:
     linkedin: gregxu
 
 show_excerpts: false
+
+disqus:
+  shortname: goooooouwa
+
+google_analytics: UA-137406515-2
+
+header_pages:
+  - notes.html
+  - docs.html
+  - about.md
 
 # Plugin settings
 
@@ -80,3 +100,5 @@ jekyll-archives:
     day: day
     category: category
     tag: tag
+
+google_custom_engine: 001725026263712877590:9lrhbwyoknb
