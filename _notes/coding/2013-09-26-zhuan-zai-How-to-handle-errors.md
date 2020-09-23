@@ -1,6 +1,6 @@
 ---
 category: coding
-title: "转载 | How to handle errors"
+title: "转载｜How to handle errors"
 date: "2013-09-26"
 ---
 

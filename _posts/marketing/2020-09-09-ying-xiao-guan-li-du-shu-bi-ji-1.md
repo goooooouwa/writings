@@ -1,7 +1,7 @@
 ---
 category: marketing
 date: 2020-09-09
-title: 读书笔记 | 《营销管理》第1章 定义营销新现实
+title: 读书笔记｜《营销管理》第1章 定义营销新现实
 tags: marketing-management
 ---
 

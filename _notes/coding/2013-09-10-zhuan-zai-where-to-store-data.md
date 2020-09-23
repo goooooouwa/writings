@@ -1,6 +1,6 @@
 ---
 category: coding
-title: "转载 | where to store data?"
+title: "转载｜where to store data?"
 date: "2013-09-10"
 ---
 
