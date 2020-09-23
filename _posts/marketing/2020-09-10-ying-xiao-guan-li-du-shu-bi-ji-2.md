@@ -1,6 +1,6 @@
 ---
 category: marketing
-date: 2020-09-09
+date: 2020-09-10
 title: 读书笔记｜《营销管理》第2章
 tags: marketing-management
 ---

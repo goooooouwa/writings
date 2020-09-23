@@ -1,6 +1,6 @@
 ---
 category: history
-date: 2020-09-18
+date: 2020-09-23
 title: 读书笔记｜《全球通史》第二编
 ---
 
