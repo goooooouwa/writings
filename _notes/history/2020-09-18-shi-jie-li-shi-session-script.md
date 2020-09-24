@@ -5,7 +5,7 @@ title: 世界历史session script
 ---
 世界历史session script
 
-什么是文明？
+文明是什么？
 
 什么是史前文明？
 
