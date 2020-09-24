@@ -5,6 +5,8 @@ title: 读书笔记｜《营销管理》第1章
 tags: marketing-management
 ---
 
+* TOC
+{:toc}
 ## 第1章 定义营销新现实
 
 ### 什么是市场营销？

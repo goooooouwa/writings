@@ -5,6 +5,8 @@ title: 读书笔记｜《营销管理》第2章
 tags: marketing-management
 ---
 
+* TOC
+{:toc}
 ## 第2章 制定营销战略与营销计划
 
 ### 营销和顾客价值

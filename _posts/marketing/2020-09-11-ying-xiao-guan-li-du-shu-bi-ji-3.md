@@ -5,6 +5,8 @@ title: 读书笔记｜《营销管理》第3章
 tags: marketing-management
 ---
 
+* TOC
+{:toc}
 ## 第3章 信息收集与需求预测
 
 ### 营销情报 
