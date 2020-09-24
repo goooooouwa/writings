@@ -96,7 +96,7 @@ A civilization (or civilisation) is any **complex society** characterized by **u
 
 ---
 
-# Q: 宗教的起源，宗教信仰如何发展成极端组织，极端组织的形成发展，极端组织和其他国家之间的关系，为什么极端组织一直没有被彻底扫除
+# Q: 宗教的起源，宗教信仰如何发展成极端组织，极端组织的形成发展，极端组织和其他国家之间的关系，为什么极端组织一直没有被彻底扫除？
 
 From Wikipedia:
 
