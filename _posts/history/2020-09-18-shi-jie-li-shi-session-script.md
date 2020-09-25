@@ -2,7 +2,7 @@
 category: history
 date: 2020-09-18
 title: 《全球通史》读书分享 Slides
-marp: false
+marp: true
 theme: gaia
 headingDivider: 2
 ---
@@ -18,7 +18,6 @@ headingDivider: 2
 (20秒之内)
 <!-- _class: lead invert -->
 
-<!-- HTML comment recognizes as a presenter note per pages. -->
 <!-- You may place multiple comments in a single page. -->
 
 #
@@ -44,8 +43,7 @@ headingDivider: 2
 
 #
 
-![w:1100](https://i.imgur.com/J7o3iJL.png)
-[](https://www.youtube.com/watch?v=o-3LD4-cG4A)
+[![w:1100](https://i.imgur.com/J7o3iJL.png)](https://www.youtube.com/watch?v=o-3LD4-cG4A)
 
 # 世界历史时间轴
 
