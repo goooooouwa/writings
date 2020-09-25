@@ -1,8 +1,8 @@
 ---
 category: history
 date: 2020-09-18
-title: 《全球通史》读书分享
-marp: true
+title: 《全球通史》读书分享 Slides
+marp: false
 theme: gaia
 headingDivider: 2
 ---
@@ -39,7 +39,7 @@ headingDivider: 2
 
 # 让我们再来一遍
 
-慢一点
+放慢速度
 <!-- _class: lead invert -->
 
 #
@@ -85,19 +85,19 @@ headingDivider: 2
 --- | --- | --- | --- | --- |
 部落文化|家族|流浪|社会关系和性别关系的平等|信奉巫师|
 古代文明|村落|定居|局限在大河流域，社会关系的不平等和性别关系的不平等|信奉丰产女神|
+古典文明|帝国|扩张|帝国的扩张|信奉宗教|
 
 # 人类各历史时期的显著特征（续）
 
 历史时期|群体单位|生活方式|显著特征|信仰|
 --- | --- | --- | --- | --- |
-古典文明|帝国|扩张|帝国的扩张|信奉宗教|
 中世纪|国家|扩张|伊斯兰教的兴起，西欧扩张|信奉宗教|
 现代文明|国家|全球化，多样化|西方海外扩张，西方走向衰落，各地区民族崛起|相信科学|
 
 # 文明的发展规律
 <!-- _class: lead invert -->
 
-# 文明是什么？
+# 文明是什么
 
 > A civilization (or civilisation) is any **complex society** characterized by **urban development**, **social stratification**, a **form of government** and **symbolic systems of communication** such as writing.
 
@@ -116,9 +116,8 @@ headingDivider: 2
 # Topics: 
 
 * 宗教的起源，宗教信仰如何发展成极端组织，极端组织的形成发展，极端组织和其他国家之间的关系，为什么极端组织一直没有被彻底扫除？
-* 是什么导致了不同地区的文明差异？（政治体制、宗教信仰、语言、入侵和被入侵、革命和被革命）
 * 扩张是文明发展的必然结果吗？
-战争是可以避免的吗？是否还会有下一次大规模战争？What about 外星文明入侵？
+* 战争是可以避免的吗？是否还会有下一次大规模战争？What about 外星文明入侵？
 * 个体能否改变人类历史进程？
 * 科技大爆炸是否会停止？人类认知能力是否有天花板？
 * 宇宙中是否存在外星文明？
