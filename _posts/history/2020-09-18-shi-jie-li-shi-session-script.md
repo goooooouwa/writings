@@ -7,6 +7,8 @@ theme: gaia
 headingDivider: 2
 ---
 
+[Present]({{ "assets/downloads/2020-09-18-shi-jie-li-shi-session-script.html" | relative_url }})
+
 # **《全球通史》读书分享**
 
 2020-09-25
@@ -161,7 +163,3 @@ From Wikipedia:
 by 徐顺发
 sfxu@thoughtworks.com
 <!-- _class: lead invert -->
-
-#
-
-[Download]({{ "assets/downloads/2020-09-18-shi-jie-li-shi-session-script.html" | relative_url }})
