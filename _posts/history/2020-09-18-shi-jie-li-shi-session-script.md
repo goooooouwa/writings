@@ -7,7 +7,7 @@ theme: gaia
 headingDivider: 2
 ---
 
-[Present]({{ "assets/downloads/2020-09-18-shi-jie-li-shi-session-script.html" | relative_url }})
+[:arrow_forward: Play slides]({{ "assets/downloads/2020-09-18-shi-jie-li-shi-session-script.html" | relative_url }})
 
 # **《全球通史》读书分享**
 
