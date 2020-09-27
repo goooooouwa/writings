@@ -79,49 +79,55 @@ headingDivider: 2
 # 人类各历史时期的世界地图
 <!-- _class: lead invert -->
 
-# 16000 BCE 史前时代：人类到达美洲
+## 史前时代：人类到达美洲（公元前16000年）
 
-![bg](https://i.imgur.com/DafDR7R.png)
+![w:1140](https://i.imgur.com/DafDR7R.png)
 
-# 3140 BCE 古代时期：古埃及文明出现
+<!--
+## 古代时期：古埃及文明出现（公元前3140年）
 
-![bg](https://i.imgur.com/oG4UPhM.png)
+![w:1140](https://i.imgur.com/oG4UPhM.png)
+-->
 
-# 2069 BCE 古代时期：夏朝出现
+## 古代时期：夏朝出现（公元前2069年）
 
-![bg](https://i.imgur.com/Ddts9D3.png)
+![w:1140](https://i.imgur.com/Ddts9D3.png)
 
-# 1000 BCE 古典时期初期
+<!--
+## 古典时期初期（公元前1000年）
 
-![bg](https://i.imgur.com/C4xGMjE.png)
+![w:1140](https://i.imgur.com/C4xGMjE.png)
+-->
 
-# 359 古典时期：罗马帝国形成
+## 古典时期：罗马帝国形成（359年）
 
-![bg](https://i.imgur.com/rMx3Zsv.png)
+![w:1140](https://i.imgur.com/rMx3Zsv.png)
 
-# 1000 中世纪初期
+<!--
+## 中世纪初期（1000年）
 
-![bg](https://i.imgur.com/B2a0WPK.png)
+![w:1140](https://i.imgur.com/B2a0WPK.png)
+-->
 
-# 1280 中世纪：蒙古帝国
+## 中世纪：蒙古帝国（1280年）
 
-![bg](https://i.imgur.com/IDAjikR.png)
+![w:1140](https://i.imgur.com/IDAjikR.png)
 
-# 1500 中世纪末期
+## 中世纪末期（1500年）
 
-![bg](https://i.imgur.com/7OUXDt0.png)
+![w:1140](https://i.imgur.com/7OUXDt0.png)
 
-# 1763 地理大发现
+## 地理大发现（1763年）
 
-![bg](https://i.imgur.com/oqubh9h.png)
+![w:1140](https://i.imgur.com/oqubh9h.png)
 
-# 1914 第一次世界大战
+## 第一次世界大战（1914年）
 
-![bg](https://i.imgur.com/x06NpkU.png)
+![w:1140](https://i.imgur.com/x06NpkU.png)
 
-# 2016 当今的世界
+## 当今的世界（2016年）
 
-![bg](https://i.imgur.com/fZ4XP6V.png)
+![w:1140](https://i.imgur.com/fZ4XP6V.png)
 
 # 人类各历史时期的显著特征
 
