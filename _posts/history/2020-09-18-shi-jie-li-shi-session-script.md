@@ -40,7 +40,7 @@ headingDivider: 2
 
 # 让我们再来一遍
 
-慢动作
+放慢速度
 <!-- _class: lead invert -->
 
 #
