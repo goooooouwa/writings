@@ -83,31 +83,13 @@ headingDivider: 2
 
 ![w:1140](https://i.imgur.com/DafDR7R.png)
 
-<!--
-## 古代时期：古埃及文明出现（公元前3140年）
-
-![w:1140](https://i.imgur.com/oG4UPhM.png)
--->
-
 ## 古代时期：夏朝出现（公元前2069年）
 
 ![w:1140](https://i.imgur.com/Ddts9D3.png)
 
-<!--
-## 古典时期初期（公元前1000年）
-
-![w:1140](https://i.imgur.com/C4xGMjE.png)
--->
-
 ## 古典时期：罗马帝国形成（359年）
 
 ![w:1140](https://i.imgur.com/rMx3Zsv.png)
-
-<!--
-## 中世纪初期（1000年）
-
-![w:1140](https://i.imgur.com/B2a0WPK.png)
--->
 
 ## 中世纪：蒙古帝国（1280年）
 
