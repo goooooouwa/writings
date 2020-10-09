@@ -1,0 +1,1 @@
+LessPass: sync-less open source password manager
