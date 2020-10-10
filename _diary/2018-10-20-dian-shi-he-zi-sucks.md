@@ -1,5 +1,4 @@
 ---
-date: 2018-10-20
 title: 电视盒子sucks
 ---
 电视盒子sucks

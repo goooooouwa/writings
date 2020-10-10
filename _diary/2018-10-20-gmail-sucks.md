@@ -1,5 +1,4 @@
 ---
-date: 2018-10-20
 title: Gmail sucks
 ---
 Gmail sucks

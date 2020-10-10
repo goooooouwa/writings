@@ -1,5 +1,4 @@
 ---
-date: 2019-10-16
 title: She is not bad
 ---
 She is not bad

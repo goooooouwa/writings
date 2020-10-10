@@ -1,5 +1,4 @@
 ---
-date: 2018-10-24
 title: use iA writer as draft box works
 ---
 use iA writer as draft box works

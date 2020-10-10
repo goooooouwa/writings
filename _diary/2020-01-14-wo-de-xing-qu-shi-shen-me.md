@@ -1,5 +1,4 @@
 ---
-date: 2020-01-14
 title: 我的兴趣是什么？
 ---
 我真的喜欢产品管理吗？还是喜欢design & make things？

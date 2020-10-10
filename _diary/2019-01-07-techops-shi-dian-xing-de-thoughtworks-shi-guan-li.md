@@ -1,5 +1,4 @@
 ---
-date: 2019-01-07
 title: TechOps是典型的ThoughtWorks式管理
 ---
 TechOps是典型的ThoughtWorks式管理：短视、内耗

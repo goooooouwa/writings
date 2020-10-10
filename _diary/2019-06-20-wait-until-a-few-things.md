@@ -1,5 +1,4 @@
 ---
-date: 2019-06-20
 title: Wait until a few things
 ---
 Wait until a few things
