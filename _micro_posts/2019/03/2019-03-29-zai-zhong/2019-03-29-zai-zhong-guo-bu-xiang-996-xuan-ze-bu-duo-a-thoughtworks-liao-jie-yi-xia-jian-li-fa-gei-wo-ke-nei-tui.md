@@ -1,3 +1,7 @@
+---
+title: "在中国不想996，选择不多啊"
+published: false
+---
 在中国不想996，选择不多啊
 
 ThoughtWorks 了解一下

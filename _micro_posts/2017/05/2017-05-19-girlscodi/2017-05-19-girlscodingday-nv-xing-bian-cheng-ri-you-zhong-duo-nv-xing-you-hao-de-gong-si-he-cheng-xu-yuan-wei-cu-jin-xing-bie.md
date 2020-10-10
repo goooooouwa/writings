@@ -1,3 +1,7 @@
+---
+title: "【Girls Coding Day】女性"
+published: false
+---
 【Girls Coding Day】女性编程日
 
 由众多女性友好的公司和程序员为促进性别平等而举办的公益编程工作坊，提供1天半的Web开发入门课程。

@@ -1,3 +1,7 @@
+---
+title: "Democracy is a lie 民"
+published: false
+---
 Democracy is a lie 民主是个谎言
 
 &quot;democracy was illusory, and served only to mask the reality of elite rule.&quot;

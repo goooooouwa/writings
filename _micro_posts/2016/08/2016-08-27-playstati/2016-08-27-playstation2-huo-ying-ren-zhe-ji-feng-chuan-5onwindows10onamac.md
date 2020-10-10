@@ -1,1 +1,5 @@
+---
+title: "PlayStation 2 火影忍者疾风"
+published: false
+---
 PlayStation 2 火影忍者疾风传5 on Windows 10 on a Mac

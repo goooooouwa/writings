@@ -1,1 +1,5 @@
+---
+title: "哈哈哈哈，我的人生目标已经被另一个自己实"
+published: false
+---
 哈哈哈哈，我的人生目标已经被另一个自己实现了，有种穿越平行时空的错觉。[捂脸] https://item.m.jd.com/product/12658094.html

@@ -1,1 +1,5 @@
+---
+title: "听说最近Switch脱销了，只好自己动手"
+published: false
+---
 听说最近Switch脱销了，只好自己动手做一个。

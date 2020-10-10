@@ -1,3 +1,7 @@
+---
+title: "此图的5个显著趋势:"
+published: false
+---
 此图的5个显著趋势:
 Ruby不火了（动态网站）
 swift火了（iOS）

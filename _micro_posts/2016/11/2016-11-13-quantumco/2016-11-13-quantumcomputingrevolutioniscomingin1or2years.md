@@ -1,1 +1,5 @@
+---
+title: "Quantum computing re"
+published: false
+---
 Quantum computing revolution is coming in 1 or 2 years, get ready.
