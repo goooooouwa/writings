@@ -1,5 +1,6 @@
 ---
 title: 向红缺乏生活的动力
+published: false
 ---
 向红缺乏生活的动力
 

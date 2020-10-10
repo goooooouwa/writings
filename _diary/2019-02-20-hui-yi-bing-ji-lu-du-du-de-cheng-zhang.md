@@ -1,5 +1,6 @@
 ---
 title: 回忆并记录嘟嘟的成长
+published: false
 ---
 回忆并记录嘟嘟的成长
 

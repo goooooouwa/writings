@@ -1,5 +1,6 @@
 ---
 title: BA role is Business heavy
+published: false
 ---
 BA role is Business heavy
 

@@ -1,5 +1,6 @@
 ---
 title: 我设想的做产品与实际产品管理的差别
+published: false
 ---
 小时候喜欢发明创造和创意的快感，creation的过程。
 

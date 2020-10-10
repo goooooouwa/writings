@@ -1,5 +1,6 @@
 ---
 title: how to deal with 欲望无法满足？
+published: false
 ---
 how to deal with 欲望无法满足？
 

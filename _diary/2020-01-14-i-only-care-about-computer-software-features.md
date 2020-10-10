@@ -1,5 +1,6 @@
 ---
 title: I only care about computer & software features
+published: false
 ---
 I’m not good with hardware engineering or electronics, just basic understanding.
 

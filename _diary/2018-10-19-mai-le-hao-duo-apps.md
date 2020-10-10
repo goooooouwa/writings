@@ -1,5 +1,6 @@
 ---
 title: 买了好多apps
+published: false
 ---
 买了好多apps
 

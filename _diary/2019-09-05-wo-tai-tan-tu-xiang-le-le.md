@@ -1,5 +1,6 @@
 ---
 title: 我太贪图享乐了
+published: false
 ---
 我太贪图享乐了
 

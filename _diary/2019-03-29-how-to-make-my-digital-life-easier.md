@@ -1,5 +1,6 @@
 ---
 title: how to make my digital life easier
+published: false
 ---
 This is my life, wish I know how to make it easier.
 

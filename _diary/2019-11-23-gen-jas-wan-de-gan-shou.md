@@ -1,5 +1,6 @@
 ---
 title: 跟Jas玩的感受
+published: false
 ---
 我喜欢jas的性格，虽然我已经不是teenager。她待朋友是真性情
 

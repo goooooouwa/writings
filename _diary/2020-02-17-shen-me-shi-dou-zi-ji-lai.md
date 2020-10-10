@@ -1,5 +1,6 @@
 ---
 title: 什么事都自己来
+published: false
 ---
 无法接纳她有3个选项：
 

@@ -1,5 +1,6 @@
 ---
 title: 我该如何活着？
+published: false
 ---
 我现在主要是：
 

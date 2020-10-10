@@ -1,5 +1,6 @@
 ---
 title: 对生活的思考
+published: false
 ---
 对生活的思考
 

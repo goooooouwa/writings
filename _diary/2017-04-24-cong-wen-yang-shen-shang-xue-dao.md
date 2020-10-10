@@ -1,5 +1,6 @@
 ---
 title: 从文洋身上学到
+published: false
 ---
 - 工作内容（思维）可视化
 
