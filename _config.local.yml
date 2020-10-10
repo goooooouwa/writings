@@ -5,42 +5,20 @@ title: Local
 collections:
   diary:
     output: true
+  micro_posts:
+    output: true
   notes:
     output: true
 
-defaults:
-  - scope:
-      path: ""
-      type: "notes"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-      type: "diary"
-    values:
-      layout: "post"
-  - scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-
-# Theme settings for minima
-
-minima:
-  skin: solarized-dark
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - scripts/
+  - README.md
 
 header_pages:
   - notes.html
   - docs.html
   - diary.html
+  - micro_posts.html
   - about.md
-
-# Plugin settings
-
-jekyll_compose:
-  auto_open: true

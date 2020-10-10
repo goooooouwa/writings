@@ -50,6 +50,7 @@ exclude:
   - scripts/
   - README.md
   - diary.html
+  - micro_posts.html
 
 # Build settings
 markdown: kramdown
@@ -102,3 +103,6 @@ jekyll-archives:
     tag: tag
 
 google_custom_engine: 001725026263712877590:9lrhbwyoknb
+
+jekyll_compose:
+  auto_open: true

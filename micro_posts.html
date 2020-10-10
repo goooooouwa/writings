@@ -1,0 +1,15 @@
+---
+layout: default
+title: Micro Posts
+---
+<h1>Micro Posts ({{ site.micro_posts.size }})</h1>
+
+<ul>
+  {% assign micro_posts = site.micro_posts | sort: 'date' | reverse %}
+    {% for post in micro_posts %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
