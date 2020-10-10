@@ -12,3 +12,13 @@ Python现在最火（AI）
 #程序员世界的fashion show
 
 https://www.reddit.com/r/datascience/comments/d2rym1/this_video_shows_the_most_popular_programming/?utm_source=share&utm_medium=ios_app
+
+![](./1.jpg)
+![](./2.jpg)
+![](./3.jpg)
+![](./4.jpg)
+![](./5.jpg)
+![](./6.jpg)
+![](./7.jpg)
+![](./8.jpg)
+![](./9.jpg)

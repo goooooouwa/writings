@@ -9,3 +9,13 @@ XcodeGhost事件再次证明国内互联网没有安全可言，BAT所宣扬的�
 http://www.apple.com/cn/xcodeghost/
 
 http://t.qianzhan.com/int/detail/150919-a0955e4c.html
+
+![](./1.jpg)
+![](./2.jpg)
+![](./3.jpg)
+![](./4.jpg)
+![](./5.jpg)
+![](./6.jpg)
+![](./7.jpg)
+![](./8.jpg)
+![](./9.jpg)

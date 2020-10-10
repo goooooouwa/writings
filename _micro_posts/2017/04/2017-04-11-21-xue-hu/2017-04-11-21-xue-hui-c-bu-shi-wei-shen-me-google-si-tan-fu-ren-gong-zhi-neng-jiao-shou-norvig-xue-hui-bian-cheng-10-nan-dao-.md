@@ -7,3 +7,13 @@ published: false
 那为什么Google前斯坦福人工智能教授Norvig学会编程用了10年？难道他的智力都转移到AI身上了？[偷笑] 
 英文原版：http://norvig.com/21-days.html
 中文版：http://m.blog.csdn.net/article/details?id=6158494
+
+![](./1.jpg)
+![](./2.jpg)
+![](./3.jpg)
+![](./4.jpg)
+![](./5.jpg)
+![](./6.jpg)
+![](./7.jpg)
+![](./8.jpg)
+![](./9.jpg)

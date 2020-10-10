@@ -8,3 +8,13 @@ published: false
 于是我在网上找到了一个超屌的教程，教你如何安装任意老版本的iOS app( 直接从iTunes下载，无需破解）。http://www.idownloadblog.com/2015/12/25/how-to-download-older-versions-of-ios-apps/
 半个小时后，我成功地安装上老版本的百度云，终于重新享有免费的视频备份功能。😊
 在此警告大家，没事别升级app。试问，有哪一次免费app升级（包括升级iOS）给你带来巨大的好处？
+
+![](./1.jpg)
+![](./2.jpg)
+![](./3.jpg)
+![](./4.jpg)
+![](./5.jpg)
+![](./6.jpg)
+![](./7.jpg)
+![](./8.jpg)
+![](./9.jpg)

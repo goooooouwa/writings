@@ -13,3 +13,13 @@ published: false
 https://www.handprint.com/HP/WCL/perspect1.html
 
 http://freevst.x10.mx/tallerdedibujoypintura/english/perspective_01.htm
+
+![](./1.jpg)
+![](./2.jpg)
+![](./3.jpg)
+![](./4.jpg)
+![](./5.jpg)
+![](./6.jpg)
+![](./7.jpg)
+![](./8.jpg)
+![](./9.jpg)

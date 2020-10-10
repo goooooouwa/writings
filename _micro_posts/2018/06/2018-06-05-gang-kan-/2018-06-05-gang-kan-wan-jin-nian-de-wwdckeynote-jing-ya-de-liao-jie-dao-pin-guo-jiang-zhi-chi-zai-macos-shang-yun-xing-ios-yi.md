@@ -5,3 +5,13 @@ published: false
 刚看完今年的WWDC keynote，惊讶地了解到苹果将支持在macOS上运行iOS应用。
 安卓很早就在尝试同样的做法，在Chromebook上运行Android应用。
 相信在不久的未来，越来越多移动应用将同时支持手机和电脑等多终端设备。最终实现One app for different screens.
+
+![](./1.jpg)
+![](./2.jpg)
+![](./3.jpg)
+![](./4.jpg)
+![](./5.jpg)
+![](./6.jpg)
+![](./7.jpg)
+![](./8.jpg)
+![](./9.jpg)
