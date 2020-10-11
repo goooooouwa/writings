@@ -8,4 +8,5 @@ published: false
 
 
 
-![]({{ "/assets/images/2016/11/2016-11-02-2010-xing/1.mp4" | absolute_url }})
+<video controls="" autoplay="" name="media"><source src="{{ "/assets/images/2016/11/2016-11-02-2010-xing/1.mp4" | relative_url }}" type="video/mp4"></video>
+

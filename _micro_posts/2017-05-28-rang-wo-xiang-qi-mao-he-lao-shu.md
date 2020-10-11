@@ -6,4 +6,5 @@ published: false
 
 
 
-![]({{ "/assets/images/2017/05/2017-05-28-rang-wo-x/1.mp4" | absolute_url }})
+<video controls="" autoplay="" name="media"><source src="{{ "/assets/images/2017/05/2017-05-28-rang-wo-x/1.mp4" | relative_url }}" type="video/mp4"></video>
+

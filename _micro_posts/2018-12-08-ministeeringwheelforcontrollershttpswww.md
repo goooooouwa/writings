@@ -8,4 +8,5 @@ https://www.reddit.com/r/ProductPorn/comments/a44o0v/mini_steering_wheel_for_con
 
 
 
-![]({{ "/assets/images/2018/12/2018-12-08-ministeer/1.mp4" | absolute_url }})
+<video controls="" autoplay="" name="media"><source src="{{ "/assets/images/2018/12/2018-12-08-ministeer/1.mp4" | relative_url }}" type="video/mp4"></video>
+

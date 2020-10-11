@@ -6,4 +6,5 @@ published: false
 
 
 
-![]({{ "/assets/images/2017/09/2017-09-22-zai-jia-y/1.mp4" | absolute_url }})
+<video controls="" autoplay="" name="media"><source src="{{ "/assets/images/2017/09/2017-09-22-zai-jia-y/1.mp4" | relative_url }}" type="video/mp4"></video>
+
