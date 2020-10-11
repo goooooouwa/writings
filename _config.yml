@@ -53,6 +53,7 @@ exclude:
   - Gemfile.lock
   - scripts/
   - README.md
+  - assets/images
 
 # Build settings
 markdown: kramdown
@@ -81,8 +82,6 @@ google_analytics: UA-137406515-2
 header_pages:
   - notes.html
   - docs.html
-  - diary.html
-  - micro_posts.html
   - about.md
 
 # Plugin settings
