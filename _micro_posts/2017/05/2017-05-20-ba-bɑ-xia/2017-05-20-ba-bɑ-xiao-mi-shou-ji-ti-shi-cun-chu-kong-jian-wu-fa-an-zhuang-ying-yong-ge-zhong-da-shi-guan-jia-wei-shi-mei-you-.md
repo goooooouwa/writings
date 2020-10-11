@@ -6,3 +6,14 @@ published: false
 
 P.S. 清理的文件中，一半是照片（已转移至存储卡），另一半则是QQ、微信、支付宝的各种缓存、资源文件、图片、视频。
 
+
+
+![]({{ "/assets/images/2017/05/2017-05-20-ba-bɑ-xia/1.jpg" | relative_url }})
+![]({{ "/assets/images/2017/05/2017-05-20-ba-bɑ-xia/2.jpg" | relative_url }})
+![]({{ "/assets/images/2017/05/2017-05-20-ba-bɑ-xia/3.jpg" | relative_url }})
+![]({{ "/assets/images/2017/05/2017-05-20-ba-bɑ-xia/4.jpg" | relative_url }})
+![]({{ "/assets/images/2017/05/2017-05-20-ba-bɑ-xia/5.jpg" | relative_url }})
+![]({{ "/assets/images/2017/05/2017-05-20-ba-bɑ-xia/6.jpg" | relative_url }})
+![]({{ "/assets/images/2017/05/2017-05-20-ba-bɑ-xia/7.jpg" | relative_url }})
+![]({{ "/assets/images/2017/05/2017-05-20-ba-bɑ-xia/8.jpg" | relative_url }})
+![]({{ "/assets/images/2017/05/2017-05-20-ba-bɑ-xia/9.jpg" | relative_url }})

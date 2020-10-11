@@ -6,3 +6,14 @@ published: false
 
 备注：这个小玩意据说叫前氧传感器。
 
+
+
+![]({{ "/assets/images/2017/08/2017-08-20-hao-zhang/1.jpg" | relative_url }})
+![]({{ "/assets/images/2017/08/2017-08-20-hao-zhang/2.jpg" | relative_url }})
+![]({{ "/assets/images/2017/08/2017-08-20-hao-zhang/3.jpg" | relative_url }})
+![]({{ "/assets/images/2017/08/2017-08-20-hao-zhang/4.jpg" | relative_url }})
+![]({{ "/assets/images/2017/08/2017-08-20-hao-zhang/5.jpg" | relative_url }})
+![]({{ "/assets/images/2017/08/2017-08-20-hao-zhang/6.jpg" | relative_url }})
+![]({{ "/assets/images/2017/08/2017-08-20-hao-zhang/7.jpg" | relative_url }})
+![]({{ "/assets/images/2017/08/2017-08-20-hao-zhang/8.jpg" | relative_url }})
+![]({{ "/assets/images/2017/08/2017-08-20-hao-zhang/9.jpg" | relative_url }})

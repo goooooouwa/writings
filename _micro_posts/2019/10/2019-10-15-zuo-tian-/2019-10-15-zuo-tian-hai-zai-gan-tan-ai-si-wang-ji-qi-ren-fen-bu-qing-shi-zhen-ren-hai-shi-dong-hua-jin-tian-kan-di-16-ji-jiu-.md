@@ -6,3 +6,14 @@ published: false
 
 结果上维基百科一查，发现真的是真人，哈哈哈😄
 
+
+
+![]({{ "/assets/images/2019/10/2019-10-15-zuo-tian-/1.jpg" | relative_url }})
+![]({{ "/assets/images/2019/10/2019-10-15-zuo-tian-/2.jpg" | relative_url }})
+![]({{ "/assets/images/2019/10/2019-10-15-zuo-tian-/3.jpg" | relative_url }})
+![]({{ "/assets/images/2019/10/2019-10-15-zuo-tian-/4.jpg" | relative_url }})
+![]({{ "/assets/images/2019/10/2019-10-15-zuo-tian-/5.jpg" | relative_url }})
+![]({{ "/assets/images/2019/10/2019-10-15-zuo-tian-/6.jpg" | relative_url }})
+![]({{ "/assets/images/2019/10/2019-10-15-zuo-tian-/7.jpg" | relative_url }})
+![]({{ "/assets/images/2019/10/2019-10-15-zuo-tian-/8.jpg" | relative_url }})
+![]({{ "/assets/images/2019/10/2019-10-15-zuo-tian-/9.jpg" | relative_url }})

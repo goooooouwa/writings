@@ -11,3 +11,14 @@ published: false
 善于沟通，能够成为一名积极，乐于分享的团队成员；
 英文（为加分项）
 
+
+
+![]({{ "/assets/images/2018/07/2018-07-19-hua-zhong/1.jpg" | relative_url }})
+![]({{ "/assets/images/2018/07/2018-07-19-hua-zhong/2.jpg" | relative_url }})
+![]({{ "/assets/images/2018/07/2018-07-19-hua-zhong/3.jpg" | relative_url }})
+![]({{ "/assets/images/2018/07/2018-07-19-hua-zhong/4.jpg" | relative_url }})
+![]({{ "/assets/images/2018/07/2018-07-19-hua-zhong/5.jpg" | relative_url }})
+![]({{ "/assets/images/2018/07/2018-07-19-hua-zhong/6.jpg" | relative_url }})
+![]({{ "/assets/images/2018/07/2018-07-19-hua-zhong/7.jpg" | relative_url }})
+![]({{ "/assets/images/2018/07/2018-07-19-hua-zhong/8.jpg" | relative_url }})
+![]({{ "/assets/images/2018/07/2018-07-19-hua-zhong/9.jpg" | relative_url }})

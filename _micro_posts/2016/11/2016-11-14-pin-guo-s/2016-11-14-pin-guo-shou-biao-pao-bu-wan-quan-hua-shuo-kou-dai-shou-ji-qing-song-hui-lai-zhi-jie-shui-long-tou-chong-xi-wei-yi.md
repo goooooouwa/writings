@@ -8,3 +8,14 @@ published: false
 
 明天晚上去游泳，正好再体验一把。
 
+
+
+![]({{ "/assets/images/2016/11/2016-11-14-pin-guo-s/1.jpg" | relative_url }})
+![]({{ "/assets/images/2016/11/2016-11-14-pin-guo-s/2.jpg" | relative_url }})
+![]({{ "/assets/images/2016/11/2016-11-14-pin-guo-s/3.jpg" | relative_url }})
+![]({{ "/assets/images/2016/11/2016-11-14-pin-guo-s/4.jpg" | relative_url }})
+![]({{ "/assets/images/2016/11/2016-11-14-pin-guo-s/5.jpg" | relative_url }})
+![]({{ "/assets/images/2016/11/2016-11-14-pin-guo-s/6.jpg" | relative_url }})
+![]({{ "/assets/images/2016/11/2016-11-14-pin-guo-s/7.jpg" | relative_url }})
+![]({{ "/assets/images/2016/11/2016-11-14-pin-guo-s/8.jpg" | relative_url }})
+![]({{ "/assets/images/2016/11/2016-11-14-pin-guo-s/9.jpg" | relative_url }})

@@ -12,3 +12,14 @@ published: false
 
 #We’re ThoughtWorkers!
 
+
+
+![]({{ "/assets/images/2017/12/2017-12-15-2017thoug/1.jpg" | relative_url }})
+![]({{ "/assets/images/2017/12/2017-12-15-2017thoug/2.jpg" | relative_url }})
+![]({{ "/assets/images/2017/12/2017-12-15-2017thoug/3.jpg" | relative_url }})
+![]({{ "/assets/images/2017/12/2017-12-15-2017thoug/4.jpg" | relative_url }})
+![]({{ "/assets/images/2017/12/2017-12-15-2017thoug/5.jpg" | relative_url }})
+![]({{ "/assets/images/2017/12/2017-12-15-2017thoug/6.jpg" | relative_url }})
+![]({{ "/assets/images/2017/12/2017-12-15-2017thoug/7.jpg" | relative_url }})
+![]({{ "/assets/images/2017/12/2017-12-15-2017thoug/8.jpg" | relative_url }})
+![]({{ "/assets/images/2017/12/2017-12-15-2017thoug/9.jpg" | relative_url }})

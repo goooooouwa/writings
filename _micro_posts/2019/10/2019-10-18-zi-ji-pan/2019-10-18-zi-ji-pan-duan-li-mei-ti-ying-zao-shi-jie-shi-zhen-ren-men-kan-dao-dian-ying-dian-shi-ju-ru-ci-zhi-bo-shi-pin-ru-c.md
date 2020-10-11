@@ -14,3 +14,14 @@ published: false
 
 自己知道的这方面的书：《决策与判断》、《思考的快与慢》、《可预测的非理性》、《影响力》，《数据统计会说谎》，《How to read a paper》
 
+
+
+![]({{ "/assets/images/2019/10/2019-10-18-zi-ji-pan/1.jpg" | relative_url }})
+![]({{ "/assets/images/2019/10/2019-10-18-zi-ji-pan/2.jpg" | relative_url }})
+![]({{ "/assets/images/2019/10/2019-10-18-zi-ji-pan/3.jpg" | relative_url }})
+![]({{ "/assets/images/2019/10/2019-10-18-zi-ji-pan/4.jpg" | relative_url }})
+![]({{ "/assets/images/2019/10/2019-10-18-zi-ji-pan/5.jpg" | relative_url }})
+![]({{ "/assets/images/2019/10/2019-10-18-zi-ji-pan/6.jpg" | relative_url }})
+![]({{ "/assets/images/2019/10/2019-10-18-zi-ji-pan/7.jpg" | relative_url }})
+![]({{ "/assets/images/2019/10/2019-10-18-zi-ji-pan/8.jpg" | relative_url }})
+![]({{ "/assets/images/2019/10/2019-10-18-zi-ji-pan/9.jpg" | relative_url }})

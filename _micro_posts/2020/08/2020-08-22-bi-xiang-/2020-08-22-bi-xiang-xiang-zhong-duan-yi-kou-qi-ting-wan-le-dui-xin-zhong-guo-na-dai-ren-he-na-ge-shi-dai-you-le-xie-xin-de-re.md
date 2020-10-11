@@ -6,3 +6,14 @@ published: false
 
 «活着»
 
+
+
+![]({{ "/assets/images/2020/08/2020-08-22-bi-xiang-/1.jpg" | relative_url }})
+![]({{ "/assets/images/2020/08/2020-08-22-bi-xiang-/2.jpg" | relative_url }})
+![]({{ "/assets/images/2020/08/2020-08-22-bi-xiang-/3.jpg" | relative_url }})
+![]({{ "/assets/images/2020/08/2020-08-22-bi-xiang-/4.jpg" | relative_url }})
+![]({{ "/assets/images/2020/08/2020-08-22-bi-xiang-/5.jpg" | relative_url }})
+![]({{ "/assets/images/2020/08/2020-08-22-bi-xiang-/6.jpg" | relative_url }})
+![]({{ "/assets/images/2020/08/2020-08-22-bi-xiang-/7.jpg" | relative_url }})
+![]({{ "/assets/images/2020/08/2020-08-22-bi-xiang-/8.jpg" | relative_url }})
+![]({{ "/assets/images/2020/08/2020-08-22-bi-xiang-/9.jpg" | relative_url }})

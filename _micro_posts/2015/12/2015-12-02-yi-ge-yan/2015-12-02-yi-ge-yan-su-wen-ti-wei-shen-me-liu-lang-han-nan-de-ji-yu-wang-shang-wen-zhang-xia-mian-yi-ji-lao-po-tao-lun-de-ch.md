@@ -12,3 +12,14 @@ published: false
 http://m.tianya.cn/bbs/art.jsp?id=42264&item=934
 http://www.zhihu.com/question/24057187/answer/26534249
 
+
+
+![]({{ "/assets/images/2015/12/2015-12-02-yi-ge-yan/1.jpg" | relative_url }})
+![]({{ "/assets/images/2015/12/2015-12-02-yi-ge-yan/2.jpg" | relative_url }})
+![]({{ "/assets/images/2015/12/2015-12-02-yi-ge-yan/3.jpg" | relative_url }})
+![]({{ "/assets/images/2015/12/2015-12-02-yi-ge-yan/4.jpg" | relative_url }})
+![]({{ "/assets/images/2015/12/2015-12-02-yi-ge-yan/5.jpg" | relative_url }})
+![]({{ "/assets/images/2015/12/2015-12-02-yi-ge-yan/6.jpg" | relative_url }})
+![]({{ "/assets/images/2015/12/2015-12-02-yi-ge-yan/7.jpg" | relative_url }})
+![]({{ "/assets/images/2015/12/2015-12-02-yi-ge-yan/8.jpg" | relative_url }})
+![]({{ "/assets/images/2015/12/2015-12-02-yi-ge-yan/9.jpg" | relative_url }})

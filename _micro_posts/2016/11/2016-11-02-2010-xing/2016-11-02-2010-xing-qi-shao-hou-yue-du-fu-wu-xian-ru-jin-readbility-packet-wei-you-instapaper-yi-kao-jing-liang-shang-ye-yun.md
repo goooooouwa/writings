@@ -6,3 +6,14 @@ published: false
 
 移动互联网初期兴起的独角兽现在死的死、衰的衰 (Evernote, Dropbox, Flipboard, Twitter)，都在告诉我们，好点子只是开头，中后期拼的还是商业运作。
 
+
+
+![]({{ "/assets/images/2016/11/2016-11-02-2010-xing/1.jpg" | relative_url }})
+![]({{ "/assets/images/2016/11/2016-11-02-2010-xing/2.jpg" | relative_url }})
+![]({{ "/assets/images/2016/11/2016-11-02-2010-xing/3.jpg" | relative_url }})
+![]({{ "/assets/images/2016/11/2016-11-02-2010-xing/4.jpg" | relative_url }})
+![]({{ "/assets/images/2016/11/2016-11-02-2010-xing/5.jpg" | relative_url }})
+![]({{ "/assets/images/2016/11/2016-11-02-2010-xing/6.jpg" | relative_url }})
+![]({{ "/assets/images/2016/11/2016-11-02-2010-xing/7.jpg" | relative_url }})
+![]({{ "/assets/images/2016/11/2016-11-02-2010-xing/8.jpg" | relative_url }})
+![]({{ "/assets/images/2016/11/2016-11-02-2010-xing/9.jpg" | relative_url }})

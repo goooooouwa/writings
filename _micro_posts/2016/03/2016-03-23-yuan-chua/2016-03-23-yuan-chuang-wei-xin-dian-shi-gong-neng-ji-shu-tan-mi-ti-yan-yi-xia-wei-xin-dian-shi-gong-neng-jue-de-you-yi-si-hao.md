@@ -9,3 +9,14 @@ published: false
 文档中指出：“摇一摇功能通过实时比对用户端和服务端电视音频实现，因此需要合作方通过接口把电 视实时播出的信号源音频接入到我方服务器。”
 所以实际上微信摇电视功能的实现方式是：电视台除了将电视信号给普通观众看以外，还需要同时将信号发给微信的服务器。当用户对电视台使用微信摇一摇时，微信客户端通过手机麦克风录下一小段电视节目的声音并发送给微信服务器，服务器通过对比用户上传的节目声音与各个电视台实时传来的节目声音进行对比，成功找出匹配的节目。最后将节目的互动信息发送给用户。
 
+
+
+![]({{ "/assets/images/2016/03/2016-03-23-yuan-chua/1.jpg" | relative_url }})
+![]({{ "/assets/images/2016/03/2016-03-23-yuan-chua/2.jpg" | relative_url }})
+![]({{ "/assets/images/2016/03/2016-03-23-yuan-chua/3.jpg" | relative_url }})
+![]({{ "/assets/images/2016/03/2016-03-23-yuan-chua/4.jpg" | relative_url }})
+![]({{ "/assets/images/2016/03/2016-03-23-yuan-chua/5.jpg" | relative_url }})
+![]({{ "/assets/images/2016/03/2016-03-23-yuan-chua/6.jpg" | relative_url }})
+![]({{ "/assets/images/2016/03/2016-03-23-yuan-chua/7.jpg" | relative_url }})
+![]({{ "/assets/images/2016/03/2016-03-23-yuan-chua/8.jpg" | relative_url }})
+![]({{ "/assets/images/2016/03/2016-03-23-yuan-chua/9.jpg" | relative_url }})

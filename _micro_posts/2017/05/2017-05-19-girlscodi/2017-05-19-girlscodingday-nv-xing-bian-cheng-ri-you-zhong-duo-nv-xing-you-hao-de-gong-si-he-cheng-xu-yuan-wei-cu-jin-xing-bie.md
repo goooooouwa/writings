@@ -8,3 +8,14 @@ published: false
 
 将于每月11日陆续登录武汉、北京、西安、成都、上海、南京、杭州、深圳、广州，面向编程零基础的女性，各城市一年举办5次公益编程工作坊。
 
+
+
+![]({{ "/assets/images/2017/05/2017-05-19-girlscodi/1.jpg" | relative_url }})
+![]({{ "/assets/images/2017/05/2017-05-19-girlscodi/2.jpg" | relative_url }})
+![]({{ "/assets/images/2017/05/2017-05-19-girlscodi/3.jpg" | relative_url }})
+![]({{ "/assets/images/2017/05/2017-05-19-girlscodi/4.jpg" | relative_url }})
+![]({{ "/assets/images/2017/05/2017-05-19-girlscodi/5.jpg" | relative_url }})
+![]({{ "/assets/images/2017/05/2017-05-19-girlscodi/6.jpg" | relative_url }})
+![]({{ "/assets/images/2017/05/2017-05-19-girlscodi/7.jpg" | relative_url }})
+![]({{ "/assets/images/2017/05/2017-05-19-girlscodi/8.jpg" | relative_url }})
+![]({{ "/assets/images/2017/05/2017-05-19-girlscodi/9.jpg" | relative_url }})

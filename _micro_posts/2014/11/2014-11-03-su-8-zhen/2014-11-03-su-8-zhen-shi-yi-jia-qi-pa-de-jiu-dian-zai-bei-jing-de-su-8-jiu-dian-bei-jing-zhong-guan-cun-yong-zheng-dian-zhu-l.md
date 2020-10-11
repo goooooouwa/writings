@@ -10,3 +10,14 @@ published: false
 
 录音下载地址：http://pan.baidu.com/share/link?shareid=738316819&uk=2550944095
 
+
+
+![]({{ "/assets/images/2014/11/2014-11-03-su-8-zhen/1.jpg" | relative_url }})
+![]({{ "/assets/images/2014/11/2014-11-03-su-8-zhen/2.jpg" | relative_url }})
+![]({{ "/assets/images/2014/11/2014-11-03-su-8-zhen/3.jpg" | relative_url }})
+![]({{ "/assets/images/2014/11/2014-11-03-su-8-zhen/4.jpg" | relative_url }})
+![]({{ "/assets/images/2014/11/2014-11-03-su-8-zhen/5.jpg" | relative_url }})
+![]({{ "/assets/images/2014/11/2014-11-03-su-8-zhen/6.jpg" | relative_url }})
+![]({{ "/assets/images/2014/11/2014-11-03-su-8-zhen/7.jpg" | relative_url }})
+![]({{ "/assets/images/2014/11/2014-11-03-su-8-zhen/8.jpg" | relative_url }})
+![]({{ "/assets/images/2014/11/2014-11-03-su-8-zhen/9.jpg" | relative_url }})

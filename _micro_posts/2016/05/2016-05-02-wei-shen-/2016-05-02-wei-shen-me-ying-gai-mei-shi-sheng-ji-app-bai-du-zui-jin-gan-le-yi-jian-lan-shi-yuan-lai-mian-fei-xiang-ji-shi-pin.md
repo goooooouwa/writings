@@ -9,3 +9,14 @@ published: false
 半个小时后，我成功地安装上老版本的百度云，终于重新享有免费的视频备份功能。😊
 在此警告大家，没事别升级app。试问，有哪一次免费app升级（包括升级iOS）给你带来巨大的好处？
 
+
+
+![]({{ "/assets/images/2016/05/2016-05-02-wei-shen-/1.jpg" | relative_url }})
+![]({{ "/assets/images/2016/05/2016-05-02-wei-shen-/2.jpg" | relative_url }})
+![]({{ "/assets/images/2016/05/2016-05-02-wei-shen-/3.jpg" | relative_url }})
+![]({{ "/assets/images/2016/05/2016-05-02-wei-shen-/4.jpg" | relative_url }})
+![]({{ "/assets/images/2016/05/2016-05-02-wei-shen-/5.jpg" | relative_url }})
+![]({{ "/assets/images/2016/05/2016-05-02-wei-shen-/6.jpg" | relative_url }})
+![]({{ "/assets/images/2016/05/2016-05-02-wei-shen-/7.jpg" | relative_url }})
+![]({{ "/assets/images/2016/05/2016-05-02-wei-shen-/8.jpg" | relative_url }})
+![]({{ "/assets/images/2016/05/2016-05-02-wei-shen-/9.jpg" | relative_url }})

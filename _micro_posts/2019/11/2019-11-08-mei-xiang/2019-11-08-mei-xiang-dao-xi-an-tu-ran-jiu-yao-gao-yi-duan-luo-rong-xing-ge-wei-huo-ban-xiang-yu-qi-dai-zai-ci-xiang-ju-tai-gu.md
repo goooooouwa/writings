@@ -15,3 +15,14 @@ weekly 英语Session分享（见证了又一个活动的兴衰[捂脸]
 西安.NET社区一周年活动🎉
 weekly 一起踢球的足球队（跟着混了个冠军🏆
 
+
+
+![]({{ "/assets/images/2019/11/2019-11-08-mei-xiang/1.jpg" | relative_url }})
+![]({{ "/assets/images/2019/11/2019-11-08-mei-xiang/2.jpg" | relative_url }})
+![]({{ "/assets/images/2019/11/2019-11-08-mei-xiang/3.jpg" | relative_url }})
+![]({{ "/assets/images/2019/11/2019-11-08-mei-xiang/4.jpg" | relative_url }})
+![]({{ "/assets/images/2019/11/2019-11-08-mei-xiang/5.jpg" | relative_url }})
+![]({{ "/assets/images/2019/11/2019-11-08-mei-xiang/6.jpg" | relative_url }})
+![]({{ "/assets/images/2019/11/2019-11-08-mei-xiang/7.jpg" | relative_url }})
+![]({{ "/assets/images/2019/11/2019-11-08-mei-xiang/8.jpg" | relative_url }})
+![]({{ "/assets/images/2019/11/2019-11-08-mei-xiang/9.jpg" | relative_url }})

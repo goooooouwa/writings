@@ -26,3 +26,14 @@ published: false
 内饰配置高，合资车叫业界良心，全是亮点，自主车叫无聊媚俗，全是噱头。
 合资车售价十万出头，叫做价格亲民。自主车售价十万出头，叫做无视需求。
 
+
+
+![]({{ "/assets/images/2015/09/2015-09-22-qi-che-ce/1.jpg" | relative_url }})
+![]({{ "/assets/images/2015/09/2015-09-22-qi-che-ce/2.jpg" | relative_url }})
+![]({{ "/assets/images/2015/09/2015-09-22-qi-che-ce/3.jpg" | relative_url }})
+![]({{ "/assets/images/2015/09/2015-09-22-qi-che-ce/4.jpg" | relative_url }})
+![]({{ "/assets/images/2015/09/2015-09-22-qi-che-ce/5.jpg" | relative_url }})
+![]({{ "/assets/images/2015/09/2015-09-22-qi-che-ce/6.jpg" | relative_url }})
+![]({{ "/assets/images/2015/09/2015-09-22-qi-che-ce/7.jpg" | relative_url }})
+![]({{ "/assets/images/2015/09/2015-09-22-qi-che-ce/8.jpg" | relative_url }})
+![]({{ "/assets/images/2015/09/2015-09-22-qi-che-ce/9.jpg" | relative_url }})

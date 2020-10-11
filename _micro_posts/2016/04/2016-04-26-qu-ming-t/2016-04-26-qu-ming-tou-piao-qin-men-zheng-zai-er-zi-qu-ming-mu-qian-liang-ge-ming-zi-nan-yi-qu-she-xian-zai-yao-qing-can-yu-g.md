@@ -13,3 +13,14 @@ published: false
 
 我会在此公布最终结果。
 
+
+
+![]({{ "/assets/images/2016/04/2016-04-26-qu-ming-t/1.jpg" | relative_url }})
+![]({{ "/assets/images/2016/04/2016-04-26-qu-ming-t/2.jpg" | relative_url }})
+![]({{ "/assets/images/2016/04/2016-04-26-qu-ming-t/3.jpg" | relative_url }})
+![]({{ "/assets/images/2016/04/2016-04-26-qu-ming-t/4.jpg" | relative_url }})
+![]({{ "/assets/images/2016/04/2016-04-26-qu-ming-t/5.jpg" | relative_url }})
+![]({{ "/assets/images/2016/04/2016-04-26-qu-ming-t/6.jpg" | relative_url }})
+![]({{ "/assets/images/2016/04/2016-04-26-qu-ming-t/7.jpg" | relative_url }})
+![]({{ "/assets/images/2016/04/2016-04-26-qu-ming-t/8.jpg" | relative_url }})
+![]({{ "/assets/images/2016/04/2016-04-26-qu-ming-t/9.jpg" | relative_url }})

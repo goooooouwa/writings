@@ -13,3 +13,14 @@ published: false
 这就好比一句话经过两个人传递，最终到达接收者耳中就变味了。这也是中国人英文发音不标准的一个原因。
 三、中国人学习英语时，有时候会用汉字的发音来帮助标记英文单词的读音。比如，“Thank you”的汉字标记是“三颗药”。这种记法是类似于拼音技法的。
 
+
+
+![]({{ "/assets/images/2015/12/2015-12-13-han-yu-pi/1.jpg" | relative_url }})
+![]({{ "/assets/images/2015/12/2015-12-13-han-yu-pi/2.jpg" | relative_url }})
+![]({{ "/assets/images/2015/12/2015-12-13-han-yu-pi/3.jpg" | relative_url }})
+![]({{ "/assets/images/2015/12/2015-12-13-han-yu-pi/4.jpg" | relative_url }})
+![]({{ "/assets/images/2015/12/2015-12-13-han-yu-pi/5.jpg" | relative_url }})
+![]({{ "/assets/images/2015/12/2015-12-13-han-yu-pi/6.jpg" | relative_url }})
+![]({{ "/assets/images/2015/12/2015-12-13-han-yu-pi/7.jpg" | relative_url }})
+![]({{ "/assets/images/2015/12/2015-12-13-han-yu-pi/8.jpg" | relative_url }})
+![]({{ "/assets/images/2015/12/2015-12-13-han-yu-pi/9.jpg" | relative_url }})

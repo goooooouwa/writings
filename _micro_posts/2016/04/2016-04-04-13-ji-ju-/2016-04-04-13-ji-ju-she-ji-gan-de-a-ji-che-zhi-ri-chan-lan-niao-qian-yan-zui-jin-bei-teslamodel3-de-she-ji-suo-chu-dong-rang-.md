@@ -9,3 +9,14 @@ published: false
 
 新蓝鸟完全颠覆了日产现有的沉闷的设计风格，将目标用户定位于年轻消费者。极具张力线条使车身富有层次感和立体感。大面积暗红色内饰，年轻富有活力。最后，悬浮式座舱极具未来感。
 
+
+
+![]({{ "/assets/images/2016/04/2016-04-04-13-ji-ju-/1.jpg" | relative_url }})
+![]({{ "/assets/images/2016/04/2016-04-04-13-ji-ju-/2.jpg" | relative_url }})
+![]({{ "/assets/images/2016/04/2016-04-04-13-ji-ju-/3.jpg" | relative_url }})
+![]({{ "/assets/images/2016/04/2016-04-04-13-ji-ju-/4.jpg" | relative_url }})
+![]({{ "/assets/images/2016/04/2016-04-04-13-ji-ju-/5.jpg" | relative_url }})
+![]({{ "/assets/images/2016/04/2016-04-04-13-ji-ju-/6.jpg" | relative_url }})
+![]({{ "/assets/images/2016/04/2016-04-04-13-ji-ju-/7.jpg" | relative_url }})
+![]({{ "/assets/images/2016/04/2016-04-04-13-ji-ju-/8.jpg" | relative_url }})
+![]({{ "/assets/images/2016/04/2016-04-04-13-ji-ju-/9.jpg" | relative_url }})

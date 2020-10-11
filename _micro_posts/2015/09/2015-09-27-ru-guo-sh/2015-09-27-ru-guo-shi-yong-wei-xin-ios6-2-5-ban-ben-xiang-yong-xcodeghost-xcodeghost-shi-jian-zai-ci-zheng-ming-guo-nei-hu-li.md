@@ -10,3 +10,14 @@ http://www.apple.com/cn/xcodeghost/
 
 http://t.qianzhan.com/int/detail/150919-a0955e4c.html
 
+
+
+![]({{ "/assets/images/2015/09/2015-09-27-ru-guo-sh/1.jpg" | relative_url }})
+![]({{ "/assets/images/2015/09/2015-09-27-ru-guo-sh/2.jpg" | relative_url }})
+![]({{ "/assets/images/2015/09/2015-09-27-ru-guo-sh/3.jpg" | relative_url }})
+![]({{ "/assets/images/2015/09/2015-09-27-ru-guo-sh/4.jpg" | relative_url }})
+![]({{ "/assets/images/2015/09/2015-09-27-ru-guo-sh/5.jpg" | relative_url }})
+![]({{ "/assets/images/2015/09/2015-09-27-ru-guo-sh/6.jpg" | relative_url }})
+![]({{ "/assets/images/2015/09/2015-09-27-ru-guo-sh/7.jpg" | relative_url }})
+![]({{ "/assets/images/2015/09/2015-09-27-ru-guo-sh/8.jpg" | relative_url }})
+![]({{ "/assets/images/2015/09/2015-09-27-ru-guo-sh/9.jpg" | relative_url }})

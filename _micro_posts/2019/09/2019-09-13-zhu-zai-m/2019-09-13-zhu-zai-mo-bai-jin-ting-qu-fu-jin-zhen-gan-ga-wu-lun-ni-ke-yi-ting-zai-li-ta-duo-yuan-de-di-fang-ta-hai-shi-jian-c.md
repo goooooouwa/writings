@@ -10,3 +10,14 @@ published: false
 
 政策没问题，执行很有问题。
 
+
+
+![]({{ "/assets/images/2019/09/2019-09-13-zhu-zai-m/1.jpg" | relative_url }})
+![]({{ "/assets/images/2019/09/2019-09-13-zhu-zai-m/2.jpg" | relative_url }})
+![]({{ "/assets/images/2019/09/2019-09-13-zhu-zai-m/3.jpg" | relative_url }})
+![]({{ "/assets/images/2019/09/2019-09-13-zhu-zai-m/4.jpg" | relative_url }})
+![]({{ "/assets/images/2019/09/2019-09-13-zhu-zai-m/5.jpg" | relative_url }})
+![]({{ "/assets/images/2019/09/2019-09-13-zhu-zai-m/6.jpg" | relative_url }})
+![]({{ "/assets/images/2019/09/2019-09-13-zhu-zai-m/7.jpg" | relative_url }})
+![]({{ "/assets/images/2019/09/2019-09-13-zhu-zai-m/8.jpg" | relative_url }})
+![]({{ "/assets/images/2019/09/2019-09-13-zhu-zai-m/9.jpg" | relative_url }})

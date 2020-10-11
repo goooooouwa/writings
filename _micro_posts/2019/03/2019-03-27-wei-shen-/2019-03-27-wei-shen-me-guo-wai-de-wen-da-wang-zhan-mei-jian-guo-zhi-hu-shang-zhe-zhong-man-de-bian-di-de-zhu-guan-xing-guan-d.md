@@ -10,3 +10,14 @@ XXX是一种怎样的体验？
 
 这种主观性问题的回答当然不会有正确答案或者唯一标准，但是似乎看回答的人都以为点赞最多的是正确答案。
 
+
+
+![]({{ "/assets/images/2019/03/2019-03-27-wei-shen-/1.jpg" | relative_url }})
+![]({{ "/assets/images/2019/03/2019-03-27-wei-shen-/2.jpg" | relative_url }})
+![]({{ "/assets/images/2019/03/2019-03-27-wei-shen-/3.jpg" | relative_url }})
+![]({{ "/assets/images/2019/03/2019-03-27-wei-shen-/4.jpg" | relative_url }})
+![]({{ "/assets/images/2019/03/2019-03-27-wei-shen-/5.jpg" | relative_url }})
+![]({{ "/assets/images/2019/03/2019-03-27-wei-shen-/6.jpg" | relative_url }})
+![]({{ "/assets/images/2019/03/2019-03-27-wei-shen-/7.jpg" | relative_url }})
+![]({{ "/assets/images/2019/03/2019-03-27-wei-shen-/8.jpg" | relative_url }})
+![]({{ "/assets/images/2019/03/2019-03-27-wei-shen-/9.jpg" | relative_url }})

@@ -8,3 +8,14 @@ published: false
 
 http://tech.sina.cn/digi/elec/2015-04-17/detail-ichmifpy8516136.d.html?from=wap
 
+
+
+![]({{ "/assets/images/2016/02/2016-02-04-jing-guo-/1.jpg" | relative_url }})
+![]({{ "/assets/images/2016/02/2016-02-04-jing-guo-/2.jpg" | relative_url }})
+![]({{ "/assets/images/2016/02/2016-02-04-jing-guo-/3.jpg" | relative_url }})
+![]({{ "/assets/images/2016/02/2016-02-04-jing-guo-/4.jpg" | relative_url }})
+![]({{ "/assets/images/2016/02/2016-02-04-jing-guo-/5.jpg" | relative_url }})
+![]({{ "/assets/images/2016/02/2016-02-04-jing-guo-/6.jpg" | relative_url }})
+![]({{ "/assets/images/2016/02/2016-02-04-jing-guo-/7.jpg" | relative_url }})
+![]({{ "/assets/images/2016/02/2016-02-04-jing-guo-/8.jpg" | relative_url }})
+![]({{ "/assets/images/2016/02/2016-02-04-jing-guo-/9.jpg" | relative_url }})
