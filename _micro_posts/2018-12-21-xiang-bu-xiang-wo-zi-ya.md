@@ -6,7 +6,7 @@ published: false
 
 
 
-![]({{ "/assets/images/2018/12/2018-12-21-xiang-bu-/1.jpg" | relative_url }})
+![]({{ "/assets/images/2018/12/2018-12-21-xiang-bu-/1.mp4" | absolute_url }})
 ![]({{ "/assets/images/2018/12/2018-12-21-xiang-bu-/2.jpg" | relative_url }})
 ![]({{ "/assets/images/2018/12/2018-12-21-xiang-bu-/3.jpg" | relative_url }})
 ![]({{ "/assets/images/2018/12/2018-12-21-xiang-bu-/4.jpg" | relative_url }})

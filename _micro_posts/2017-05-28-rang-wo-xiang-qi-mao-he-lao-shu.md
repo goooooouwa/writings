@@ -6,7 +6,7 @@ published: false
 
 
 
-![]({{ "/assets/images/2017/05/2017-05-28-rang-wo-x/1.jpg" | relative_url }})
+![]({{ "/assets/images/2017/05/2017-05-28-rang-wo-x/1.mp4" | absolute_url }})
 ![]({{ "/assets/images/2017/05/2017-05-28-rang-wo-x/2.jpg" | relative_url }})
 ![]({{ "/assets/images/2017/05/2017-05-28-rang-wo-x/3.jpg" | relative_url }})
 ![]({{ "/assets/images/2017/05/2017-05-28-rang-wo-x/4.jpg" | relative_url }})

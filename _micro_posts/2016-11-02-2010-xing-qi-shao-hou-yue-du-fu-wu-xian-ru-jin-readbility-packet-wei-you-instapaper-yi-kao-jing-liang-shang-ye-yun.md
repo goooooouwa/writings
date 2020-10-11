@@ -8,7 +8,7 @@ published: false
 
 
 
-![]({{ "/assets/images/2016/11/2016-11-02-2010-xing/1.jpg" | relative_url }})
+![]({{ "/assets/images/2016/11/2016-11-02-2010-xing/1.mp4" | absolute_url }})
 ![]({{ "/assets/images/2016/11/2016-11-02-2010-xing/2.jpg" | relative_url }})
 ![]({{ "/assets/images/2016/11/2016-11-02-2010-xing/3.jpg" | relative_url }})
 ![]({{ "/assets/images/2016/11/2016-11-02-2010-xing/4.jpg" | relative_url }})

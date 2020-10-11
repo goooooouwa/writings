@@ -6,7 +6,7 @@ published: false
 
 
 
-![]({{ "/assets/images/2014/11/2014-11-01-can-jia-r/1.jpg" | relative_url }})
+![]({{ "/assets/images/2014/11/2014-11-01-can-jia-r/1.mp4" | absolute_url }})
 ![]({{ "/assets/images/2014/11/2014-11-01-can-jia-r/2.jpg" | relative_url }})
 ![]({{ "/assets/images/2014/11/2014-11-01-can-jia-r/3.jpg" | relative_url }})
 ![]({{ "/assets/images/2014/11/2014-11-01-can-jia-r/4.jpg" | relative_url }})

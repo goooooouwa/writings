@@ -6,7 +6,7 @@ published: false
 
 
 
-![]({{ "/assets/images/2019/03/2019-03-30-ben-lai-l/1.jpg" | relative_url }})
+![]({{ "/assets/images/2019/03/2019-03-30-ben-lai-l/1.mp4" | absolute_url }})
 ![]({{ "/assets/images/2019/03/2019-03-30-ben-lai-l/2.jpg" | relative_url }})
 ![]({{ "/assets/images/2019/03/2019-03-30-ben-lai-l/3.jpg" | relative_url }})
 ![]({{ "/assets/images/2019/03/2019-03-30-ben-lai-l/4.jpg" | relative_url }})

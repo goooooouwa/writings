@@ -8,7 +8,7 @@ RetroPi 游戏机完成✅
 
 
 
-![]({{ "/assets/images/2018/09/2018-09-13-raspberry/1.jpg" | relative_url }})
+![]({{ "/assets/images/2018/09/2018-09-13-raspberry/1.mp4" | absolute_url }})
 ![]({{ "/assets/images/2018/09/2018-09-13-raspberry/2.jpg" | relative_url }})
 ![]({{ "/assets/images/2018/09/2018-09-13-raspberry/3.jpg" | relative_url }})
 ![]({{ "/assets/images/2018/09/2018-09-13-raspberry/4.jpg" | relative_url }})

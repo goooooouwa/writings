@@ -8,7 +8,7 @@ published: false
 
 
 
-![]({{ "/assets/images/2018/11/2018-11-05-yi-du-pin/1.jpg" | relative_url }})
+![]({{ "/assets/images/2018/11/2018-11-05-yi-du-pin/1.mp4" | absolute_url }})
 ![]({{ "/assets/images/2018/11/2018-11-05-yi-du-pin/2.jpg" | relative_url }})
 ![]({{ "/assets/images/2018/11/2018-11-05-yi-du-pin/3.jpg" | relative_url }})
 ![]({{ "/assets/images/2018/11/2018-11-05-yi-du-pin/4.jpg" | relative_url }})

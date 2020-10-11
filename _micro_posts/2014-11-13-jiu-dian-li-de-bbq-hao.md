@@ -6,7 +6,7 @@ published: false
 
 
 
-![]({{ "/assets/images/2014/11/2014-11-13-jiu-dian-/1.jpg" | relative_url }})
+![]({{ "/assets/images/2014/11/2014-11-13-jiu-dian-/1.mp4" | absolute_url }})
 ![]({{ "/assets/images/2014/11/2014-11-13-jiu-dian-/2.jpg" | relative_url }})
 ![]({{ "/assets/images/2014/11/2014-11-13-jiu-dian-/3.jpg" | relative_url }})
 ![]({{ "/assets/images/2014/11/2014-11-13-jiu-dian-/4.jpg" | relative_url }})

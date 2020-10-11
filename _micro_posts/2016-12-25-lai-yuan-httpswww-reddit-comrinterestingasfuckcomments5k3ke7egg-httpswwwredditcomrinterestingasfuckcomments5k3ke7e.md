@@ -8,7 +8,7 @@ published: false
 
 
 
-![]({{ "/assets/images/2016/12/2016-12-25-lai-yuan-/1.jpg" | relative_url }})
+![]({{ "/assets/images/2016/12/2016-12-25-lai-yuan-/1.mp4" | absolute_url }})
 ![]({{ "/assets/images/2016/12/2016-12-25-lai-yuan-/2.jpg" | relative_url }})
 ![]({{ "/assets/images/2016/12/2016-12-25-lai-yuan-/3.jpg" | relative_url }})
 ![]({{ "/assets/images/2016/12/2016-12-25-lai-yuan-/4.jpg" | relative_url }})

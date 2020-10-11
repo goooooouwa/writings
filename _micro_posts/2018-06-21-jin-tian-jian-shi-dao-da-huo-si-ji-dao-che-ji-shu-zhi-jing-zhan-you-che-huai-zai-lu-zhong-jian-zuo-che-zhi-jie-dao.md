@@ -6,7 +6,7 @@ published: false
 
 
 
-![]({{ "/assets/images/2018/06/2018-06-21-jin-tian-/1.jpg" | relative_url }})
+![]({{ "/assets/images/2018/06/2018-06-21-jin-tian-/1.mp4" | absolute_url }})
 ![]({{ "/assets/images/2018/06/2018-06-21-jin-tian-/2.jpg" | relative_url }})
 ![]({{ "/assets/images/2018/06/2018-06-21-jin-tian-/3.jpg" | relative_url }})
 ![]({{ "/assets/images/2018/06/2018-06-21-jin-tian-/4.jpg" | relative_url }})
