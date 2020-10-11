@@ -10,12 +10,3 @@ published: false
 
 录音下载地址：http://pan.baidu.com/share/link?shareid=738316819&uk=2550944095
 
-![](./1.jpg)
-![](./2.jpg)
-![](./3.jpg)
-![](./4.jpg)
-![](./5.jpg)
-![](./6.jpg)
-![](./7.jpg)
-![](./8.jpg)
-![](./9.jpg)
