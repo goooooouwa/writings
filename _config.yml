@@ -91,6 +91,10 @@ pagination:
   per_page: 10
   sort_reverse: true
 
+jekyll-spaceship:
+  processors:
+    - media-processor
+
 jekyll-archives:
   enabled:
     - year
