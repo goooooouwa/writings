@@ -7,11 +7,3 @@ published: false
 
 
 ![]({{ "/assets/images/2017/05/2017-05-20-mao-he-sh/1.mp4" | absolute_url }})
-![]({{ "/assets/images/2017/05/2017-05-20-mao-he-sh/2.jpg" | relative_url }})
-![]({{ "/assets/images/2017/05/2017-05-20-mao-he-sh/3.jpg" | relative_url }})
-![]({{ "/assets/images/2017/05/2017-05-20-mao-he-sh/4.jpg" | relative_url }})
-![]({{ "/assets/images/2017/05/2017-05-20-mao-he-sh/5.jpg" | relative_url }})
-![]({{ "/assets/images/2017/05/2017-05-20-mao-he-sh/6.jpg" | relative_url }})
-![]({{ "/assets/images/2017/05/2017-05-20-mao-he-sh/7.jpg" | relative_url }})
-![]({{ "/assets/images/2017/05/2017-05-20-mao-he-sh/8.jpg" | relative_url }})
-![]({{ "/assets/images/2017/05/2017-05-20-mao-he-sh/9.jpg" | relative_url }})

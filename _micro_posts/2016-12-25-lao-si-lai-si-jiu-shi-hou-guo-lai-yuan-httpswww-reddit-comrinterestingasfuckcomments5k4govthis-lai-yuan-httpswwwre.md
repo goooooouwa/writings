@@ -9,11 +9,3 @@ published: false
 
 
 ![]({{ "/assets/images/2016/12/2016-12-25-lao-si-la/1.mp4" | absolute_url }})
-![]({{ "/assets/images/2016/12/2016-12-25-lao-si-la/2.jpg" | relative_url }})
-![]({{ "/assets/images/2016/12/2016-12-25-lao-si-la/3.jpg" | relative_url }})
-![]({{ "/assets/images/2016/12/2016-12-25-lao-si-la/4.jpg" | relative_url }})
-![]({{ "/assets/images/2016/12/2016-12-25-lao-si-la/5.jpg" | relative_url }})
-![]({{ "/assets/images/2016/12/2016-12-25-lao-si-la/6.jpg" | relative_url }})
-![]({{ "/assets/images/2016/12/2016-12-25-lao-si-la/7.jpg" | relative_url }})
-![]({{ "/assets/images/2016/12/2016-12-25-lao-si-la/8.jpg" | relative_url }})
-![]({{ "/assets/images/2016/12/2016-12-25-lao-si-la/9.jpg" | relative_url }})

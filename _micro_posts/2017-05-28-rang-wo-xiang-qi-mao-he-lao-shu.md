@@ -7,11 +7,3 @@ published: false
 
 
 ![]({{ "/assets/images/2017/05/2017-05-28-rang-wo-x/1.mp4" | absolute_url }})
-![]({{ "/assets/images/2017/05/2017-05-28-rang-wo-x/2.jpg" | relative_url }})
-![]({{ "/assets/images/2017/05/2017-05-28-rang-wo-x/3.jpg" | relative_url }})
-![]({{ "/assets/images/2017/05/2017-05-28-rang-wo-x/4.jpg" | relative_url }})
-![]({{ "/assets/images/2017/05/2017-05-28-rang-wo-x/5.jpg" | relative_url }})
-![]({{ "/assets/images/2017/05/2017-05-28-rang-wo-x/6.jpg" | relative_url }})
-![]({{ "/assets/images/2017/05/2017-05-28-rang-wo-x/7.jpg" | relative_url }})
-![]({{ "/assets/images/2017/05/2017-05-28-rang-wo-x/8.jpg" | relative_url }})
-![]({{ "/assets/images/2017/05/2017-05-28-rang-wo-x/9.jpg" | relative_url }})
