@@ -43,9 +43,9 @@ category: career
 - Business Analyst, Digital API, an Australian low-cost airline, 2019/04/08 - 2020/04/03
 - Business Analyst, API Gateway, ThoughtWorks TechOps Platform, 2018/11/19 - 2019/01/18
 - Agile Coach, ThoughtWorks School, ThoughtWorks, 2017/02/27 - 2018/09/30
-- Full stack developer, Self Service, a major telecom operator in Australia, 2016/07/04 - 2017/02/24
+- Full Stack Developer, Self Service, a major telecom operator in Australia, 2016/07/04 - 2017/02/24
 - Ruby Developer, ActivityCloud, ActiveNetwork, 2015/03 —2016/06
-- Full stack developer, TenderChase, an Australian construction company, 2014/02 — 2015/02
+- Full Stack Developer, TenderChase, an Australian construction company, 2014/02 — 2015/02
 
 ### SustainChain
 
