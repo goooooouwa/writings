@@ -13,7 +13,7 @@ category: career
 
 ## Introduction
 
-7+ years experience in agile software development. With a strong technical background and broad understanding on business and design, I'm passionate about making digital products that enrich people's lives.
+7+ years working experience in agile software development. With a strong technical background and broad understanding on business and design, I'm passionate about making digital products that enrich people's lives.
 
 ## Working experience
 
