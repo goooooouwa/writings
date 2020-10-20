@@ -68,6 +68,8 @@ Joined the team shortly after it's inception, have been working closely with the
 
 ### Digital API
 
+#### Project Description
+
 Digital API is the company's enterprise API platform which:
 
 - Utilizes Micro-service architecture with Domain Driven Design
