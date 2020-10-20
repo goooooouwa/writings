@@ -13,7 +13,7 @@ category: career
 
 ## Introduction
 
-Senior Business Analyst with 7 years experience in agile software development. With a strong technical background and business mindset, I'm passionate about making digital products that users love.
+7+ years experience in agile software development. With a strong technical background and deep knowledge on business and design, I'm passionate about making digital products that enrich people's lives.
 
 ## Working experience
 
