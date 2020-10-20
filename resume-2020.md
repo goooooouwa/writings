@@ -38,16 +38,16 @@ category: career
 
 ## Project experience
 
-- Mobile Forms, a leading U.S. franchisor of in-home services, Business Analyst, 2020/10/13 - present
-- SustainChain, an U.S. non-profit organization focusing on UN’s Sustainable Development Goals, Business Analyst, 2020/04/16 - 2020/10/12
-- Digital API, an Australian low-cost airline, Business Analyst, 2019/04/08 - 2020/04/03
-- API Gateway, ThoughtWorks TechOps Platform, Business Analyst, 2018/11/19 - 2019/01/18
-- ThoughtWorks School, ThoughtWorks, Agile Coach, 2017/02/27 - 2018/09/30
-- Self Service, a major telecom operator in Australia, full stack developer, 2016/07/04 - 2017/02/24
-- ActivityCloud, ActiveNetwork, Ruby Developer, 2015/03 —2016/06
-- TenderChase, an Australian construction company, full stack developer, 2014/02 — 2015/02
+- Business Analyst, Mobile Forms, a leading U.S. franchisor of in-home services, 2020/10/13 - present
+- Business Analyst, SustainChain, an U.S. non-profit organization focusing on UN’s Sustainable Development Goals, 2020/04/16 - 2020/10/12
+- Business Analyst, Digital API, an Australian low-cost airline, 2019/04/08 - 2020/04/03
+- Business Analyst, API Gateway, ThoughtWorks TechOps Platform, 2018/11/19 - 2019/01/18
+- Agile Coach, ThoughtWorks School, ThoughtWorks, 2017/02/27 - 2018/09/30
+- Full stack developer, Self Service, a major telecom operator in Australia, 2016/07/04 - 2017/02/24
+- Ruby Developer, ActivityCloud, ActiveNetwork, 2015/03 —2016/06
+- Full stack developer, TenderChase, an Australian construction company, 2014/02 — 2015/02
 
-### SustainChain, an U.S. non-profit organization, Business Analyst, 2020/04/16 - 2020/10/12
+### SustainChain
 
 #### Project Description
 
@@ -66,7 +66,7 @@ As the offshore BA, responsible for the successful delivery of the SustainChain 
 
 Joined the team shortly after it's inception, have been working closely with the clients on a daily basis. Together with our UX designer, we analyzed and designed 15+ major features based on user research & feedback. Helping ensured the success launch of several critical features for the platform in preparation for the 75th General Assembly of the United Nations.
 
-### Digital API, an Australian low-cost airline, Business Analyst, 2019/04/08 - present
+### Digital API
 
 Digital API is the company's enterprise API platform which:
 
@@ -101,7 +101,7 @@ Besides ensuring the successful production release of Digital API, I also have a
   * Helped team aligning on many conventions, like API naming and time format standardization, which serves as a framework for our future API design
   * Actively communicate with both API team and client teams, weekly catchup with key roles, to make sure requirements gets understood and delivered exactly as our clients expected, which greatly reduce the number of requirements redo.
 
-### API Gateway, ThoughtWorks TechOps Platform, Business Analyst, 2018/11/19 - 2019/01/18
+### API Gateway
 
 #### Project Description
 
@@ -142,7 +142,7 @@ In addition to ensuring the successful delivery of iterations, I went a step fur
   * Shortened the user feedback cycle time, by doing user interviews before each iteration, and verifying the accuracy and prioritization of requirements through product prototypes and user validation before actual development.
 
 
-### ThoughtWorks School, ThoughtWorks, Agile Coach, 2017/02/27 - 2018/09/30
+### ThoughtWorks School
 
 #### Project Description
 
@@ -187,7 +187,7 @@ In the 2017 ThoughtWorks Summer Coding Camp, I directly participated in the foll
   7. Feedback gathering and program data analysis
 
 
-### Self Service, major telecom operator in Australia, full stack developer, 2016/07/04 - 2017/02/24
+### Self Service
 
 #### Project Description
 
@@ -209,11 +209,11 @@ In addition to ensuring the successful delivery, I strived to improve code quali
 
 ### Other ThoughtWorks short-term projects
 
-  * OCAL, REAP Public Welfare Education Game, Front End Developer, 2018/10/23 - 2018/11/16
+  * Front End Developer, OCAL, REAP Public Welfare Education Game, 2018/10/23 - 2018/11/16
 
-  * MBB, German luxury car company, front-end developer, 2017/11/20 - 2018/01/26
+  * Front-end developer, MBB, German luxury car company, 2017/11/20 - 2018/01/26
 
-### ActivityCloud, ActiveNetwork, Ruby Developer, 2015/03 —2016/06
+### ActivityCloud
 
 #### Project Description
 
@@ -231,7 +231,7 @@ In addition to ensuring the successful delivery of iterations, I continued to im
 
   * Found a FireFox browser bug while debugging a production issue, and later submited a bug to Mozila and watched it fixed.
 
-### TenderChase, an Australian construction company, full stack developer, 2014/02 — 2015/02
+### TenderChase
 
 #### Project Description
 
