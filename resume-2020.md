@@ -38,8 +38,8 @@ category: career
 
 ## Project experience
 
-- Business Analyst, Mobile Forms, a leading U.S. franchisor of in-home services, 2020/10/13 - present
-- Business Analyst, SustainChain, an U.S. non-profit organization focusing on UN’s Sustainable Development Goals, 2020/04/16 - 2020/10/12
+- Senior Business Analyst, Mobile Forms, a leading U.S. franchisor of in-home services, 2020/10/13 - present
+- Senior Business Analyst, SustainChain, an U.S. non-profit organization focusing on UN’s Sustainable Development Goals, 2020/04/16 - 2020/10/12
 - Business Analyst, Digital API, an Australian low-cost airline, 2019/04/08 - 2020/04/03
 - Business Analyst, API Gateway, ThoughtWorks TechOps Platform, 2018/11/19 - 2019/01/18
 - Agile Coach, ThoughtWorks School, ThoughtWorks, 2017/02/27 - 2018/09/30
