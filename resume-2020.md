@@ -31,23 +31,37 @@ Senior Business Analyst with 7 years experience in agile software development. W
 
 * Bachelor's Degree of Engineering, Automation, Jianghan University, 2009/09/01 - 2013/06/30
 
-### English
-
-* Near native speaking
-
 ## Project experience
 
-- Digital API, an Australian low-cost airline, Business Analyst, 2019/04/08 - present
+- Mobile Forms, a leading U.S. franchisor of in-home services, Business Analyst, 2020/10/13 - present
+- SustainChain, an U.S. non-profit organization, Business Analyst, 2020/04/16 - 2020/10/12
+- Digital API, an Australian low-cost airline, Business Analyst, 2019/04/08 - 2020/04/03
 - API Gateway, ThoughtWorks TechOps Platform, Business Analyst, 2018/11/19 - 2019/01/18
 - ThoughtWorks School, ThoughtWorks, Agile Coach, 2017/02/27 - 2018/09/30
-- Self Service, major telecom operator in Australia, full stack developer, 2016/07/04 - 2017/02/24
+- Self Service, a major telecom operator in Australia, full stack developer, 2016/07/04 - 2017/02/24
 - ActivityCloud, ActiveNetwork, Ruby Developer, 2015/03 —2016/06
 - TenderChase, an Australian construction company, full stack developer, 2014/02 — 2015/02
 
-
-### Digital API, an Australian low-cost airline, Business Analyst, 2019/04/08 - present
+### SustainChain, an U.S. non-profit organization, Business Analyst, 2020/04/16 - 2020/10/12
 
 #### Project Description
+
+SustainChain is a platform that was established to help unify and accelerate efforts to achieve the United Nation’s Sustainable Development Goals.
+
+#### Personal responsibility
+
+As the offshore BA, responsible for the successful delivery of the SustainChain platform, including:
+
+- Inception & Discovery
+- Requirements elaborating & analyzing
+- Wireframes & Feature design
+- Client facing & communication
+
+#### Team contribution
+
+Joined the team shortly after it's inception, have been working closely with the clients on a daily basis. Together with our UX designer, we analyzed and designed 15+ major features based on user research & feedback. Helping ensured the success launch of several critical features for the platform in preparation for the 75th General Assembly of the United Nations.
+
+### Digital API, an Australian low-cost airline, Business Analyst, 2019/04/08 - present
 
 Digital API is the company's enterprise API platform which:
 
