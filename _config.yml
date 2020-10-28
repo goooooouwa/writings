@@ -24,10 +24,6 @@ permalink: /:slugified_categories/:year/:month/:day/:slug:output_ext
 collections:
   notes:
     output: true
-  diary:
-    output: true
-  micro_posts:
-    output: true
 
 defaults:
   - scope:
@@ -53,7 +49,6 @@ exclude:
   - Gemfile.lock
   - scripts/
   - README.md
-  - assets/images
 
 # Build settings
 markdown: kramdown
