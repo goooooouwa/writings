@@ -1,5 +1,0 @@
----
-title: 享受驾驶的乐趣需要的不止是车子
-published: false
----
-我希望能像欧洲、日本、美国人那样享受驾驶的乐趣（Road trip, canny road, track, touge)，最终却发现，有车还不够，还要有专门的时间，专门的路。 城市道路和日常驾驶（carrying people in traffic）是不需要多好性能的，也没有多少乐趣。 山路、小路都很不错，不过你得有专门的时间。
