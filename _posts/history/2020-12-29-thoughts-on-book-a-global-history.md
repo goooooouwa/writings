@@ -1,6 +1,10 @@
-# 瞬间之中存在永恒吗？《全球通史》读后感
+---
+category: history
+title: 瞬间之中存在永恒吗？《全球通史》读后感
+---
 
-[TOC]
+* TOC
+{:toc}
 
 ## 前言
 
@@ -233,4 +237,3 @@ Wikipedia上对“Civilization”的定义是：
 - Wikipedia (词条：[Civilization](https://en.wikipedia.org/wiki/Civilization))
 - 中文维基百科（词条：史前文明、文明、罗马帝国、日耳曼人、墨洛温王朝、法兰克王国、拜占庭帝国、中国等）
 - 百度百科（词条：人类文明、文明、印度、古印度文明、中东等）
-- [知乎回答](https://www.zhihu.com/question/328633018)
