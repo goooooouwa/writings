@@ -1,6 +1,7 @@
-# 分享：效率工具和tips for beginners
-
-
+---
+category: productivity
+title: 分享：效率工具和tips for beginners
+---
 
 ## 时间管理
 
