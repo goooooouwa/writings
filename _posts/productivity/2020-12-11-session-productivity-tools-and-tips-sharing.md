@@ -82,23 +82,23 @@ title: 分享：效率工具和tips for beginners
 
 #### App download links:
 
-- itsycal (free): https://www.mowglii.com/itsycal/
+- itsycal (free): [https://www.mowglii.com/itsycal/](https://www.mowglii.com/itsycal/)
 
-- Menu World Time (free): https://apps.apple.com/cn/app/menu-world-time/id1446377255?l=en&mt=12
+- Menu World Time (free): [https://apps.apple.com/cn/app/menu-world-time/id1446377255?l=en&mt=12](https://apps.apple.com/cn/app/menu-world-time/id1446377255?l=en&mt=12)
 
-- 滴答清单 (subscription with free tier): https://dida365.com/
+- 滴答清单 (subscription with free tier): [https://dida365.com/](https://dida365.com/)
 
-- 印象笔记 (subscription with free tier): https://www.yinxiang.com/
-- draw.io (free): https://app.diagrams.net/
-- RecordIt (free): https://recordit.co/
-- Snap (free): https://apps.apple.com/cn/app/snap/id418073146?l=en&mt=12
-- Shiftit (free): https://github.com/fikovnik/shiftIt/releases
-- 1Password (subscription): https://1password.com/
-- Alfred (paid): https://www.alfredapp.com/
-- CopyClip (free): https://apps.apple.com/cn/app/copyclip-clipboard-history/id595191960?l=en&mt=12
-- Typora (free for beta): https://typora.io/
-- Marp (free): https://marp.app/
-- Drafts (subscription with free tier): https://getdrafts.com/
+- 印象笔记 (subscription with free tier): [https://www.yinxiang.com/](https://www.yinxiang.com/)
+- draw.io (free): [https://app.diagrams.net/](https://app.diagrams.net/)
+- RecordIt (free): [https://recordit.co/](https://recordit.co/)
+- Snap (free): [https://apps.apple.com/cn/app/snap/id418073146?l=en&mt=12](https://apps.apple.com/cn/app/snap/id418073146?l=en&mt=12)
+- Shiftit (free): [https://github.com/fikovnik/shiftIt/releases](https://github.com/fikovnik/shiftIt/releases)
+- 1Password (subscription): [https://1password.com/](https://1password.com/)
+- Alfred (paid): [https://www.alfredapp.com/](https://www.alfredapp.com/)
+- CopyClip (free): [https://apps.apple.com/cn/app/copyclip-clipboard-history/id595191960?l=en&mt=12](https://apps.apple.com/cn/app/copyclip-clipboard-history/id595191960?l=en&mt=12)
+- Typora (free for beta): [https://typora.io/](https://typora.io/)
+- Marp (free): [https://marp.app/](https://marp.app/)
+- Drafts (subscription with free tier): [https://getdrafts.com/](https://getdrafts.com/)
 
 
 
