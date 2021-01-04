@@ -42,5 +42,6 @@ jobs:
       with:
         directory: ./_site
         repository: goooooouwa/goooooouwa.github.io
+        branch: ${{ github.ref }}
         github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         force: true
