@@ -1,4 +1,7 @@
-# Switch游戏
+---
+category: productivity
+title: Switch游戏setup
+---
 
 ## 游戏机破解
 

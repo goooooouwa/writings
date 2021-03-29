@@ -1,4 +1,7 @@
-# 搜索
+---
+category: productivity
+title: 搜索setup
+---
 
 ## 搜索引擎
 

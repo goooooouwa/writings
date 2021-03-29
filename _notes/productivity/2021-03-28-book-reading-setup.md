@@ -1,4 +1,7 @@
-# 阅读
+---
+category: productivity
+title: 阅读setup
+---
 
 ## 电子书存储
 

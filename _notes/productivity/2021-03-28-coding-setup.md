@@ -1,4 +1,7 @@
-# 编程环境
+---
+category: productivity
+title: 编程环境setup
+---
 
 ## 代码存储
 

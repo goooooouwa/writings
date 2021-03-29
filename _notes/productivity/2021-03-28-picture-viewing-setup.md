@@ -1,4 +1,7 @@
-# 图片欣赏
+---
+category: productivity
+title: 图片欣赏setup
+---
 
 ## 在线网站
 

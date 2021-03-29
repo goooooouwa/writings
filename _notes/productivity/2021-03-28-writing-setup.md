@@ -1,5 +1,7 @@
-# 写作环境
-
+---
+category: productivity
+title: 写作环境setup
+---
 ## 文档存储
 
 GitHub repo (Markdown)

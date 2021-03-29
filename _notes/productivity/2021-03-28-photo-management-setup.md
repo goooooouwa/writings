@@ -1,4 +1,7 @@
-# 照片管理
+---
+category: productivity
+title: 照片管理setup
+---
 
 ## 照片存储
 
