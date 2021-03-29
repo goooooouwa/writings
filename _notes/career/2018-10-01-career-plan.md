@@ -12,6 +12,17 @@ title: 职业发展路线
 
 ## Roadmap
 
+<div class="mermaid">
+    gantt
+    title Career Plan
+    dateFormat  YYYY-MM-DD
+
+    section Goals & Milestones
+    当上Technical BA :2018-10-01, 30d
+    成为全职BA :365d
+    成为Senior海外BA :365d
+    成为海外产品经理 :365d
+</div>
 
 |                       | 2018             | 2019             | 2020               | 2021             |                          |         |
 | --------------------- | ---------------- | ---------------- | ------------------ | ---------------- | ------------------------ | ------- |
