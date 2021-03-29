@@ -1,6 +1,6 @@
 ---
 category: health
-title: 健身计划
+title: 健康计划
 tag: plan
 ---
 
