@@ -1,6 +1,6 @@
 ---
 category: career
-title: 职业发展路线
+title: 职业发展计划
 tag: plan
 ---
 
