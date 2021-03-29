@@ -1,6 +1,7 @@
 ---
 category: career
 title: 职业发展路线
+tag: plan
 ---
 
 * TOC

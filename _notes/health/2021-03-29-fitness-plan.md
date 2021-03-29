@@ -1,6 +1,7 @@
 ---
 category: health
 title: 健身计划
+tag: plan
 ---
 
 ## 目标
