@@ -3,8 +3,11 @@ category: productivity
 title: 博客setup
 tag: setup
 ---
+## Blog
 
-## Jekyll
+Jekyll repo + Github actions
+
+## Jekyll文件管理
 
 [ ] 为markdown文件添加front matter
 
