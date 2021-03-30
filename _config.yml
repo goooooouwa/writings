@@ -21,16 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 permalink: /:slugified_categories/:year/:month/:day/:slug:output_ext
 
-collections:
-  notes:
-    output: true
-
 defaults:
-  - scope:
-      path: ""
-      type: "notes"
-    values:
-      layout: "post"
   - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
@@ -75,7 +66,6 @@ disqus:
 google_analytics: UA-137406515-2
 
 header_pages:
-  - notes.html
   - docs.html
   - about.md
 
