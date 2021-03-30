@@ -66,6 +66,7 @@ disqus:
 google_analytics: UA-137406515-2
 
 header_pages:
+  - categories.html
   - docs.html
   - about.md
 

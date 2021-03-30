@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Notes
+title: Posts by category
 ---
-<h1>Notes ({{ site.notes.size }})</h1>
+<h1>Posts ({{ site.posts.size }})</h1>
 
 <ul>
-  {% assign mynotes = site.notes | group_by: 'category' | sort: 'size' | reverse %}
-  {% for category in mynotes %}
+  {% assign myposts = site.posts | group_by: 'category' | sort: 'size' | reverse %}
+  {% for category in myposts %}
   <span class="site-tag">
       <a href="#{{ category.name }}"
           style="font-size: {{ category.items.size  |  times: 5 | plus: 80  }}%">
@@ -14,7 +14,7 @@ title: Notes
       </a>
   </span>
   {% endfor %}
-  {% for category in mynotes %}
+  {% for category in myposts %}
   <h2 id="{{ category.name }}">{{ category.name | capitalize }} ({{ category.items.size }})</h2>
   <ul>
     {% assign posts = category.items | sort: 'date' %}
