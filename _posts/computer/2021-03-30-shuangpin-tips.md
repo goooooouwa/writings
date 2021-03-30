@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 双拼（微软方案）学习笔记
 category: computer
 ---
