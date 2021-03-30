@@ -1,6 +1,7 @@
 ---
 category: productivity
 title: 阅读setup
+tag: setup
 ---
 
 ## 电子书存储

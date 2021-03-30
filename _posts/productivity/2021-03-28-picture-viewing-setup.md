@@ -1,6 +1,7 @@
 ---
 category: productivity
 title: 图片欣赏setup
+tag: setup
 ---
 
 ## 在线网站

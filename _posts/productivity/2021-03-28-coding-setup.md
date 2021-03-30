@@ -1,6 +1,7 @@
 ---
 category: productivity
 title: 编程环境setup
+tag: setup
 ---
 
 ## 代码存储

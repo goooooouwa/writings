@@ -1,6 +1,7 @@
 ---
 category: productivity
 title: 照片管理setup
+tag: setup
 ---
 
 ## 照片存储

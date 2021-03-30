@@ -1,6 +1,7 @@
 ---
 category: productivity
 title: 写作环境setup
+tag: setup
 ---
 ## 文档存储
 

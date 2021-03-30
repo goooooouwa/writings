@@ -1,6 +1,7 @@
 ---
 category: productivity
 title: 搜索setup
+tag: setup
 ---
 
 ## 搜索引擎
