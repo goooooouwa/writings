@@ -1,6 +1,7 @@
 ---
 category: productivity
 title: 博客setup
+tag: setup
 ---
 
 ## Jekyll
