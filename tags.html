@@ -6,8 +6,8 @@ title: Tags
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
 <span class="site-tag">
-  <a href="/tag/{{ tag | first | slugify }}/" style="font-size: {{ tag | last | size | times: 10 | plus: 80 }}%">
-    {{ tag[0] | replace:'-', ' ' | capitalize }} ({{ tag | last | size }})
+  <a href="/tag/{{ tag | first | slugify }}/" style="font-size: {{ tag | last | size | times: 15 | plus: 80 }}%">
+    {{ tag[0] | replace:'-', ' ' | capitalize }},
   </a>
 </span>
 {% endfor %}
