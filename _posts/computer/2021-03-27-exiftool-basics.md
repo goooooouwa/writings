@@ -1,4 +1,8 @@
-# `exiftool`命令行工具的使用方法
+---
+title: exiftool的使用方法
+layout: post
+category: computer
+---
 
 [exiftool](https://exiftool.org/) 可以查看、批量修改媒体文件的EXIF信息。
 

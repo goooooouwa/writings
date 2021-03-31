@@ -2,28 +2,14 @@
 layout: default
 title: Categories
 ---
-<h1>Posts ({{ site.posts.size }})</h1>
+<h1>Categories</h1>
 
-<ul>
-  {% assign myposts = site.posts | group_by: 'category' | sort: 'size' | reverse %}
-  {% for category in myposts %}
-  <span class="site-tag">
-      <a href="#{{ category.name }}"
-          style="font-size: {{ category.items.size  |  times: 5 | plus: 80  }}%">
-              {{ category.name | capitalize }},
-      </a>
-  </span>
-  {% endfor %}
-  {% for category in myposts %}
-  <h2 id="{{ category.name }}">{{ category.name | capitalize }} ({{ category.items.size }})</h2>
-  <ul>
-    {% assign posts = category.items | sort: 'date' %}
-    {% for post in posts %}
-    <li>
-      <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-  {% endfor %}
-</ul>
+{% assign myposts = site.posts | group_by: 'category' | sort: 'size' | reverse %}
+{% for category in myposts %}
+<span class="site-tag">
+  <a href="/category/{{ category.name | slugify }}/"
+    style="font-size: {{ category.items.size  |  times: 5 | plus: 80  }}%">
+    {{ category.name | capitalize }},
+  </a>
+</span>
+{% endfor %}

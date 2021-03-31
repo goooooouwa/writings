@@ -1,6 +1,7 @@
 ---
 title: 什么是版权？
 layout: post
+category: misc
 ---
 
 ## TL'DR

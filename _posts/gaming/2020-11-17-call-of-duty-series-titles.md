@@ -1,14 +1,9 @@
-
-
-```
+---
 layout: post
 date: 2020-11-17
 title: 'Call of Duty series Titles'
-category:
-- gaming
-tags:
-- 
-```
+category: gaming
+---
 
 
 

@@ -67,6 +67,7 @@ google_analytics: UA-137406515-2
 
 header_pages:
   - categories.html
+  - tags.html
   - docs.html
   - about.md
 
