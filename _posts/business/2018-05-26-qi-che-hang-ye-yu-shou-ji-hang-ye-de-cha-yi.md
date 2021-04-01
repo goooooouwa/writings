@@ -3,7 +3,7 @@ date: 2018-05-26
 title: 汽车行业与手机行业的差异
 layout: post
 category: business
-tags: car, smartphone
+tags: car smartphone
 ---
 
 手机电脑等电子产品性能不与舒适性冲突，一部高性能和舒适性的手机价格也是affordable的，CPU，内存，显卡，电池，体积越来越小，手机电脑越来越轻薄，屏幕效果更好，手感越来越好，性能也越来越好。
