@@ -2,6 +2,7 @@
 category: productivity
 title: 博客setup
 tag: setup
+published: true
 ---
 ## Blog
 
@@ -9,7 +10,7 @@ Jekyll repo + Github actions
 
 ## Jekyll文件管理
 
-[ ] 为markdown文件添加front matter
+[ ] 轻松为markdown文件添加front matter
 
 为markdown文件生成带日期的文件名
 
@@ -17,4 +18,6 @@ Jekyll repo + Github actions
 
 ## 工具
 
-[evernote2markdown](https://github.com/goooooouwa/evernote2markdown)
+- 在线编辑文章: prose.io
+- 批量修改：VS Code
+- 批量添加front matter：[evernote2markdown](https://github.com/goooooouwa/evernote2markdown)
