@@ -1,6 +1,7 @@
 ---
 published: true
 title: 'Study Note: How to Do Market Research'
+category: marketing
 ---
 ## Secondary Market Research
 - free reports
