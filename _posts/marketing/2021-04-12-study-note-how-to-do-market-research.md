@@ -3,6 +3,8 @@ published: true
 title: 'Study Note: How to Do Market Research'
 category: marketing
 ---
+How to Do Market Research: https://www.youtube.com/watch?v=b-hDg7699S0
+
 ## Secondary Market Research
 - free reports
 - company websites (public credit reports)
@@ -20,4 +22,3 @@ category: marketing
 - talk to people
 - Amazon.com comments section
 
-Source: https://www.youtube.com/watch?v=b-hDg7699S0
