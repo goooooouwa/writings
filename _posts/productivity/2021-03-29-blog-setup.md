@@ -8,6 +8,19 @@ published: true
 
 Jekyll repo + Github actions
 
+<div class="mermaid">
+    graph TD
+    T1[Workflow 1: Create/edit post in Prose.io] -.-> A
+    T2[Workflow 2: Create/edit post locally] -.-> D
+
+    A[Create/edit post in Prose.io] --> B
+    D[Clone github repo to local] --> E
+    E[Setup ruby & jekyll env] --> F
+    F[Create/edit post in VS Code] --> B
+    B[Commit changes to github repo]
+    B --> C[Trigger Github actions to build and deploy the blog to github pages]
+</div>
+
 ## Jekyll文件管理
 
 [ ] 轻松为markdown文件添加front matter
