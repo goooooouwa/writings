@@ -15,7 +15,7 @@ published: true
     dateFormat  YYYY-MM-DD
 
     section Goals & Milestones
-    《Innovation #1》 :2021-03-29, 30d
-    《Innovation #2》 :30d
-    《Innovation #3》 :30d
+    《Innovation part 1》 :2021-03-29, 30d
+    《Innovation part 2》 :30d
+    《Innovation part 3》 :30d
 </div>
