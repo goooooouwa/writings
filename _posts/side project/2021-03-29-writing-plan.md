@@ -15,7 +15,6 @@ published: true
     dateFormat  YYYY-MM-DD
 
     section Goals & Milestones
-    《如何从0打造一款产品 #1》 :2021-03-29, 45d
-    《如何做市场研究 #2》 :30d
+    《如何从0打造一款产品》 :2021-03-29, 45d
+    《如何做市场研究》 :30d
 </div>
-
