@@ -1,6 +1,6 @@
 ---
 category: productivity
-title: 写作环境setup
+title: 写作setup
 tag: setup
 published: true
 ---
