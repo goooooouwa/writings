@@ -1,7 +1,5 @@
 ---
-published: false
----
----
+published: true
 category: entertainment
 title: 娱乐活动
 ---
