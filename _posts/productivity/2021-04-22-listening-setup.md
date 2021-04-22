@@ -2,6 +2,7 @@
 published: true
 title: 音频setup
 category: productivity
+tag: setup
 ---
 <div class="mermaid">
     graph TD
