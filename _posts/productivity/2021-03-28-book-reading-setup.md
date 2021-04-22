@@ -19,6 +19,17 @@ published: true
     E --> C[在Kindle, iPhone & iPad上阅读电子书/漫画]
 </div>
 
+## 内容
+电子书
+漫画
+Google新闻
+RSS feed
+Reddit论坛
+
+听书
+听播客
+听音乐
+
 ## 电子书存储
 
 OneDrive (mobi & ePub)
@@ -40,3 +51,4 @@ Kindle oasis
 iPad
 
 iPhone
+
