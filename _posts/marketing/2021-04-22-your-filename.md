@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 市场调研是做什么
 category: marketing
 ---
