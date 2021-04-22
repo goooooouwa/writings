@@ -26,7 +26,7 @@ published: true
     J[通过Feedly app]
     J --> H
 
-    T5[Workflow 4: 浏览Reddit帖子] -.-> L
+    T5[Workflow 5: 浏览Reddit帖子] -.-> L
     L[通过Reddit/Alien blue app]
     L --> H
 </div>
