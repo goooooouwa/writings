@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 音频setup
 category: productivity
 ---
