@@ -9,8 +9,8 @@ published: true
     T1[Workflow 1: 阅读电子书] -.-> A
 
     A[用OneDrive以mobi & ePub格式存储电子书]
-    A --> F[通过Kindle/Apple Books app]
-    F --> C[在Kindle, iPhone & Mac上阅读电子书]
+    A --> F[通过Apple Books/Kindle app]
+    F --> C[在iPhone, Mac & Kindle上阅读电子书]
 
     T2[Workflow 2: 阅读漫画] -.-> B
 
