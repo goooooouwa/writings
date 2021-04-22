@@ -1,5 +1,7 @@
 ---
 published: false
+title: 音频setup
+category: productivity
 ---
 <div class="mermaid">
     graph TD
