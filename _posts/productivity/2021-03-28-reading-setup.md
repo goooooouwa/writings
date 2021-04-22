@@ -18,7 +18,7 @@ published: true
     B --> E[通过Kindle/Kybooks app]
     E --> I[在Kindle & iPad上阅读漫画]
 
-    T3[Workflow 3: 阅读Google新闻] -.-> G
+    T3[Workflow 3: 阅读新闻] -.-> G
     G[通过Google News app]
     G --> H[在iPhone & Mac上阅读新闻/Rss feed/Reddit帖子]
 
@@ -34,7 +34,7 @@ published: true
 ## 内容
 - 电子书
 - 漫画
-- Google新闻
+- 新闻
 - RSS feed
 - Reddit帖子
 - 网站
