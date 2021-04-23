@@ -28,7 +28,7 @@ Google Drive (PDF)
 
 Google Drive public sharing
 
-<div class="mermaid">
+```mermaid
     graph TD
     T1[Workflow 1: 搜索] -.-> A
 
@@ -37,4 +37,4 @@ Google Drive public sharing
     F --> E[用Instapaper/Pocket收藏网页链接]
     F --> B[用Google Drive以PDF格式存储网页内容]
     B --> C[用Google Drive公开分享网页内容]
-</div>
+```
