@@ -4,7 +4,7 @@ title: 搜索setup
 tag: setup
 published: true
 ---
-![](https://mermaid.ink/svg/eyJjb2RlIjoiICAgIGdyYXBoIFREXG4gICAgVDFbV29ya2Zsb3cgMTog5pCc57SiXSAtLi0-IEFcblxuICAgIEFb55SoR29vZ2xl5pCc57Si5L-h5oGvXVxuICAgIEEgLS0-IEZb55SoQ2hyb21lIFJlYWRlciBtb2Rl5o-S5Lu25Lul6ZiF6K-75qih5byP5rWP6KeI572R6aG1XVxuICAgIEYgLS0-IEVb55SoSW5zdGFwYXBlci9Qb2NrZXTmlLbol4_nvZHpobXpk77mjqVdXG4gICAgRiAtLT4gQlvnlKhHb29nbGUgRHJpdmXku6VQREbmoLzlvI_lrZjlgqjnvZHpobXlhoXlrrldXG4gICAgQiAtLT4gQ1vnlKhHb29nbGUgRHJpdmXlhazlvIDliIbkuqvnvZHpobXlhoXlrrldIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
+![](https://i.imgur.com/50CY25C.png)
 
 ```mermaid
     graph TD
