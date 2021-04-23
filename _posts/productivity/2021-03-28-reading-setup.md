@@ -6,7 +6,7 @@ published: true
 ---
 ![](https://mermaid.ink/svg/eyJjb2RlIjoiICAgIGdyYXBoIFREXG4gICAgVDFbV29ya2Zsb3cgMTog6ZiF6K-755S15a2Q5LmmXSAtLi0-IEFcblxuICAgIEFb55SoT25lRHJpdmXku6Vtb2JpICYgZVB1YuagvOW8j-WtmOWCqOeUteWtkOS5pl1cbiAgICBBIC0tPiBGW-mAmui_h0FwcGxlIEJvb2tzL0tpbmRsZSBhcHBdXG4gICAgRiAtLT4gQ1vlnKhpUGhvbmUsIE1hYyAmIEtpbmRsZeS4iumYheivu-eUteWtkOS5pl1cblxuICAgIFQyW1dvcmtmbG93IDI6IOmYheivu-a8q-eUu10gLS4tPiBCXG5cbiAgICBCW-eUqOehrOebmOS7pW1vYmnmoLzlvI_lrZjlgqjmvKvnlLtdXG4gICAgQiAtLT4gRVvpgJrov4dLaW5kbGUvS3lib29rcyBhcHBdXG4gICAgRSAtLT4gSVvlnKhLaW5kbGUgJiBpUGFk5LiK6ZiF6K-75ryr55S7XVxuXG4gICAgVDNbV29ya2Zsb3cgMzog6ZiF6K-75paw6Ze7XSAtLi0-IEdcbiAgICBHW-mAmui_h0dvb2dsZSBOZXdzIGFwcF1cbiAgICBHIC0tPiBIW-WcqGlQaG9uZSAmIE1hY-S4iumYheivu-aWsOmXuy9Sc3MgZmVlZC9SZWRkaXTluJblrZBdXG5cbiAgICBUNFtXb3JrZmxvdyA0OiDpmIXor7tSU1MgZmVlZF0gLS4tPiBKXG4gICAgSlvpgJrov4dGZWVkbHkgYXBwXVxuICAgIEogLS0-IEhcblxuICAgIFQ1W1dvcmtmbG93IDU6IOa1j-iniFJlZGRpdOW4luWtkF0gLS4tPiBMXG4gICAgTFvpgJrov4dSZWRkaXQvQWxpZW4gYmx1ZSBhcHBdXG4gICAgTCAtLT4gSCIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
 
-<div class="mermaid">
+```mermaid
     graph TD
     T1[Workflow 1: 阅读电子书] -.-> A
 
@@ -31,7 +31,7 @@ published: true
     T5[Workflow 5: 浏览Reddit帖子] -.-> L
     L[通过Reddit/Alien blue app]
     L --> H
-</div>
+```
 
 ## 内容
 - 电子书
