@@ -2,6 +2,7 @@
 published: true
 title: 关于如何记笔记的思考
 category: productivity
+tags: note-taking
 ---
 我一直都喜欢思考如何记笔记这个问题，在过去的10多年时间里，我有过不少尝试，现在总结一下。
 
