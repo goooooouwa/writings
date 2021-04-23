@@ -6,7 +6,7 @@ published: true
 ---
 ![](https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBUMVtXb3JrZmxvdyAxOiDmrKPotY9jb3NwbGF55Zu-54mHXSAtLi0-IEFcblxuICAgIEFb55So5b6u5Y2a5rWP6KeIY29zcGxheeWbvueJh11cbiAgICBBIC0tPiBGW-eUqE9uZURyaXZl5a2Y5YKo5Zu-54mHXVxuICAgIEYgLS0-IEJb6YCa6L-HT25lRHJpdmUgYXBwL1dpbmRvd3MgMTAgUGhvdG9zXVxuICAgIEIgLS0-IERb5ZyoaVBhZCxpUGhvbmUsTWFjICYgUEPkuIrmtY_op4jlm77niYddXG5cblxuICAgIFQyW1dvcmtmbG93IDI6IOaso-i1j2JlYXV0eeWbvueJh10gLS4tPiBHXG5cbiAgICBHW-eUqOe9keermea1j-iniGJlYXV0eeWbvueJh11cbiAgICBHIC0tPiBIW-eUqOehrOebmOWtmOWCqOWbvueJh11cbiAgICBIIC0tPiBDW-mAmui_h0FpckRpc2sgSEREIGFwcF1cbiAgICBDIC0tPiBEIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
 
-<div class="mermaid">
+```mermaid
     graph TD
     T1[Workflow 1: 欣赏cosplay图片] -.-> A
 
@@ -22,7 +22,7 @@ published: true
     G --> H[用硬盘存储图片]
     H --> C[通过AirDisk HDD app]
     C --> D
-</div>
+```
 
 ## 在线网站
 
