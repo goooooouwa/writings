@@ -5,7 +5,7 @@ tag: setup
 published: true
 ---
 
-![](https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBUMVtXb3JrZmxvdyAxOiBDcmVhdGUvZWRpdCBwb3N0IGluIFByb3NlLmlvXSAtLi0-IEFcblxuICAgIEFbQ3JlYXRlL2VkaXQgcG9zdCBpbiBQcm9zZS5pb10gLS0-IEJcbiAgICBCW0NvbW1pdCBjaGFuZ2VzIHRvIGdpdGh1YiByZXBvXVxuICAgIEIgLS0-IENbVHJpZ2dlciBHaXRodWIgYWN0aW9ucyB0byBidWlsZCBhbmQgZGVwbG95IHRoZSBibG9nIHRvIGdpdGh1YiBwYWdlc10iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)
+![](https://i.imgur.com/F4F6esO.png)
 
 ```mermaid
     graph TD
