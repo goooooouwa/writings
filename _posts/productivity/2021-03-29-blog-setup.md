@@ -9,7 +9,7 @@ published: true
 
 ```mermaid
     graph TD
-    T1[Workflow 1: Create/edit post in Prose.io] -.-> A
+    T1[Workflow 1: Create/edit blog posts] -.-> A
 
     A[Create/edit post in Prose.io] --> B
     B[Commit changes to github repo]
