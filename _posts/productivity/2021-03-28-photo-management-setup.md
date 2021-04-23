@@ -6,7 +6,7 @@ published: true
 ---
 ![](https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBUMVtXb3JrZmxvdyAxOiDnrqHnkIbnhafniYddIC0uLT4gRVxuXG4gICAgRVvnlKhpUGhvbmXmi43mkYTnhafniYddXG4gICAgRSAtLT4gR1vnlKjmlbDmja7nur_lsIbnhafniYfpgJrov4dQQ-WvvOWFpeenu-WKqOehrOebmF1cbiAgICBHIC0tPiBBW-eUqEV4RkFU5qC85byP55qE56e75Yqo56Gs55uY5a2Y5YKo54Wn54mHXVxuICAgIEEgLS0-IEhb55SoRXhpZnRvb2znvJbovpHnhafniYdFWElG5L-h5oGvXVxuICAgIEggLS0-IENb55SoUGhvdG8yTW92ZSBhcHDlsIbnhafniYfmjInnm67lvZXlvZLmoaNdXG4gICAgQyAtLT4gQlvpgJrov4dXaW5kb3dzIDEwIFBob3Rvc11cbiAgICBCIC0tPiBEW-WcqFBD5LiK5rWP6KeI54Wn54mHXVxuXG4gICAgVDJbV29ya2Zsb3cgMjog5aSH5Lu956Gs55uYXSAtLi0-IElcblxuICAgIElb55SoWFjlpIfku73ova_ku7blrprmnJ_lpIfku73noaznm5hdIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
 
-<div class="mermaid">
+```mermaid
     graph TD
     T1[Workflow 1: 管理照片] -.-> E
 
@@ -21,7 +21,7 @@ published: true
     T2[Workflow 2: 备份硬盘] -.-> I
 
     I[用XX备份软件定期备份硬盘]
-</div>
+```
 
 ## 照片存储
 
