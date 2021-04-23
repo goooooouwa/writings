@@ -22,7 +22,9 @@ published: true
 
     T3[Workflow 3: 阅读新闻] -.-> G
     G[通过Google News app]
-    G --> H[在iPhone & Mac上阅读新闻/Rss feed/Reddit帖子]
+    G --> H[在iPhone & Mac上浏览新闻/Rss feed/Reddit帖子]
+    H --> K[通过Instapaper将感兴趣的文章发送到Kindle]
+    K --> L[在Kindle上阅读文章]
 
     T4[Workflow 4: 阅读RSS feed] -.-> J
     J[通过Feedly app]
