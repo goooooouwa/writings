@@ -110,3 +110,4 @@ Example root cause: SSL port for Gmail SMTP is `465`, don't put `25` or `587`, e
 
 [ ] Fine tune RSS feeds for blogs, Google News, Reddit.
 [ ] fetch full article for each Google News rss feed
+[ ] runs it up on a server
