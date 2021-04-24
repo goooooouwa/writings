@@ -109,5 +109,5 @@ Example root cause: SSL port for Gmail SMTP is `465`, don't put `25` or `587`, e
 ## Next steps
 
 1. [ ] Fine tune RSS feeds for blogs, Google News, Reddit.
-2. [ ] fetch full article for each Google News rss feed
+2. [ ] fetch full article for each Google News rss feed or setup shadowsocks proxy for kindle
 3. [ ] runs it up on a server
