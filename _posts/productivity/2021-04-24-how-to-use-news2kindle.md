@@ -78,6 +78,11 @@ docker run --env-file .env news2kindle
 
 ### Troubleshooting
 
+#### Issue: feeds list not updated
+
+Since the config is copied to the image when build, if you edit the feeds.txt or anything in the `config` folder, you need to rebuild the image.
+
+
 #### Error type: environment value is not set correctly
 
 Error message:
