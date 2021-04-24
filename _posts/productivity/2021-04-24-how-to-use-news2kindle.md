@@ -2,7 +2,7 @@
 published: true
 title: How to use news2kindle
 category: productivity
-tags: rss kindle reddit google-news
+tags: rss kindle reddit google-news news2kindle
 ---
 ## Background
 
@@ -109,7 +109,3 @@ Example root cause: SSL port for Gmail SMTP is `465`, don't put `25` or `587`, e
 ## Next steps
 
 [ ] Fine tune RSS feeds for blogs, Google News, Reddit.
-
-
-
-
