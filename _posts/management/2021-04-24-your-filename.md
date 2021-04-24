@@ -3,7 +3,7 @@ published: true
 title: Don't expect to finish something tangible in days
 category: management
 ---
-Don't expect to finish something tangible in days
+Don't expect to finish something tangible in days, no matter how productive you are (unless you are a genius).
 
 The making of games or any product, isn't a one man job (forget about those geniuses for a moment), it's hours and hours of teamwork among creative professionals. Daily activities ranging from brainstorming, ideation, management, coordenation, prototyping, production. For some projects, they sometimes do this for 3-5 years, with a team ranging from 10-50 or more.
 
