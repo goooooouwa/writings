@@ -19,4 +19,6 @@ So instead of dreaming about making some great product as an one man job, like t
 
 For one man job, don't expect it to be done in days, unless it's some small jobs. Anything tangible usually takes longer, it's simple math.
 
+Optimize on how to do something effectively, not how to do more faster. 需要优化的是该做什么最有效，而不是怎么做得更多更快。
+
 Plan your project if it's bigger than a one-week job, even it's hobby side projects, don't expect to finish something in days.
