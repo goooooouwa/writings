@@ -92,12 +92,9 @@ docker run --env-file .env news2kindle
 
 ### 3 ways to deploy to heroku
 
-1. Heroku Git  
-  push code to heroku repo
-1. GitHub  
-  Automatic deploys triggered by code push to Github repo
-1. Container Registry  
-  Build the Dockerfile locally and push the Docker image to heroku.
+1. Heroku Git. Push code to heroku repo.
+1. GitHub. Automatic deploys triggered by code push to Github repo
+1. Container Registry. Build the Dockerfile locally and push the Docker image to heroku.
 
 ### Build Docker images on Heroku
 
