@@ -28,7 +28,7 @@ news2kindle is only a simple python script, so it's universally accessible, whil
 
 
 
-## How to use news2kindle
+## How to use news2kindle locally
 
 ### Prerequsite
 
@@ -74,7 +74,40 @@ KINDLE_EMAIL=[your kindle device address (remember to add your send email to Ama
 docker run --env-file .env news2kindle
 ```
 
+## How to Deploy news2kindle to heroku
 
+### Prerequsite
+
+- Heroku CLI
+
+### Steps
+
+1. create a heroku app
+1. set stack to container  
+  `heroku stack:set container --app app_name`
+1. config environment variables in Config Vars
+1. deploy code or docker image to heroku (see: 3 ways to deploy to heroku)
+1. scale up the worker dyno  
+  `heroku ps:scale worker=1`
+
+### 3 ways to deploy to heroku
+
+1. Heroku Git  
+  push code to heroku repo
+1. GitHub  
+  Automatic deploys triggered by code push to Github repo
+1. Container Registry  
+  Build the Dockerfile locally and push the Docker image to heroku.
+
+### Build Docker images on Heroku
+
+To build Docker images on Heroku, instead of building the image locally, you can specify that with a heroku.yml file.
+
+```yml
+build:
+  docker:
+    worker: Dockerfile
+```
 
 ### Troubleshooting
 
@@ -109,10 +142,22 @@ ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1125)
 
 Example root cause: SSL port for Gmail SMTP is `465`, don't put `25` or `587`, etc.
 
+#### no worker log in Heroku
 
+root cause: worker dyno is not running.
+
+you need to manually scale up the worker dyno to let the process actually run!
+
+Make sure the worker dyno is on:
+
+![](https://i.imgur.com/vr1HpVc.png)
+
+Then you can see the worker is running and generating logs.
+
+![](https://i.imgur.com/eFlT8s5.png)
 
 ## Next steps
 
 1. [ ] Fine tune RSS feeds for blogs, Google News, Reddit.
 2. [ ] fetch full article for each Google News rss feed or setup shadowsocks proxy for kindle
-3. [ ] runs it up on a server
+3. [x] runs it up on a server
