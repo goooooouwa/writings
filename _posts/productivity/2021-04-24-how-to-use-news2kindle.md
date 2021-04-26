@@ -141,9 +141,13 @@ Example root cause: SSL port for Gmail SMTP is `465`, don't put `25` or `587`, e
 
 #### No log of worker in Heroku
 
-root cause: worker dyno is not running.
+Root cause: worker dyno is not running.
 
-you need to manually scale up the worker dyno to let the process actually run!
+By default your free dyno worker is off. Like this:
+
+![](https://i.imgur.com/cfG11FS.png)
+
+You need to manually scale up the worker dyno to let the process actually run!
 
 Make sure the worker dyno is on:
 
