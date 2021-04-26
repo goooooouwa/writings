@@ -142,7 +142,7 @@ ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1125)
 
 Example root cause: SSL port for Gmail SMTP is `465`, don't put `25` or `587`, etc.
 
-#### no worker log in Heroku
+#### No log of worker in Heroku
 
 root cause: worker dyno is not running.
 
