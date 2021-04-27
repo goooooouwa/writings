@@ -28,7 +28,7 @@ news2kindle is only a simple python script, so it's universally accessible, whil
 
 
 
-## How to use news2kindle locally
+## How to run news2kindle locally
 
 ### Prerequsite
 
@@ -74,7 +74,7 @@ KINDLE_EMAIL=[your kindle device address (remember to add your send email to Ama
 docker run --env-file .env news2kindle
 ```
 
-## How to Deploy news2kindle to heroku
+## How to run news2kindle on heroku
 
 ### Prerequsite
 
