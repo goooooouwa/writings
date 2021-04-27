@@ -170,13 +170,14 @@ Then you can see the worker is running and generating logs.
 
 ### Heroku Scheduler not running
 
-Root cause: it's actually run, just delayed several minutes. So be patient.
+Root cause: it's actually run, just not on time. It will probably delayed several minutes. So be a bit patient.
 
 Accoridng to the [doc](https://devcenter.heroku.com/articles/scheduler#known-issues-and-alternatives):
 
 > Scheduler is a free add-on with no guarantee that jobs will execute at their scheduled time, or at all:
 > 
 > In very rare instances, a job may be skipped.
+>
 > In very rare instances, a job may run twice.
 
 Take a look at the log shown below. Notice the time of the scheduler start and actual worker run.
