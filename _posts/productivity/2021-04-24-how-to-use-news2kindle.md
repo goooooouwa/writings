@@ -106,6 +106,14 @@ build:
     worker: Dockerfile
 ```
 
+### Use Heroku Scheduler to trigger news2kindle
+
+The original news2kindle will run forever. To make the worker process more effective, I decided to make it run on schedule.
+
+I modifed the `src/news2kindle.py` to only [do one around](https://github.com/goooooouwa/news2kindle/commit/e7b009ad48a688769ed5676a02a547c5b079f3bb) per invocation.
+
+Then I installed the [Heroku Scheduler](https://devcenter.heroku.com/articles/scheduler) addon and added a job to run command `python3 src/news2kindle.py` on a daily schedule.
+
 ### Troubleshooting
 
 #### Issue: feeds list not updated
@@ -156,6 +164,18 @@ Make sure the worker dyno is on:
 Then you can see the worker is running and generating logs.
 
 ![](https://i.imgur.com/eFlT8s5.png)
+
+### Heroku Scheduler not running
+
+Root cause: it's actually run, just delayed several minutes. So be patient.
+
+Accoridng to the [doc](https://devcenter.heroku.com/articles/scheduler#known-issues-and-alternatives):
+
+> Scheduler is a free add-on with no guarantee that jobs will execute at their scheduled time
+
+Take a look at the time of the scheduler start and actual worker run:
+
+![](https://i.imgur.com/Gb18CrL.png)
 
 ## Next steps
 
