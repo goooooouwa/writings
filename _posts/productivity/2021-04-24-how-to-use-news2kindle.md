@@ -110,9 +110,12 @@ build:
 
 The original news2kindle will run forever. To make the worker process more effective, I decided to make it run on schedule.
 
-I modifed the `src/news2kindle.py` to only [do one around](https://github.com/goooooouwa/news2kindle/commit/e7b009ad48a688769ed5676a02a547c5b079f3bb) per invocation.
+To achieve this, I did the following:
 
-Then I installed the [Heroku Scheduler](https://devcenter.heroku.com/articles/scheduler) addon and added a job to run command `python3 src/news2kindle.py` on a daily schedule.
+1. Modify the `src/news2kindle.py` to only [do one around](https://github.com/goooooouwa/news2kindle/commit/e7b009ad48a688769ed5676a02a547c5b079f3bb) per invocation
+1. Install the [Heroku Scheduler](https://devcenter.heroku.com/articles/scheduler) addon
+1. Add a job to run command `python3 src/news2kindle.py` on a daily schedule
+
 
 ### Troubleshooting
 
@@ -172,14 +175,11 @@ Root cause: it's actually run, just delayed several minutes. So be patient.
 Accoridng to the [doc](https://devcenter.heroku.com/articles/scheduler#known-issues-and-alternatives):
 
 > Scheduler is a free add-on with no guarantee that jobs will execute at their scheduled time, or at all:
-
 > 
-
 > In very rare instances, a job may be skipped.
-
 > In very rare instances, a job may run twice.
 
-Take a look at this log below. Notice the time of the scheduler start and actual worker run:
+Take a look at the log shown below. Notice the time of the scheduler start and actual worker run.
 
 ![](https://i.imgur.com/Gb18CrL.png)
 
