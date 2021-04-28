@@ -188,3 +188,5 @@ Take a look at the log shown below. Notice the time of the scheduler start and a
 1. [ ] Fine tune RSS feeds for blogs, Google News, Reddit.
 2. [ ] fetch full article for each Google News rss feed or setup shadowsocks proxy for kindle
 3. [x] runs it up on a server
+4. [x] display local time
+5. [x] cover with date
