@@ -111,9 +111,10 @@ If the dyno is a web dyno, the $PORT variable will be set. The dyno must bind to
 
 稍微一点总结就是，Heroku有自己设定的process model，我们在heroku上运行应用时需要遵循它的模型。
 
+另外说句题外话，Heroku的免费dyno的500M内存限额无法用来进行intensive一点的任务。我用它运行的`news2kindle.py`脚本，因为需要使用pandoc将rss feeds生成epub文档，然后通过calibre将格式转换为mobi，通常一个20篇文章左右的任务就可能超过这个限额。
+
 ## 参考
 
 1. https://devcenter.heroku.com/articles/one-off-dynos#an-example-one-off-dyno
 1. https://devcenter.heroku.com/articles/dynos#dyno-crash-restart-policy
 1. https://devcenter.heroku.com/articles/scheduler#known-issues-and-alternatives
-
