@@ -1,6 +1,6 @@
 ---
 published: true
-title: 使用Heroku部署遇到的一些问题的总结
+title: 使用Heroku部署遇到的一些问题和总结
 category: coding
 ---
 我在使用Heroku scheduler来定时执行python脚本时遇到的几个问题：
