@@ -117,6 +117,20 @@ To achieve this, I did the following:
 1. Add a job to run command `python3 src/news2kindle.py` on a daily schedule
 
 
+- run it on heorku scheduler
+- start a python http server as web dyno
+
+### Developing news2kindle
+
+- add heroku.yml to build image on heroku
+- modify the `src/news2kindle.py` to only do one around
+- display local time
+  - add timezone environment variable
+  - display post & start time as timezone
+- remove conver image.
+- change title to show start time.
+
+
 ### Troubleshooting
 
 #### Issue: feeds list not updated
