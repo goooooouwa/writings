@@ -1,6 +1,6 @@
 ---
 published: true
-title: 使用Heroku部署遇到的一些问题和总结
+title: Heroku部署定时任务遇到的一些问题和总结
 category: coding
 ---
 在使用Heroku scheduler来定时执行python脚本时我遇到了几个问题：
