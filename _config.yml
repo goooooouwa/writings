@@ -41,6 +41,8 @@ exclude:
   - scripts/
   - README.md
 
+include: [".well-known"]
+
 # Build settings
 markdown: kramdown
 
