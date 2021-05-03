@@ -41,7 +41,7 @@ exclude:
   - scripts/
   - README.md
 
-include: [".well-known"]
+include: [".well-known", ".nojekyll"]
 
 # Build settings
 markdown: kramdown
