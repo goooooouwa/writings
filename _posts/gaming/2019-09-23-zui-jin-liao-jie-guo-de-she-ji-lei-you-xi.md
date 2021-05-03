@@ -15,7 +15,7 @@ date: "2020-02-01"
 - (2019/09/22) \[+\] COD辅助瞄准  
     对准星移动没啥提升，只在瞄准后有稳定作用
 - (2019/08/18) \[+\] ghost recon  
-    是我喜欢的类型，大地图，军事，射击，但是单⼈人模式不不够hardcore，⽐比较arcade，没什什么感觉
+    是我喜欢的类型，大地图，军事，射击，但是单⼈人模式不不够hardcore，⽐比较arcade，没什什么感觉
 - (2019/08/16) \[+\] Rising Storm
 - (2019/08/16) \[+\] Rainbow Six
 - (2019/08/16) \[+\] SWAT 4  
@@ -62,7 +62,7 @@ plot
     how about battlefield and cod comparing to them  
     battle royale game is popular, no teamwork required, for everyone.
 - (2019/08/14) \[+\] understand COD multiplayer modes, is it fun?  
-    就像CF，⼩小地图，完成⽬目标（杀⼈人、团灭、夺得地区控制）得分，死了了重⽣生，得分⾼高者胜。感觉没啥玩的，没有single mode campaign 好玩？
+    就像CF，⼩小地图，完成⽬目标（杀⼈人、团灭、夺得地区控制）得分，死了了重⽣生，得分⾼高者胜。感觉没啥玩的，没有single mode campaign 好玩？
 - (2019/08/14) \[+\] rainbow six siege  
     竞技型游戏，CS+可以破墙
 - (2019/08/14) \[+\] Battlefield 3, Battlefield: Bad company 2

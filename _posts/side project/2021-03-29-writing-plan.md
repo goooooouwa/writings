@@ -2,19 +2,19 @@
 category: side project
 title: 写作计划
 tag: plan
+published: true
 ---
 
 ## 目标
 
-写作目标
-
-## Roadmap
+2021年4月1日开始，到2021年7月1日，在3个月内写2篇产品相关文章。
 
 <div class="mermaid">
     gantt
-    title 写作计划
+    title 翻译计划
     dateFormat  YYYY-MM-DD
 
     section Goals & Milestones
-    Family Goal :2021-03-29, 180d
+    《如何从0打造一款产品》 :2021-03-29, 45d
+    《如何做市场研究》 :30d
 </div>

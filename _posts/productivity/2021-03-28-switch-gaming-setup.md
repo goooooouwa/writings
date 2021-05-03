@@ -1,7 +1,8 @@
 ---
 category: productivity
-title: Switch游戏setup
+title: Switch setup
 tag: setup
+published: true
 ---
 
 ## 游戏机破解

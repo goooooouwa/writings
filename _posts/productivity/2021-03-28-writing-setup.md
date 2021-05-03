@@ -1,9 +1,26 @@
 ---
 category: productivity
-title: 写作环境setup
+title: 写作setup
 tag: setup
+published: true
 ---
-## 文档存储
+
+![](https://i.imgur.com/MfukOPo.png)
+
+```mermaid
+    graph TD
+    T1[Workflow 1: 写作] -.-> D
+
+    D[用Drafts灵感收集] --> E
+    E[用Typora写作和排版] --> A
+    A["用GitHub repo以Markdown格式存储文章"] -.-> F
+    F[用Google Drive存储图片] --> B
+    B[用mac2imgur将图片上传的imgur] --> C
+    C[用imgur host图片] -.-> G
+    G["用Prose.io发布文章"]
+```
+
+## 文章存储
 
 GitHub repo (Markdown)
 

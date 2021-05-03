@@ -4,6 +4,18 @@ title: 博客setup
 tag: setup
 published: true
 ---
+
+![](https://i.imgur.com/tTZDOts.png)
+
+```mermaid
+    graph TD
+    T1[Workflow 1: Create/edit blog posts] -.-> A
+
+    A[Create/edit post in Prose.io] --> B
+    B[Commit changes to github repo]
+    B --> C[Trigger Github actions to build and deploy the blog to github pages]
+```
+
 ## Blog
 
 Jekyll repo + Github actions

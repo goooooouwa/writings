@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Categories
+published: true
 ---
-<h1>Categories</h1>
+<h1>类别</h1>
 
 {% assign myposts = site.posts | group_by: 'category' | sort: 'size' | reverse %}
 {% for category in myposts %}
