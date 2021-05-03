@@ -62,8 +62,8 @@ minima:
 
 show_excerpts: false
 
-disqus:
-  shortname: goooooouwa
+# disqus:
+#  shortname: goooooouwa
 
 google_analytics: UA-137406515-2
 
