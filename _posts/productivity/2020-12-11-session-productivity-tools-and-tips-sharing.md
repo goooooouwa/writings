@@ -1,6 +1,6 @@
 ---
 category: productivity
-title: 初级效率工具和快捷键分享
+title: 入门级效率工具和快捷键分享
 published: true
 ---
 
