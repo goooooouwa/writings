@@ -3,13 +3,6 @@ category: productivity
 date: 2018-10-14
 title: Task管理方案
 ---
----
-title: Find the most suitable task manager
-layout: post
-date: '2018-10-14'
-categories: productivity
-published: false
----
 
 There’re basically two kinds of tasks to manage: small things to forget
 important things to track
