@@ -2,12 +2,13 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
 徐顺发
 
 - ThoughtWorks咨询师、业务分析师
-- 专注数字产品管理
+- 专注软件产品设计
 - 爱好画画、足球、赛车驾驶模拟、军事射击游戏
 - [Twitter](https://twitter.com/Goooooouwa)
 - [Github](http://github.com/goooooouwa)
