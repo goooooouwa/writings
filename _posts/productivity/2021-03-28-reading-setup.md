@@ -4,9 +4,7 @@ title: 阅读setup
 tag: setup
 published: true
 ---
-![](https://i.imgur.com/88FZXbY.png)
-
-```mermaid
+<div class="mermaid">
     graph TD
     T1[Workflow 1: 阅读电子书] -.-> A
 
@@ -33,7 +31,7 @@ published: true
     T5[Workflow 5: 浏览Reddit帖子] -.-> L
     L[通过Reddit/Alien blue app]
     L --> H
-```
+</div>
 
 ## 内容
 - 电子书
