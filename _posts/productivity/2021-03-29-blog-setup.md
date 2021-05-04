@@ -244,7 +244,7 @@ Google custom search的样式会被Bootstrap覆盖，导致样式失效，网上
 
 2. 添加front matter以导入Jekyll
 
-我在尝试多种工具都不理想后，自己写了一点脚本来帮助完成这项工作，叫[evernote2markdown](https://github.com/goooooouwa/evernote2markdown)。
+我在尝试多种工具都不理想后，自己写了一点脚本来帮助完成这项工作，在[evernote2markdown](https://github.com/goooooouwa/evernote2markdown)。
 
 ## Todo
 
