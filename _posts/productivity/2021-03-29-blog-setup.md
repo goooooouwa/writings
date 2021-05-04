@@ -32,7 +32,7 @@ published: true
 
 ## 我的博客发布工作流
 
-我目前使用prose.io发布文章到Jekyll博客（工作流如下图）。
+我目前使用prose.io发布文章到Jekyll博客。工作流如下图：
 
 <div class="mermaid">
     graph TD
