@@ -73,7 +73,7 @@ published: true
 
 | 配置选项       | Pro                        | Con                                                          | Comment              |
 | -------------- | -------------------------- | ------------------------------------------------------------ | -------------------- |
-| Github actions | 灵活，自由，支持各种自动化 |                                                              | 需要自己编写workflow |
+| Github actions | 灵活，自由，支持各种自动化，不受github pages限制 |                                                              | 需要自己编写workflow |
 | Github pages   | Github原生支持，自动       | 不支持github pages whitelist以外的Jekyll插件，比如paginate v2 |                      |
 
 #### 发布方式
@@ -121,6 +121,8 @@ published: true
 ## 自定义代码
 
 ### 使用github action部署Jekyll博客的workflow
+
+为了自动化构建并部署静态Jekyll site到Github pages，在参考了网上几种Jekyll部署的workflow之后，我写了一个部署脚本完成这项工作。
 
 `publish_to_blog.yml`:
 
@@ -178,7 +180,7 @@ jobs:
 
 本着最小代码的原则，仅对Jekyll minima主题做了如下必要修改：
 
-1. 主题本地化
+1. 主题内容本地化
 2. Google custom search样式问题
 
 Google custom search的样式会被Bootstrap覆盖，导致样式失效，网上搜索之后，采用了样式隔离的方式来保护Google custom search的样式不被影响，一劳永逸。
@@ -226,11 +228,7 @@ Google custom search的样式会被Bootstrap覆盖，导致样式失效，网上
 
 2. 添加front matter以导入Jekyll
 
-我在尝试多种工具都不理想后，自己写了一点脚本来帮助完成这项工作
-
-1. [evernote to markdown](https://github.com/goooooouwa/evernote2markdown):
-   - convert evernote to markdown
-   - jekyll front matter generator
+我在尝试多种工具都不理想后，自己写了一点脚本来帮助完成这项工作，即[evernote to markdown](https://github.com/goooooouwa/evernote2markdown)。
 
 ## Todo
 
