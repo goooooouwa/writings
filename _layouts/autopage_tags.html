@@ -9,7 +9,7 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Tag <b>{% if page.autopages %}{{page.autopages.display_name}}{% endif %}</b> Page {{page.pagination_info.curr_page}} of {{page.pagination_info.total_pages}}</h1>
+  <h1 class="page-heading">标签 <b>{% if page.autopages %}{{page.autopages.display_name}}{% endif %}</b> 第 {{page.pagination_info.curr_page}} / {{page.pagination_info.total_pages}} 页</h1>
 
   {{ content | markdownify }}
 
