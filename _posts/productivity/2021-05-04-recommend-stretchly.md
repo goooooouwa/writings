@@ -1,5 +1,8 @@
 ---
-published: false
+published: true
+title: Take-a-break app Stretchly
+category: productivity
+tags: app take-a-break
 ---
 
 
@@ -41,5 +44,3 @@ Stretchly suits my needs the best, so I will recommend this app to anyone who ha
 ## Reference
 
 https://www.makeuseof.com/tag/apps-reminders-take-break-screens/
-
-
