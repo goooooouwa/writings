@@ -41,7 +41,7 @@ published: true
 
 <div class="mermaid">
     graph TD
-    T1[工作流：发布或修改博客文章] -.-> A
+    T1["工作流：发布或修改博客文章"] -.-> A
 
     A[在Prose.io创建或编辑文件] --> B
     B[提交修改]
