@@ -1,6 +1,6 @@
 ---
 published: true
-title: Take-a-break app Stretchly
+title: 'Recommend Stretchly, a take-a-break app'
 category: productivity
 tags: app take-a-break
 ---
