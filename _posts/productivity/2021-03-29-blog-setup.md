@@ -43,21 +43,13 @@ published: true
     B --> C[Trigger Github actions to build and deploy the blog to github pages]
 </div>
 
-prose.io是一款针对Github的内容编辑器，可以在线编辑repo的文本文件（支持Markdown格式，支持手机访问）。用它来随时随地发布文章简直是丝般顺滑。
-
-在此之前我试过的Jekyll博客的发布方式为：
-
-- 电脑端：用jekyll compose或jekyll admin创建帖子，然后用VS Code或Source Tree提交代码到Github
-- 手机端：用working copy提交代码到Github
-
-这种发布方式步骤繁琐，体验较差。
-
 ## 博客配置一览
 
 | 功能组件        | 当前配置                   | 过往配置                                                     | 其他尝试                                                     |
 | --------------- | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 博客系统        | Jekyll                     |                                                              | wordpress, hexo                                              |
 | 部署方式        | Github actions             | Github pages                                                 |                                                              |
+| 发布工具        | prose.io                   | Jekyll admin                                                 | Jekyll compose, Working Copy                                 |
 | 主题            | Jekyll minima latest (3.x) | Jekyll minima 2                                              | [TeXt](http://jekyllthemes.org/themes/TeXt/), [Jalpc](https://github.com/jarrekk/Jalpc) |
 | 评论工具        | utterances                 | disqus                                                       |                                                              |
 | 图床            | imgur                      | 本地图片                                                     | https://cloudinary.com/                                      |
@@ -67,7 +59,7 @@ prose.io是一款针对Github的内容编辑器，可以在线编辑repo的文�
 | 内嵌YouTube视频 | YouTube embedded code      | [jekyll-spaceship](https://github.com/jeffreytse/jekyll-spaceship) |                                                              |
 | 域名            | 阿里云                     | github.io                                                    |                                                              |
 
-## 配置对比详情
+### 配置对比详情
 
 #### 博客系统
 
@@ -83,6 +75,13 @@ prose.io是一款针对Github的内容编辑器，可以在线编辑repo的文�
 | -------------- | -------------------------- | ------------------------------------------------------------ | -------------------- |
 | Github actions | 灵活，自由，支持各种自动化 |                                                              | 需要自己编写workflow |
 | Github pages   | Github原生支持，自动       | 不支持github pages whitelist以外的Jekyll插件，比如paginate v2 |                      |
+
+#### 发布方式
+
+| 配置选项     | Pro                                                     | Con                             | Comment                              |
+| ------------ | ------------------------------------------------------- | ------------------------------- | ------------------------------------ |
+| prose.io     | 在线编辑，无需Git客户端，支持Markdown格式，支持手机访问 | 没有客户端，频繁Authorize验证   | prose.io是一款针对Github的内容编辑器 |
+| Jekyll admin | 离线编辑                                                | 需要Git客户端，不支持手机发文章 |                                      |
 
 #### 主题
 
@@ -112,21 +111,79 @@ prose.io是一款针对Github的内容编辑器，可以在线编辑repo的文�
 | -------------------- | ---------- | --------------------------------------------------- | ------------------------ |
 | Google Custom Search | 免费，自动 | 不支持国内访问，索引更新周期长，样式与Bootstrap冲突 | 相当于同时做了Google SEO |
 
-### 域名
+#### 域名
 
 | 配置选项   | Pro                           | Con               | Comment |
 | ---------- | ----------------------------- | ----------------- | ------- |
 | 阿里云域名 | 支持国内访问，便宜            | 需要额外配置https |         |
 | github.io  | Github pages自带，自动，https | 不支持国内访问    |         |
 
-## 对Jekyll minima主题的自定义
+## 自定义代码
+
+### 使用github action部署Jekyll博客的workflow
+
+`publish_to_blog.yml`:
+
+```yaml
+name: Publish to my blog
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+    - name: Ruby gem cache
+      uses: actions/cache@v1
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+    - name: Install gems
+      run: |
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
+    
+    - name: Build Jekyll site
+      run: JEKYLL_ENV=production bundle exec jekyll build
+
+    - name: Commit files
+      run: |
+        cd ./_site
+        git init
+        git config --local user.name "Your Name"
+        git config --local user.email "Your Email Address"
+        git add .
+        git commit -m "jekyll build at $(date)"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        directory: ./_site
+        repository: goooooouwa/goooooouwa.github.io
+        branch: gh-pages
+        github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        force: true
+```
+
+### 对Jekyll minima主题的自定义
 
 本着最小代码的原则，仅对Jekyll minima主题做了如下必要修改：
 
 1. 主题本地化
-2. Google custom search style fix
+2. Google custom search样式问题
 
-To fix the Google custom search style issue, I wrote this little script`google-custom-search-style-fix.scss`:
+Google custom search的样式会被Bootstrap覆盖，导致样式失效，网上搜索之后，采用了样式隔离的方式来保护Google custom search的样式不被影响，一劳永逸。
+
+`google-custom-search-style-fix.scss`:
 
 ```scss
 ---
@@ -161,7 +218,7 @@ To fix the Google custom search style issue, I wrote this little script`google-c
 
 ```
 
-## 自己开发的小工具
+### 自己开发的小工具
 
 为了将我的evernote笔记迁移到Jekyll，我需要：
 
