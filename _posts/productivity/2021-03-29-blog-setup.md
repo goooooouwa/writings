@@ -1,6 +1,6 @@
 ---
 category: productivity
-title: 我的博客setup
+title: 我的Jekyll博客setup
 tag: setup
 published: true
 ---
