@@ -38,11 +38,11 @@ published: true
 
 <div class="mermaid">
     graph TD
-    T1[Workflow 1: Create/edit blog posts] -.-> A
+    T1[工作流：发布或修改博客文章] -.-> A
 
-    A[Create/edit post in Prose.io] --> B
-    B[Commit changes to github repo]
-    B --> C[Trigger Github actions to build and deploy the blog to github pages]
+    A[在Prose.io创建或编辑文件] --> B
+    B[提交修改]
+    B --> C[触发Github action自动构建并部署博客到Github pages]
 </div>
 
 ## 博客配置一览
