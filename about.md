@@ -9,7 +9,7 @@ published: true
 
 - ThoughtWorks咨询师、业务分析师
 - 专注于软件产品设计
-- 爱好有编程、画画、足球、赛车驾驶模拟、军事射击游戏
+- 爱好编程、画画、足球、赛车驾驶模拟、军事射击游戏
 - [Twitter](https://twitter.com/Goooooouwa)
 - [Github](http://github.com/goooooouwa)
 
