@@ -22,7 +22,7 @@ published: true
 
 **数据独立性**，即文章导出后不需要额外处理直接可以查看或者导入其他系统。
 
-而如果这样一个博客系统需要自己动手搭建的话，我还有一个强烈的需求就是：
+而如果这样一个博客系统需要自己动手搭建的话，我还有一个强烈的偏好就是：
 
 **最小代码**，即该系统不需要或者需要极少的代码编写来完成各种配置，包括：主题、评论、站内搜索等。
 
@@ -248,8 +248,19 @@ Google custom search的样式会被Bootstrap覆盖，导致样式失效，网上
 
 ## Todo
 
+下面是一些目前还未很好做到的事情，欢迎留言建议。
+
 - [ ] 轻松为markdown文件添加front matter
 
 - [ ] 为markdown文件生成带日期的文件名
 
 - [ ] 为markdown文件添加带连字符的英文名
+
+- [ ] 支持国内访问、从imgur迁移成本低的图床
+
+- [ ] 站内搜索的backup方案，确保最低可用
+
+
+## 最后
+
+以上就是我的博客目前的setup，想了解更多细节可以直接访问Github代码仓库：[goooooouwa/goooooouwa.github.io](https://github.com/goooooouwa/goooooouwa.github.io)。
