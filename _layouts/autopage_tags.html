@@ -9,7 +9,7 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">标签 <b>{% if page.autopages %}{{page.autopages.display_name}}{% endif %}</b> 第 {{page.pagination_info.curr_page}} / {{page.pagination_info.total_pages}} 页</h1>
+  <h1 class="page-heading">标签 <b>{% if page.autopages %}{{ page.autopages.display_name | capitalize }}{% endif %}</b> 第 {{page.pagination_info.curr_page}} / {{page.pagination_info.total_pages}} 页</h1>
 
   {{ content | markdownify }}
 
@@ -20,7 +20,7 @@ layout: default
     -->
     {% for post in paginator.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.book.rank %} | Rank: {{ post.book.rank }}{% endif %}{% if post.collection %} | {{ post.collection }}{% endif %}{% if post.tags %}<br>Tags: {{ post.tags }}{% endif %}</span>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.book.rank %} | Rank: {{ post.book.rank }}{% endif %}{% if post.collection %} | {{ post.collection }}{% endif %}{% if post.tags %}<br>标签：{{ post.tags | join: ", " }}{% endif %}</span>
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
