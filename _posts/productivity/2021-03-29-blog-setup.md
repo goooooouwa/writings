@@ -63,9 +63,9 @@ published: true
 | 评论工具        | [utterances](https://github.com/utterance/utterances)        | [disqus](https://disqus.com/)                                | -                                                            |
 | 图床            | [imgur](https://imgur.com/)                                  | 本地图片                                                     | https://cloudinary.com/                                      |
 | 站内搜索        | [Google Custom Search](https://programmablesearchengine.google.com/about/) | -                                                            | -                                                            |
-| 图表            | 原生[Chart.js](https://www.chartjs.org/)                     | -                                                            | TeXt                                                         |
-| 图示            | 原生[mermaid.js](https://mermaidjs.github.io/)               | [jekyll-spaceship](https://github.com/jeffreytse/jekyll-spaceship) | TeXt                                                         |
-| 内嵌YouTube视频 | 原生YouTube内嵌代码                                          | jekyll-spaceship                                             | TeXt                                                         |
+| 图表            | [Chart.js](https://www.chartjs.org/)                     | -                                                            | TeXt                                                         |
+| 图示            | [mermaid.js](https://mermaidjs.github.io/)               | [jekyll-spaceship](https://github.com/jeffreytse/jekyll-spaceship) | TeXt                                                         |
+| 内嵌YouTube视频 | YouTube内嵌代码                                          | jekyll-spaceship                                             | TeXt                                                         |
 | 域名            | 阿里云                                                       | github.io                                                    | -                                                            |
 
 ## 配置对比详情
@@ -136,7 +136,7 @@ Google Custom Search是谷歌提供的站内搜索工具，可以通过[Google S
 
 | 配置选项         | Pro                                                          | Con                                                          |
 | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 原生mermaid.js   | 无需依赖Rails技术栈，无需修改pipeline，功能不受限，版本不受限 | 不支持本地显示，需要管理JavaScript library                   |
+| mermaid.js   | 无需依赖Rails技术栈，无需修改pipeline，功能不受限，版本不受限 | 不支持本地显示，需要管理JavaScript library                   |
 | jekyll-spaceship | 部分编辑器支持本地显示                                       | 依赖Rails技术栈，需要搭建相关pipeline，交互功能受限，版本受限 |
 
 jekyll-spaceship是一款集多种实用功能于一身的Jekyll插件，提供了对表格、数学公式、图示、音频、视频、表情符号等内容的支持。插件功能都挺好，就是build时间会显著加长。
