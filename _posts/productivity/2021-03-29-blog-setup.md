@@ -39,14 +39,16 @@ published: true
 
 基于prose.io的博客发布工作流如下图：
 
-<div class="mermaid">
+![](https://i.imgur.com/AUL1X0a.png)
+
+```mermaid
     graph TD
     T1["工作流：发布或修改博客文章"] -.-> A
 
     A[在Prose.io创建或编辑文件] --> B
     B[提交修改]
     B --> C[触发Github action自动构建并部署博客到Github pages]
-</div>
+```
 
 ## 博客配置一览
 
