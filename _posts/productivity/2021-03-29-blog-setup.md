@@ -126,7 +126,7 @@ utterances是一款轻量级评论插件，利用了Github issues作为评论系
 
 | 配置选项             | Pros       | Cons                                                |
 | -------------------- | ---------- | --------------------------------------------------- |
-| Google Custom Search | 免费，自动 | 不支持国内访问，索引更新周期长，样式与Bootstrap冲突 |
+| Google Custom Search | 免费，自动 | 不支持国内访问，索引更新周期长，样式可能会被全局污染 |
 
 Google Custom Search是谷歌提供的站内搜索工具，可以通过[Google Search Conssole](https://search.google.com/search-console)查看站内链接索引情况，搜索结果的优化相当于同时做了Google SEO。
 
@@ -211,9 +211,9 @@ jobs:
 本着最小代码的原则，仅对Jekyll minima主题做了如下必要修改：
 
 1. 主题内容本地化
-2. Google custom search样式问题
+2. 解决Google custom search样式问题
 
-Google custom search的样式会被Bootstrap覆盖，导致样式失效，网上搜索之后，采用了样式隔离的方式来保护Google custom search的样式不被影响，一劳永逸。
+Google custom search的样式会被Bootstrap的全局样式覆盖，导致搜索框样式失效，网上搜索之后，采用了样式隔离的方式来保护Google custom search的样式不被影响，一劳永逸。
 
 `google-custom-search-style-fix.scss`:
 
@@ -262,7 +262,7 @@ Google custom search的样式会被Bootstrap覆盖，导致样式失效，网上
 
 ## Todo
 
-下面是一些目前还未很好做到的事情，欢迎留言建议。
+下面是一些目前还未很好做到的事情，欢迎留言提供建议。
 
 - [ ] 轻松为markdown文件添加front matter
 
@@ -272,7 +272,7 @@ Google custom search的样式会被Bootstrap覆盖，导致样式失效，网上
 
 - [ ] 支持国内访问、从imgur迁移成本低的图床
 
-- [ ] 站内搜索的backup方案，确保最低可用
+- [ ] 站内搜索的替代方案，确保国内可用
 
 
 ## 最后
