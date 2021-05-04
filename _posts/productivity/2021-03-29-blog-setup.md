@@ -52,21 +52,21 @@ published: true
 
 ## 博客配置一览
 
-以下是博客主要功能的配置：
+以下是博客主要的功能配置：
 
-| 功能组件        | 当前配置                                                     | 过往配置                                                     | 其他尝试                                                     |
-| --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 博客系统        | [Jekyll](https://jekyllrb.com/)                              | -                                                            | [Wordpress.com](https://wordpress.com/), [hexo.io](https://hexo.io/) |
-| 部署方式        | [Github actions](https://github.com/features/actions)        | [Github pages](https://pages.github.com/)                    | -                                                            |
-| 发布工具        | [prose.io](http://prose.io/)                                 | [Jekyll admin](https://github.com/jekyll/jekyll-admin)       | [Jekyll compose](https://github.com/jekyll/jekyll-compose), [Working Copy](https://workingcopyapp.com/) |
-| 主题            | [Jekyll minima latest](https://github.com/jekyll/minima) (3.x) | Jekyll minima 2                                              | [TeXt](http://jekyllthemes.org/themes/TeXt/)                 |
-| 评论工具        | [utterances](https://github.com/utterance/utterances)        | [disqus](https://disqus.com/)                                | -                                                            |
-| 图床            | [imgur](https://imgur.com/)                                  | 本地图片                                                     | https://cloudinary.com/                                      |
-| 站内搜索        | [Google Custom Search](https://programmablesearchengine.google.com/about/) | -                                                            | -                                                            |
-| 图表            | [Chart.js](https://www.chartjs.org/)                     | -                                                            | TeXt                                                         |
-| 图示            | [mermaid.js](https://mermaidjs.github.io/)               | [jekyll-spaceship](https://github.com/jeffreytse/jekyll-spaceship) | TeXt                                                         |
-| 内嵌YouTube视频 | YouTube内嵌代码                                          | jekyll-spaceship                                             | TeXt                                                         |
-| 域名            | 阿里云                                                       | github.io                                                    | -                                                            |
+| 功能组件        | 当前配置                                                     | 过往配置                                                     |
+| --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 博客系统        | [Jekyll](https://jekyllrb.com/)                              | [Wordpress.com](https://wordpress.com/), [hexo.io](https://hexo.io/) |
+| 部署方式        | [Github actions](https://github.com/features/actions)        | [Github pages](https://pages.github.com/)                    |
+| 发布工具        | [prose.io](http://prose.io/)                                 | [Jekyll admin](https://github.com/jekyll/jekyll-admin)       |
+| 主题            | [Jekyll minima latest](https://github.com/jekyll/minima) (3.x) | Jekyll minima 2, [TeXt](http://jekyllthemes.org/themes/TeXt/) |
+| 评论工具        | [utterances](https://github.com/utterance/utterances)        | [disqus](https://disqus.com/)                                |
+| 图床            | [imgur](https://imgur.com/)                                  | 本地图片，[Cloudinary](https://cloudinary.com/)              |
+| 站内搜索        | [Google Custom Search](https://programmablesearchengine.google.com/about/) | -                                                            |
+| 图表            | [Chart.js](https://www.chartjs.org/)                         | TeXt                                                         |
+| 图示            | [mermaid.js](https://mermaidjs.github.io/)                   | [jekyll-spaceship](https://github.com/jeffreytse/jekyll-spaceship), TeXt |
+| 内嵌YouTube视频 | YouTube内嵌代码                                              | jekyll-spaceship, TeXt                                       |
+| 域名            | 阿里云                                                       | github.io                                                    |
 
 ## 具体配置对比
 
