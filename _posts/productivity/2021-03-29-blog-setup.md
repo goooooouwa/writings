@@ -4,7 +4,8 @@ title: 我的博客setup
 tag: setup
 published: true
 ---
-
+* TOC
+{:toc}
 
 ## 背景
 
