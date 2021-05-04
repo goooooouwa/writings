@@ -12,11 +12,11 @@ published: true
 
 大学时我开始有了一些写作的需求，因此希望有一个自己的博客来发布写作的内容。从2010年开始，我先后使用过Google Blogger、Tumblr、Medium作为自己的博客，可是在使用一段时间之后，当我想将博客文章迁移到其他博客平台时，我发现这些博客平台普遍存在几个令我很头疼的问题：
 
-1. 导出的文章为html文件，内容跟样式混杂在一起，可读性很低
-2. 我需要将导出的文章手动导入到新的博客系统（或者需要进行一定格式的调整）
-3. 自己定制过的主题样式相当于浪费了
+- 导出的文章为html文件，内容跟样式混杂在一起，可读性很低
+- 我需要将导出的文章手动导入到新的博客系统（或者需要进行一定格式的调整）
+- 自己定制过的主题样式相当于浪费了
 
-在尝试过这几款主流的博客平台后，我一度对这些博客平台失去了信心，觉得自己的内容被锁定在了特定的平台上。直到有一天我偶然看到一篇博客（类似[这篇](https://github.com/paintedsky/dead-simple-blog)），作者介绍了自己如何使用简单的文本文件作为自己的博客。看了这篇文章后我深受启发，原来博客还可以这么玩（很像Unix的一切即文件哲学）。
+在尝试过这几款主流的博客平台后，我一度对这些博客平台失去了信心，觉得自己的内容被锁定在了特定的平台上。直到有一天我偶然看到一篇博客（类似[这篇](https://github.com/paintedsky/dead-simple-blog)），作者介绍了自己如何使用简单的文本文件作为自己的博客。看了这篇文章后我深受启发，才知道原来博客还可以这么玩（很像Unix的一切即文件哲学）！
 
 至此我才意识到，我对一个博客系统有着一个不可妥协的需求：
 
@@ -29,12 +29,15 @@ published: true
 在寻找和比较了几款博客系统后，我最终选择了Jeklyll，因为它：
 
 1. 支持使用markdown文件自动生成博客文章，文本文件是最通用的数据结构，因此有着很好的数据独立性。
-
 2. Jekyll插件生态不错，各种功能基本都有现成工具可用，减少了代码的编写。
 
-## 我的博客发布工作流
+于是2017年下半年，我开始利用业余时间基于Jekyll和Github pages搭建自己的博客。目前已经经历了3年多的小步迭代，主体功能基本都找到了趁手的工具。本文用来记录当前最新的Setup。
 
-基于Jekyll和Github pages，我的博客发布工作流如下图：
+## 博客发布工作流
+
+基于Jekyll和Github pages的博客一般发布内容都需要用到Git客户端，提交时还需要思考commit message，操作比较繁琐。prose.io完美的解决了这一痛点。
+
+基于prose.io的博客发布工作流如下图：
 
 <div class="mermaid">
     graph TD
@@ -47,67 +50,67 @@ published: true
 
 ## 博客配置一览
 
-目前我的博客setup已经小步迭代了3年多时间，主要的功能基本都有了趁手的工具。总体配置如下：
+以下是博客主要功能的配置：
 
-| 功能组件        | 当前配置                   | 过往配置                                                     | 其他尝试                                                     |
-| --------------- | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 博客系统        | Jekyll                     |                                                              | wordpress, hexo                                              |
-| 部署方式        | Github actions             | Github pages                                                 |                                                              |
-| 发布工具        | prose.io                   | Jekyll admin                                                 | Jekyll compose, Working Copy                                 |
-| 主题            | Jekyll minima latest (3.x) | Jekyll minima 2                                              | [TeXt](http://jekyllthemes.org/themes/TeXt/), [Jalpc](https://github.com/jarrekk/Jalpc) |
-| 评论工具        | utterances                 | disqus                                                       |                                                              |
-| 图床            | imgur                      | 本地图片                                                     | https://cloudinary.com/                                      |
-| 站内搜索        | Google Custom Search       |                                                              |                                                              |
-| 图表            | Chart.js                   |                                                              |                                                              |
-| 图示            | mermaid.js                 | [jekyll-spaceship](https://github.com/jeffreytse/jekyll-spaceship) |                                                              |
-| 内嵌YouTube视频 | YouTube embedded code      | [jekyll-spaceship](https://github.com/jeffreytse/jekyll-spaceship) |                                                              |
-| 域名            | 阿里云                     | github.io                                                    |                                                              |
+| 功能组件        | 当前配置                                                     | 过往配置                                                     | 其他尝试                                                     |
+| --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 博客系统        | [Jekyll](https://jekyllrb.com/)                              | -                                                            | [Wordpress.com](https://wordpress.com/), [hexo.io](https://hexo.io/) |
+| 部署方式        | [Github actions](https://github.com/features/actions)        | [Github pages](https://pages.github.com/)                    | -                                                            |
+| 发布工具        | [prose.io](http://prose.io/)                                 | [Jekyll admin](https://github.com/jekyll/jekyll-admin)       | [Jekyll compose](https://github.com/jekyll/jekyll-compose), [Working Copy](https://workingcopyapp.com/) |
+| 主题            | [Jekyll minima latest](https://github.com/jekyll/minima) (3.x) | Jekyll minima 2                                              | [TeXt](http://jekyllthemes.org/themes/TeXt/)                 |
+| 评论工具        | [utterances](https://github.com/utterance/utterances)        | [disqus](https://disqus.com/)                                | -                                                            |
+| 图床            | [imgur](https://imgur.com/)                                  | 本地图片                                                     | https://cloudinary.com/                                      |
+| 站内搜索        | [Google Custom Search](https://programmablesearchengine.google.com/about/) | -                                                            | -                                                            |
+| 图表            | 原生[Chart.js](https://www.chartjs.org/)                     | -                                                            | TeXt                                                         |
+| 图示            | 原生[mermaid.js](https://mermaidjs.github.io/)               | [jekyll-spaceship](https://github.com/jeffreytse/jekyll-spaceship) | TeXt                                                         |
+| 内嵌YouTube视频 | 原生YouTube内嵌代码                                          | jekyll-spaceship                                             | TeXt                                                         |
+| 域名            | 阿里云                                                       | github.io                                                    | -                                                            |
 
-### 配置对比详情
+## 配置对比详情
 
 #### 博客系统
 
-| 配置选项  | Pro                            | Con                          | Comment                                                      |
-| --------- | ------------------------------ | ---------------------------- | ------------------------------------------------------------ |
-| Jekyll    | 简单，可靠，插件生态不错       | 编译慢，文章多了需要性能调优 |                                                              |
-| hexo      |                                |                              | 冲着构建速度快试用了一下，也觉得node.js比Rails更有未来，试用了一下，感觉没想象中优秀，具体也不记得了 |
-| Wordpress | 生态强大，能导出文章为markdown | 不够纯粹                     |                                                              |
+| 配置选项  | Pro                                          | Con                          | Comment                                        |
+| --------- | -------------------------------------------- | ---------------------------- | ---------------------------------------------- |
+| Jekyll    | 简单，可靠，插件生态不错                     | 编译慢，文章多了需要性能调优 | -                                              |
+| hexo      | 构建速度很快，node.js比Rails更适合构建UI组件 | 很多功能需要插件完成         | 冲着构建速度快试用了一下，实际使用没想象中优秀 |
+| Wordpress | 生态强大，能导出文章为markdown               | 不够纯粹                     | -                                              |
 
 #### 部署方式
 
 | 配置选项       | Pro                        | Con                                                          | Comment              |
 | -------------- | -------------------------- | ------------------------------------------------------------ | -------------------- |
-| Github actions | 灵活，自由，支持各种自动化，不受github pages限制 |                                                              | 需要自己编写workflow |
-| Github pages   | Github原生支持，自动       | 不支持github pages whitelist以外的Jekyll插件，比如paginate v2 |                      |
+| Github actions | 灵活，自由，支持各种自动化，不受github pages限制 | - | 需要自己编写workflow |
+| Github pages   | Github原生支持，自动       | 不支持github pages whitelist以外的Jekyll插件，比如paginate v2 | - |
 
 #### 发布方式
 
 | 配置选项     | Pro                                                     | Con                             | Comment                              |
 | ------------ | ------------------------------------------------------- | ------------------------------- | ------------------------------------ |
 | prose.io     | 在线编辑，无需Git客户端，支持Markdown格式，支持手机访问 | 没有客户端，频繁Authorize验证   | prose.io是一款针对Github的内容编辑器 |
-| Jekyll admin | 离线编辑                                                | 需要Git客户端，不支持手机发文章 |                                      |
+| Jekyll admin | 离线编辑                                                | 需要Git客户端，不支持手机发文章 | -                                    |
 
 #### 主题
 
 | 配置选项      | Pro                                      | Con                                     | Comment |
 | ------------- | ---------------------------------------- | --------------------------------------- | ------- |
-| Minima latest | 简洁，功能够用                           | 不支持Github pages自动构建              |         |
-| Minima 2      | 简洁，Github pages原生支持               | 老旧了，有些功能不支持，比如paginate v2 |         |
-| TeXt          | 好看，功能非常丰富，比如支持Chart.js图表 | 臃肿，文档支持不够完善                  |         |
+| Minima latest | 简洁，功能够用                           | 不支持Github pages自动构建              | -       |
+| Minima 2      | 简洁，Github pages原生支持               | 老旧了，有些功能不支持，比如paginate v2 | -       |
+| TeXt          | 好看，功能非常丰富，比如支持Chart.js图表 | 臃肿，文档支持不够完善，工具版本受限    | -       |
 
 #### 评论工具
 
-| 配置选项   | Pro                                | Con        | Comment                       |
-| ---------- | ---------------------------------- | ---------- | ----------------------------- |
-| utterances | 支持国内访问，数据中立，简洁，好用 |            | 使用Github issues作为评论系统 |
-| disqus     | 免费，支持各种Social login         | 干扰信息多 |                               |
+| 配置选项   | Pro                                | Con                | Comment                       |
+| ---------- | ---------------------------------- | ------------------ | ----------------------------- |
+| utterances | 支持国内访问，数据中立，简洁，好用 | 只支持Github login | 使用Github issues作为评论系统 |
+| disqus     | 免费，支持各种Social login         | 干扰信息多         | -                             |
 
 #### 图床
 
 | 配置选项 | Pro                               | Con                                       | Comment                           |
 | -------- | --------------------------------- | ----------------------------------------- | --------------------------------- |
 | imgur    | 免费，无干扰，无限空间，简单      | 不支持国内访问                            | 使用mac2imgur app拖拽图片直接上传 |
-| 本地图片 | Accessibility，文档和图片数据集中 | 图片repo空间的scale问题，以及网络访问速度 |                                   |
+| 本地图片 | Accessibility，文档和图片数据集中 | 图片repo空间的scale问题，以及网络访问速度 | -                                 |
 
 #### 站内搜索
 
@@ -115,12 +118,21 @@ published: true
 | -------------------- | ---------- | --------------------------------------------------- | ------------------------ |
 | Google Custom Search | 免费，自动 | 不支持国内访问，索引更新周期长，样式与Bootstrap冲突 | 相当于同时做了Google SEO |
 
+#### 图表、图示、内嵌YouTube视频
+
+图表、图示和内嵌YouTube视频的情况类似，都是纯前端展示的功能，下面以图示为例进行详细对比。
+
+| 配置选项         | Pro                                                          | Con                                                          | Comment |
+| ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------- |
+| 原生mermaid.js   | 无需依赖Rails技术栈，无需修改pipeline，功能不受限，版本不受限 | 不支持本地显示，需要管理JavaScript library                   | -       |
+| jekyll-spaceship | 部分编辑器支持本地显示                                       | 依赖Rails技术栈，需要搭建相关pipeline，交互功能受限，版本受限 | -       |
+
 #### 域名
 
-| 配置选项   | Pro                           | Con               | Comment |
-| ---------- | ----------------------------- | ----------------- | ------- |
-| 阿里云域名 | 支持国内访问，便宜            | 需要额外配置https |         |
-| github.io  | Github pages自带，自动，https | 不支持国内访问    |         |
+| 配置选项   | Pro                           | Con                 | Comment |
+| ---------- | ----------------------------- | ------------------- | ------- |
+| 阿里云域名 | 支持国内访问，便宜            | 需要单独配置SSL证书 | -       |
+| github.io  | Github pages自带，自动，https | 不支持国内访问      | -       |
 
 ## 自定义代码
 
