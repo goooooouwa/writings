@@ -30,7 +30,9 @@ published: true
 
 2. Jekyll插件生态不错，各种功能基本都有现成工具可用，减少了代码的编写。
 
-## 我写博客的工作流
+## 我的博客发布工作流
+
+我目前使用prose.io发布文章到Jekyll博客（工作流如下图）。
 
 <div class="mermaid">
     graph TD
@@ -40,6 +42,15 @@ published: true
     B[Commit changes to github repo]
     B --> C[Trigger Github actions to build and deploy the blog to github pages]
 </div>
+
+prose.io是一款针对Github的内容编辑器，可以在线编辑repo的文本文件（支持Markdown格式，支持手机访问）。用它来随时随地发布文章简直是丝般顺滑。
+
+在此之前我试过的Jekyll博客的发布方式为：
+
+- 电脑端：用jekyll compose或jekyll admin创建帖子，然后用VS Code或Source Tree提交代码到Github
+- 手机端：用working copy提交代码到Github
+
+这种发布方式步骤繁琐，体验较差。
 
 ## 配置一览
 
