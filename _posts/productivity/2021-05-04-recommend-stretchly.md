@@ -5,6 +5,9 @@ category: productivity
 tags: app take-a-break
 ---
 
+## TL;DR
+
+I recommend [Stretchly](https://hovancik.net/stretchly) to anyone who couldn't help but stare at the computer screen.
 
 ## Background
 
@@ -39,7 +42,7 @@ After playing around with several apps in this category, I find myself having se
 
 ## Personal Recommendation
 
-Stretchly suits my needs the best, so I will recommend this app to anyone who has similar needs.
+[Stretchly](https://hovancik.net/stretchly) suits my needs the best, so I will recommend this app to anyone who has similar needs.
 
 ## Reference
 
