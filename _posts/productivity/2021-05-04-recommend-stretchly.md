@@ -7,7 +7,9 @@ tags: app take-a-break
 
 ## TL;DR
 
-I recommend [Stretchly](https://hovancik.net/stretchly) to anyone who couldn't help but stare at the computer screen.
+I recommend [Stretchly](https://hovancik.net/stretchly) to anyone who couldn't help but stare at the computer screen for too long.
+
+[](https://i.imgur.com/Acha4Mt.png)
 
 ## Background
 
