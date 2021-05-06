@@ -1,5 +1,8 @@
 ---
-published: false
+published: true
+title: 《一本书读懂财报》读书笔记
+category: business
+tags: accounting
 ---
 《一本书读懂财报》
 
