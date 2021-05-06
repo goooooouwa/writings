@@ -65,10 +65,12 @@ published: true
 | 评论工具        | [utterances](https://github.com/utterance/utterances)        | [disqus](https://disqus.com/)                                |
 | 图床            | [imgur](https://imgur.com/)                                  | 本地图片，[Cloudinary](https://cloudinary.com/)              |
 | 站内搜索        | [Google Custom Search](https://programmablesearchengine.google.com/about/) | -                                                            |
+| 统计分析        | [Google Analytics](https://analytics.google.com/analytics/web/) | -                                                            |
 | 图表            | [Chart.js](https://www.chartjs.org/)                         | TeXt                                                         |
 | 图示            | [mermaid.js](https://mermaidjs.github.io/)                   | [jekyll-spaceship](https://github.com/jeffreytse/jekyll-spaceship), TeXt |
 | 内嵌YouTube视频 | YouTube内嵌代码                                              | jekyll-spaceship, TeXt                                       |
 | 域名            | 阿里云                                                       | github.io                                                    |
+
 
 ## 具体配置对比
 
@@ -131,6 +133,12 @@ utterances是一款轻量级评论插件，利用了Github issues作为评论系
 | Google Custom Search | 免费，自动 | 不支持国内访问，索引更新周期长，样式可能会被全局污染 |
 
 Google Custom Search是谷歌提供的站内搜索工具，可以通过[Google Search Conssole](https://search.google.com/search-console)查看站内链接索引情况，搜索结果的优化相当于同时做了Google SEO。
+
+#### 统计分析
+
+| 配置选项   | Pros                          | Cons                |
+| ---------- | ----------------------------- | ------------------- |
+| Google Analytics | 功能强大，自动，支持统计国内流量            | 管理界面不支持国内访问 |
 
 #### 图表、图示、内嵌YouTube视频
 
