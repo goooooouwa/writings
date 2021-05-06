@@ -1,6 +1,6 @@
 ---
 category: productivity
-title: 我的Jekyll博客setup
+title: 我的博客setup
 tag: setup
 published: true
 ---
@@ -287,4 +287,4 @@ Google custom search的样式会被Bootstrap的全局样式覆盖，导致搜索
 
 ## 最后
 
-以上就是我的Jekyll博客目前的setup，想了解更多细节可以直接访问Github代码仓库：[goooooouwa/goooooouwa.github.io](https://github.com/goooooouwa/goooooouwa.github.io)。
+以上就是我的博客目前的setup，想了解更多细节可以直接访问Github代码仓库：[goooooouwa/goooooouwa.github.io](https://github.com/goooooouwa/goooooouwa.github.io)。
