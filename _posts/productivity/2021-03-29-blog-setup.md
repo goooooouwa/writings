@@ -35,7 +35,9 @@ published: true
 
 ## 博客发布工作流
 
-基于Jekyll和Github pages的博客一般发布内容都需要用到Git客户端，提交时还需要思考commit message，操作比较繁琐。prose.io完美的解决了这一痛点。
+基于Jekyll和Github pages的博客一般发布内容都需要用到Git客户端，提交时还需要思考commit message，操作比较繁琐，而且基本依赖于电脑来完成。
+
+我心中理想的博客发布工作流是能随时随地发布或更新文章，prose.io让这一切成为可能。
 
 我目前基于prose.io的博客发布工作流如下图：
 
@@ -43,7 +45,7 @@ published: true
 
 ```mermaid
     graph TD
-    T1["工作流：发布或修改博客文章"] -.-> A
+    T1["工作流：发布或更新博客文章"] -.-> A
 
     A[在Prose.io创建或编辑文件] --> B
     B[提交修改]
