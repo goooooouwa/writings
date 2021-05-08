@@ -75,32 +75,34 @@ published: true
 
 ## 博客的内容发现和阅读
 
-目前阶段博客的访问人数并不多，因此我没有花太多精力优化，只要功能基本够用即可。
+目前阶段博客的访问人数不多，还无法很好地量化任何优化的效果，因此基本是本着最小可用的原则，只提供了一些自己认为必要的功能。
 
-为了帮助读者快速发现和阅读感兴趣内容，博客尽量的比如分类和标签。
+为了帮助读者快速发现和阅读感兴趣内容，博客目前支持：
+- 通过国内域名访问
+- 通过分类和标签浏览文章
+- 支持手机阅读文章
+- 评论文章和留言
 
-当然也有一些功能，像搜索和评论，本身基本没人使用，则是出于学习目的而进行的尝试。
-
+博客目前还有很多地方有待改进，不过还是等我将内容的质量提高了，访问人数达到一定数量再来优化吧。
 
 ## 博客配置一览
 
-以下是博客目前的主要提供的功能和对应的解决方案。下文会对这些解决方案展开详细对比。
+以下是博客目前的主要提供的功能和对应的解决方案。
 
-| 功能组件        | 当前解决方案                                                     | 过往解决方案                                                     |
-| --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 博客系统        | [Jekyll](https://jekyllrb.com/)                              | [Wordpress.com](https://wordpress.com/), [hexo.io](https://hexo.io/) |
-| 部署方式        | [Github actions](https://github.com/features/actions)        | [Github pages](https://pages.github.com/)                    |
-| 发布工具        | [prose.io](http://prose.io/)                                 | [Jekyll admin](https://github.com/jekyll/jekyll-admin)       |
-| 主题            | [Jekyll minima latest](https://github.com/jekyll/minima) (3.x) | Jekyll minima 2, [TeXt](http://jekyllthemes.org/themes/TeXt/) |
-| 评论工具        | [utterances](https://github.com/utterance/utterances)        | [disqus](https://disqus.com/)                                |
-| 图床            | [imgur](https://imgur.com/)                                  | 本地图片，[Cloudinary](https://cloudinary.com/)              |
-| 站内搜索        | [Google Custom Search](https://programmablesearchengine.google.com/about/) | -                                                            |
-| 统计分析        | [Google Analytics](https://analytics.google.com/analytics/web/) | -                                                            |
-| 图表            | [Chart.js](https://www.chartjs.org/)                         | TeXt                                                         |
-| 图示            | [mermaid.js](https://mermaidjs.github.io/)                   | [jekyll-spaceship](https://github.com/jeffreytse/jekyll-spaceship), TeXt |
-| 内嵌YouTube视频 | YouTube内嵌代码                                              | jekyll-spaceship, TeXt                                       |
-| 域名            | 阿里云                                                       | github.io                                                    |
-
+| 功能组件        | 目标用户   | 当前解决方案                                                 | 过往解决方案                                                 |
+| --------------- | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 博客系统        | 作者       | [Jekyll](https://jekyllrb.com/)                              | [Wordpress.com](https://wordpress.com/), [hexo.io](https://hexo.io/) |
+| 部署方式        | 作者       | [Github actions](https://github.com/features/actions)        | [Github pages](https://pages.github.com/)                    |
+| 发布工具        | 作者       | [prose.io](http://prose.io/)                                 | [Jekyll admin](https://github.com/jekyll/jekyll-admin)       |
+| 主题            | 读者       | [Jekyll minima latest](https://github.com/jekyll/minima) (3.x) | Jekyll minima 2, [TeXt](http://jekyllthemes.org/themes/TeXt/) |
+| 评论工具        | 读者       | [utterances](https://github.com/utterance/utterances)        | [disqus](https://disqus.com/)                                |
+| 图床            | 作者、读者 | [imgur](https://imgur.com/)                                  | 本地图片，[Cloudinary](https://cloudinary.com/)              |
+| 站内搜索        | 读者       | [Google Custom Search](https://programmablesearchengine.google.com/about/) | -                                                            |
+| 统计分析        | 作者       | [Google Analytics](https://analytics.google.com/analytics/web/) | -                                                            |
+| 图表            | 作者、读者 | [Chart.js](https://www.chartjs.org/)                         | TeXt                                                         |
+| 图示            | 作者、读者 | [mermaid.js](https://mermaidjs.github.io/)                   | [jekyll-spaceship](https://github.com/jeffreytse/jekyll-spaceship), TeXt |
+| 内嵌YouTube视频 | 作者、读者 | YouTube内嵌代码                                              | jekyll-spaceship, TeXt                                       |
+| 域名            | 读者       | 阿里云                                                       | github.io                                                    |
 
 ## 解决方案对比
 
