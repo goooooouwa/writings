@@ -1,6 +1,6 @@
 ---
 published: true
-title: 如何避免注意力危机
+title: 如何减少手机屏幕使用
 category: health
 tags: attention-crisis
 ---
@@ -34,4 +34,3 @@ tags: attention-crisis
 1. 利用[iOS shortcut](https://routinehub.co/shortcut/6622/)后台音频播放YouTube视频
 1. 关闭或卸载各种刷刷刷式的时间黑洞型产品，比如：抖音、朋友圈、微博、instagram
 1. 不玩网游，只在有整块闲暇时间的时候玩玩单机游戏
-
