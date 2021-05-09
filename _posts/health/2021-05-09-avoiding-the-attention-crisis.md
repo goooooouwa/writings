@@ -1,5 +1,8 @@
 ---
-published: false
+published: true
+title: 如何避免注意力危机
+category: health
+tags: attention-crisis
 ---
 todo:
 我是如何避免注意力危机的
