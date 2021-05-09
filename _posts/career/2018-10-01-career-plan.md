@@ -1,6 +1,6 @@
 ---
 category: career
-title: 2018-2020 职业发展计划
+title: 2018 - 2020 职业发展计划
 tag: plan
 published: true
 ---
