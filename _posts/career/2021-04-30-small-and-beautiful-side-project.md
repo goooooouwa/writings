@@ -1,6 +1,6 @@
 ---
 published: true
-title: 小而美的Side project
+title: wip 小而美的Side project
 category: career
 ---
 刚接触计算机的头几年，每当看到这类故事都倍感振奋：

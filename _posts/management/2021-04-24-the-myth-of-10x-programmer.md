@@ -1,6 +1,6 @@
 ---
 published: true
-title: Don't be fooled by the myth of a 10x programmer
+title: wip Don't be fooled by the myth of a 10x programmer
 category: management
 ---
 I was always fancied by those stories that some computer scientist wrote a great piece of software in a weekend. Examples: TBA. (Unix编程艺术，programming pearls author wrote chemical diagram tool? many Unix CLI tools. Git by Linus. Does Overcast and Dash count?) I dream about being like them, make something useful in a weekend's time. That sounds like a 10x programmer to me.
