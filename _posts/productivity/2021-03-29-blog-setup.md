@@ -175,6 +175,7 @@ utterances是一款轻量级评论插件，利用了Github issues作为评论系
 | 配置选项             | Pros       | Cons                                                 |
 | -------------------- | ---------- | ---------------------------------------------------- |
 | Google Custom Search | 免费，自动 | 不支持国内访问，索引更新周期长，样式可能会被全局污染 |
+| [Jekyll Simple Search](https://github.com/christian-fei/Simple-Jekyll-Search) | 简单，免费，自动，支持国内访问 | 打开全文检索会使build和页面加载速度受影响 |
 
 Google Custom Search是谷歌提供的站内搜索工具，可以通过[Google Search Conssole](https://search.google.com/search-console)查看站内链接索引情况，搜索结果的优化相当于同时做了Google SEO。
 
@@ -324,9 +325,9 @@ Google custom search的样式会被Bootstrap的全局样式覆盖，导致搜索
 
 - [ ] 为markdown文件添加带连字符的英文名
 
-- [x] 支持国内访问、从imgur迁移成本低的图床
+- [x] 支持国内访问、从imgur迁移成本低的图床: PicGo with 阿里云OSS
 
-- [ ] 站内搜索的替代方案，确保国内可用
+- [x] 站内搜索的替代方案，确保国内可用: jekyll simple search
 
 
 ## 最后
