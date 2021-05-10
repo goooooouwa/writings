@@ -5,4 +5,4 @@ title: State of app. Relationship between React and Redux
 ---
 # State of app. Relationship between React and Redux
 
-![https://i.imgur.com/aKoy6Qv.png](https://i.imgur.com/aKoy6Qv.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/aKoy6Qv.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/aKoy6Qv.png)

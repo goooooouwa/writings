@@ -5,4 +5,4 @@ title: React crash course notes
 ---
 # React crash course notes
 
-![https://i.imgur.com/t3XErAZ.png](https://i.imgur.com/t3XErAZ.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/t3XErAZ.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/t3XErAZ.png)

@@ -4,7 +4,7 @@ title: 照片管理setup
 tag: setup
 published: true
 ---
-![](https://i.imgur.com/TsY1tEX.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/TsY1tEX.png)
 
 ```mermaid
     graph TD

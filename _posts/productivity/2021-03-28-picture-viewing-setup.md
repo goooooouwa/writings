@@ -4,7 +4,7 @@ title: 图片欣赏setup
 tag: setup
 published: true
 ---
-![](https://i.imgur.com/iprEYgY.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/iprEYgY.png)
 
 ```mermaid
     graph TD

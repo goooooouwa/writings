@@ -6,6 +6,6 @@ date: "2020-04-01"
 
 总共花了9天，其中在泰国海关待了3天。
 
-![](https://goooooouwa.files.wordpress.com/2020/04/usps.com-usps-tracking-results-tools.usps_.com_.2.png?w=427)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/usps.com-usps-tracking-results-tools.usps_.com_.2.png)
 
-![](https://goooooouwa.files.wordpress.com/2020/04/track-and-trace-_-ems-_-thailand-post-track.thailandpost.co_.th_.1.png?w=1024)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/track-and-trace-_-ems-_-thailand-post-track.thailandpost.co_.th_.1.png)

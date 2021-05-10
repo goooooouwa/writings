@@ -8,4 +8,4 @@ Requirement table (Roadmap) is source of truth for requirements. 需求分析的
 
 Backlog is a mess by nature (a bag of tickets), 包含各种卡，写好的需求卡，没写好的需求卡，技术卡，bug卡，等等，很杂乱，需要定期分析梳理
 
-![](https://goooooouwa.files.wordpress.com/2020/04/egbrwluu4aabu0u.jpeg?w=734)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/egbrwluu4aabu0u.jpeg)

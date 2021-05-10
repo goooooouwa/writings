@@ -8,22 +8,22 @@ date: "2018-12-04"
 
 如果不看注释，你能分辨马自达的魁概念车和量产车吗？
 
-![](https://i.imgur.com/CzGrgcD.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/CzGrgcD.jpg)
 
-![](https://i.imgur.com/9ervc8r.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/9ervc8r.jpg)
 
-![](https://i.imgur.com/YQGE06p.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/YQGE06p.jpg)
 
-![](https://i.imgur.com/CPJT1lX.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/CPJT1lX.jpg)
 
-![](https://i.imgur.com/UxO96nv.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/UxO96nv.jpg)
 
-![](https://i.imgur.com/0JQ8d4s.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/0JQ8d4s.jpg)
 
-![](https://i.imgur.com/CYFjnL2.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/CYFjnL2.jpg)
 
-![](https://i.imgur.com/lff1hKR.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/lff1hKR.jpg)
 
-![](https://i.imgur.com/RFj8X9O.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/RFj8X9O.jpg)
 
-![](https://i.imgur.com/p9V5flC.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/p9V5flC.jpg)

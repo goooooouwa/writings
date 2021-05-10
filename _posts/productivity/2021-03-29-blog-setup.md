@@ -62,7 +62,7 @@ published: true
 
 我目前基于prose.io的博客发布工作流如下图：
 
-![](https://i.imgur.com/AUL1X0a.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/AUL1X0a.png)
 
 ```mermaid
     graph TD

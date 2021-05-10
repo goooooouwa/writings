@@ -5,4 +5,4 @@ title: 手动挡一般多少转速起步？
 ---
 手动挡一般多少转速起步？
 
-https://i.imgur.com/McBY4ke.jpg
+https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/McBY4ke.jpg

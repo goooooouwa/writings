@@ -4,7 +4,7 @@ title: 电影欣赏setup
 tag: setup
 published: true
 ---
-![](https://i.imgur.com/yaX17Gy.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/yaX17Gy.png)
 
 ```mermaid
     graph TD

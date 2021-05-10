@@ -58,7 +58,7 @@ Evernote最擅长做的是笔记的存储，专业的事还是该交给专业的
 
 便于将笔记做成Flashcards，便于巩固记忆。
 
-![how-to-organize-notes](https://i.imgur.com/yo3TQnE.png)
+![how-to-organize-notes](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/yo3TQnE.png)
 
 ## 实践方法
 
@@ -107,7 +107,7 @@ Evernote最擅长做的是笔记的存储，专业的事还是该交给专业的
 
 Note: 以上理想笔记管理思路来自于[MarginNote](https://marginnote.com/)的all in one place笔记法。
 
-![margin-note-all-in-one-place](https://i.imgur.com/RJOY6rJ.png)
+![margin-note-all-in-one-place](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/RJOY6rJ.png)
 
 
 2018-09-14-Migrate away from Evernote

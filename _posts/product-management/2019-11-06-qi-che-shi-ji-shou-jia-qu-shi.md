@@ -32,4 +32,4 @@ date: "2019-11-06"
 - 2016 13.2万
 - 2014 13.6万
 
-![Imgur](https://i.imgur.com/CxDVVyj.png)
+![Imgur](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/CxDVVyj.png)

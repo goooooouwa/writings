@@ -24,7 +24,7 @@ headingDivider: 2
 
 #
 
-[![w:1100](https://i.imgur.com/bc9HOJU.png)](https://www.youtube.com/watch?v=kCHGDRHZ4eU)
+[![w:1100](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/bc9HOJU.png)](https://www.youtube.com/watch?v=kCHGDRHZ4eU)
 
 # 关键时间节点跨度对比
 
@@ -45,7 +45,7 @@ headingDivider: 2
 
 #
 
-[![w:1100](https://i.imgur.com/J7o3iJL.png)](https://www.youtube.com/watch?v=o-3LD4-cG4A)
+[![w:1100](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/J7o3iJL.png)](https://www.youtube.com/watch?v=o-3LD4-cG4A)
 
 # 世界历史时间轴
 
@@ -81,35 +81,35 @@ headingDivider: 2
 
 ## 史前时代：人类到达美洲（公元前16000年）
 
-![w:1140](https://i.imgur.com/DafDR7R.png)
+![w:1140](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/DafDR7R.png)
 
 ## 古代时期：夏朝出现（公元前2069年）
 
-![w:1140](https://i.imgur.com/Ddts9D3.png)
+![w:1140](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/Ddts9D3.png)
 
 ## 古典时期：罗马帝国形成（359年）
 
-![w:1140](https://i.imgur.com/rMx3Zsv.png)
+![w:1140](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/rMx3Zsv.png)
 
 ## 中世纪：蒙古帝国（1280年）
 
-![w:1140](https://i.imgur.com/IDAjikR.png)
+![w:1140](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/IDAjikR.png)
 
 ## 中世纪末期（1500年）
 
-![w:1140](https://i.imgur.com/7OUXDt0.png)
+![w:1140](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/7OUXDt0.png)
 
 ## 地理大发现（1763年）
 
-![w:1140](https://i.imgur.com/oqubh9h.png)
+![w:1140](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/oqubh9h.png)
 
 ## 第一次世界大战（1914年）
 
-![w:1140](https://i.imgur.com/x06NpkU.png)
+![w:1140](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/x06NpkU.png)
 
 ## 当今的世界（2016年）
 
-![w:1140](https://i.imgur.com/fZ4XP6V.png)
+![w:1140](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/fZ4XP6V.png)
 
 # 人类各历史时期的显著特征
 

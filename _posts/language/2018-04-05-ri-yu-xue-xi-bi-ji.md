@@ -7,11 +7,11 @@ title: 日语学习笔记
 
 ## #1 日語50音的發音和寫法簡單教學！
 
-![https://i.imgur.com/4s0zDvD.png](https://i.imgur.com/4s0zDvD.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/4s0zDvD.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/4s0zDvD.png)
 
-![https://i.imgur.com/wmAIn0s.png](https://i.imgur.com/wmAIn0s.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/wmAIn0s.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/wmAIn0s.png)
 
-![https://i.imgur.com/aVELNmv.png](https://i.imgur.com/aVELNmv.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/aVELNmv.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/aVELNmv.png)
 
 50个平假名：日文
 
@@ -51,93 +51,93 @@ konnichiwa = 你好
 
 ## #2 搞懂日文發音的5個特徵！濁音，促音，拗音..etc
 
-![https://i.imgur.com/9CKFozQ.png](https://i.imgur.com/9CKFozQ.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/9CKFozQ.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/9CKFozQ.png)
 
-![https://i.imgur.com/KUX2lJH.png](https://i.imgur.com/KUX2lJH.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/KUX2lJH.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/KUX2lJH.png)
 
-![https://i.imgur.com/UeTHvMv.png](https://i.imgur.com/UeTHvMv.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/UeTHvMv.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/UeTHvMv.png)
 
-![https://i.imgur.com/ey9KCXm.png](https://i.imgur.com/ey9KCXm.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/ey9KCXm.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/ey9KCXm.png)
 
-![https://i.imgur.com/llwQh4F.png](https://i.imgur.com/llwQh4F.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/llwQh4F.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/llwQh4F.png)
 
-![https://i.imgur.com/0OqVby0.png](https://i.imgur.com/0OqVby0.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/0OqVby0.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/0OqVby0.png)
 
-![https://i.imgur.com/5koLfPy.png](https://i.imgur.com/5koLfPy.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/5koLfPy.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/5koLfPy.png)
 
-![https://i.imgur.com/144umMR.png](https://i.imgur.com/144umMR.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/144umMR.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/144umMR.png)
 
-![https://i.imgur.com/rrEEl5R.png](https://i.imgur.com/rrEEl5R.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/rrEEl5R.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/rrEEl5R.png)
 
-![https://i.imgur.com/0pz73Ov.png](https://i.imgur.com/0pz73Ov.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/0pz73Ov.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/0pz73Ov.png)
 
-![https://i.imgur.com/UGvZgJi.png](https://i.imgur.com/UGvZgJi.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/UGvZgJi.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/UGvZgJi.png)
 
-![https://i.imgur.com/N5P3MEx.png](https://i.imgur.com/N5P3MEx.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/N5P3MEx.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/N5P3MEx.png)
 
-![https://i.imgur.com/SLE5PqN.png](https://i.imgur.com/SLE5PqN.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/SLE5PqN.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/SLE5PqN.png)
 
-![https://i.imgur.com/kA4f291.png](https://i.imgur.com/kA4f291.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/kA4f291.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/kA4f291.png)
 
-![https://i.imgur.com/jOXLssc.png](https://i.imgur.com/jOXLssc.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/jOXLssc.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/jOXLssc.png)
 
-![https://i.imgur.com/yGjJ3YP.png](https://i.imgur.com/yGjJ3YP.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/yGjJ3YP.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/yGjJ3YP.png)
 
-![https://i.imgur.com/Hfw68ck.png](https://i.imgur.com/Hfw68ck.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/Hfw68ck.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/Hfw68ck.png)
 
 ## #3 一起來背片假名！日語50音的簡單教學～
 
-![https://i.imgur.com/lQCXPBT.png](https://i.imgur.com/lQCXPBT.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/lQCXPBT.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/lQCXPBT.png)
 
 ## #4 15句日文基本生活問候語
 
-![](https://i.imgur.com/poVmxnd.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/poVmxnd.png)
 
-![](https://i.imgur.com/7VZBjPx.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/7VZBjPx.png)
 
-![](https://i.imgur.com/GBYvJip.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/GBYvJip.png)
 
-![](https://i.imgur.com/Ndgs2pT.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/Ndgs2pT.png)
 
-![](https://i.imgur.com/09OwtAO.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/09OwtAO.png)
 
-![](https://i.imgur.com/mFeU3Si.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/mFeU3Si.png)
 
-![](https://i.imgur.com/MZDqqtm.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/MZDqqtm.png)
 
-![](https://i.imgur.com/TNJheqx.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/TNJheqx.png)
 
-![https://i.imgur.com/ssWQ2h9.png](https://i.imgur.com/ssWQ2h9.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/ssWQ2h9.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/ssWQ2h9.png)
 
-![](https://i.imgur.com/4NXEcl5.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/4NXEcl5.png)
 
-![](https://i.imgur.com/ugIpJog.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/ugIpJog.png)
 
-![](https://i.imgur.com/EcRoxGm.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/EcRoxGm.png)
 
-![](https://i.imgur.com/zrAkPIO.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/zrAkPIO.png)
 
-![](https://i.imgur.com/CmkTn5n.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/CmkTn5n.png)
 
-![](https://i.imgur.com/XTjY6f5.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/XTjY6f5.png)
 
-![](https://i.imgur.com/qsHMqH5.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/qsHMqH5.png)
 
-![](https://i.imgur.com/YRW51ty.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/YRW51ty.png)
 
-![](https://i.imgur.com/BohmX1x.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/BohmX1x.png)
 
-![](https://i.imgur.com/DQ5VK9u.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/DQ5VK9u.png)
 
-![https://i.imgur.com/vstEuf1.png](https://i.imgur.com/vstEuf1.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/vstEuf1.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/vstEuf1.png)
 
-![https://i.imgur.com/udwnLzX.png](https://i.imgur.com/udwnLzX.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/udwnLzX.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/udwnLzX.png)
 
 
 
 ## #5 簡單文型：「初次見面我叫..」日文基礎文型教學
 
-![https://i.imgur.com/WTUOLhO.png](https://i.imgur.com/WTUOLhO.png)
+![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/WTUOLhO.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/WTUOLhO.png)
 
 
 

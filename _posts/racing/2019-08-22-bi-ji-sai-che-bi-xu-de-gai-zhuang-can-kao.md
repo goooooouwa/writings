@@ -6,22 +6,22 @@ date: "2019-08-22"
 
 来源：[平民赛车特辑 编辑参加北方房车精英赛](https://www.autohome.com.cn/tuning/201406/813653.html)
 
-![](https://i.imgur.com/pEhlJ9W.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/pEhlJ9W.jpg)
 
-![](https://i.imgur.com/Gjo8f83.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/Gjo8f83.jpg)
 
-![](https://i.imgur.com/m2bQKGs.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/m2bQKGs.jpg)
 
-![](https://i.imgur.com/2YKlWu8.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/2YKlWu8.jpg)
 
-![](https://i.imgur.com/NAzVdmC.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/NAzVdmC.jpg)
 
-![](https://i.imgur.com/S9LWlzZ.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/S9LWlzZ.jpg)
 
-![](https://i.imgur.com/ETLA9M8.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/ETLA9M8.jpg)
 
-![](https://i.imgur.com/aWEkz0z.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/aWEkz0z.jpg)
 
-![](https://i.imgur.com/BPFpQvo.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/BPFpQvo.jpg)
 
-![](https://i.imgur.com/089dPT9.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/089dPT9.jpg)

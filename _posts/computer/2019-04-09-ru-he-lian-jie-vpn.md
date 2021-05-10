@@ -5,8 +5,8 @@ category: computer
 ---
 # 如何连接VPN
 
-![](https://i.imgur.com/wmYww4H.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/wmYww4H.png)
 
 连上了就是这个样子：
 
-![](https://i.imgur.com/fSUjVR5.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/fSUjVR5.png)

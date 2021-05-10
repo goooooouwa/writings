@@ -5,7 +5,7 @@ category: productivity
 tag: setup
 ---
 
-![](https://i.imgur.com/YdN6PBf.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/YdN6PBf.png)
 
 ```mermaid
     graph TD

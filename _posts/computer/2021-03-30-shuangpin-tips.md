@@ -12,11 +12,11 @@ https://mp.weixin.qq.com/s/vpznyt6LxGW4gLnZTpeqng
 
 ## 微软双拼方案键位图
 
-![](https://i.imgur.com/UUYHzgW.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/UUYHzgW.png)
 
 ## 微软双拼速记口诀
 
-![](https://i.imgur.com/yRGgbzW.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/yRGgbzW.jpg)
 
 ## 双拼（微软方案）难记韵母
 

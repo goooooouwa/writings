@@ -5,14 +5,14 @@ title: 职业思考
 ---
 # 职业思考
 
-![](https://i.imgur.com/mTYkfL6.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/mTYkfL6.jpg)
 
-![](https://i.imgur.com/umkCJ88.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/umkCJ88.jpg)
 
-![](https://i.imgur.com/FCg6Pri.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/FCg6Pri.jpg)
 
-![](https://i.imgur.com/xxtYXbW.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/xxtYXbW.jpg)
 
-![](https://i.imgur.com/A30IMSq.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/A30IMSq.jpg)
 
-![](https://i.imgur.com/ZbZe7gV.jpg)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/ZbZe7gV.jpg)

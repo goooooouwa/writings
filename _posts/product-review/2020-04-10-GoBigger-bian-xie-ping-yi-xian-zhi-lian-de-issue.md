@@ -6,7 +6,7 @@ date: "2020-04-10"
 
 GoBigger便携屏目前使用中遇到的唯一一个问题：一线直连switch后无法连接有线手柄。
 
-![](https://goooooouwa.files.wordpress.com/2020/04/e59bbee78987.png?w=885)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/e59bbee78987.png)
 
 实际使用中，我还是会配合原装底座使用，因为它：  
 支撑Switch既稳定又方便（一线直连后还是需要想办法支撑Switch），  

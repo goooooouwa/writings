@@ -21,7 +21,7 @@ tags: embedded-linux linux
 
 1.Partition storage device.
 	
-![Imgur](https://i.imgur.com/pMuTGYp.png)
+![Imgur](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/pMuTGYp.png)
 
 Bootloader, Boot parameters, Kernel, Root filesystem
 

@@ -13,4 +13,4 @@ date: "2020-04-10"
 
 理想中的Setup是这样，目前用的XGear便携办公书架就能满足我的需求，只需再配一个显示屏和足够宽的桌上空间。
 
-![](https://goooooouwa.files.wordpress.com/2020/04/e59bbee78987-1.png?w=1024)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/e59bbee78987-1.png)

@@ -4,7 +4,7 @@ title: 搜索setup
 tag: setup
 published: true
 ---
-![](https://i.imgur.com/50CY25C.png)
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/50CY25C.png)
 
 ```mermaid
     graph TD
