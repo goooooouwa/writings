@@ -70,7 +70,7 @@ TenderChase是一款用于建筑招标的网络应用，专为澳大利亚建筑
 
 更多
 
-- 博客：<https://goooooouwa.github.io>
+- 博客：<https://goooooouwa.fun>
 - Github：<https://github.com/goooooouwa>
 - Stack Overflow: <https://stackoverflow.com/users/1462707/greg>
 - Linkedin: <https://www.linkedin.com/in/gregxu>
