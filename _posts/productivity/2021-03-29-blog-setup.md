@@ -4,7 +4,6 @@ title: 我的Jekyll博客
 tag: setup
 published: true
 ---
-
 * TOC
 {:toc}
 
@@ -98,13 +97,14 @@ published: true
 | 发布工具        | 作者       | [prose.io](http://prose.io/)                                 | [Jekyll admin](https://github.com/jekyll/jekyll-admin)       |
 | 主题            | 读者       | [Jekyll minima latest](https://github.com/jekyll/minima) (3.x) | Jekyll minima 2, [TeXt](http://jekyllthemes.org/themes/TeXt/) |
 | 评论工具        | 读者       | [utterances](https://github.com/utterance/utterances)        | [disqus](https://disqus.com/)                                |
-| 图床            | 作者、读者 | [imgur](https://imgur.com/)                                  | 本地图片，[Cloudinary](https://cloudinary.com/)              |
+| 图床            | 作者、读者 | [阿里云OSS](https://www.aliyun.com/product/oss)              | [imgur](https://imgur.com/), [Cloudinary](https://cloudinary.com/), 本地图片 |
+| 图床上传工具    | 作者       | [PicGo](https://github.com/Molunerfinn/PicGo)                | [mac2imgur](https://github.com/mileswd/mac2imgur), iPic, uPic |
 | 站内搜索        | 读者       | [Google Custom Search](https://programmablesearchengine.google.com/about/) | -                                                            |
 | 统计分析        | 作者       | [Google Analytics](https://analytics.google.com/analytics/web/) | -                                                            |
 | 图表            | 作者、读者 | [Chart.js](https://www.chartjs.org/)                         | TeXt                                                         |
 | 图示            | 作者、读者 | [mermaid.js](https://mermaidjs.github.io/)                   | [jekyll-spaceship](https://github.com/jeffreytse/jekyll-spaceship), TeXt |
 | 内嵌YouTube视频 | 作者、读者 | YouTube内嵌代码                                              | jekyll-spaceship, TeXt                                       |
-| 域名            | 读者       | 阿里云                                                       | github.io                                                    |
+| 域名            | 读者       | [阿里云](https://www.aliyun.com/)                            | github.io                                                    |
 
 ## 解决方案对比
 
@@ -114,16 +114,16 @@ published: true
 | --------- | -------------------------------------------- | ---------------------------- |
 | Jekyll    | 简单，可靠，插件生态不错                     | 编译慢，文章多了需要性能调优 |
 | hexo      | 构建速度很快，node.js比Rails更适合构建UI组件 | 很多功能需要插件完成         |
-| Wordpress | 生态强大，能导出文章为markdown               | 内容编辑不如markdown纯粹                     |
+| Wordpress | 生态强大，能导出文章为markdown               | 内容编辑不如markdown纯粹     |
 
 hexo是一款基于node.js的静态网站构建工具，作者是台湾人，因此在华人圈子中有不小名气。曾经冲着它构建速度快的特点试用了一下，实际使用没想象中优秀，最终未采用。
 
 #### 部署方式
 
-| 配置选项       | Pros                       | Cons                                                         |
-| -------------- | -------------------------- | ------------------------------------------------------------ |
-| Github actions | 灵活，自由，支持各种自动化，不受github pages限制 | 需要编写workflow |
-| Github pages   | Github原生支持，自动       | 不支持github pages whitelist以外的Jekyll插件，比如paginate v2 |
+| 配置选项       | Pros                                             | Cons                                                         |
+| -------------- | ------------------------------------------------ | ------------------------------------------------------------ |
+| Github actions | 灵活，自由，支持各种自动化，不受github pages限制 | 需要编写workflow                                             |
+| Github pages   | Github原生支持，自动                             | 不支持github pages whitelist以外的Jekyll插件，比如paginate v2 |
 
 #### 发布方式
 
@@ -155,24 +155,34 @@ utterances是一款轻量级评论插件，利用了Github issues作为评论系
 
 #### 图床
 
-| 配置选项 | Pros                                                        | Cons                                      |
-| -------- | ----------------------------------------------------------- | ----------------------------------------- |
-| imgur    | 免费，无干扰，无限空间，简单，使用mac2imgur app拖拽图片上传 | 不支持国内访问                            |
-| 本地图片 | Accessibility，文档和图片数据集中                           | 图片repo空间的scale问题，以及网络访问速度 |
+| 配置选项  | Pros                                                        | Cons                                      |
+| --------- | ----------------------------------------------------------- | ----------------------------------------- |
+| 阿里云OSS | 便宜，支持国内访问，无干扰，简单                            | -                                         |
+| imgur     | 免费，无干扰，无限空间，简单，使用mac2imgur app拖拽图片上传 | 不支持国内访问                            |
+| 本地图片  | Accessibility，文档和图片数据集中                           | 图片repo空间的scale问题，以及网络访问速度 |
+
+#### 图床上传工具
+
+| 配置选项  | Pros                                                         | Cons                      |
+| --------- | ------------------------------------------------------------ | ------------------------- |
+| PicGo     | 免费，支持国内主流图床，全平台支持（包括手机），支持插件（如，[图床迁移工具](https://github.com/PicGo/picgo-plugin-pic-migrater)） | Menu bar icon很丑         |
+| mac2imgur | 免费，超级简单好用                                           | 只支持imgur上传，停止维护 |
+| iPic      | 好看，功能齐全，好用                                         | 每年60元                  |
+| uPic      | 好看，功能齐全，好用                                         | 30元                      |
 
 #### 站内搜索
 
-| 配置选项             | Pros       | Cons                                                |
-| -------------------- | ---------- | --------------------------------------------------- |
+| 配置选项             | Pros       | Cons                                                 |
+| -------------------- | ---------- | ---------------------------------------------------- |
 | Google Custom Search | 免费，自动 | 不支持国内访问，索引更新周期长，样式可能会被全局污染 |
 
 Google Custom Search是谷歌提供的站内搜索工具，可以通过[Google Search Conssole](https://search.google.com/search-console)查看站内链接索引情况，搜索结果的优化相当于同时做了Google SEO。
 
 #### 统计分析
 
-| 配置选项   | Pros                          | Cons                |
-| ---------- | ----------------------------- | ------------------- |
-| Google Analytics | 功能强大，自动，支持统计国内流量            | 管理界面不支持国内访问 |
+| 配置选项         | Pros                             | Cons                   |
+| ---------------- | -------------------------------- | ---------------------- |
+| Google Analytics | 功能强大，自动，支持统计国内流量 | 管理界面不支持国内访问 |
 
 #### 图表、图示、内嵌YouTube视频
 
@@ -314,7 +324,7 @@ Google custom search的样式会被Bootstrap的全局样式覆盖，导致搜索
 
 - [ ] 为markdown文件添加带连字符的英文名
 
-- [ ] 支持国内访问、从imgur迁移成本低的图床
+- [x] 支持国内访问、从imgur迁移成本低的图床
 
 - [ ] 站内搜索的替代方案，确保国内可用
 
