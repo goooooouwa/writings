@@ -1,6 +1,6 @@
 ---
 published: true
-title: Stretchly is a take-a-break app
+title: Stretchly是一款强提醒休息的app
 category: productivity
 tags: app take-a-break
 ---
