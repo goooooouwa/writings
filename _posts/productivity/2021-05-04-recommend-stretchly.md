@@ -17,7 +17,7 @@ Stretchly is a take-a-break app that will show a full screen message to help you
 
 ## Background
 
-When I work on computers, I'm often too obsessed that I can't force myself to take a break. I just want to work on something for several hours straight until it's done, e.g. setup a SSL certificate for my blog.
+When I work on computers, I'm often too obsessed that I can't force myself to take a break. I just want to work on something for several hours straight until it's done.
 
 This [article](https://www.makeuseof.com/tag/apps-reminders-take-break-screens/) says it well:
 
