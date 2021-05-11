@@ -7,13 +7,15 @@ tags: app take-a-break
 
 ## TL;DR
 
+如果你和我一样每天长时间面对电脑，推荐一款app [Stretchly](https://hovancik.net/stretchly)，它会定时弹出全屏信息，强力提醒你休息。
+
 I recommend [Stretchly](https://hovancik.net/stretchly) to anyone who couldn't help but stare at the computer screen for too long.
 
 ## What is Stretchly?
 
 Stretchly is a take-a-break app that will show a full screen message to help you move away from the computer and take small and long breaks every set minutes (default is 19 seconds for each 10 minutes small break and 5 minutes for a 30 minutes long break).
 
-![](https://hovancik.net/stretchly/img/minibreak.png)
+[](https://hovancik.net/stretchly/img/minibreak.png)
 
 ## Background
 
