@@ -1,6 +1,6 @@
 ---
 published: true
-title: My needs for a free driving game
+title: My needs for an open world driving game
 category: gaming
 tags: driving
 ---
