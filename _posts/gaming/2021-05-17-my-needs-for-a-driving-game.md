@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: My needs for a free driving game
 category: gaming
 tags: driving
@@ -51,5 +51,3 @@ Here's a comparison of how I feel about these games. There are also other games 
 | GTA V (For comparison)                      | Realistic roads and traffic                                  | Roads are mot so engaging                                    |
 |                                             | Open feeling                                                 | Not so good handling with wheel                              |
 |                                             |                                                              | Lack of car enthusiasts vibe, crowd and celebration          |
-
-
