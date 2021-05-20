@@ -1,6 +1,6 @@
 ---
 published: true
-title: 读书笔记｜《商业模式新生代》- 典型的商业模式
+title: 读书笔记｜《商业模式新生代》典型的商业模式
 category: business
 tags: business-model
 ---
