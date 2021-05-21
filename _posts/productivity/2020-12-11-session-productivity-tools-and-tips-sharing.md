@@ -99,6 +99,7 @@ published: true
 - Typora (free for beta): [https://typora.io/](https://typora.io/)
 - Marp (free): [https://marp.app/](https://marp.app/)
 - Drafts (subscription with free tier): [https://getdrafts.com/](https://getdrafts.com/)
+- Scroll Reverser (free for now): [https://pilotmoon.com/scrollreverser/](https://pilotmoon.com/scrollreverser/)
 
 
 
