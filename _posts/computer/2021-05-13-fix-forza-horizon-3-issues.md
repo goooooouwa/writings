@@ -1,8 +1,9 @@
 ---
-published: false
+published: true
 title: 运行Forza Horizon 3遇到的问题及解决办法
 category: gaming
 tags: forza-horizon
+hidden: true
 ---
 ## 问题1：Windows 10 1903系统Forza horizon 3启动闪退
 
