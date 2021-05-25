@@ -211,6 +211,7 @@ jekyll-spaceship是一款集多种实用功能于一身的Jekyll插件，提供�
 
 `publish_to_blog.yml`:
 
+{% raw %}
 ```yaml
 name: Publish to my blog
 
@@ -260,6 +261,7 @@ jobs:
         github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         force: true
 ```
+{% endraw %}
 
 ### 对Jekyll minima主题的自定义
 
@@ -272,6 +274,7 @@ Google custom search的样式会被Bootstrap的全局样式覆盖，导致搜索
 
 `google-custom-search-style-fix.scss`:
 
+{% raw %}
 ```scss
 ---
 ---
@@ -304,6 +307,7 @@ Google custom search的样式会被Bootstrap的全局样式覆盖，导致搜索
 }
 
 ```
+{% endraw %}
 
 ### 自己开发的小工具
 
