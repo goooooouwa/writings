@@ -1,6 +1,6 @@
 ---
 published: true
-title: 典型的价值主张要素
+title: 读书笔记｜《商业模式新生代》2 典型的价值主张要素
 category: business
 tags: 'value-proposition, business-model'
 ---
