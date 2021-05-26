@@ -4,9 +4,6 @@ title: 客户细分类型
 category: business
 tags: business-model
 ---
-客户细分
-
-
 客户细分构造块用来描绘一个企业想要接触和服务的不同人群或组织。
 
 客户构成了任何商业模式的核心。没有（可获益的）客户，就没有企业可以长久存活。
@@ -32,9 +29,3 @@ tags: business-model
 ### 多边平台或多边市场（Multi-sided platforms/multi-sided markets）
 
 有些企业服务于两个或更多的相互依存的客户细分群体。例如，信用卡公司需要大范围的信用卡持有者，同时也需要大范围可以受理那些信用卡的商家。
-
-
-
-
-
-
