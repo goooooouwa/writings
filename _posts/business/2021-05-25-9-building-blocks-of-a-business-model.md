@@ -1,6 +1,6 @@
 ---
 published: true
-title: 商业模式的9个构造块
+title: 读书笔记｜《商业模式新生代》9个构造块
 category: business
 tags: business-model
 ---
