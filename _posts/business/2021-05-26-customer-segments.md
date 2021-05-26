@@ -1,6 +1,6 @@
 ---
 published: true
-title: 客户细分类型
+title: 读书笔记｜《商业模式新生代》1 客户细分类型
 category: business
 tags: business-model
 ---
