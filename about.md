@@ -13,4 +13,7 @@ published: true
 - [Twitter](https://twitter.com/Goooooouwa)
 - [Github](http://github.com/goooooouwa)
 
+
+[Reading list]({{ "assets/download/instapaper-export.html" | relative_url }})
+
 [简历（2020）]({% link resume-2020.md %})
