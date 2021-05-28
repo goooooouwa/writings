@@ -14,6 +14,6 @@ published: true
 - [Github](http://github.com/goooooouwa)
 
 
-[Reading list]({{ "assets/download/instapaper-export.html" | relative_url }})
+[文章收藏]({{ "assets/download/instapaper-export.html" | relative_url }})
 
 [简历（2020）]({% link resume-2020.md %})
