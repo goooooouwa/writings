@@ -1,5 +1,8 @@
 ---
-published: false
+published: true
+title: 如何打造一款产品
+category: product-management
+tags: innovation
 ---
 # 如何打造一款产品
 
