@@ -3,6 +3,7 @@ published: true
 title: My needs for an open world driving game
 category: gaming
 tags: driving
+hidden: true
 ---
 I've been searching for a fun driving game, after experiencing with a lot of racing & driving games, I now have a better understanding of my own needs of such a game and I found 3 games that are most close to what I want.
 
