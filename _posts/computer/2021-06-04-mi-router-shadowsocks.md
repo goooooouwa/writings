@@ -6,7 +6,7 @@ hidden: true
 ---
 前提：
 
-- 小米路由器已经安装ssh工具（[安装教程]({% link 2021-06-04-mi-router-mini-ssh.md %})）
+- 小米路由器已经安装ssh工具（[安装教程](2021-06-04-mi-router-mini-ssh.md)
 
 步骤：
 
