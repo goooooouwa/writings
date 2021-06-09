@@ -1,5 +1,9 @@
-建立创新引擎
-
+---
+published: false
+title: 译文｜建立创新引擎
+category: business
+tags: 'innovation, thoughtworks, translation'
+---
 原文地址：[https://www.thoughtworks.com/insights/articles/building_an_innovation_engine](https://www.thoughtworks.com/insights/articles/building_an_innovation_engine)
 
 作者：[Swapnil Deshpande](https://www.thoughtworks.com/profiles/swapnil-deshpande)
