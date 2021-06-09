@@ -67,7 +67,7 @@ tags: innovation
 6. 煤炭采选产品
 7. 石油和天然气开采产品
 
-完整分类请见[统计用产品分类目录](http://www.stats.gov.cn/tjsj/tjbz/tjypflml/）。
+完整分类请见[统计用产品分类目录](http://www.stats.gov.cn/tjsj/tjbz/tjypflml/)。
 
 近些年随着互联网的高速发展，各种各样的软件产品和服务也层出不穷，深入到人们生活的方方面面。为了区分这些软件和服务，我们可以将它们进一步细分。比如，苹果App Store将其中的软件划分为许多不同的类别，比如：
 
