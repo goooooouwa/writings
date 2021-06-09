@@ -106,7 +106,7 @@ tags: innovation
 
 三层次理论通过体现消费者需求的多层面性，解释了消费需求的动机，同时很好地展示了消费者视角中产品的整体概念。
 
-此外，1994年科特勒又将三层次结构扩展成五层次结构，称为五层次理论，即包括核心产品（Core Benefit）、一般产品（Generic Product）、期望产品（Expected Product）、附加产品（Augmented Product）和潜在产品（Potential Product）。具体含义可以参考这篇[产品概念之3/4：五层次理论 —— 消费者体验视角的产品概念](https://blog.csdn.net/zhanglinneu/article/details/85105389)。
+此外，1994年科特勒又将三层次结构扩展成五层次结构，称为五层次理论，即包括核心产品（Core Benefit）、一般产品（Generic Product）、期望产品（Expected Product）、附加产品（Augmented Product）和潜在产品（Potential Product）。具体含义可以参考这篇：[产品概念之3/4：五层次理论 —— 消费者体验视角的产品概念](https://blog.csdn.net/zhanglinneu/article/details/85105389)。
 
 当然，想要打造一款产品，仅仅从消费者眼中了解产品是不够的，我们还有必要了解在产品创造者眼中产品是怎样的。
 
@@ -178,11 +178,11 @@ TODO: 画一张图（商业在背后，产品和设计在用户面前，技术�
 这些信息的一些重要的来源包括：
 
 1. 全球
-   - 联合国，网站是www.un.org
-   - 联合国的各署，比较重要的是联合国开发计划署（UNDP）
-   - 世界银行，了解国际金融政策变化
-   - 国际货币基金组织，了解货币汇率和各国贸易情况
-   - 国际上的各种经济组织，比如WTO世界贸易组织
+   - 联合国，网站是[www.un.org](www.un.org)
+   - 联合国的各署，比较重要的是[联合国开发计划署（UNDP）](https://www.un.org/zh/aboutun/structure/undp/)
+   - [世界银行](https://data.worldbank.org.cn/)，了解国际金融政策变化
+   - [国际货币基金组织](https://www.imf.org/zh/Home)，了解货币汇率和各国贸易情况
+   - 国际上的各种经济组织，比如[WTO世界贸易组织](https://www.wto.org/)
 2. 国家
    - 各国部委，比如，在美国财政部网站上，可以查询美国联邦政府的财税政策以及相关数据
    - 各国央行，了解国家的货币政策以及金融政策
@@ -191,7 +191,7 @@ TODO: 画一张图（商业在背后，产品和设计在用户面前，技术�
    - 各国股市，了解行业和企业的表现
    - 行业协会或展会，比如，一年一度的CES国际消费类电子产品展
    - 行业聚集地，比如，美国互联网企业聚集的硅谷地区
-   - 行业媒体，比如Gartner和IDC等行业媒体的研究报告和数据
+   - 行业媒体，比如[Gartner](https://www.gartner.com/cn)和[IDC](https://www.idc.com/cn)等行业媒体的研究报告和数据
 4. 企业
    - 行业领军企业，比如目前人工智能领域的领军企业谷歌
    - 边缘创新企业，比如太空探索方面的企业SpaceX
