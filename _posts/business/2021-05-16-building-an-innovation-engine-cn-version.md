@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 译文｜建立创新引擎
 category: business
 tags: 'innovation, thoughtworks, translation'
