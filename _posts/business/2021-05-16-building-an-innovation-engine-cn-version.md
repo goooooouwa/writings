@@ -16,7 +16,7 @@ tags: 'innovation, thoughtworks, translation'
 
 这种变化的速度是前所未有的。其带来的影响也是显而易见的：
 
-> Unless your organization is geared up to innovate, you’ll always be playing catch-up. 
+> 除非你的组织已为创新做好充分准备，否则可能永远都只能慢人一步。
 
 许多成熟的组织安于处在行业前沿之外。这是可以理解的：**在艰难的时期**，花一些时间来得出合理的响应似乎是一件务实的事情。
 
@@ -28,7 +28,7 @@ tags: 'innovation, thoughtworks, translation'
 
 创新这类概念有时会被过度使用，并且每个人对其含义的理解都略有不同。在本文的上下文中，我对创新的定义是：
 
-> Creating something new, that generates a tangible value to the intended audience.
+> 打造出为目标群体带来切实利益的新产品的过程。
 
 这里最突出的要点是“新的”和“有形的价值”。如果不是新事物，并且没有带来切实的价值，那就不是创新。
 
