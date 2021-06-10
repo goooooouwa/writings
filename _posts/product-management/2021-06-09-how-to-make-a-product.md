@@ -499,6 +499,7 @@ tags: innovation
 ## 参考
 
 - 《[产品经理装备书](https://book.douban.com/subject/27067499/)》
+- 《[营销管理](https://book.douban.com/subject/10568352/)》
 - 《[商业模式新生代](https://book.douban.com/subject/6718487/)》
 - 《[用户体验要素](https://book.douban.com/subject/6523997/)》
 - 《[商业预测](https://book.douban.com/subject/27171485/)》
