@@ -37,6 +37,8 @@ My passion
 
 软件包括：浏览器插件、小工具app、网站、小程序、服务、mod等。
 
+cool features, tools, ideas
+
 定位：
 
 indie developer, niche market. 低成本。
