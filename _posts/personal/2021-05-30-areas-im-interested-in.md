@@ -31,7 +31,7 @@ My passion
 
 综合：
 
-我的passion是创造面向消费者的兴趣学习软件。娱乐和体验容易堕落
+我的passion是创造面向消费者的兴趣学习软件。娱乐和体验容易堕落？
 
 Pain points
 
