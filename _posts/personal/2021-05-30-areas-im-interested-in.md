@@ -5,7 +5,8 @@ category: personal
 tags: 'hobby, interests'
 hidden: true
 ---
-我感兴趣的领域（顺序无关）
+
+My passion
 
 - Sim Racing, cars
 - Military Sim
