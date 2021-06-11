@@ -21,4 +21,19 @@ My passion
 - Developer tools (coding, pipeline, environment, testing)
 - Entertainment (Videos, Movies, Music, TV shows, Anime, Manga, Games)
 
+关键词：
+
+- 消费者
+- 软件
+- 创造、写作
+- 学习、兴趣
+- 娱乐、体验
+
+综合：
+
+我的passion是创造面向消费者的兴趣学习软件。娱乐和体验容易堕落
+
+Pain points
+
+
 
