@@ -31,13 +31,11 @@ My passion
 
 综合：
 
-我的passion是创造面向消费者的兴趣学习软件。娱乐和体验容易堕落？
+我的passion是创造面向消费者的兴趣学习软件。
 
 定位：
 
-indie developer, niche market. 低成本。比如，浏览器插件、小工具app、mod。
+indie developer, niche market. 低成本。比如，浏览器插件、小工具app、网站、服务、mod。
 
 Pain points
-
-
 
