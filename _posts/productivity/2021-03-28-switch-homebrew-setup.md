@@ -3,6 +3,7 @@ category: productivity
 title: Switch homebrew setup
 tag: setup
 published: true
+hidden: true
 ---
 
 ## 游戏机破解
