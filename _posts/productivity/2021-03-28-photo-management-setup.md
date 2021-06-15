@@ -4,9 +4,8 @@ title: 照片管理setup
 tag: setup
 published: true
 ---
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/TsY1tEX.png)
 
-```mermaid
+<div class="mermaid">
     graph TD
     T1[Workflow 1: 管理照片] -.-> E
 
@@ -20,8 +19,8 @@ published: true
 
     T2[Workflow 2: 备份硬盘] -.-> I
 
-    I[用XX备份软件定期备份硬盘]
-```
+    I[定期备份硬盘到OneDrive（Student 5TB账号）]
+</div>
 
 ## 照片存储
 
