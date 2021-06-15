@@ -12,8 +12,8 @@ published: true
 
     A[用微博浏览cosplay图片]
     A --> F[用OneDrive存储图片]
-    F --> B[通过OneDrive app/Windows 10 Photos/Kodi with plugin for onedrive]
-    B --> D[在iPad, iPhone, Mac, PC & Chromecast for Google TV上浏览图片]
+    F --> B[通过OneDrive app/Windows 10 Photos]
+    B --> D[在iPad, iPhone, Mac & PC上浏览图片]
 
 
     T2[Workflow 2: 欣赏beauty图片] -.-> G
@@ -21,7 +21,7 @@ published: true
     G[用网站浏览beauty图片]
     G --> H[用硬盘存储图片]
     H --> C[通过AirDisk HDD app]
-    C --> E[在iPad, iPhone, Mac & PC上浏览图片]
+    C --> D
 </div>
 
 ## 在线网站
