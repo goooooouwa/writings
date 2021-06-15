@@ -5,9 +5,9 @@ category: productivity
 tag: setup
 ---
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/YdN6PBf.png)
 
-```mermaid
+
+<div class="mermaid">
     graph TD
     T1[Workflow 1: 听电子书] -.-> A
 
@@ -23,7 +23,7 @@ tag: setup
     T3[Workflow 3: 听音乐] -.-> G
     G[通过Spotifiy app]
     G --> H[在iPhone, Mac & Chromecast for Google TV上听音乐]
-```
+</div>
 
 
 ## 内容
