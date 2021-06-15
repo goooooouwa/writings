@@ -4,23 +4,23 @@ title: 电影欣赏setup
 tag: setup
 published: true
 ---
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/yaX17Gy.png)
 
-```mermaid
+<div class="mermaid">
     graph TD
     T1[Workflow 1: 在线观看电影] -.-> A
 
     A[用Google搜索在线播放网站]
-    A --> F[通过浏览器]
-    F --> B[在iPhone, iPad, Mac & PC播放电影]
-    B -.-> C[连接TV投屏播放]
+    A --> F[通过浏览器/TV Bro]
+    F --> J[在iPhone, iPad, Mac, PC & Chromecast with Google TV上播放电影]
 
-    T2[Workflow 2: 离线观看电影] -.-> D
+    T2[Workflow 2: 观看本地电影] -.-> D
 
     D[用ExFAT格式的移动硬盘存储电影]
-    D --> E[通过AirDisk HDD app]
-    E --> B 
-```
+    D --> E[将电影同步到OneDrive（Student 5TB账号）]
+    E --> G[通过OneDrive/Kodi with OneDrive plugin]
+    G --> J[在iPhone, iPad, Mac, PC & Chromecast with Google TV上播放电影]
+  
+</div>
 
 ## 在线网站
 
@@ -32,8 +32,12 @@ Google搜索
 
 ## 观影设备
 
-laptop
+- laptop
+- iPad
+- TV
 
-iPad
+## Apps
 
-TV
+- TV bro for Android TV
+- Kodi with OneDrive plugin
+- OneDrive Student 5TB
