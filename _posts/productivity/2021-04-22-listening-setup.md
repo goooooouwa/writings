@@ -17,12 +17,12 @@ tag: setup
 
     T2[Workflow 2: 听播客] -.-> E
 
-    E[通过Google Podcasts app]
-    E --> I[在iPhone & Android上听播客]
+    E[通过Spotify app]
+    E --> I[在iPhone, Android & Chromecast for Google TV上听播客]
 
     T3[Workflow 3: 听音乐] -.-> G
     G[通过Spotifiy app]
-    G --> H[在iPhone & Mac上听音乐]
+    G --> H[在iPhone, Mac & Chromecast for Google TV上听音乐]
 ```
 
 
