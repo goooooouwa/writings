@@ -12,9 +12,8 @@ published: true
 
     A[用微博浏览cosplay图片]
     A --> F[用OneDrive存储图片]
-    F --> B[通过OneDrive app/Windows 10 Photos]
+    F --> B[通过OneDrive app/Windows 10 Photos/Windows桌面背景图]
     B --> D[在iPad, iPhone, Mac & PC上浏览图片]
-
 
     T2[Workflow 2: 欣赏beauty图片] -.-> G
 
