@@ -1,6 +1,6 @@
 ---
 category: productivity
-title: Switch setup
+title: Switch homebrew setup
 tag: setup
 published: true
 ---
