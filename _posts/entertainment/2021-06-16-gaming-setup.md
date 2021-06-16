@@ -1,8 +1,8 @@
 ---
 published: true
 title: My gaming setup
-category: 'gaming, entertainment'
-tags: game-streaming steam steam-link
+category: gaming
+tags: game-streaming steam steam-link setup
 hidden: true
 ---
 
