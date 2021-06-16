@@ -2,6 +2,7 @@
 published: true
 title: Chromecast with Google TV setup
 category: setup
+hidden: true
 ---
 Chromecast with Google TV setup
 
@@ -16,4 +17,3 @@ TV Bro
 Shadowsocks
 
 Chrome
-
