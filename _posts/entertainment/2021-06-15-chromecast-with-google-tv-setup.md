@@ -1,8 +1,9 @@
 ---
 published: true
 title: Chromecast with Google TV setup
-category: setup
+category: entertainment
 hidden: true
+tag: setup
 ---
 Chromecast with Google TV setup
 
