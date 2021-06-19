@@ -6,9 +6,11 @@ tags: steam game-streaming steam-link
 hidden: true
 ---
 
-19年底试过Steam游戏串流，当时使用手机连接无线网的方式，感觉卡得不行，觉得这玩意太鸡肋。最近买了Chromecast with Google TV，连上带全局VPN的路由器后，躺在沙发上随时大屏看YouTube不要太爽。折腾了一个星期后，现在可以在电视上听歌、听播客、看电影和电视剧。偶然发现Google TV上还有Nvidia Geforce Now和Steam link的游戏串流app，在电视上随时玩主机游戏的想法油然而生。虽然有Switch，还是想试试随时在电视上玩电脑游戏是否可行，于是由折腾了一个星期的游戏串流。
+## 背景
 
-## 考虑过的其他客厅游戏方案
+19年底试过Steam游戏串流，当时使用手机连接无线网的方式，感觉卡得不行，觉得这玩意太鸡肋。最近买了Chromecast with Google TV，连上带全局VPN的路由器后，躺在沙发上随时大屏看YouTube不要太爽。折腾了一个星期后，现在可以在电视上听歌、听播客、看电影和电视剧。偶然发现Google TV上还有Nvidia Geforce Now和Steam link的游戏串流app，在电视上随时玩主机游戏的想法油然而生。虽然有Switch，还是想试试随时在电视上玩电脑游戏是否可行，于是又折腾了一个星期的游戏串流。
+
+### 考虑过的其他客厅游戏方案
 
 - 买一根8米的HDMI线，将书房的笔记本电脑连到电视上。
 - 将书房的笔记本电脑搬到客厅，连到电视上。
@@ -25,8 +27,6 @@ hidden: true
 
 `Steam设置 -> 远程畅玩 -> 主机 -> 勾选NVFBC选项`
 
-[关于NvFBC, NvIFR, NvENC的解释](https://steamcommunity.com/groups/homestream/discussions/0/451850849186356998/):
-
 我不太清楚为什么勾选NVFBC后，我的游戏（无论窗口或全屏）黑屏问题就解决了。不过我注意到，只有当我的串流主机使用`Game polled D3D11 Nv12 + NvENC H264`的Encoder方式时，才不会出现游戏黑屏的问题，并且此时的显示效果和帧数最佳。
 
 `Game polled D3D11 Nv12 + NvENC H264`的Encoder方式如下：
@@ -36,6 +36,8 @@ hidden: true
 显示效果如下：
 
 ![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/20210619083002.jpg)
+
+更多关于NvFBC, NvIFR, Game-polled, NvENC的解释，请见[这里](https://steamcommunity.com/groups/homestream/discussions/0/451850849186356998/)。
 
 ### 其他尝试过但无效的方法
 
@@ -154,9 +156,11 @@ Forza Horizion 4
 
 全屏串流，即使游戏降低为720p，主机串流还是1080p。
 
-[UWP串流性能差的解释](https://steamcommunity.com/groups/homestream/discussions/0/1643178512749251777/)：
+网上关于UWP串流性能差的解释：
 
 > The remote play streaming component always defaults to "DWM Desktop Capture" mode for running UWP games (because Steam cannot hook into the running UWP app). This, unfortunately, results in _far_ worse performance than the usual game-polled methods of capturing frames.
+
+详细内容请见[这里](https://steamcommunity.com/groups/homestream/discussions/0/1643178512749251777/)。
 
 ### 打算尝试的方法
 
