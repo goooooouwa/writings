@@ -35,10 +35,6 @@ hidden: true
 
 ![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/20210619083233.jpg)
 
-显示效果如下：
-
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/20210619083002.jpg)
-
 关于NvFBC, NvIFR, Game-polled, NvENC的更多解释，请见[这里](https://steamcommunity.com/groups/homestream/discussions/0/451850849186356998/)。
 
 ### 其他尝试过但无效的方法
@@ -123,18 +119,19 @@ Grid Racedriver
 重新配置手柄键位：`设置 -> 控制器 -> 重新映射`
 
 
-
 以下是一些还未解决的一些小问题。
 
-## 问题9：Raspberry pi 和android tv 进入游戏后黑屏
+## 问题9：Raspberry Pi 3和Android TV 进入游戏后黑屏
 
 ### 尝试的游戏
 
 上古卷轴Skyrim
 
-### 可能原因
+### 问题原因
 
-设备性能不够，无法取消勾选硬件解码
+跟上面的“进入游戏后黑屏”问题原因一样。当我的串流主机使用`Game polled D3D11 Nv12 + NvENC H264`的Encoder方式时，即使在Android TV和Raspberry Pi 3上也不会出现游戏黑屏的问题。
+
+只是Raspberry Pi 3和Android TV性能较差，不太稳定。
 
 ## 问题10：串流只显示部分屏幕内容
 
@@ -162,9 +159,11 @@ Forza Horizion 4
 
 详细内容请见[这里](https://steamcommunity.com/groups/homestream/discussions/0/1643178512749251777/)。
 
-### 打算尝试的方法
+### 尝试过但无效的方法
 
 使用Moonlight串流UWP游戏。
+
+我下载了Nvidia Experience，并且更新了显卡驱动后可以使用GameStream服务，但是Moonlight客户端一直无法成功串流，感觉太麻烦，直接放弃。
 
 ## 问题12：部分游戏没有声音
 
@@ -176,7 +175,7 @@ Hitman Go
 
 游戏音频声道设置不对
 
-## 串流客户端和服务对比
+## 尝试过的串流客户端和服务
 
 我先后尝试过3个不同串流客户端：
 
@@ -201,6 +200,10 @@ Hitman Go
 
 
 
-## 结论
+## 最终效果
 
-最后，本地串流电脑游戏会遇到各种各样的问题，非常折腾，好在最后结果还是很令人满意的。
+最后，本地串流电脑游戏会遇到各种各样的问题，非常折腾，好在最后结果还是很令人满意的。串流主机使用`Game polled D3D11 Nv12 + NvENC H264`的Encoder方式时，配合我的N卡笔记本作为串流客户端，即使在5GHz无线连接下，游戏的显示效果和流畅性也都非常好，画面清晰，运行流畅（极少卡顿）。具体来讲，Skyrim特效全开下，Capture可以达到1720*950分辨率和38帧，串流延迟在40ms以内。
+
+实际效果如下：
+
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/20210619083002.jpg)
