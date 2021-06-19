@@ -27,9 +27,9 @@ hidden: true
 
 [关于NvFBC, NvIFR, NvENC的解释](https://steamcommunity.com/groups/homestream/discussions/0/451850849186356998/):
 
+我不太清楚为什么勾选NVFBC后，我的游戏（无论窗口或全屏）黑屏问题就解决了。不过我注意到，只有当我的串流主机使用`Game polled D3D11 Nv12 + NvENC H264`的Encoder方式时，才不会出现游戏黑屏的问题，并且此时的显示效果和帧数最佳。
 
-我不太清楚为什么勾选NVFBC后，我的游戏（无论窗口或全屏）黑屏问题就解决了。不过我注意到，只有当我的串流主机使用`Game polled D3DX11 NvENC`的Encode方式时，才不会出现游戏黑屏的问题，并且此时的显示效果和帧数最佳。
-
+![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/20210619083002.jpg)
 
 ### 其他尝试过但无效的方法
 
