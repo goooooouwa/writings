@@ -8,7 +8,7 @@ hidden: true
 
 ## 背景
 
-19年底试过Steam游戏串流，当时使用手机连接无线网的方式，感觉卡得不行，觉得这玩意太鸡肋。最近买了Chromecast with Google TV，连上带全局VPN的路由器后，躺在沙发上随时大屏看YouTube不要太爽。折腾了一个星期后，现在可以在电视上听歌、听播客、看电影和电视剧。偶然发现Google TV上还有Nvidia Geforce Now和Steam link的游戏串流app，在电视上随时玩主机游戏的想法油然而生。虽然有Switch，还是想试试随时在电视上玩电脑游戏是否可行，于是又折腾了一个星期的游戏串流。
+19年底试过Steam游戏串流，当时使用手机连接无线网的方式，感觉卡得不行，觉得这玩意太鸡肋。最近买了Chromecast with Google TV（以下简称Google TV），连上带全局VPN的路由器后，躺在沙发上随时大屏看YouTube不要太爽。折腾了一个星期后，现在可以在电视上听歌、听播客、看电影和电视剧。偶然发现Google TV上还有Nvidia Geforce Now和Steam link的游戏串流app，在电视上随时玩主机游戏的想法油然而生。虽然有Switch，还是想试试随时在电视上玩电脑游戏是否可行，于是又折腾了一个星期的游戏串流。
 
 ### 其他考虑过的客厅游戏方案
 
@@ -108,7 +108,7 @@ Grid Racedriver
 
 `进入Grid Racedriver -> 选项 -> 操作控制 -> 选择预设1：Xbox 360控制器`
 
-## 问题8：Android TV串流手柄部分按键无效
+## 问题8：Google TV串流手柄部分按键无效
 
 ### 尝试的游戏
 
@@ -118,20 +118,23 @@ Grid Racedriver
 
 重新配置手柄键位：`设置 -> 控制器 -> 重新映射`
 
-
-以下是一些还未解决的一些小问题。
-
-## 问题9：Raspberry Pi 3和Android TV 进入游戏后黑屏
+## 问题9：Raspberry Pi 3和Google TV进入游戏后黑屏
 
 ### 尝试的游戏
 
 上古卷轴Skyrim
 
+### 解决办法
+
+`Steam设置 -> 远程畅玩 -> 主机 -> 勾选NVFBC选项`
+
 ### 问题原因
 
-跟上面的“进入游戏后黑屏”问题原因一样。当我的串流主机使用`Game polled D3D11 Nv12 + NvENC H264`的Encoder方式时，即使在Android TV和Raspberry Pi 3上也不会出现游戏黑屏的问题。
+跟上面的“进入游戏后黑屏”问题原因一样。当我的串流主机使用`Game polled D3D11 Nv12 + NvENC H264`的Encoder方式时，即使在Google TV和Raspberry Pi 3上也不会出现游戏黑屏的问题。
 
-只是Raspberry Pi 3和Android TV性能较差，不太稳定。
+只是Raspberry Pi 3和Google TV性能较差，串流游戏的稳定性欠佳。
+
+以下是一些还未解决的一些小问题。
 
 ## 问题10：串流只显示部分屏幕内容
 
@@ -141,7 +144,7 @@ Assetto corsa
 
 ### 可能原因
 
-显示分辨率和串流分辨率不一致
+显示分辨率和串流分辨率不一致。
 
 ## 问题11：UWP游戏串流帧数不够
 
@@ -175,28 +178,28 @@ Hitman Go
 
 游戏音频声道设置不对
 
-## 尝试过的串流客户端和服务
+## 游戏串流客户端和服务对比
 
 我先后尝试过3个不同串流客户端：
 
-1. Chromecast with Google TV（简称Android TV)
+1. Google TV
 2. Raspberry Pi 3（有线连接）
 3. 带Nvidia 650M显卡的笔记本电脑
 4. Nvidia GeForce Now
 
-### Android TV和Raspberry Pi 3
+### Google TV和Raspberry Pi 3
 
-使用Android TV和Raspberry Pi 3作为串流客户端，即使使用有线连接，还是会出现部分游戏黑屏，卡顿的情况（不是网络而是客户端解码性能不足），部分游戏可以流畅游玩，比如Drit Rally，可能是游戏优化比较好。
+使用Google TV和Raspberry Pi 3作为串流客户端，即使使用有线连接，还是会出现部分游戏黑屏，卡顿的情况（不是网络而是客户端解码性能不足），部分游戏可以流畅游玩，比如Drit Rally，可能是游戏优化比较好。
 
 ### N卡笔记本
 
-使用我的N卡笔记本作为串流客户端时，即使在5GHz无线连接下，游戏的显示效果和流畅性也都非常好，画面清晰，运行流畅（极少卡顿），比Android TV和Raspberry pi效果好很多。看来不只是网络可能会成为游戏串流的性能瓶颈，客户端的解码性能也会显著影响显示效果。
+使用我的N卡笔记本作为串流客户端时，即使在5GHz无线连接下，游戏的显示效果和流畅性也都非常好，画面清晰，运行流畅（极少卡顿），比Google TV和Raspberry pi效果好很多。看来不只是网络可能会成为游戏串流的性能瓶颈，客户端的解码性能也会显著影响显示效果。
 
 此外，笔记本电脑使用Steam（而不是Steam link）作为串流客户端，可配置的选项更多，解决问题的workaround也更多。
 
 ### Nvidia GeForce Now
 
-非常好的服务，能随处玩自己买过的游戏，还提供免费版，用Android TV连VPN玩了下觉得还可以接受。目前只有浏览器和Android TV连VPN可以玩，Windows客户端会提示地区不支持。可惜目前不支持中国地区。
+非常好的服务，能随处玩自己买过的游戏，还提供免费版，用Google TV连VPN玩了下觉得还可以接受。目前只有浏览器和Google TV连VPN可以玩，Windows客户端会提示地区不支持。可惜目前不支持中国地区。
 
 
 
