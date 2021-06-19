@@ -10,12 +10,14 @@ hidden: true
 
 19年底试过Steam游戏串流，当时使用手机连接无线网的方式，感觉卡得不行，觉得这玩意太鸡肋。最近买了Chromecast with Google TV，连上带全局VPN的路由器后，躺在沙发上随时大屏看YouTube不要太爽。折腾了一个星期后，现在可以在电视上听歌、听播客、看电影和电视剧。偶然发现Google TV上还有Nvidia Geforce Now和Steam link的游戏串流app，在电视上随时玩主机游戏的想法油然而生。虽然有Switch，还是想试试随时在电视上玩电脑游戏是否可行，于是又折腾了一个星期的游戏串流。
 
-### 考虑过的其他客厅游戏方案
+### 其他考虑过的客厅游戏方案
 
 - 买一根8米的HDMI线，将书房的笔记本电脑连到电视上。
 - 将书房的笔记本电脑搬到客厅，连到电视上。
 
 这两个方案总觉得不太优雅，还是想不用走线，不用搬到电脑，简单高质量地在客厅玩电脑游戏。最后还是尝试用Steam串流电脑游戏到客厅的方案。过程中遇到许多问题，在一个个解决后，最后的体验还是很棒的。
+
+以下是尝试Steam串流电脑游戏的过程中遇到的各种问题和解决办法。
 
 ## 问题1：进入游戏后黑屏
 
@@ -37,7 +39,7 @@ hidden: true
 
 ![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/20210619083002.jpg)
 
-更多关于NvFBC, NvIFR, Game-polled, NvENC的解释，请见[这里](https://steamcommunity.com/groups/homestream/discussions/0/451850849186356998/)。
+关于NvFBC, NvIFR, Game-polled, NvENC的更多解释，请见[这里](https://steamcommunity.com/groups/homestream/discussions/0/451850849186356998/)。
 
 ### 其他尝试过但无效的方法
 
@@ -54,9 +56,7 @@ Call of Duty 4 remastered
 
 ### 解决办法
 
-以管理员身份运行：`右键Steam -> 属性 -> 兼容性 -> 以管理员身份运行`
-
-https://seanzwrites.com/posts/how-to-play-epic-games-on-steam-and-steamlink/)
+以管理员身份运行：`右键Steam -> 属性 -> 兼容性 -> 以管理员身份运行`。
 
 ## 问题3：串流Ubisoft游戏
 
@@ -66,7 +66,7 @@ Far Cry 3
 
 ### 解决办法
 
-跟随教程：[https://www.reddit.com/r/Steam_Link/comments/9lxn1a/how_to_configure_steam_link_to_play_uplay/](https://www.reddit.com/r/Steam_Link/comments/9lxn1a/how_to_configure_steam_link_to_play_uplay/)
+教程：[https://www.reddit.com/r/Steam_Link/comments/9lxn1a/how_to_configure_steam_link_to_play_uplay/](https://www.reddit.com/r/Steam_Link/comments/9lxn1a/how_to_configure_steam_link_to_play_uplay/)
 
 ## 问题4：串流Epic游戏
 
@@ -76,7 +76,7 @@ Borderlands 2
 
 ### 解决办法
 
-跟随教程：[https://seanzwrites.com/posts/how-to-play-epic-games-on-steam-and-steamlink/](
+教程：[https://seanzwrites.com/posts/how-to-play-epic-games-on-steam-and-steamlink/](https://seanzwrites.com/posts/how-to-play-epic-games-on-steam-and-steamlink/)
 
 ## 问题5：串流UWP游戏
 
@@ -86,7 +86,7 @@ Forza Horizon 4
 
 ### 解决办法
 
-跟随教程：[https://steamcommunity.com/groups/homestream/discussions/0/1642041106350344721/](https://steamcommunity.com/groups/homestream/discussions/0/1642041106350344721/)
+教程：[https://steamcommunity.com/groups/homestream/discussions/0/1642041106350344721/](https://steamcommunity.com/groups/homestream/discussions/0/1642041106350344721/)
 
 ## 问题6：手柄只能移动镜头
 
