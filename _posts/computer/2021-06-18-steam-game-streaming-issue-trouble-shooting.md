@@ -25,6 +25,12 @@ hidden: true
 
 `Steam设置 -> 远程畅玩 -> 主机 -> 勾选NVFBC选项`
 
+[关于NvFBC, NvIFR, NvENC的解释](https://steamcommunity.com/groups/homestream/discussions/0/451850849186356998/):
+
+
+我不太清楚为什么勾选NVFBC后，我的游戏（无论窗口或全屏）黑屏问题就解决了。不过我注意到，只有当我的串流主机使用`Game polled D3DX11 NvENC`的Encode方式时，才不会出现游戏黑屏的问题，并且此时的显示效果和帧数最佳。
+
+
 ### 其他尝试过但无效的方法
 
 1. 取消勾选硬件编码：`Steam设置 -> 远程畅玩 -> 主机 -> 取消勾选硬件编码`；
@@ -141,6 +147,10 @@ Forza Horizion 4
 ### 可能原因
 
 全屏串流，即使游戏降低为720p，主机串流还是1080p。
+
+[UWP串流性能差的解释](https://steamcommunity.com/groups/homestream/discussions/0/1643178512749251777/)：
+
+> The remote play streaming component always defaults to "DWM Desktop Capture" mode for running UWP games (because Steam cannot hook into the running UWP app). This, unfortunately, results in _far_ worse performance than the usual game-polled methods of capturing frames.
 
 ### 打算尝试的方法
 
