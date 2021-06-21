@@ -9,7 +9,7 @@ category: side-project
 
 ## 免费1对1问答服务
 
-除了在[知乎](https://www.zhihu.com/people/xu-shun-fa-68?utm_source=wechat_session&utm_medium=social&utm_oi=836692033744801792)上回答问题，我还会在"有问题，找发哥"微信公众号上提供免费1对1问答服务，问题范围涵盖四大类型：
+除了在[知乎](https://www.zhihu.com/people/xu-shun-fa-68?utm_source=wechat_session&utm_medium=social&utm_oi=836692033744801792)上回答问题，从今天（2021-06-21）开始，我还会在"有问题，找发哥"微信公众号上提供免费1对1问答服务，问题范围涵盖四大类型：
 
 - 资源推荐
 - 各类软件教程
