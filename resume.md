@@ -1,5 +1,5 @@
 ---
-title: Shunfa Xu's resume (2020)
+title: Shunfa Xu's resume (2021)
 layout: post
 category: career
 ---
@@ -9,11 +9,11 @@ category: career
   * Email: gouwa5700 (at) gmail (dot) com
   * Phone / WeChat: Available on request
   * Github: [https://github.com/goooooouwa](https://github.com/goooooouwa)
-  * Blog: [https://goooooouwa.github.io](https://goooooouwa.github.io)
+  * Blog: [https://goooooouwa.fun](https://goooooouwa.fun)
 
 ## Introduction
 
-7+ years working experience in agile software development. With a strong technical background and broad understanding on business and design, I'm passionate about making digital products that enrich people's lives.
+8+ years working experience in agile software development. With a technical background and broad understanding on business and design, I'm passionate about digital product management.
 
 ## Working experience
 
@@ -38,6 +38,7 @@ category: career
 
 ## Project experience
 
+- Offshore Product Manager, SaaS RePlatform, a leading U.S. franchisor of in-home services, 2021/01/19 - present
 - Senior Business Analyst, Mobile Forms, a leading U.S. franchisor of in-home services, 2020/10/13 - present
 - Senior Business Analyst, SustainChain, an U.S. non-profit organization focusing on UN’s Sustainable Development Goals, 2020/04/16 - 2020/10/12
 - Business Analyst, Digital API, an Australian low-cost airline, 2019/04/08 - 2020/04/03
@@ -47,6 +48,31 @@ category: career
 - Ruby Developer, ActivityCloud, ActiveNetwork, 2015/03 —2016/06
 - Full Stack Developer, TenderChase, an Australian construction company, 2014/02 — 2015/02
 
+### SaaS RePlatform
+
+#### Project Description
+
+SaaS RePlatform is the SaaS modernization of a legacy field service management software developed by a leading U.S. franchisor of in-home services, the platform enables franchisees to manage the life cycle of the in-home service business, including:
+
+- Customer service management
+- Field service management
+- Opportunity management
+- Marketing campaign management
+- Reporting dashboard
+
+#### Personal responsibility
+
+As the offshore product manager, responsible for the successful delivery of the SustainChain platform, including:
+
+- Client engagement
+- Manage product roadmap
+- Lead offshore product team (BA & UX)
+- Requirements elaborating & analyzing
+- Wireframes & Feature design
+
+#### Team contribution
+
+Joined the team with the goal of moving the product towards its initial production launch, have been working closely with the clients on product analysis and design work. Together with our onshore and offshore UX & BAs, we analyzed and designed major features such as Agreement Management from the ground up, based on user research & feedback. Helping ensured the success delivery of all scoped features for the new platform for its first release.
 ### SustainChain
 
 #### Project Description
