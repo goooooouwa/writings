@@ -18,4 +18,4 @@ published: true
 - [共享文档]({{ "docs.html" | relative_url }})
 - [阅读列表]({{ "assets/download/instapaper-export.html" | relative_url }})
 
-[简历（2020）]({% link resume-2020.md %})
+[简历（2020）]({% link resume.md %})
