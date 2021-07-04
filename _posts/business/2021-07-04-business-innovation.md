@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: todo 翻译business innovation
 category: business
 tags: business-model innovation
