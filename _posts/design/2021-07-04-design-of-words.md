@@ -1,5 +1,5 @@
 ---
-title：文字的体验设计
+title: 文字的体验设计
 category: design
 published: true
 ---
