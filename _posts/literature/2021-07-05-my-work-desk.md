@@ -1,5 +1,5 @@
 ---
-title：我的工作台
+title: 我的工作台
 category: literature
 published: true
 hidden: true
