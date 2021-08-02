@@ -2,6 +2,7 @@
 title: 一杯水
 category: literature
 published: true
+hidden: true
 ---
 
 我看着面前摆着的这杯水，手不自觉就伸了过去，一口清甜润喉，恰到好处。
