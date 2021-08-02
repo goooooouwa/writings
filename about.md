@@ -7,8 +7,8 @@ published: true
 
 徐顺发
 
-- ThoughtWorks咨询师、业务分析师
-- 专注于数字化产品设计
+- ThoughtWorks高级咨询师、业务分析师
+- 专注于B端产品创新和企业产品制转型
 - 爱好编程、DIY、画画、足球、赛车驾驶模拟、军事射击游戏
 - [Twitter](https://twitter.com/Goooooouwa)
 - [Github](http://github.com/goooooouwa)
