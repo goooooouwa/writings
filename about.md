@@ -13,7 +13,7 @@ ThoughtWorks高级咨询师、业务分析师。在过去八年的海外交付�
 
 做过4年Ruby on Rails网站开发，期间也做过一些Angular和React前端开发。
 
-爱好画画、足球、赛车驾驶模拟、军事射击游戏。
+爱好画画、足球、赛车驾驶模拟、军事射击游戏。喜欢学习并与人分享知识。
 
 - [Twitter](https://twitter.com/Goooooouwa)
 - [Github](http://github.com/goooooouwa)
