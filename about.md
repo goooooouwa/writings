@@ -15,13 +15,13 @@ ThoughtWorks高级咨询师、业务分析师，目前专注于B端产品创新�
 
 爱好画画、足球、赛车、游戏。喜欢学习，热爱分享。我分享的[文档资料]({{ "docs.html" | relative_url }})和[阅读列表]({{ "assets/download/instapaper-export.html" | relative_url }})。
 
-更多介绍
+更多介绍：
 
 - 博客: [goooooouwa.fun](https://goooooouwa.fun)
 - 英文简历：[resume (2021)]({% link resume.md %})
 
 联系方式：
 
-- 邮箱: gouwa5700(at)gmail(dot)com
+- 邮箱: gouwa5700 (at) gmail (dot) com
 - Twitter: [Goooooouwa](https://twitter.com/Goooooouwa)
 - Github: [goooooouwa](http://github.com/goooooouwa)
