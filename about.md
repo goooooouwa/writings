@@ -11,7 +11,7 @@ published: true
 
 《[协同产品设计](https://item.jd.com/13323352.html)》1/2中文译者。[news2kindle](https://github.com/goooooouwa/news2kindle)开源项目维护者。[有问题，找发哥](https://mp.weixin.qq.com/s/fkNEJZLew8FON1pqsNeQIQ) 免费1对1问答服务发起人。
 
-业余爱好画画、足球、赛车、游戏等。喜欢学习，热爱分享。[我的知识管理]({{ "docs.html" | relative_url }})和[我的阅读列表]({{ "assets/download/instapaper-export.html" | relative_url }})。
+业余爱好画画、足球、赛车、游戏等。喜欢学习，热爱分享。这是[我的知识管理]({{ "docs.html" | relative_url }})和[我的阅读列表]({{ "assets/download/instapaper-export.html" | relative_url }})。
 
 联系方式
 
