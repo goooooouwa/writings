@@ -1,4 +1,9 @@
-Day 9: “水之梦”的潮玩区
+---
+title: Day 9 水之梦的潮玩区
+category: literature
+published: true
+hidden: true
+---
 
 昨天（准确说是前天）说到“水之梦”是一家可以吃喝玩乐的洗浴汗蒸店，在它的六楼有一个“潮玩区”，里面更是别有一番天地。
 
