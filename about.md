@@ -13,7 +13,7 @@ ThoughtWorks高级咨询师、业务分析师，目前专注于B端产品创新�
 
 《[协同产品设计](https://item.jd.com/13323352.html)》1/2中文译者，[news2kindle](https://github.com/goooooouwa/news2kindle)开源项目维护者，[有问题，找发哥](https://mp.weixin.qq.com/s/fkNEJZLew8FON1pqsNeQIQ) 免费1对1问答服务发起人。
 
-爱好画画、足球、赛车、游戏。喜欢学习，热爱分享。这是我的[共享文档]({{ "docs.html" | relative_url }})和[阅读列表]({{ "assets/download/instapaper-export.html" | relative_url }})。
+爱好画画、足球、赛车、游戏。喜欢学习，热爱分享。我分享的[文档资料]({{ "docs.html" | relative_url }})和[阅读列表]({{ "assets/download/instapaper-export.html" | relative_url }})。
 
 更多介绍
 
