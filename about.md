@@ -11,9 +11,9 @@ ThoughtWorks高级咨询师、业务分析师，目前专注于B端产品创新�
 
 在过去8年的海外交付项目经历中，为来自多个行业，如通信、航空、公益、服务业和汽车行业的多家企业客户，包括澳大利亚三大运营商之一、澳大利亚某廉价航空公司、美国可持续发展联盟、北美领先家政服务品牌、德国豪华汽车品牌等，从事过产品路线规划、产品需求分析与管理、解决方案设计、API服务设计，应用现代化和平台化改造等多方面软件产品工作。
 
-《[协同产品设计](https://item.jd.com/13323352.html)》1/2中文译者，[news2kindle](https://github.com/goooooouwa/news2kindle)开源项目维护者，[有问题，找发哥](https://mp.weixin.qq.com/s/fkNEJZLew8FON1pqsNeQIQ)免费1对1问答服务发起人。
+《[协同产品设计](https://item.jd.com/13323352.html)》1/2中文译者，[news2kindle](https://github.com/goooooouwa/news2kindle)开源项目维护者，[有问题，找发哥](https://mp.weixin.qq.com/s/fkNEJZLew8FON1pqsNeQIQ) 免费1对1问答服务发起人。
 
-爱好画画、足球、赛车、游戏。喜欢学习，热爱分享。我的[共享文档]({{ "docs.html" | relative_url }})和[阅读列表]({{ "assets/download/instapaper-export.html" | relative_url }})。
+爱好画画、足球、赛车、游戏。喜欢学习，热爱分享。这是我的[共享文档]({{ "docs.html" | relative_url }})和[阅读列表]({{ "assets/download/instapaper-export.html" | relative_url }})。
 
 更多介绍
 
