@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "google-custom-search-style-fix.css",
+	"sources": [
+		"google-custom-search-style-fix.scss"
+	],
+	"sourcesContent": [
+		".google-custom-search {\n  table {\n    margin-bottom: initial;\n    width: initial;\n    text-align: initial;\n    color: initial;\n    border-collapse: initial;\n    border: initial;\n    tr {\n      &:nth-child(even) {\n        background-color: initial;\n      }\n    }\n    th,\n    td {\n      padding: initial;\n    }\n    th {\n      background-color: initial;\n      border: initial;\n      border-bottom-color: initial;\n    }\n    td {\n      border: initial;\n    }\n  }\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AACE,qBADmB,CACnB,KAAK,CAAC,EACJ,aAAa,EAAE,OAAO,EACtB,KAAK,EAAE,OAAO,EACd,UAAU,EAAE,OAAO,EACnB,KAAK,EAAE,OAAO,EACd,eAAe,EAAE,OAAO,EACxB,MAAM,EAAE,OAAO,GAkBhB;;AAzBH,AASM,qBATe,CACnB,KAAK,CAOH,EAAE,CACE,SAAU,CAAA,IAAI,EAAE,EAChB,gBAAgB,EAAE,OAAO,GAC1B;;AAXP,AAaI,qBAbiB,CACnB,KAAK,CAYH,EAAE,EAbN,qBAAqB,CACnB,KAAK,CAaH,EAAE,CAAC,EACD,OAAO,EAAE,OAAO,GACjB;;AAhBL,AAiBI,qBAjBiB,CACnB,KAAK,CAgBH,EAAE,CAAC,EACD,gBAAgB,EAAE,OAAO,EACzB,MAAM,EAAE,OAAO,EACf,mBAAmB,EAAE,OAAO,GAC7B;;AArBL,AAsBI,qBAtBiB,CACnB,KAAK,CAqBH,EAAE,CAAC,EACD,MAAM,EAAE,OAAO,GAChB"
+}

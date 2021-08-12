@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://goooooouwa.fun/feed.xml" rel="self" type="application/atom+xml" /><link href="https://goooooouwa.fun/" rel="alternate" type="text/html" /><updated>2021-08-12T14:58:31+00:00</updated><id>https://goooooouwa.fun/feed.xml</id><title type="html">开放笔记</title><subtitle>记录生活、学习和思考
+</subtitle><author><name>徐顺发</name><email>gouwa5700 (at) gmail (dot) com</email></author><entry><title type="html">Java Spring buzz words</title><link href="https://goooooouwa.fun/coding/2021/08/12/java-spring-buzz-words.html" rel="alternate" type="text/html" title="Java Spring buzz words" /><published>2021-08-12T00:00:00+00:00</published><updated>2021-08-12T00:00:00+00:00</updated><id>https://goooooouwa.fun/coding/2021/08/12/java-spring-buzz-words</id><content type="html" xml:base="https://goooooouwa.fun/coding/2021/08/12/java-spring-buzz-words.html">&lt;h2 id=&quot;spring&quot;&gt;Spring&lt;/h2&gt;
+
+&lt;p&gt;Spring Framework is the most popular application development framework of Java. The main feature of the Spring Framework is dependency Injection or Inversion of Control (IoC). With the help of Spring Framework, we can develop a loosely coupled application. It is better to use if application type or characteristics are purely defined.&lt;/p&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc&quot;&gt;https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;spring-boot&quot;&gt;Spring boot&lt;/h2&gt;
+
+&lt;p&gt;Spring Boot is a module of Spring Framework. It allows us to build a stand-alone application with minimal or zero configurations. It is better to use if we want to develop a simple Spring-based application or RESTful services.&lt;/p&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc&quot;&gt;https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;spring-boot-starters&quot;&gt;Spring Boot Starters&lt;/h2&gt;
+
+&lt;p&gt;Spring Boot provides a number of starters that allow us to add jars in the classpath. Spring Boot built-in starters make development easier and rapid. Spring Boot Starters are the dependency descriptors.&lt;/p&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://www.javatpoint.com/spring-boot-starters&quot;&gt;https://www.javatpoint.com/spring-boot-starters&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;spring-boot-starter-web&quot;&gt;spring-boot-starter-web&lt;/h2&gt;
+
+&lt;p&gt;Compile Dependencies:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;spring-web&lt;/li&gt;
+  &lt;li&gt;spring-webmvc&lt;/li&gt;
+  &lt;li&gt;spring-boot-starter&lt;/li&gt;
+  &lt;li&gt;spring-boot-starter-json&lt;/li&gt;
+  &lt;li&gt;spring-boot-starter-tomcat&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web/2.5.3&quot;&gt;https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web/2.5.3&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;spring-web&quot;&gt;spring-web&lt;/h2&gt;
+
+&lt;p&gt;spring-web provides core HTTP integration, including some handy Servlet filters, Spring HTTP Invoker, infrastructure to integrate with other web frameworks and HTTP technologies e.g. Hessian, Burlap.&lt;/p&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://stackoverflow.com/questions/13533700/maven-dependency-spring-web-vs-spring-webmvc&quot;&gt;https://stackoverflow.com/questions/13533700/maven-dependency-spring-web-vs-spring-webmvc&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;spring-webmvc&quot;&gt;spring-webmvc&lt;/h2&gt;
+
+&lt;p&gt;spring-webmvc is an implementation of Spring MVC. spring-webmvc depends on on spring-web, thus including it will transitively add spring-web. You don’t have to add spring-web explicitly.&lt;/p&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://mvnrepository.com/artifact/org.springframework/spring-webmvc/5.3.9&quot;&gt;https://mvnrepository.com/artifact/org.springframework/spring-webmvc/5.3.9&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Compile Dependencies:
+spring-aop
+spring-beans
+spring-context
+spring-core
+spring-expression
+spring-web&lt;/p&gt;
+
+&lt;h2 id=&quot;spring-mvc&quot;&gt;Spring MVC&lt;/h2&gt;
+
+&lt;p&gt;Spring Web MVC is the original web framework built on the Servlet API and has been included in the Spring Framework from the very beginning. The formal name, “Spring Web MVC,” comes from the name of its source module (spring-webmvc), but it is more commonly known as “Spring MVC”.&lt;/p&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#spring-web&quot;&gt;https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#spring-web&lt;/a&gt;&lt;/p&gt;</content><author><name>徐顺发</name><email>gouwa5700 (at) gmail (dot) com</email></author><category term="coding" /><category term="java" /><category term="spring" /><summary type="html">Spring</summary></entry><entry><title type="html">产品经理还是独立开发者？</title><link href="https://goooooouwa.fun/career/2021/08/07/product-manager-or-indie-developer.html" rel="alternate" type="text/html" title="产品经理还是独立开发者？" /><published>2021-08-07T00:00:00+00:00</published><updated>2021-08-07T00:00:00+00:00</updated><id>https://goooooouwa.fun/career/2021/08/07/product-manager-or-indie-developer</id><content type="html" xml:base="https://goooooouwa.fun/career/2021/08/07/product-manager-or-indie-developer.html">&lt;p&gt;我擅于用技术解决问题。&lt;/p&gt;
+
+&lt;p&gt;我还需要懂得研究需求，理解问题。&lt;/p&gt;
+
+&lt;p&gt;此外，还有一些问题不需要用技术手段来解决，我该怎么办？是选择不去竞争这类产品，还是让自己更中立？（直觉是需要中立的看问题，最终选择需要技术来解决的问题）&lt;/p&gt;
+
+&lt;p&gt;2021-08-05&lt;/p&gt;
+
+&lt;p&gt;体验一下做游戏的全过程，要做些什么。不要求大卖，能有人买就可以了。再改进。数据驱动。&lt;/p&gt;
+
+&lt;p&gt;独立开发者与产品经理不矛盾，还是要自己摸索前进的方向。能独立开发不代表不能产品管理。想做什么就先轻量级地做起来，写书，画漫画，做游戏，做应用。&lt;/p&gt;
+
+&lt;p&gt;我喜欢打稿子（从0到1），不喜欢精绘（从1到n）。喜欢创造，而不是落地。&lt;/p&gt;
+
+&lt;p&gt;无法做到极致的艺术家，还是得听市场的反应，只是怎么听的问题。&lt;/p&gt;
+
+&lt;p&gt;2021-08-07&lt;/p&gt;
+
+&lt;p&gt;我其实没有太多擅长的领域（画画不算擅长，游戏不算很懂，赛车也不算开得好），因为我不够精（花的时间不够），我只有喜欢的领域（小时候的爱好给人触动最深，因为小孩喜欢幻想，我小时候最喜欢幻想，画画、篮球、足球满足了我的幻想，但如前所述，这些领域都不是我擅长的领域，因为花的时间不够）。总结就是，具体的领域需要长时间深钻才能称得上专精。喜欢也不代表擅长。可以从这些具体的领域中抽象出一些我的traits，比如喜欢运动、喜欢观察细节、喜欢幻想、有斗志等。其实什么领域不是一定要立刻决定的，而是&lt;strong&gt;看你最终花在什么领域的时间最多&lt;/strong&gt;，决定这一点的是个人的traits。比如，我喜欢坐在电脑前，我花了很多时间在电脑上面。我最喜欢用电脑学习知识，创作。&lt;/p&gt;
+
+&lt;p&gt;决定你所擅长的领域的不是你想做什么，而是你最终的时间花到了什么上面。&lt;/p&gt;
+
+&lt;p&gt;做软件和游戏我都挺喜欢的，不要犹豫去做就好了。慢慢做不用急，该设计设计，该调研调研，该开发开发。花时间做自己喜欢做的事就行了，不用想太多。Just do it.&lt;/p&gt;</content><author><name>徐顺发</name><email>gouwa5700 (at) gmail (dot) com</email></author><category term="career" /><category term="indie-developer" /><category term="product-manager" /><summary type="html">我擅于用技术解决问题。</summary></entry><entry><title type="html">椰子味的曼谷</title><link href="https://goooooouwa.fun/literature/2021/07/08/%E6%A4%B0%E5%AD%90%E5%91%B3%E7%9A%84%E6%9B%BC%E8%B0%B7.html" rel="alternate" type="text/html" title="椰子味的曼谷" /><published>2021-07-08T00:00:00+00:00</published><updated>2021-07-08T00:00:00+00:00</updated><id>https://goooooouwa.fun/literature/2021/07/08/%E6%A4%B0%E5%AD%90%E5%91%B3%E7%9A%84%E6%9B%BC%E8%B0%B7</id><content type="html" xml:base="https://goooooouwa.fun/literature/2021/07/08/%E6%A4%B0%E5%AD%90%E5%91%B3%E7%9A%84%E6%9B%BC%E8%B0%B7.html">&lt;p&gt;吃芒果糯米饭，饮品&lt;/p&gt;
+
+&lt;p&gt;疫情发生两个月之前，因为项目原因与十来位西安的同事一同去泰国出差，计划待半年。&lt;/p&gt;
+
+&lt;p&gt;在经过层层安检之后我与另一位同事终于坐上了飞往曼谷的廉航飞机。飞机上全是跟团去泰国旅游的老头老太太们，因为是廉价航空，除了少数几排需要额外加钱的座位能把腿伸直外，其他座位上的人都只能正襟危坐，看着就觉得憋屈。有几位不敢平庸的老头老太太一路上与空姐斗智斗勇，趁着空姐转身就蹿到逃生窗口旁的宽松座位上去，空姐每次也绝不放过他们，压着脾气操着泰国口语用中文对他们说：“四百块，这个座位四百块！”&lt;/p&gt;
+
+&lt;p&gt;我在泰国办公室很快就与一位名叫Jusmine的马来西亚女孩成了好朋友，因为她会说中文，而且特别大方。这样一来，当我想知道周围哪里好吃好玩，只用中文问她就行了，简直是活导游。&lt;/p&gt;
+
+&lt;p&gt;在泰国办公室的工作生活特别不平衡，每天除了工作的那几个小时，其他时间全部在玩。我们一群人在水灯节那天晚上去了附近有名的朱拉隆功大学逛美食，顺便嘲笑那些在水里放灯污染环境的学生孩子们（其实是嫉妒）。某个周末，我们很多西安同事一起坐飞机去泰国同事的农村家里插秧，体验泰国农家乐，回来后都特别后悔。年会时，整个办公室一起在度假村玩了两天一夜，白天官方活动结束之后，真正的party才刚开始，伴随着会场里的灯光、音乐和啤酒，我们一群人群魔乱舞。&lt;/p&gt;
+
+&lt;p&gt;还有很多好玩的经历，比如坐游轮去岛上喂猴子，在小岛上度假看海上日出，火车市场里吃火山排骨，日本人扎堆的巷子里吃冷荞麦面。下次有空再讲了。&lt;/p&gt;
+
+&lt;p&gt;在公司附近&lt;/p&gt;
+
+&lt;p&gt;整个泰国只有曼谷有两条地铁，出了曼谷就是遗忘自然风光&lt;/p&gt;
+
+&lt;p&gt;街边下水道硕大的老鼠&lt;/p&gt;
+
+&lt;p&gt;地铁、轻轨，2条线路，人多，空调制冷，安静，礼貌&lt;/p&gt;
+
+&lt;p&gt;天台酒吧，鸡尾酒，外国人&lt;/p&gt;
+
+&lt;p&gt;日本人&lt;/p&gt;
+
+&lt;p&gt;Sukunwist&lt;/p&gt;
+
+&lt;p&gt;Pura 9&lt;/p&gt;
+
+&lt;p&gt;Yori （日料）&lt;/p&gt;
+
+&lt;p&gt;Market&lt;/p&gt;
+
+&lt;p&gt;马来西亚的女孩，Min，男孩子一样，&lt;/p&gt;</content><author><name>徐顺发</name><email>gouwa5700 (at) gmail (dot) com</email></author><category term="literature" /><summary type="html">吃芒果糯米饭，饮品</summary></entry><entry><title type="html">老猫</title><link href="https://goooooouwa.fun/literature/2021/07/07/%E8%80%81%E7%8C%AB.html" rel="alternate" type="text/html" title="老猫" /><published>2021-07-07T00:00:00+00:00</published><updated>2021-07-07T00:00:00+00:00</updated><id>https://goooooouwa.fun/literature/2021/07/07/%E8%80%81%E7%8C%AB</id><content type="html" xml:base="https://goooooouwa.fun/literature/2021/07/07/%E8%80%81%E7%8C%AB.html">&lt;p&gt;咪咪是我家养过的唯一一只猫咪，她的样貌跟名字一样极其平庸，全身棕灰混杂着黑色的纹理，褐黄色的眼珠，黑色的下眼睑呈现出完美的弧度。就是那种你在街边随处可见的灰猫。&lt;/p&gt;
+
+&lt;p&gt;她的到来没有任何浪漫可言，高中毕业那年暑假的一天上午，街上常来我家买肉的一位阿姨骑着电动车停在门口，憨笑着问我爸：“你家要猫子么？”，我们一愣，这才注意到她脚下的麻布袋子里有东西，“家里猫子生的崽，还有一个已经送人了，这个送给你家吧。你家有肉吃，好养。”我爸觉得好笑，还没来得及调侃两句，她已经走下车来，在我家堂前麻利地将口袋一松，一只黑影蹿了出来，还没来得及看清脸面，就只听蹭蹭几声，跑到我家阁楼上躲起来了。我们仨在堂前愣了一会，阿姨很快就满意地走掉了。&lt;/p&gt;
+
+&lt;p&gt;咪咪刚来的头两个星期一直躲在阁楼不敢见人，我常常担心她会不会饿死，直到一天我表弟来我家玩，他一进屋就喊，”你家养猫了？“，我一看，这猫居然自己想通了，从阁楼跳到了地上来，还泰然自若地从我们面前走开了。咪咪就已这样一种令人摸不着头脑地方式走进了我们的生活里。&lt;/p&gt;
+
+&lt;p&gt;暑假里我每天在门店玩电脑或者在房里看电视时，咪咪就喜欢凑过来，为了不让她心声防备，我很耐心地用手指引诱她跳到我腿上来，她盯着我看了又看，最后忍不住一下子蹦到我的腿上了。我们很快就建立了充分的信任，也越发亲近。我从刚开始轻轻地抚摸她的头，到肆意地挠她的肚子，后面更绝的，把她像婴儿一样面朝天的抱在怀里，她最后也放弃了抵抗，开始享受起来。&lt;/p&gt;
+
+&lt;p&gt;暑假结束是我与咪咪的第一次分别。大概一个月之后我从学校回到家，回来没见到咪咪，就问我妈，”她会不会忘了我呀？“因为人家都说猫是高冷的动物，况且这么久应该也记不住了。正聊着，就听到屋顶蹭蹭的脚步声，声音从窗户跑到阁楼，短暂地停留又一跃而下跳到地上，优雅地踱步到我们面前，深情满满地对我喵喵直叫。我兴喜极了，冲我妈喊，”她还记得我！“&lt;/p&gt;
+
+&lt;p&gt;待续。&lt;/p&gt;
+
+&lt;p&gt;后来，咪咪&lt;/p&gt;
+
+&lt;p&gt;有一天她就这样从我家消失了。&lt;/p&gt;</content><author><name>徐顺发</name><email>gouwa5700 (at) gmail (dot) com</email></author><category term="literature" /><summary type="html">咪咪是我家养过的唯一一只猫咪，她的样貌跟名字一样极其平庸，全身棕灰混杂着黑色的纹理，褐黄色的眼珠，黑色的下眼睑呈现出完美的弧度。就是那种你在街边随处可见的灰猫。</summary></entry><entry><title type="html">一杯水</title><link href="https://goooooouwa.fun/literature/2021/07/06/a-glass-of-water.html" rel="alternate" type="text/html" title="一杯水" /><published>2021-07-06T00:00:00+00:00</published><updated>2021-07-06T00:00:00+00:00</updated><id>https://goooooouwa.fun/literature/2021/07/06/a-glass-of-water</id><content type="html" xml:base="https://goooooouwa.fun/literature/2021/07/06/a-glass-of-water.html">&lt;p&gt;我看着面前摆着的这杯水，手不自觉就伸了过去，一口清甜润喉，恰到好处。&lt;/p&gt;
+
+&lt;p&gt;倘若哪天我身患重病卧床不起，能喂我一口水喝的只有两个女人；倘若哪天我飞黄腾达不可一世，劝我要多喝水的也只有这两个女人。&lt;/p&gt;
+
+&lt;p&gt;夸父为何要一刻不停地去追逐那明晃晃的太阳？小孩为什么要风风火火地往来于各个补习班？美国的黑人要坚持捍卫种族平等。&lt;/p&gt;
+
+&lt;p&gt;我是否又该止步于喝下这杯水？&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;背后的思考：&lt;/p&gt;
+
+&lt;p&gt;人的困境&lt;/p&gt;
+
+&lt;p&gt;活着的意义，意义是什么？它真的存在吗？&lt;/p&gt;
+
+&lt;p&gt;无欲无求，还是坚持不懈？为自己还是为他人？&lt;/p&gt;
+
+&lt;p&gt;快乐与痛苦是来自内心还是外界？&lt;/p&gt;
+
+&lt;p&gt;真的放得下吗？骗得了自己吗？还是跟随内心的想法？&lt;/p&gt;
+
+&lt;p&gt;不追求快乐，活着的意义又是什么？痛苦来自于求而不得，得到了就快乐了吗？&lt;/p&gt;
+
+&lt;p&gt;没有绝对的标准，人最终需要适应，不进则退，寻找平衡&lt;/p&gt;
+
+&lt;p&gt;爱情是什么？&lt;/p&gt;
+
+&lt;p&gt;人的动物性决定了视觉社会，物欲是本性，思想是人不同于其他动物的地方&lt;/p&gt;</content><author><name>徐顺发</name><email>gouwa5700 (at) gmail (dot) com</email></author><category term="literature" /><summary type="html">我看着面前摆着的这杯水，手不自觉就伸了过去，一口清甜润喉，恰到好处。</summary></entry><entry><title type="html">我的工作台</title><link href="https://goooooouwa.fun/literature/2021/07/05/my-work-desk.html" rel="alternate" type="text/html" title="我的工作台" /><published>2021-07-05T00:00:00+00:00</published><updated>2021-07-05T00:00:00+00:00</updated><id>https://goooooouwa.fun/literature/2021/07/05/my-work-desk</id><content type="html" xml:base="https://goooooouwa.fun/literature/2021/07/05/my-work-desk.html">&lt;p&gt;我爱我的工作台，它是我电脑办公（以及娱乐）的地方，坐上去，我的大脑就如同钢铁侠披上铠甲，获得了在数码世界里自由穿梭的能力（2000年初的人们管这叫网上冲浪）。&lt;/p&gt;
+
+&lt;p&gt;其实想有个自己的工作台的想法在我刚工作头几年就隐约开始萌芽，那时想的是装台传统的台式机放家里，不过因为我头几年一直在漂，这么做显然不实际，便搁置了。这之后又过了几年，我注意到身边有人直接买台显示器放家里，回家后连上笔记本电脑，再接个键盘鼠标，嗖的一秒摩托变超跑，帅得我直流口水。&lt;/p&gt;
+
+&lt;p&gt;大概两年之后，也不知是什么原因让我拖了这么久，直到疫情回国，我才确定了我要买一台显示器。在什么值得买和知乎上翻了一些推荐文章之后，我认定了AOC的入门款24寸1080p显示器最适合我，等到618，实际下单的却是一台27寸的4K显示器，买回来后发现桌子太小放不下，而且电脑也带不动，就哭笑不得地赶紧退了回去。最终在心里完全没底的情况下定了一台（据说比较鸡肋的）24寸2K显示屏。顶着全知乎人民的鄙夷，我连上笔记本点亮了屏幕，在一瞬间里，屏幕上细腻的画质和鲜活的色彩卸下了我所有的防备，只想扑上去添。&lt;/p&gt;
+
+&lt;p&gt;这台24寸显示器是我整个工作台的起点，在此之后我便开始了选桌子台灯、配音箱耳机，琢磨如何置物收纳走线的折腾之旅，目前的设定基本比较符合我的使用需要，当然我还会根据需要不断地调整和完善它，其实自己很好奇它日后会演变成什么样子。不过在这之前，我只想尽情享受与我的好伙伴共同成长的美好时光。&lt;/p&gt;</content><author><name>徐顺发</name><email>gouwa5700 (at) gmail (dot) com</email></author><category term="literature" /><summary type="html">我爱我的工作台，它是我电脑办公（以及娱乐）的地方，坐上去，我的大脑就如同钢铁侠披上铠甲，获得了在数码世界里自由穿梭的能力（2000年初的人们管这叫网上冲浪）。</summary></entry><entry><title type="html">todo 翻译business innovation</title><link href="https://goooooouwa.fun/business/2021/07/04/business-innovation.html" rel="alternate" type="text/html" title="todo 翻译business innovation" /><published>2021-07-04T00:00:00+00:00</published><updated>2021-07-04T00:00:00+00:00</updated><id>https://goooooouwa.fun/business/2021/07/04/business-innovation</id><content type="html" xml:base="https://goooooouwa.fun/business/2021/07/04/business-innovation.html">&lt;p&gt;https://www.wework.com/ideas/professional-development/creativity-culture/what-is-business-innovation&lt;/p&gt;</content><author><name>徐顺发</name><email>gouwa5700 (at) gmail (dot) com</email></author><category term="business" /><category term="business-model" /><category term="innovation" /><summary type="html">https://www.wework.com/ideas/professional-development/creativity-culture/what-is-business-innovation</summary></entry><entry><title type="html">文字的体验设计</title><link href="https://goooooouwa.fun/design/2021/07/04/design-of-words.html" rel="alternate" type="text/html" title="文字的体验设计" /><published>2021-07-04T00:00:00+00:00</published><updated>2021-07-04T00:00:00+00:00</updated><id>https://goooooouwa.fun/design/2021/07/04/design-of-words</id><content type="html" xml:base="https://goooooouwa.fun/design/2021/07/04/design-of-words.html">&lt;p&gt;设计会考虑物品与人的交互，其中有多层面：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;感官&lt;/li&gt;
+  &lt;li&gt;情感&lt;/li&gt;
+  &lt;li&gt;内容：交互逻辑、信息&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;就像设计，文字同时有多层面的考虑：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;传达感官（文字节奏韵律，视觉、听觉、嗅觉、触觉，一些技法有表达效果，比如通感，对比，来夸大感受），直白的描述，客观。&lt;/li&gt;
+  &lt;li&gt;传达情感，拟物，&lt;/li&gt;
+  &lt;li&gt;传达内容：思考，逻辑，经验、道理。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一定会有感官（比如文字的节奏感），一定会有情绪（哪怕是平淡），一定要有内容（要有所表达的主题）&lt;/p&gt;</content><author><name>徐顺发</name><email>gouwa5700 (at) gmail (dot) com</email></author><category term="design" /><summary type="html">设计会考虑物品与人的交互，其中有多层面：</summary></entry><entry><title type="html">人到三十</title><link href="https://goooooouwa.fun/literature/2021/07/04/turning-30.html" rel="alternate" type="text/html" title="人到三十" /><published>2021-07-04T00:00:00+00:00</published><updated>2021-07-04T00:00:00+00:00</updated><id>https://goooooouwa.fun/literature/2021/07/04/turning-30</id><content type="html" xml:base="https://goooooouwa.fun/literature/2021/07/04/turning-30.html">&lt;p&gt;我打小就是个自私亦无情的人，还很玻璃心。当我从孩子身上也看到这些影子时，便笃定这是基因和父母宠爱的产物。&lt;/p&gt;
+
+&lt;p&gt;得知我高考没过省重点线，远在江西打工的我爸毫不犹豫地让我妈把仅有的两万块积蓄取出来去学校买个名额。我妈后来说去银行取钱的前天夜里她哭了一夜，我听了只知道尴尬地傻笑，自我安慰说这钱会值，第二天就找伙伴玩去了。真是够阿Q的。&lt;/p&gt;
+
+&lt;p&gt;到今天，我还是只看得见自己的目标，认定没有时间去考虑其他琐碎，年假总是来不及休，家庭旅游计划也从不上心，甚至连身体也常被自己无视。有些晚上会因为焦虑自己的前途而瞬间清醒，恨不得扑到桌前一晚上啃完《产品经理面试宝典》，天一亮就飞到硅谷去谷歌面试。然而这种飞蛾扑火般难以自拔的执著给我带来的并非乔布斯的现实扭曲立场，而是日渐稀疏的头顶。&lt;/p&gt;
+
+&lt;p&gt;活了30年才真正认识自己，所谓放下屠刀，立地成佛，希望现在改变还来得及。&lt;/p&gt;</content><author><name>徐顺发</name><email>gouwa5700 (at) gmail (dot) com</email></author><category term="literature" /><summary type="html">我打小就是个自私亦无情的人，还很玻璃心。当我从孩子身上也看到这些影子时，便笃定这是基因和父母宠爱的产物。</summary></entry><entry><title type="html">有问题，找发哥：免费1对1问答服务</title><link href="https://goooooouwa.fun/side-project/2021/06/20/free-individual-consulting-service.html" rel="alternate" type="text/html" title="有问题，找发哥：免费1对1问答服务" /><published>2021-06-20T00:00:00+00:00</published><updated>2021-06-20T00:00:00+00:00</updated><id>https://goooooouwa.fun/side-project/2021/06/20/free-individual-consulting-service</id><content type="html" xml:base="https://goooooouwa.fun/side-project/2021/06/20/free-individual-consulting-service.html">&lt;h2 id=&quot;一句话介绍&quot;&gt;一句话介绍&lt;/h2&gt;
+
+&lt;p&gt;从今天（2021-06-21）开始，本公众号免费为你提供1对1问答服务。&lt;/p&gt;
+
+&lt;h2 id=&quot;免费1对1问答服务&quot;&gt;免费1对1问答服务&lt;/h2&gt;
+
+&lt;p&gt;除了在&lt;a href=&quot;https://www.zhihu.com/people/xu-shun-fa-68?utm_source=wechat_session&amp;amp;utm_medium=social&amp;amp;utm_oi=836692033744801792&quot;&gt;知乎&lt;/a&gt;上回答问题，从今天开始，我还会在本公众号提供免费1对1问答服务，问题范围涵盖四大类型：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;资源推荐&lt;/li&gt;
+  &lt;li&gt;各类软件教程&lt;/li&gt;
+  &lt;li&gt;行业职场&lt;/li&gt;
+  &lt;li&gt;产品管理&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;以下是一些问题的例子。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;问题类型&lt;/th&gt;
+      &lt;th&gt;例子&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;资源推荐&lt;/td&gt;
+      &lt;td&gt;好用的屏蔽广告的Chrome插件？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;适合我的笔记软件？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;适合我的任务管理软件？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;软件设计相关的图书推荐？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;国内产品社区网站推荐？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;产品管理相关的博客推荐？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;支持FLAC格式的听歌软件推荐？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;模拟赛车游戏推荐？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;科学上网服务推荐？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;娱乐软件教程&lt;/td&gt;
+      &lt;td&gt;如何科学上网？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;如何使用Chromecast with Google TV?&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;如何用Kindle看漫画？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;如何在客厅玩电脑游戏？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;健康软件教程&lt;/td&gt;
+      &lt;td&gt;如何减少手机屏幕的使用？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;如何睡个好觉？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;学习软件教程&lt;/td&gt;
+      &lt;td&gt;如何在Kindle上看电子书？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;如何在Kindle上阅读网站上的文章？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;如何在Kindle上阅读每日新闻？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;如何提升英语口语？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;办公软件教程&lt;/td&gt;
+      &lt;td&gt;如何搭建Markdown博客？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;如何使用Google Slides？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;如何在线绘制流程图？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;如何在线制作交互原型？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;行业职场&lt;/td&gt;
+      &lt;td&gt;我该如何选择下一步职业发展？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;某岗位的工作内容是怎样的？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;我该如何提升个人专业能力？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;我该如何提高个人影响力？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;有哪些适合我加入的某某专业社区？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;有没有适合我加入的某某微信群？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;产品管理&lt;/td&gt;
+      &lt;td&gt;如何做行业调研？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;如何做用户调研？&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;如何运营公众号？&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;目前暂时不考虑回答的问题类型：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;具体的编程问题&lt;/li&gt;
+  &lt;li&gt;软件故障排除&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;受众群体&quot;&gt;受众群体&lt;/h2&gt;
+
+&lt;p&gt;任何人。也许你是电脑小白，职场萌新，或是受你七大姑八大姨所托，请统统把你的问题抛过来吧，不要有任何顾虑。无论出于什么原因，如果你有无法在网上找到答案的问题，只要在我涵盖的话题范围内，都可以把问题发给我，我来帮你找答案。&lt;/p&gt;
+
+&lt;h2 id=&quot;提问渠道&quot;&gt;提问渠道&lt;/h2&gt;
+
+&lt;p&gt;将符合话题范围的问题发消息给本公众号。&lt;/p&gt;
+
+&lt;h2 id=&quot;提问时间段&quot;&gt;提问时间段&lt;/h2&gt;
+
+&lt;p&gt;每天任何时间都可以提问，不过我只会在每天早上9点到晚上9点内回复消息。&lt;/p&gt;
+
+&lt;h2 id=&quot;如何获得回答&quot;&gt;如何获得回答&lt;/h2&gt;
+
+&lt;p&gt;发消息给本公众号说出你的问题，我会在&lt;strong&gt;1小时&lt;/strong&gt;内回复消息并向你确认问题。如果你的问题我能立即回答的，我会在&lt;strong&gt;24小时&lt;/strong&gt;内答复，否则我会替你进行一些搜索，帮你找资源，会在&lt;strong&gt;1周内&lt;/strong&gt;提供搜索结果。&lt;/p&gt;
+
+&lt;h2 id=&quot;我是谁&quot;&gt;我是谁？&lt;/h2&gt;
+
+&lt;p&gt;为了方便你了解我的资历，容我做一下简单的自我介绍。&lt;/p&gt;
+
+&lt;p&gt;徐顺发，8年软件行业从业经验，在外资企业ThoughtWorks工作5年，先后从事过：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ruby后端开发&lt;/li&gt;
+  &lt;li&gt;Angular, React前端开发&lt;/li&gt;
+  &lt;li&gt;敏捷编程教练&lt;/li&gt;
+  &lt;li&gt;业务分析师&lt;/li&gt;
+  &lt;li&gt;离岸产品经理&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;目前在ThoughtWorks北美业务线的客户项目上担任离岸产品经理，专注于数字产品管理。&lt;/p&gt;
+
+&lt;p&gt;我乐于将知识分享给他人，曾经主动参加过一些公司的培训，包括：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2017年6月26日，公司的内训团队在华中师范大学开启了“2017思特沃克暑期特训营”编程活动，免费向来自9所高校的60多名学生传授编程技能。历时8周，我与另外2位教练一起带领7支学生团队，完成了280小时编程训练，上线了7个网站产品。&lt;/li&gt;
+  &lt;li&gt;2018年，组织了公司在全国五个城市的100多名毕业生的在线编程培训，同时自己和另一位同事一起开展了历时1个月的武汉毕业生编程培训。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;此外，还做过许多线下的知识分享活动（比如&lt;a href=&quot;https://goooooouwa.fun/assets/download/2020-09-18-shi-jie-li-shi-session-script.html#2&quot;&gt;这个&lt;/a&gt;），以及在&lt;a href=&quot;https://goooooouwa.fun/&quot;&gt;博客&lt;/a&gt;上分享各种文章。&lt;/p&gt;
+
+&lt;h2 id=&quot;我为什么要提供此服务&quot;&gt;我为什么要提供此服务？&lt;/h2&gt;
+
+&lt;p&gt;人到中年，特别是养了孩子后，自己的思想有了一些转变，以前总是想自己想要什么，现在开始想自己能为别人带来什么。&lt;/p&gt;
+
+&lt;p&gt;我喜欢学习一些感兴趣的话题，也乐于将自己学到的知识分享给他人。我认为知识应该能被每个人轻松地获取。但实际上，从我对身边一些非软件行业的亲戚朋友的了解，找到所需的知识对于很多人是一件很困难的事情，因为其实这本身也是需要锻炼的技术（如何使用搜索引擎）。在网上搜索知识，特别是在国内，一直是一件异常困难的事情。百度搜索结果前半页都是广告，有用结果很难找。&lt;/p&gt;
+
+&lt;p&gt;这几年随着知乎的普及，搜索问题答案轻松了很多（感谢知乎）。我也会在知乎上回答他人提出的问题。不过，无论出于什么原因，你在网上没有找到自己问题的答案，可以把问题发给我，我来帮你找答案，并且不收取任何费用。&lt;/p&gt;
+
+&lt;p&gt;得益于从事离岸软件交付多年，工作中有机会学习到国外的英文资源，许多问题的英语搜索结果质量还是更高一些。我希望每个人都能轻松地获取所需的知识，以前我尝试教身边的人科学上网，使用英文搜索，但显然这些对普通人还是很困难的。每当身边问我一些软件相关的问题，我都很乐意帮忙解答，我还写了博客来分享这些知识，后来我想，有什么办法能帮到更多人呢？毕竟博客文章还是需要自己去搜索的。于是，我决定提供人工的问答服务，具体规则见“如何获得回答”。&lt;/p&gt;
+
+&lt;p&gt;当然，虽然提供此服务的出发点是为他人提供价值，我也不是完全没有私心的，通过提供服务，我也希望能结识更多朋友，扩大自己的人脉，建立自己的口碑，扩大影响力，甚至可能通过打赏等不直接以知识收费的方式获得一定的收入。不过，即使自己的私心无法得到满足，能够通过提供的免费问答服务帮到他人，就已足够。&lt;/p&gt;
+
+&lt;h2 id=&quot;服务声明&quot;&gt;服务声明&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;本服务只提供资源推荐，不提供任何盗版资源下载。&lt;/li&gt;
+  &lt;li&gt;本服务完全免费，当然如果你想支持我，欢迎打赏。&lt;/li&gt;
+  &lt;li&gt;每天能回答多少问题取决于我的空余时间以及同时问询人数，如果我太忙没空回答，我也会在1小时内告诉你。&lt;/li&gt;
+  &lt;li&gt;本服务的初衷是为获取知识遇到困难的人提供必要的指引（提供资源，渠道），并不能代替你解决具体的问题。&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>徐顺发</name><email>gouwa5700 (at) gmail (dot) com</email></author><category term="side-project" /><summary type="html">一句话介绍</summary></entry></feed>
