@@ -59,7 +59,7 @@ Modify Date                     : 2021:01:23 16:04:56+08:00
 exiftool "-FileName<CreateDate" DIR
 ```
 
-例子1：将某个目录内所有照片和视频按照拍摄时间重命名
+例子1：将某个目录（及所有子目录）内的照片和视频按照拍摄时间重命名
 
 ```
 exiftool '-filename<CreateDate' -d %Y-%m-%d_%H%M%S%%-c.%%le -r H:\Personal\Photos\OrganizedPhotos\
