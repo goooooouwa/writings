@@ -68,6 +68,6 @@ exiftool '-filename<CreateDate' -d %Y-%m-%d_%H%M%S%%-c.%%le -r H:\Personal\Photo
 例子2：将某个目录内所有照片和视频的`File Create Date`, `Create Date` 和 `Media Create Date`统一修改为creationDate（真正的拍摄时间）
 
 ```
-exiftool "-FileCreateDate<CreationDate" "-CreateDate<CreationDate" "-MediaCreateDate<CreationDate" H:\Personal\Photos\OrganizedPhotos\2021\2021_01\2021_01_23
+exiftool "-FileCreateDate<CreationDate" "-CreateDate<CreationDate" "-MediaCreateDate<CreationDate" -r H:\Personal\Photos\OrganizedPhotos\2021\2021_01\2021_01_23
 ```
 
