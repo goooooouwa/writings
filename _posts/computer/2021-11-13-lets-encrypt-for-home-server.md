@@ -7,7 +7,11 @@ category: computer
 
 1. 国内家用宽带80、433端口都被电信封了，无法使用HTTP方式进行Let's Encrypt验证，只能使用DNS验证方式（而且这种方式要求DNS服务支持通过API方式修改DNS record，才能做到通过acme客户端全自动更新证书，否则需定期人工操作）-> 因此需要一个支持API的DNS provider
 2. 尽管CloudFlare提供免费的DNS服务，但华硕路由器不支持CloudFlare as DDNS
-3. 华硕路由器也不支持aliyun DNS和腾讯dnsPod as DDNS -> 只有freedns满足：a) 支持API方式修改DNS record, b) 支持DDNS, c) 华硕路由器支持该DNS provider作为DDNS，而且freedns还是免费的（只要将domain设置为shared）
+3. 华硕路由器也不支持aliyun DNS和腾讯dnsPod as DDNS -> 只有freedns满足：  
+  - a) 支持API方式修改DNS record
+  - b) 支持DDNS
+  - c) 华硕路由器支持该DNS provider作为DDNS
+  此外freedns还是免费的（只要将domain设置为shared）
 4. 你需要拥有一个domain（才能将它的DNS nameserver配置为freedns）-> 因此需要购买一个domain，正好freenom提供免费的一年domain
 
 具体步骤：
