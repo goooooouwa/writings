@@ -15,18 +15,15 @@ ThoughtWorks高级咨询师、业务分析师，目前专注于B端产品创新�
 - [blog2kindle](https://github.com/goooooouwa/blog2kindle)开源项目维护者
 - [有问题，找发哥](https://mp.weixin.qq.com/s/fkNEJZLew8FON1pqsNeQIQ) 免费1对1问答服务发起人
 
-更多介绍：
+相关链接：
 
 - 博客: [goooooouwa.fun](https://goooooouwa.fun)
-- 英文简历：[resume (2021)]({% link resume.md %})
+- 简历：[resume (2021)]({% link resume.md %})
+- [共享文档资料]({{ "docs.html" | relative_url }})
+- [我的阅读列表]({{ "assets/download/instapaper-export.html" | relative_url }})
 
 联系方式：
 
 - 邮箱: gouwa5700 (at) gmail (dot) com
 - Twitter: [Goooooouwa](https://twitter.com/Goooooouwa)
 - Github: [goooooouwa](http://github.com/goooooouwa)
-
-知识共享：
-
-- [共享文档资料]({{ "docs.html" | relative_url }})
-- [我的阅读列表]({{ "assets/download/instapaper-export.html" | relative_url }})
