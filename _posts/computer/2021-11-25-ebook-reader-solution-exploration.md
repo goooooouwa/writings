@@ -56,9 +56,12 @@ ePub format is better than Mobi, it has more consistent looks, better compatibil
 
 目前的解决方案是：keep both ePub & Mobi versions.
 
-| Scenario                                            | Solution                    | File format   | Sync solution                  |
-| --------------------------------------------------- | --------------------------- | ------------- | ------------------------------ |
-| Listening and reading ebooks on iPhone              | Kindle app                  | DRM-free Mobi | whispersync + iTunes大文件传输 |
-| Reading ebooks & Manga on Kindle devices            | Kindle oasis                | DRM-free Mobi | whispersync + 漫画下载服务器   |
-| Reading ebooks on Apple devices (iPhone, iPad, Mac) | Apple Books                 | ePub          | iCloud library                 |
-| Reading ebooks on PC (Windows & Linux)              | EPUBReader Chrome extension | ePub          | OneDrive                       |
+| Scenario                          | Usage         | Device          | Solution                    | File format | Sync solution                  |
+| --------------------------------- | ------------- | --------------- | --------------------------- | ----------- | ------------------------------ |
+| Listening ebooks on phone         | Daily         | iPhone          | Kindle app                  | Mobi        | whispersync + iTunes大文件传输 |
+| Reading ebooks on phone           | Less frequent | iPhone          | Kindle app                  | Mobi        | whispersync + iTunes大文件传输 |
+| Reading Manga on e-reader         | Daily         | Kindle oasis    | Kindle device               | Mobi        | 漫画下载服务器                 |
+| Reading ebooks on e-reader        | Less frequent | Kindle oasis    | Kindle device               | Mobi        | whispersync                    |
+| Reading ebooks on tablet & laptop | Less frequent | iPad & Mac      | Apple Books                 | ePub        | iCloud library                 |
+| Reading ebooks on desktop         | Rarely        | Windows & Linux | EPUBReader Chrome extension | ePub        | OneDrive                       |
+
