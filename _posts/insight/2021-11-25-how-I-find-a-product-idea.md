@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 我打算如何做产品？
 category: insight
 tags: product-management
@@ -21,4 +21,3 @@ tags: product-management
    - 未来的社会发展可能对该领域的盈利模式带来哪些变化？当前无法盈利的商业模式未来几年内是否会发生改变？
 6. 如果认为未来的发展趋势下，当前的制约因素将会消失，未来几年足以出现支撑该产品的需求体量、技术和商业模式，则发现了可追求的产品机会。
 7. make the call, go or no go.
-
