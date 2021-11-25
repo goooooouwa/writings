@@ -27,5 +27,6 @@ ThoughtWorks高级咨询师、业务分析师，目前专注于B端产品创新�
 - Github: [goooooouwa](http://github.com/goooooouwa)
 
 知识共享：
+
 - [共享文档资料]({{ "docs.html" | relative_url }})
 - [我的阅读列表]({{ "assets/download/instapaper-export.html" | relative_url }})
