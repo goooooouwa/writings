@@ -543,6 +543,8 @@ will output "1".
 - [https://stackoverflow.com/questions/15478747/instance-variables-in-modules](https://stackoverflow.com/questions/15478747/instance-variables-in-modules)
 - [https://stackoverflow.com/questions/6852072/what-does-mean-in-ruby](https://stackoverflow.com/questions/6852072/what-does-mean-in-ruby)
 - [https://stackoverflow.com/questions/33848651/ruby-modules-extending-including-modules](https://stackoverflow.com/questions/33848651/ruby-modules-extending-including-modules)
+- [https://medium.com/@leo_hetsch/ruby-modules-include-vs-prepend-vs-extend-f09837a5b073](https://medium.com/@leo_hetsch/ruby-modules-include-vs-prepend-vs-extend-f09837a5b073)
+- [https://medium.com/@leo_hetsch/demystifying-singleton-classes-in-ruby-caf3fa4c9d91](https://medium.com/@leo_hetsch/demystifying-singleton-classes-in-ruby-caf3fa4c9d91)
 
 
 
