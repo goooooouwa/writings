@@ -272,7 +272,7 @@ end
 
 defines `::ask_age` as a *module function*. It is directly callable, and does not appear on included classes when the module is mixed into another class.
 
-### Module Variables
+### Module "class" variables
 
 Ruby natively supports module variables in modules, so you can use module variables directly, and not some proxy or pseudo-class-variables:
 
@@ -294,6 +294,40 @@ Site.setName("Test")
 Site.name            # => "Test"
 ```
 
+### Module "instance" variables
+
+Think of the instance variable as something which will exist in any class that includes your module, and things make a bit more sense:
+
+```ruby
+module Stacklike
+  def stack
+    @stack ||= []
+  end
+
+  def add_to_stack(obj)
+    stack.push(obj)
+  end
+
+  def take_from_stack
+    stack.pop
+  end
+end
+
+class ClownStack
+  include Stacklike
+
+  def size
+    @stack.length
+  end
+end
+
+cs = ClownStack.new
+cs.add_to_stack(1)
+puts cs.size
+```
+
+will output "1".
+
 ## References
 
 - [https://www.ruby-lang.org/en/documentation/faq/8/](https://www.ruby-lang.org/en/documentation/faq/8/)
@@ -304,6 +338,10 @@ Site.name            # => "Test"
 - [https://stackoverflow.com/questions/25322009/defining-a-method-inside-a-module-in-ruby-nomethoderror](https://stackoverflow.com/questions/25322009/defining-a-method-inside-a-module-in-ruby-nomethoderror)
 - [https://stackoverflow.com/questions/32751805/when-to-use-self-in-modules-methods](https://stackoverflow.com/questions/32751805/when-to-use-self-in-modules-methods)
 - [https://stackoverflow.com/questions/5690458/create-module-variables-in-ruby](https://stackoverflow.com/questions/5690458/create-module-variables-in-ruby)
+- [https://stackoverflow.com/questions/15478747/instance-variables-in-modules](https://stackoverflow.com/questions/15478747/instance-variables-in-modules)
+
+
+
 
 
 
