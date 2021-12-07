@@ -286,6 +286,88 @@ Star.geeks
 Lord.geeks
 ```
 
+### Modules extending/including modules
+
+For example you have such module:
+
+```ruby
+module A
+  def a
+    puts "a"
+  end
+
+  def self.b
+    puts "b"
+  end
+end
+```
+
+As you see there are 2 types of methods:
+
+- **instance_methods**
+- **singleton_methods**
+
+Here is the easiest way to show that they actually differ:
+
+```ruby
+A.instance_methods
+=> [:a]
+A.singleton_methods
+=> [:b]
+A.a
+NoMethodError: undefined method `a' for A:Module
+A.b
+b
+=> nil
+```
+
+If you do `include A` simplistically you are adding its **instance** methods to the current module **instance** methods. When you do `extend A` simplistically you are adding its **instance** methods to the current module **singleton** methods.
+
+```ruby
+module B
+  include A
+end
+
+module C
+  extend A
+end
+
+B.instance_methods
+=> [:a]
+B.singleton_methods
+=> []
+C.instance_methods
+=> []
+C.singleton_methods
+=> [:a]
+```
+
+One more thing to say is that you could `extend self` but not `include self` as that doesn't make any sense and also will raise an exception.
+
+```ruby
+module D
+  extend self
+
+  def a
+    puts "a"
+  end
+
+  def self.b
+    puts "b"
+  end
+end
+
+D.singleton_methods
+=> [:b, :a]
+D.instance_methods
+=> [:a]
+D.a
+a #no error there because we have such singleton method
+=> nil
+```
+
+I guess these things could help you. There are a lot of questions about `extend`/`include` on StackOverflow you may check ([example](https://stackoverflow.com/questions/156362/what-is-the-difference-between-include-and-extend-in-ruby)).
+
 ### What is a module funciton?
 
 A module function is a private, singleton method defined in a module. In effect, it is similar to a [class method](https://www.ruby-lang.org/en/documentation/faq/8/#class-method), in that it can be called using the `Module.method` notation.
@@ -460,6 +542,7 @@ will output "1".
 - [https://stackoverflow.com/questions/5690458/create-module-variables-in-ruby](https://stackoverflow.com/questions/5690458/create-module-variables-in-ruby)
 - [https://stackoverflow.com/questions/15478747/instance-variables-in-modules](https://stackoverflow.com/questions/15478747/instance-variables-in-modules)
 - [https://stackoverflow.com/questions/6852072/what-does-mean-in-ruby](https://stackoverflow.com/questions/6852072/what-does-mean-in-ruby)
+- [https://stackoverflow.com/questions/33848651/ruby-modules-extending-including-modules](https://stackoverflow.com/questions/33848651/ruby-modules-extending-including-modules)
 
 
 
