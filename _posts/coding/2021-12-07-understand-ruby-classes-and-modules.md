@@ -4,6 +4,9 @@ title: Understand Ruby classes and modules
 category: coding
 tags: ruby oop
 ---
+* TOC
+{:toc}
+
 ## Classes
 
 ### class variables
@@ -78,6 +81,129 @@ Here, `@instances` is a *class* instance variable. It does not belong to an inst
 The main difference is the behavior concerning inheritance: class variables are shared between a class and all its subclasses, while class instance variables only belong to one specific class.
 
 Class variables in some way can be seen as global variables within the context of an inheritance hierarchy, with all the problems that come with global variables.
+
+### What is a singleton class?
+
+A singleton class is an anonymous class that is created by subclassing the class associated with a particular object. Singleton classes are another way of extending the functionality associated with just one object.
+
+Take the lowly `Foo`:
+
+```ruby
+class Foo
+  def hello
+    "hello"
+  end
+end
+
+foo = Foo.new
+foo.hello  # => "hello"
+```
+
+Now let’s say we need to add class-level functionality to just this one instance:
+
+```ruby
+class << foo
+  attr_accessor :name
+
+  def hello
+    "hello, I'm #{name}"
+  end
+end
+
+foo.name = "Tom"
+foo.hello         # => "hello, I'm Tom"
+Foo.new.hello     # => "hello"
+```
+
+We’ve customized `foo` without changing the characteristics of `Foo`.
+
+### What does << mean in Ruby?
+
+It can have 3 distinct meanings:
+
+**1. '<<' as an ordinary method**
+
+In most cases '<<' is a method defined like the rest of them, in your case it means "add to the end of this array" (see also [here](http://www.ruby-doc.org/core/classes/Array.html#M000225)).
+
+That's in your particular case, but there are also a lot of other occasions where you'll encounter the "<<" method. I won't call it 'operator' since it's really a method that is defined on some object that can be overridden by you or implemented for your own objects. Other cases of '<<'
+
+- String concatenation: "a" << "b"
+- Writing output to an IO: io << "A line of text\n"
+- Writing data to a message digest, HMAC or cipher: sha << "Text to be hashed"
+- left-shifting of an OpenSSL::BN: bn << 2
+- ...
+
+------
+
+**2. Singleton class definition**
+
+Then there is the mysterious shift of the current scope (=change of self) within the program flow:
+
+```ruby
+class A
+  class << self
+    puts self # self is the singleton class of A
+  end
+end
+
+a = A.new
+class << a
+  puts self # now it's the singleton class of object a
+end
+```
+
+The mystery `class << self` made me wonder and investigate about the internals there. Whereas in all the examples I mentioned `<<` is really a method defined in a class, i.e.
+
+```ruby
+obj << stuff
+```
+
+is equivalent to
+
+```ruby
+obj.<<(stuff)
+```
+
+the `class << self` (or any object in place of self) construct is truly different. It is really a builtin feature of the language itself, in CRuby it's defined in *parse.y* as
+
+```ruby
+k_class tLSHFT expr
+```
+
+`k_class` is the 'class' keyword, where `tLSHFT` is a '<<' token and `expr` is an arbitrary expression. That is, you can actually write
+
+```ruby
+class << <any expression>
+```
+
+and will get *shifted* into the singleton class of the result of the expression. The `tLSHFT` sequence will be parsed as a 'NODE_SCLASS' expression, which is called a *Singleton Class definition* (cf. node.c)
+
+```ruby
+case NODE_SCLASS:
+    ANN("singleton class definition");
+    ANN("format: class << [nd_recv]; [nd_body]; end");
+    ANN("example: class << obj; ..; end");
+    F_NODE(nd_recv, "receiver");
+    LAST_NODE;
+    F_NODE(nd_body, "singleton class definition");
+    break; 
+```
+
+------
+
+**3. Here Documents**
+
+*Here Documents* use '<<' in a way that is again totally different. You can define a string that spans over multiple lines conveniently by declaring
+
+```ruby
+here_doc = <<_EOS_
+The quick brown fox jumps over the lazy dog.
+...
+_EOS_
+```
+
+To distinguish the 'here doc operator' an arbitrary String delimiter has to immediately follow the '<<'. Everything inbetween that initial delimiter and the second occurrence of that same delimiter will be part of the final string. It is also possible to use '<<-', the difference is that using the latter will ignore any leading or trailing whitespace.
+
 
 ## Modules
 
@@ -162,19 +288,13 @@ Lord.geeks
 
 ### What is a module funciton?
 
-https://www.ruby-lang.org/en/documentation/faq/8/
-
 A module function is a private, singleton method defined in a module. In effect, it is similar to a [class method](https://www.ruby-lang.org/en/documentation/faq/8/#class-method), in that it can be called using the `Module.method` notation.
-
-https://ruby-doc.org/core-2.6.3/Module.html
 
 The methods in a module may be instance methods or module methods. Instance methods appear as methods in a class when the module is included, module methods do not. Conversely, module methods may be called without creating an encapsulating object, while instance methods may not. (See [#module_function](https://ruby-doc.org/core-3.0.3/Module.html#method-i-module_function).)
 
 ### Ways to define module function
 
 #### Option 1: call module_function method
-
-https://ruby-doc.org/core-1.9.3/Module.html#method-i-module_function
 
 `module_function(symbol, ...) → self`
 Creates module functions for the named methods. These functions may be called with the module as a receiver, and also become available as instance methods to classes that mix in the module. **Module functions are copies of the original, and so may be changed independently**. The instance-method versions are made private. If used with no arguments, subsequently defined methods become module functions.
@@ -339,9 +459,7 @@ will output "1".
 - [https://stackoverflow.com/questions/32751805/when-to-use-self-in-modules-methods](https://stackoverflow.com/questions/32751805/when-to-use-self-in-modules-methods)
 - [https://stackoverflow.com/questions/5690458/create-module-variables-in-ruby](https://stackoverflow.com/questions/5690458/create-module-variables-in-ruby)
 - [https://stackoverflow.com/questions/15478747/instance-variables-in-modules](https://stackoverflow.com/questions/15478747/instance-variables-in-modules)
-
-
-
+- [https://stackoverflow.com/questions/6852072/what-does-mean-in-ruby](https://stackoverflow.com/questions/6852072/what-does-mean-in-ruby)
 
 
 
