@@ -272,6 +272,28 @@ end
 
 defines `::ask_age` as a *module function*. It is directly callable, and does not appear on included classes when the module is mixed into another class.
 
+### Module Variables
+
+Ruby natively supports module variables in modules, so you can use module variables directly, and not some proxy or pseudo-class-variables:
+
+```ruby
+module Site
+  @@name = "StackOverflow"
+
+  def self.setName(value)
+    @@name = value
+  end
+
+  def self.name
+    @@name
+  end
+end
+
+Site.name            # => "StackOverflow"
+Site.setName("Test")
+Site.name            # => "Test"
+```
+
 ## References
 
 - [https://www.ruby-lang.org/en/documentation/faq/8/](https://www.ruby-lang.org/en/documentation/faq/8/)
@@ -281,6 +303,7 @@ defines `::ask_age` as a *module function*. It is directly callable, and does no
 - [https://www.geeksforgeeks.org/ruby-module/](https://www.geeksforgeeks.org/ruby-module/)
 - [https://stackoverflow.com/questions/25322009/defining-a-method-inside-a-module-in-ruby-nomethoderror](https://stackoverflow.com/questions/25322009/defining-a-method-inside-a-module-in-ruby-nomethoderror)
 - [https://stackoverflow.com/questions/32751805/when-to-use-self-in-modules-methods](https://stackoverflow.com/questions/32751805/when-to-use-self-in-modules-methods)
+- [https://stackoverflow.com/questions/5690458/create-module-variables-in-ruby](https://stackoverflow.com/questions/5690458/create-module-variables-in-ruby)
 
 
 
