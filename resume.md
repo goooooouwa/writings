@@ -2,6 +2,7 @@
 title: Shunfa Xu's resume (2021)
 layout: post
 category: career
+published: true
 ---
 
 ## Shunfa Xu
@@ -13,7 +14,7 @@ category: career
 
 ## Introduction
 
-8+ years working experience in agile software development. With a technical background and broad understanding on business and design, I'm passionate about digital product management.
+8+ years working experience in agile software development. With a technical background and broad understanding on business and design, Shunfa's a passionate digital product manager.
 
 ## Working experience
 
@@ -38,6 +39,8 @@ category: career
 
 ## Project experience
 
+- Senior Business Analyst, System Integration, a multinational professional services firm, 2022/02/12 - present
+- Senior Business Analyst, Microservice RePlatform, German luxury car company, 2021/08/16 - 2022/01/28
 - Offshore Product Manager, SaaS RePlatform, a leading U.S. franchisor of in-home services, 2021/01/19 - present
 - Senior Business Analyst, Mobile Forms, a leading U.S. franchisor of in-home services, 2020/10/13 - present
 - Senior Business Analyst, SustainChain, an U.S. non-profit organization focusing on UN’s Sustainable Development Goals, 2020/04/16 - 2020/10/12
@@ -276,4 +279,3 @@ In addition to ensuring the successful delivery of the product, I also improved 
   * Redesigned the once complicated and incomprehensible supplier bidding interface to a new interface with clear logic and easy operation, which significantly reduces the difficulty of use and better user experience.
 
   * Found missing an API that Dropbox Ruby SDK did not provide while implementing a feature, so submitted a Pull Request to the Dropbox Ruby SDK project which later merged by the maintainer.
-
