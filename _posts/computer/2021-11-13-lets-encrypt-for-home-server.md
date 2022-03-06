@@ -26,10 +26,11 @@ published: true
 
 1. Configure asus router to use freedns as ddns (username, password, domain name)
 2. Use acme.sh to do auto DNS validation for Let's Encrypt with freedns (as 80 & 443 ports are blocked by ISP, can only choose DNS challenge)
+3. Upload the fullchain cert and private key in the DDNS settings page (need to re-upload if new cert issued)
 
 为其他服务器颁发SSL证书
 
 1. Setup acme.sh on a server to automatically issue Let's Encrypt certificate for domain (cert and private key files will be stored on server)
-2. Open Media Vault: copy and paste the new fullchain cert and private key in the admin page (need to manual update if new cert issued)
-3. Portainer: upload the new fullchain cert and private key in the settings page (need to re-upload if new cert issued)
+2. Open Media Vault: copy and paste the fullchain cert and private key in the admin page (need to manual update if new cert issued)
+3. Portainer: upload the fullchain cert and private key in the settings page (need to re-upload if new cert issued)
 4. For the containers, e.g. nginx, plex etc, just reference the fullchain cert and private key stored in `~/.acme.sh/` directory (just restart the containers if new cert issued)
