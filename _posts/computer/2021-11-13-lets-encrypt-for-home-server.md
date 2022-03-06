@@ -1,6 +1,7 @@
 ---
-title: "教程：使用Let's Encrypt + freedns为RT-AC86U路由器颁发SSL证书"
+title: 教程：使用Let's Encrypt + freedns为RT-AC86U路由器及其他服务器颁发SSL证书
 category: computer
+published: true
 ---
 
 关键约束：
@@ -14,6 +15,10 @@ category: computer
   此外freedns还是免费的（只要将domain设置为shared）
 4. 你需要拥有一个domain（才能将它的DNS nameserver配置为freedns）-> 因此需要购买一个domain，正好freenom提供免费的一年domain
 
+前期准备：
+
+- install [acme.sh](https://github.com/acmesh-official/acme.sh) on your server (mine is a Raspberry Pi with OMV and Portainer)
+
 具体步骤：
 
 1. Get a domain (free with freenom)
@@ -21,5 +26,5 @@ category: computer
 3. enable DDNS for the domain in freedns (free)
 4. configure asus router to use freedns as ddns (username, password, domain name)
 5. use acme.sh to do auto DNS validation for Let's Encrypt with freedns (as 80 & 443 ports are blocked by ISP, can only choose DNS challenge)
-6. use acme.sh to issue Let's Encrypt certificate for domain (cert and private key files will be stored on server)
-7. copy the content of fullchain cer and private key to apply the certificate on target server, e.g. OMV, nginx, etc.
+6. setup acme.sh on a server to automatically issue Let's Encrypt certificate for domain (cert and private key files will be stored on server)
+7. (optional) to share the certificate for other servers, e.g. OMV, nginx, etc,just use a reference pointing to the same fullchain cer and private key.
