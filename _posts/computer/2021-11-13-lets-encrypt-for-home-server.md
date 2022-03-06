@@ -17,14 +17,19 @@ published: true
 
 前期准备：
 
-- install [acme.sh](https://github.com/acmesh-official/acme.sh) on your server (mine is a Raspberry Pi with OMV and Portainer)
-
-具体步骤：
-
 1. Get a domain (free with freenom)
 2. Setup dns nameservers for domain (free with freedns if domain shared)
-3. enable DDNS for the domain in freedns (free)
-4. configure asus router to use freedns as ddns (username, password, domain name)
-5. use acme.sh to do auto DNS validation for Let's Encrypt with freedns (as 80 & 443 ports are blocked by ISP, can only choose DNS challenge)
-6. setup acme.sh on a server to automatically issue Let's Encrypt certificate for domain (cert and private key files will be stored on server)
-7. (optional) to share the certificate for other servers, e.g. OMV, nginx, etc, just use a reference pointing to the same fullchain cer and private key.
+3. Enable DDNS for the domain in freedns (free)
+4. Install [acme.sh](https://github.com/acmesh-official/acme.sh) on your server (mine is a Raspberry Pi with OMV and Portainer)
+
+为RT-AC86U路由器颁发SSL证书
+
+1. Configure asus router to use freedns as ddns (username, password, domain name)
+2. Use acme.sh to do auto DNS validation for Let's Encrypt with freedns (as 80 & 443 ports are blocked by ISP, can only choose DNS challenge)
+
+为其他服务器颁发SSL证书
+
+1. Setup acme.sh on a server to automatically issue Let's Encrypt certificate for domain (cert and private key files will be stored on server)
+2. Open Media Vault: copy and paste the new fullchain cert and private key in the admin page (need to manual update if new cert issued)
+3. Portainer: upload the new fullchain cert and private key in the settings page (need to re-upload if new cert issued)
+4. For the containers, e.g. nginx, plex etc, just reference the fullchain cert and private key stored in `~/.acme.sh/` directory (just restart the containers if new cert issued)
