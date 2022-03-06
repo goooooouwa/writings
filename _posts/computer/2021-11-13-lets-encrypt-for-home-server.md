@@ -27,4 +27,4 @@ published: true
 4. configure asus router to use freedns as ddns (username, password, domain name)
 5. use acme.sh to do auto DNS validation for Let's Encrypt with freedns (as 80 & 443 ports are blocked by ISP, can only choose DNS challenge)
 6. setup acme.sh on a server to automatically issue Let's Encrypt certificate for domain (cert and private key files will be stored on server)
-7. (optional) to share the certificate for other servers, e.g. OMV, nginx, etc,just use a reference pointing to the same fullchain cer and private key.
+7. (optional) to share the certificate for other servers, e.g. OMV, nginx, etc, just use a reference pointing to the same fullchain cer and private key.
