@@ -8,6 +8,7 @@ category: design
 - 色轮（Color wheel）- 又称色环、色圈
 - 三原色（primary colors）- 唯一无法创建的颜色
 - 三间色（secondary colors） - 将色轮上相邻的三原色等量地混合所得到的颜色
+- 强调色（Accent color）- a secondary color that best compliments the primary color
 - 第三色（tertiary color 或 third color） - 将色轮剩余空白格子两边的原色和间色按等量混合得到的颜色
 - 互补色（complement） - opposite colors on the wheel
 - 相似色（analogus） - colors close to each other
