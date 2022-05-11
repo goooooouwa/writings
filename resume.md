@@ -10,7 +10,7 @@ published: true
   * Email: gouwa5700 (at) gmail (dot) com
   * Phone / WeChat: Available on request
   * Github: [https://github.com/goooooouwa](https://github.com/goooooouwa)
-  * Blog: [https://goooooouwa.fun](https://goooooouwa.fun)
+  * Blog: [https://blog.goooooouwa.tk](https://blog.goooooouwa.tk)
 
 ## Introduction
 

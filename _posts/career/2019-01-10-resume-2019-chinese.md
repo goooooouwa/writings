@@ -12,7 +12,7 @@ tags: resume
 - Email: gouwa5700 (at) gmail (dot) com
 - 电话/微信：Available on request
 - Github: [https://github.com/goooooouwa](https://github.com/goooooouwa)
-- Blog: [https://goooooouwa.fun](https://goooooouwa.fun)
+- Blog: [https://blog.goooooouwa.tk](https://blog.goooooouwa.tk)
 
 ## 简介
 ThoughtWorks业务分析师，热爱产品设计。热衷于市场和用户研究、产品及体验设计，致力于探索深层用户需求和潜在商业价值相交汇的产品机会。7年工作经验，在ThoughtWorks已有4年。

@@ -93,7 +93,7 @@ category: side-project
 - 2017年6月26日，公司的内训团队在华中师范大学开启了“2017思特沃克暑期特训营”编程活动，免费向来自9所高校的60多名学生传授编程技能。历时8周，我与另外2位教练一起带领7支学生团队，完成了280小时编程训练，上线了7个网站产品。
 - 2018年，组织了公司在全国五个城市的100多名毕业生的在线编程培训，同时自己和另一位同事一起开展了历时1个月的武汉毕业生编程培训。
 
-此外，还做过许多线下的知识分享活动（比如[这个](https://goooooouwa.fun/assets/download/2020-09-18-shi-jie-li-shi-session-script.html#2)），以及在[博客](https://goooooouwa.fun/)上分享各种文章。
+此外，还做过许多线下的知识分享活动（比如[这个](https://blog.goooooouwa.tk/assets/download/2020-09-18-shi-jie-li-shi-session-script.html#2)），以及在[博客](https://blog.goooooouwa.tk/)上分享各种文章。
 
 ## 我为什么要提供此服务？
 

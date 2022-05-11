@@ -11,7 +11,7 @@ tags: attention-crisis
 -- 卡尔·纽波特，《数字极简主义》作者
 
 更多内容可以参考这两篇文章：
-- [数字化时代的注意力危机](https://goooooouwa.fun/society/2018/04/13/hooked.html)
+- [数字化时代的注意力危机](https://blog.goooooouwa.tk/society/2018/04/13/hooked.html)
 - [焦虑、疲惫、麻木：那些受社交媒体困扰的人，正在这样做](http://www.woshipm.com/it/4502532.html)
 
 ## 度量
