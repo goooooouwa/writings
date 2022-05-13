@@ -1,6 +1,6 @@
 ---
 published: true
-title: 'GoPlan app, 帮你轻松实现个人目标'
+title: 'GoPlan app：帮你轻松实现个人目标'
 category: side-project
 tags: todo project-management life
 ---
@@ -10,7 +10,7 @@ tags: todo project-management life
 
 [![](https://img.w2solo.com/photo/Goooooouwa/f5aedba6-5e02-44e0-8635-9c28ae21c9a3.png?imageView2/2/w/1920/q/100)](https://v.douyin.com/FPp9Kvc/)
 
-视频抖音链接：[https://v.douyin.com/FPp9Kvc/](https://v.douyin.com/FPp9Kvc/)
+抖音视频链接：[https://v.douyin.com/FPp9Kvc/](https://v.douyin.com/FPp9Kvc/)
 
 ## 如何上手体验
 
