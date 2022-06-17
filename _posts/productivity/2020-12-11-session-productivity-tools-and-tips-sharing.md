@@ -10,6 +10,7 @@ published: true
 
 - 高清大图（自由版权）: [Unsplash](https://unsplash.com/)
 - Icon（自由版权）：[remixicon](https://remixicon.com/)
+- 字体图标: [FontAwesome](https://fontawesome.com/icons)
 
 ### 设计源文件
 
