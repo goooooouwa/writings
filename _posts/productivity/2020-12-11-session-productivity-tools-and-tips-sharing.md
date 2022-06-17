@@ -4,7 +4,7 @@ title: 好用的小工具和资源分享
 published: true
 ---
 
-## 好用的素材资源
+## 素材资源
 
 ### 素材
 
@@ -17,7 +17,7 @@ Figma Community:
 - [iOS UI kit](https://www.figma.com/community/file/984106517828363349)
 - [Icons](https://www.figma.com/community/icons)
 
-## 好用的Chrome插件
+## Chrome插件
 
 - 网页去广告：[Adblock Plus - free ad blocker](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)
 - 录屏生成MP4视频：[Screenity - Screen Recorder & Annotation Tool](https://chrome.google.com/webstore/detail/screenity-screen-recorder/kbbdabhdfibnancpjfhlkhafgdilcnji)
@@ -28,7 +28,7 @@ Figma Community:
 - 网页离线保存：[Notion Web Clipper](https://chrome.google.com/webstore/detail/notion-web-clipper/knheggckgoiihginacbkhaalnibhilkk)
 
 
-## 好用的软件
+## 软件
 
 ### 时间管理
 
