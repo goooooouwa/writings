@@ -4,6 +4,30 @@ title: 好用的小工具和资源分享
 published: true
 ---
 
+## 好用的素材资源
+
+### 素材
+
+- 高清大图（自由版权）: [Unsplash](https://unsplash.com/)
+- Icon（自由版权）：[remixicon](https://remixicon.com/)
+
+### 设计源文件
+
+Figma Community:
+- [iOS UI kit](https://www.figma.com/community/file/984106517828363349)
+- [Icons](https://www.figma.com/community/icons)
+
+## 好用的Chrome插件
+
+- 网页去广告：[Adblock Plus - free ad blocker](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)
+- 录屏生成MP4视频：[Screenity - Screen Recorder & Annotation Tool](https://chrome.google.com/webstore/detail/screenity-screen-recorder/kbbdabhdfibnancpjfhlkhafgdilcnji)
+- Color Picker: [ColorPick Eyedropper](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg)
+- 网页全屏截图：[GoFullPage - Full Page Screen Capture](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl)
+- 阅读模式：[Reader view](https://chrome.google.com/webstore/detail/reader-view/ecabifbgmdmgdllomnfinbmaellmclnh)
+- 深色模式：[Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
+- 网页离线保存：[Notion Web Clipper](https://chrome.google.com/webstore/detail/notion-web-clipper/knheggckgoiihginacbkhaalnibhilkk)
+
+
 ## 好用的软件
 
 ### 时间管理
@@ -93,61 +117,8 @@ published: true
    2. 找文件（including Google Drive）：输入空格然后输入文件名字
    3. 打开浏览器书签
 
-## 好用的Chrome插件
-
-- 网页去广告：[Adblock Plus - free ad blocker](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)
-- 录屏生成MP4视频：[Screenity - Screen Recorder & Annotation Tool](https://chrome.google.com/webstore/detail/screenity-screen-recorder/kbbdabhdfibnancpjfhlkhafgdilcnji)
-- Color Picker: [ColorPick Eyedropper](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg)
-- 网页全屏截图：[GoFullPage - Full Page Screen Capture](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl)
-- 阅读模式：[Reader view](https://chrome.google.com/webstore/detail/reader-view/ecabifbgmdmgdllomnfinbmaellmclnh)
-- 深色模式：[Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
-- 网页离线保存：[Notion Web Clipper](https://chrome.google.com/webstore/detail/notion-web-clipper/knheggckgoiihginacbkhaalnibhilkk)
-
-
-## 好用的素材资源
-
-### 素材资源
-
-- 高清大图（自由版权）: [Unsplash](https://unsplash.com/)
-- Icon（自由版权）：[remixicon](https://remixicon.com/)
-
-### 设计源文件
-
-Figma Community:
-- [iOS UI kit](https://www.figma.com/community/file/984106517828363349)
-- [Icons](https://www.figma.com/community/icons)
-
 
 ## 附录：
-
-### App download links:
-
-- itsycal (free): [https://www.mowglii.com/itsycal/](https://www.mowglii.com/itsycal/)
-- Timer app (free): [https://github.com/michaelvillar/timer-app/releases/tag/1.6.0](https://github.com/michaelvillar/timer-app/releases/tag/1.6.0)
-- Menu World Time (free): [https://apps.apple.com/cn/app/menu-world-time/id1446377255?l=en&mt=12](https://apps.apple.com/cn/app/menu-world-time/id1446377255?l=en&mt=12)
-- Microsoft To Do (free): [https://todo.microsoft.com](https://todo.microsoft.com)
-- 滴答清单 (subscription with free tier): [https://dida365.com/](https://dida365.com/)
-- Notion (subscription with free tier): [https://www.notion.so/desktop](https://www.notion.so/desktop)
-- OneNote: [https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app](https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app)
-- 印象笔记 (subscription with free tier): [https://www.yinxiang.com/](https://www.yinxiang.com/)
-- draw.io (free): [https://app.diagrams.net/](https://app.diagrams.net/)
-- https://www.ilovepdf.com/pdf_to_word
-- 剪映（含免费版）：[https://lv.ulikecam.com/](https://lv.ulikecam.com/)
-- RecordIt（免费）：[https://recordit.co/](https://recordit.co/)
-- Screenity：[https://chrome.google.com/webstore/detail/screenity-screen-recorder/kbbdabhdfibnancpjfhlkhafgdilcnji](https://chrome.google.com/webstore/detail/screenity-screen-recorder/kbbdabhdfibnancpjfhlkhafgdilcnji)
-- Snap (free): [https://apps.apple.com/cn/app/snap/id418073146?l=en&mt=12](https://apps.apple.com/cn/app/snap/id418073146?l=en&mt=12)
-- Shiftit (free): [https://github.com/fikovnik/shiftIt/releases](https://github.com/fikovnik/shiftIt/releases)
-- BitWarden (free): [https://bitwarden.com/](https://bitwarden.com/)
-- 1Password (subscription): [https://1password.com/](https://1password.com/)
-- Alfred (paid): [https://www.alfredapp.com/](https://www.alfredapp.com/)
-- CopyClip (free): [https://apps.apple.com/cn/app/copyclip-clipboard-history/id595191960?l=en&mt=12](https://apps.apple.com/cn/app/copyclip-clipboard-history/id595191960?l=en&mt=12)
-- MarkText: [https://github.com/marktext/marktext/releases](https://github.com/marktext/marktext/releases)
-- Typora (free for beta): [https://typora.io/](https://typora.io/)
-- Marp (free): [https://marp.app/](https://marp.app/)
-- Drafts (subscription with free tier): [https://getdrafts.com/](https://getdrafts.com/)
-- Scroll Reverser (free for now): [https://pilotmoon.com/scrollreverser/](https://pilotmoon.com/scrollreverser/)
-
-
 
 ### Mac Keyboard Symbols explained
 
