@@ -10,11 +10,11 @@ published: true
 
 - 高清大图（自由版权）: [Unsplash](https://unsplash.com/)
 - Icon（自由版权）：[remixicon](https://remixicon.com/)
-- 字体图标: [FontAwesome](https://fontawesome.com/icons)
+- 字体图标: [Font Awesome](https://fontawesome.com/icons)
 
 ### 设计源文件
 
-Figma Community:
+Figma社区共享资源:
 - [iOS UI kit](https://www.figma.com/community/file/984106517828363349)
 - [Icons](https://www.figma.com/community/icons)
 
@@ -33,8 +33,9 @@ Figma Community:
 
 ### 时间管理
 
-1. Menu bar calendar: [itsycal](https://www.mowglii.com/itsycal/)
-1. World timezone: [Menu World Time](https://apps.apple.com/cn/app/menu-world-time/id1446377255?l=en&mt=12)
+1. Menu bar小日历: [itsycal](https://www.mowglii.com/itsycal/)
+1. Menu bar时区小工具: [Menu World Time](https://apps.apple.com/cn/app/menu-world-time/id1446377255?l=en&mt=12)
+1. 乱入一个menu bar系统监控小工具：[stats](https://github.com/exelban/stats)
 1. 定时提醒休息: [Stretchly](https://hovancik.net/stretchly/)
 
 
@@ -118,7 +119,6 @@ Figma Community:
    1. 找app：直接输入App名字
    2. 找文件（including Google Drive）：输入空格然后输入文件名字
    3. 打开浏览器书签
-
 
 ## 附录：
 
