@@ -34,7 +34,7 @@ Figma Community:
 
 1. Menu bar calendar: [itsycal](https://www.mowglii.com/itsycal/)
 1. World timezone: [Menu World Time](https://apps.apple.com/cn/app/menu-world-time/id1446377255?l=en&mt=12)
-1. 定时提醒休息: [Stretchly]({% post_url 2021-05-04-recommend-stretchly %})
+1. 定时提醒休息: [Stretchly](https://hovancik.net/stretchly/)
 
 
 ### 任务管理
