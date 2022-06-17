@@ -4,7 +4,7 @@ title: 好用的小工具和资源分享
 published: true
 ---
 
-## 小工具
+## 软件
 
 ### 时间管理
 
@@ -92,6 +92,15 @@ published: true
    1. 找app：直接输入App名字
    2. 找文件（including Google Drive）：输入空格然后输入文件名字
    3. 打开浏览器书签
+
+## Chrome插件
+
+1. 网页去广告：[Adblock Plus - free ad blocker](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)
+1. 录屏生成MP4视频：[Screenity - Screen Recorder & Annotation Tool](https://chrome.google.com/webstore/detail/screenity-screen-recorder/kbbdabhdfibnancpjfhlkhafgdilcnji)
+1. Color Picker: [ColorPick Eyedropper](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg)
+1. 网页全屏截图：[GoFullPage - Full Page Screen Capture](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl)
+1. 阅读模式：[Reader view](https://chrome.google.com/webstore/detail/reader-view/ecabifbgmdmgdllomnfinbmaellmclnh)
+1. 深色模式：[Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
 
 ## 资源
 
