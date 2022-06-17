@@ -17,7 +17,7 @@ ThoughtWorks高级咨询师、业务分析师，目前专注于B端产品创新�
 
 相关链接：
 
-- 博客: [blog.goooooouwa.tk](https://blog.goooooouwa.tk)
+- 博客: [goooooouwa.github.io](https://goooooouwa.github.io)
 - 简历：[resume (2021)]({% link resume.md %})
 - [共享文档资料]({{ "docs.html" | relative_url }})
 - [我的阅读列表]({{ "assets/download/instapaper-export.html" | relative_url }})
