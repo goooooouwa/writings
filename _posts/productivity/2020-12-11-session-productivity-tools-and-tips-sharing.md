@@ -8,8 +8,8 @@ published: true
 
 ### 时间管理
 
-1. Menu bar calendar: [**itsycal**](https://www.mowglii.com/itsycal/)
-1. World timezone: [**Menu World Time**](https://apps.apple.com/cn/app/menu-world-time/id1446377255?l=en&mt=12)
+1. Menu bar calendar: [itsycal](https://www.mowglii.com/itsycal/)
+1. World timezone: [Menu World Time](https://apps.apple.com/cn/app/menu-world-time/id1446377255?l=en&mt=12)
 1. 定时提醒休息: [Stretchly]({% post_url 2021-05-04-recommend-stretchly %})
 
 
@@ -19,7 +19,7 @@ published: true
 	- Reminders
 	- [Microsoft To Do](https://todo.microsoft.com)
 	- [滴答清单](https://dida365.com/)
-1. Global shortcut to quickly add a todo item (e.g. `⌃+⇧+N` for [**滴答清单**](https://dida365.com/))
+1. Global shortcut to quickly add a todo item (e.g. `⌃+⇧+N` for [滴答清单](https://dida365.com/))
 2. Voice command to create a timely reminder (Say: "Hey Siri, remind me to buy milk at 4pm")
 
 
@@ -29,7 +29,7 @@ published: true
 	- [Notion](https://www.notion.so/desktop)
 	- [印象笔记](https://www.yinxiang.com/)
 	- [OneNote](https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app)
-1. Global shortcut to quickly add a new note (e.g. `⌘+⌃+N` for [**印象笔记**](https://www.yinxiang.com/), `Fn + Q` for macOS Monterey)
+1. Global shortcut to quickly add a new note (e.g. `⌘+⌃+N` for [印象笔记](https://www.yinxiang.com/), `Fn + Q` for macOS Monterey)
 2. 定期review inbox （印象笔记App整理助手）
 3. Keyboard shortcuts to organize notes（`⌘+J`跳转到folder，`⌘+⌃+M` 移动到folder）
 
@@ -37,13 +37,13 @@ published: true
 ### 文本编辑
 
 1. Basic: 输入法文本替换（`System Preferences -> Keyboard -> Text`）
-2. Advanced: dynamic snippets with [**Alfred**](https://www.alfredapp.com/)
-3. Clipboard history with [**CopyClip**](https://apps.apple.com/cn/app/copyclip-clipboard-history/id595191960?l=en&mt=12)
+2. Advanced: dynamic snippets with [Alfred](https://www.alfredapp.com/)
+3. Clipboard history with [CopyClip](https://apps.apple.com/cn/app/copyclip-clipboard-history/id595191960?l=en&mt=12)
 4. Markdown editor:
-	1. **[Typora](https://typora.io/)**
+	1. [Typora](https://typora.io/)
     1. [MarkText](https://github.com/marktext/marktext/releases)
-	2. markdown slides with **[Marp](https://marp.app/)**
-5. 永不中断的语音输入 with **[Drafts](https://getdrafts.com/)**
+	2. markdown slides with [Marp](https://marp.app/)
+5. 永不中断的语音输入 with [Drafts](https://getdrafts.com/)
 
 
 ### 文档处理
@@ -55,7 +55,7 @@ published: true
 
 2. 截图快捷键：screenshot & paste (`⌘+⇧+4/5`, `⌘+⌃+⇧+4/5`)
 3. 标记图片：Preview
-4. 创建图示：Preview / Keynote / [**draw.io**](https://app.diagrams.net/)
+4. 创建图示：Preview / Keynote / [draw.io](https://app.diagrams.net/)
 
 ### 视频处理
 
@@ -65,10 +65,10 @@ published: true
 
 ### 窗口管理
 
-1. 打开Dock App快捷键：[**Snap**](https://apps.apple.com/cn/app/snap/id418073146?l=en&mt=12)
+1. 打开Dock App快捷键：[Snap](https://apps.apple.com/cn/app/snap/id418073146?l=en&mt=12)
 2. 打开目录快捷键：Desktop folder (`⌘+⇧+D`), Downloads folder (`⌘+⌥+L`)
-3. Split screen: `⌘+⌥+⌃+←/→` with [**Shiftit**](https://github.com/fikovnik/shiftIt/releases)
-4. 显示器间移动窗口：`⌘+⌥+⌃+N/P` with **Shiftit**
+3. Split screen: `⌘+⌥+⌃+←/→` with [Shiftit](https://github.com/fikovnik/shiftIt/releases)
+4. 显示器间移动窗口：`⌘+⌥+⌃+N/P` with Shiftit
 5. 全屏切换：`⌃+←/→ `
 6. Reveal Desktop（显示桌面）: four fingers spread
 7. App Expose（显示当前应用所有窗口）: three fingers down
@@ -82,13 +82,13 @@ published: true
 ### 密码管理
 
 1. [BitWarden](https://bitwarden.com/)
-1. **[1Password](https://1password.com/)** 打开mini窗口快捷键：`⌘+⌥+\`
+1. [1Password](https://1password.com/) 打开mini窗口快捷键：`⌘+⌥+\`
 2. 快速copy username & password：`←/→/↑/↓+⏎`
 
 ### 快捷访问
 
 1. Basic: Spotlight
-2. Advanced: **[Alfred](https://www.alfredapp.com/)**
+2. Advanced: [Alfred](https://www.alfredapp.com/)
    1. 找app：直接输入App名字
    2. 找文件（including Google Drive）：输入空格然后输入文件名字
    3. 打开浏览器书签
