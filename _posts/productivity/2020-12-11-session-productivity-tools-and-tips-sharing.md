@@ -79,7 +79,8 @@ Figma Community:
 
 2. 截图快捷键：screenshot & paste (`⌘+⇧+4/5`, `⌘+⌃+⇧+4/5`)
 3. 标记图片：Preview
-4. 创建图示：Preview / Keynote / [draw.io](https://app.diagrams.net/)
+4. 创建图示：Preview / Keynote
+5. 流程图：[draw.io](https://app.diagrams.net/) / [excalidraw](https://excalidraw.com/)
 
 ### 视频处理
 
