@@ -34,7 +34,8 @@ Figma社区共享资源:
 ### 时间管理
 
 1. Menu bar小日历: [itsycal](https://www.mowglii.com/itsycal/)
-1. Menu bar时区小工具: [Menu World Time](https://apps.apple.com/cn/app/menu-world-time/id1446377255?l=en&mt=12)
+1. Menu bar显示不同时区当前时间: [Menu World Time](https://apps.apple.com/cn/app/menu-world-time/id1446377255?l=en&mt=12)
+1. Menu bar查看不同时区任意时间：[Clocker](https://apps.apple.com/us/app/clocker/id1056643111?mt=12)
 1. 乱入一个menu bar系统监控小工具：[stats](https://github.com/exelban/stats)
 1. 定时提醒休息: [Stretchly](https://hovancik.net/stretchly/)
 
