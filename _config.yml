@@ -65,7 +65,7 @@ show_excerpts: false
 # disqus:
 #  shortname: goooooouwa
 
-google_analytics: UA-137406515-2
+google_analytics: G-669F0VG7BL
 
 header_pages:
   - categories.html
