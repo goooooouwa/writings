@@ -21,9 +21,9 @@ tags: todo project-management life product
 
 GoPlan是一款旨在助您达成目标的应用。有了它，您可以轻松地将你的目标拆分成一系列可执行的任务，并且随时利用多种直观的时间线轻松管理任务计划。
 
-[立即使用GoPlan]((https://goooooouwa.tk:8095/welcome))，告别永远处理不完的待办事项，让一起尽在计划之中。
-
 ![产品截图](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/202208090949907.png)
+
+[立即使用GoPlan]((https://goooooouwa.tk:8095/welcome))，告别永远处理不完的待办事项，让一起尽在计划之中。
 
 ## 目标人群和使用场景
 
