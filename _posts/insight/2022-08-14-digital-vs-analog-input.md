@@ -1,5 +1,8 @@
 ---
-published: false
+title: "数字输入与手写手绘“
+category: insight
+tags: digital analog drawing writing note-taking journal
+published: true
 ---
 首先，个人认为数字化输入和绘画无法取代传统手写和笔纸绘画，也没必要取代，两者各有优劣，完全可以共存互补。
 
@@ -12,10 +15,10 @@ published: false
 
 ### 记笔记 我是该手写还是用电脑?
 
-手写笔记和type 笔记没有绝对的好坏，各有利弊，各有适合的场景。比如，
+手写笔记和数字笔记没有绝对的好坏，各有利弊，各有适合的场景。比如，
 
 - 手写笔记更利于学习
-- type 笔记更利于检索
+- 数字笔记更利于检索
 
 我自己现在其实很少线下学习(看书、课程、考试)，也就很少有记手写笔记的需求。
 
