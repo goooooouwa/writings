@@ -14,7 +14,7 @@ published: true
 
 ## Introduction
 
-Shunfa is a Senior Consultant, Business Analyst of Thoughtworks, mainly focusing on To-B product innovation. He was a full stack developer (Ruby + React JavaScript) from 2013 to 2018, then played the Business Analyst / Product Manager role since 2018.
+Shunfa serves Thoughtworks as a Senior Consultant, Business Analyst with 9 years of experiences in the offshore product delivery. He is currently focusing on To-B product innovation. He was a full stack developer (Ruby + React JavaScript) from 2013 to 2018, then played the Business Analyst / Product Manager role since 2018.
 
 During his 9 years experience of offshoring product delivery, he served clients across several industries, including Telecom, Automobile, Airline, Global Talent Mobility, Tax, Immigration, NGO and Field Service, engaged in various products & projects, ranging from technical projects, such as Microservices & Cloud, to more product focused ones, e.g. Legacy system modernization, SaaS replatform, 0-1 product innovation.
 
@@ -23,11 +23,11 @@ Overall, he is an innovative Product Manager / Busines Analyst, with a solid tec
 
 ## Working experience
 
-  * Business Analyst, Senior Consultant, ThoughtWorks Software Technologies (Wuhan) LTD., 2020/03/01 - Present
+  * Business Analyst, Senior Consultant, Thoughtworks Software Technologies (Wuhan) LTD., 2020/03/01 - Present
 
-  * Business Analyst, Consultant, ThoughtWorks Software Technologies (Wuhan) LTD., 2019/02/26 - 2020/02/29
+  * Business Analyst, Consultant, Thoughtworks Software Technologies (Wuhan) LTD., 2019/02/26 - 2020/02/29
 
-  * Developer, Consultant, ThoughtWorks Software Technologies (Wuhan) LTD., 2016/07/04 - 2019/02/25
+  * Developer, Consultant, Thoughtworks Software Technologies (Wuhan) LTD., 2016/07/04 - 2019/02/25
 
   * Software Developer - Ruby, ActiveNetwork (Chengdu) Co., Ltd., 2015/03/23 - 2016/06/23
 
@@ -52,8 +52,8 @@ Overall, he is an innovative Product Manager / Busines Analyst, with a solid tec
 1. Senior Business Analyst, Mobile Forms, Leading U.S. franchisor of in-home services, 2020/10/13 - 2021/01/15
 1. Senior Business Analyst, SustainChain, an U.S. non-profit organization focusing on UN’s 17 SDG Goals, 2020/04/16 - 2020/10/12
 1. Business Analyst, Digital API, Australian low-cost airline, 2019/04/08 - 2020/04/03
-1. Business Analyst, API Gateway, ThoughtWorks TechOps Platform, 2018/11/19 - 2019/01/18
-1. Agile Coach, ThoughtWorks School, ThoughtWorks, 2017/02/27 - 2018/09/30
+1. Business Analyst, API Gateway, Thoughtworks TechOps Platform, 2018/11/19 - 2019/01/18
+1. Agile Coach, Thoughtworks School, Thoughtworks, 2017/02/27 - 2018/09/30
 1. Full Stack Developer, Self Service, Major telecom operator in Australia, 2016/07/04 - 2017/02/24
 1. Ruby Developer, ActivityCloud, Active Network, LLC, 2015/03 —2016/06
 1. Full Stack Developer, TenderChase, Australian construction company, 2014/02 — 2015/02
@@ -174,13 +174,13 @@ Besides ensuring the successful production release of Digital API, I also have a
   * Helped team aligning on many conventions, like API naming and time format standardization, which serves as a framework for our future API design
   * Actively communicate with both API team and client teams, weekly catchup with key roles, to make sure requirements gets understood and delivered exactly as our clients expected, which greatly reduce the number of requirements redo.
 
-### API Gateway, ThoughtWorks TechOps Platform
+### API Gateway, Thoughtworks TechOps Platform
 
 2018/11/19 - 2019/01/18
 
 #### Project Description
 
-The TechOps Platform team is a global delivery team that implements the ThoughtWorks Digital Platform Strategy, committed to creating a digital platform within ThoughtWorks that improves product development efficiency and data availability. API Gateway is one of the three main products in the digital platform, providing reliable and easy-to-use API management service for ThoughtWorks' internal R&D teams.
+The TechOps Platform team is a global delivery team that implements the Thoughtworks Digital Platform Strategy, committed to creating a digital platform within Thoughtworks that improves product development efficiency and data availability. API Gateway is one of the three main products in the digital platform, providing reliable and easy-to-use API management service for Thoughtworks' internal R&D teams.
 
 #### Personal responsibility
 
@@ -217,23 +217,23 @@ In addition to ensuring the successful delivery of iterations, I went a step fur
   * Shortened the user feedback cycle time, by doing user interviews before each iteration, and verifying the accuracy and prioritization of requirements through product prototypes and user validation before actual development.
 
 
-### ThoughtWorks School
+### Thoughtworks School
 
 2017/02/27 - 2018/09/30
 
 #### Project Description
 
-ThoughtWorks School is the ThoughtWorks China Capacity Building Team responsible for the culture and skill training for new hires.
+Thoughtworks School is the Thoughtworks China Capacity Building Team responsible for the culture and skill training for new hires.
 
 #### Personal responsibility
 
-In 2018, as the owner of agile training for graduates in China, in collaboration with the operations team and major business units, designed and implemented the 2018 ThoughtWorks China cultural and agile training program for more than 100 graduates nationwide.
+In 2018, as the owner of agile training for graduates in China, in collaboration with the operations team and major business units, designed and implemented the 2018 Thoughtworks China cultural and agile training program for more than 100 graduates nationwide.
 
-In 2017, as the main person in charge of agile training for Wuhan office, I was responsible for 2017 Wuhan graduate training program and 2017 ThoughtWorks Summer Coding Camp for more than 60 undergrad students in Wuhan.
+In 2017, as the main person in charge of agile training for Wuhan office, I was responsible for 2017 Wuhan graduate training program and 2017 Thoughtworks Summer Coding Camp for more than 60 undergrad students in Wuhan.
 
 #### Team contribution
 
-In the 2018 ThoughtWorks China cultural and agile training program, I directly participated in the following activities:
+In the 2018 Thoughtworks China cultural and agile training program, I directly participated in the following activities:
 
   1. Requirements gathering with various business units, as well as previous participants.
 
@@ -247,7 +247,7 @@ In the 2018 ThoughtWorks China cultural and agile training program, I directly p
 
   6. Feedback gathering and program data analysis
 
-In the 2017 ThoughtWorks Summer Coding Camp, I directly participated in the following activities:
+In the 2017 Thoughtworks Summer Coding Camp, I directly participated in the following activities:
 
   1. Visiting major universities in Wuhan, and formed partenership with schools to co-host the Summer Coding Camp
 
@@ -286,7 +286,7 @@ In addition to ensuring the successful delivery, I strived to improve code quali
 
   * Improved the Git collaboration process for the large development team by adopting upstream merge and non-upstream rebase strategy, replacing the old Upstream Rebase strategy (which Git officially not recommend).
 
-### Other ThoughtWorks short-term projects
+### Other Thoughtworks short-term projects
 
   * Front End Developer, OCAL, REAP Public Welfare Education Game, 2018/10/23 - 2018/11/16
 
