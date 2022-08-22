@@ -76,7 +76,7 @@ He is responsible for the following:
 
 2021/08/16 - 2022/01/28
 
-Shunfa was the Project Manager / Business Analyst of the offshore delivery team. He worked closely with the client and the team to rebuild the first 2 main APIs of their legacy on-premises Mainframe Aftersales system in a Microservices & Cloud environment.
+Shunfa was the Project Manager / Business Analyst of the offshore delivery team. he worked closely with the client and the team to rebuild the first 2 main APIs of their legacy on-pre Mainframe Aftersales system in a Microservices & Cloud environment.
 
 He was responsible for the following:
 
@@ -149,7 +149,7 @@ Digital API is the company's enterprise API platform which:
 
 #### Personal responsibility
 
-As the Digital API team's Business Analyst, responsible for the requirements and project management through out the whole prodcut lifecycle, including:
+As the Digital API team's Business Analyst, responsible for the requirements and project management throughout the whole product lifecycle, including:
 
 - Business requirements analysis
 - API design
@@ -184,7 +184,7 @@ The TechOps Platform team is a global delivery team that implements the Thoughtw
 
 #### Personal responsibility
 
-As the API Gateway team's Tech BA, responsible for the requirements management through out the whole prodcut lifecycle, including:
+As the API Gateway team's Tech BA, responsible for the requirements management throughout the whole product lifecycle, including:
 
 - Business requirements gathering
 - Feature design
