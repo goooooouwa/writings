@@ -14,7 +14,7 @@ published: true
 
 ## Introduction
 
-Shunfa serves Thoughtworks as a Senior Consultant, Business Analyst with 9 years of experience in offshore product delivery. He is currently focusing on To-B product innovation. He was a full stack developer (Ruby + React JavaScript) from 2013 to 2018, then played the Business Analyst / Product Manager role since 2018.
+Shunfa serves Thoughtworks as a Senior Consultant, Business Analyst with 9 years of experience in offshore product delivery. He is currently focusing on To-B product innovation. He was a full stack developer (Ruby + React JavaScript) from 2013 to 2018, then played the Business Analyst / Product Manager role from 2018.
 
 During his 9 years experience of offshoring product delivery, he served clients across several industries, including Telecom, Automobile, Airline, Global Talent Mobility, Tax, Immigration, NGO and Field Service, engaged in various products & projects, ranging from technical projects, such as Microservices & Cloud, to more product focused ones, e.g. Legacy system modernization, SaaS replatform, 0-1 product innovation.
 
