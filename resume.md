@@ -14,7 +14,12 @@ published: true
 
 ## Introduction
 
-8+ years working experience in agile software development. With a technical background and broad understanding on business and design, Shunfa's a passionate digital product manager.
+Shunfa is a Senior Consultant, Business Analyst of Thoughtworks, mainly focusing on To-B product innovation. He was a full stack developer (Ruby + React JavaScript) from 2013 to 2018, then played the Business Analyst / Product Manager role since 2018.
+
+During his 9 years experience of offshoring product delivery, he served clients across several industries, including Telecom, Automobile, Airline, Global Talent Mobility, Tax, Immigration, NGO and Field Service, engaged in various products & projects, ranging from technical projects, such as Microservices & Cloud, to more product focused ones, e.g. Legacy system modernization, SaaS replatform, 0-1 product innovation.
+
+Overall, he is an innovative Product Manager / Busines Analyst, with a solid technical background, experienced in various industries & business domains.
+
 
 ## Working experience
 
@@ -37,21 +42,53 @@ published: true
 * Mandarin Chinese: native
 * English: fluent
 
-## Project experience
+## Product / Project experience
 
-- Senior Business Analyst, System Integration, a multinational professional services firm, 2022/02/12 - present
-- Senior Business Analyst, Microservice RePlatform, German luxury car company, 2021/08/16 - 2022/01/28
-- Offshore Product Manager, SaaS RePlatform, a leading U.S. franchisor of in-home services, 2021/01/19 - 2021/08/13
-- Senior Business Analyst, Mobile Forms, a leading U.S. franchisor of in-home services, 2020/10/13 - 2021/01/15
-- Senior Business Analyst, SustainChain, an U.S. non-profit organization focusing on UN’s Sustainable Development Goals, 2020/04/16 - 2020/10/12
-- Business Analyst, Digital API, an Australian low-cost airline, 2019/04/08 - 2020/04/03
-- Business Analyst, API Gateway, ThoughtWorks TechOps Platform, 2018/11/19 - 2019/01/18
-- Agile Coach, ThoughtWorks School, ThoughtWorks, 2017/02/27 - 2018/09/30
-- Full Stack Developer, Self Service, a major telecom operator in Australia, 2016/07/04 - 2017/02/24
-- Ruby Developer, ActivityCloud, ActiveNetwork, 2015/03 —2016/06
-- Full Stack Developer, TenderChase, an Australian construction company, 2014/02 — 2015/02
+### Timeline
 
-### SaaS RePlatform
+1. Senior Business Analyst, Business Process Integration Platform, Global talent mobility services firm, 2022/02/12 - present
+1. Senior Business Analyst, Microservice Replatform, German multinational automotive corporation, 2021/08/16 - 2022/01/28
+1. Offshore Product Manager, SaaS RePlatform, Leading U.S. franchisor of in-home services, 2021/01/19 - 2021/08/13
+1. Senior Business Analyst, Mobile Forms, Leading U.S. franchisor of in-home services, 2020/10/13 - 2021/01/15
+1. Senior Business Analyst, SustainChain, an U.S. non-profit organization focusing on UN’s 17 SDG Goals, 2020/04/16 - 2020/10/12
+1. Business Analyst, Digital API, Australian low-cost airline, 2019/04/08 - 2020/04/03
+1. Business Analyst, API Gateway, ThoughtWorks TechOps Platform, 2018/11/19 - 2019/01/18
+1. Agile Coach, ThoughtWorks School, ThoughtWorks, 2017/02/27 - 2018/09/30
+1. Full Stack Developer, Self Service, Major telecom operator in Australia, 2016/07/04 - 2017/02/24
+1. Ruby Developer, ActivityCloud, Active Network, LLC, 2015/03 —2016/06
+1. Full Stack Developer, TenderChase, Australian construction company, 2014/02 — 2015/02
+
+### Business Process Integration Platform, Global Talent Mobility Services Firm
+
+2022/02/12 - present
+
+Shunfa is the Product / Business Analyst of the offshore delivery team. he worked closely with the client and the team to build an innovate Business Process Integration Platform product from 0 to 1.
+
+He is responsible for the following:
+
+- Client engagement & stakeholder management
+- Product roadmap and prioritization
+- Requirements elaborating & analyzing
+- User interview & Market research
+- Sprint & Backlog management
+
+### Microservice Replatform, German multinational automotive corporation
+
+2021/08/16 - 2022/01/28
+
+Shunfa was the Project Manager / Business Analyst of the offshore delivery team. he worked closely with the client and the team to rebuild the first 2 main APIs of their legacy on-pre Mainframe Aftersales system in a Microservices & Cloud environment.
+
+He was responsible for the following:
+
+- Client engagement & stakeholder management
+- Product roadmap and prioritization
+- Requirements elaborating & analyzing
+- Sprint planning & release management
+
+
+### SaaS RePlatform, Leading U.S. franchisor of in-home services
+
+2021/01/19 - 2021/08/13
 
 #### Project Description
 
@@ -76,7 +113,10 @@ As the offshore product manager, responsible for the successful delivery of the 
 #### Team contribution
 
 Joined the team with the goal of moving the product towards its initial production launch, have been working closely with the clients on product analysis and design work. Together with our onshore and offshore UX & BAs, we analyzed and designed major features such as Agreement Management from the ground up, based on user research & feedback. Helping ensured the success delivery of all scoped features for the new platform for its first release.
-### SustainChain
+
+### SustainChain, U.S. Non-profit Organization
+
+2020/04/16 - 2020/10/12
 
 #### Project Description
 
@@ -95,7 +135,9 @@ As the offshore BA, responsible for the successful delivery of the SustainChain 
 
 Joined the team shortly after it's inception, have been working closely with the clients on a daily basis. Together with our UX designer, we analyzed and designed 15+ major features based on user research & feedback. Helping ensured the success launch of several critical features for the platform in preparation for the 75th General Assembly of the United Nations.
 
-### Digital API
+### Digital API, Australian low-cost airline
+
+2019/04/08 - 2020/04/03
 
 #### Project Description
 
@@ -132,7 +174,9 @@ Besides ensuring the successful production release of Digital API, I also have a
   * Helped team aligning on many conventions, like API naming and time format standardization, which serves as a framework for our future API design
   * Actively communicate with both API team and client teams, weekly catchup with key roles, to make sure requirements gets understood and delivered exactly as our clients expected, which greatly reduce the number of requirements redo.
 
-### API Gateway
+### API Gateway, ThoughtWorks TechOps Platform
+
+2018/11/19 - 2019/01/18
 
 #### Project Description
 
@@ -174,6 +218,8 @@ In addition to ensuring the successful delivery of iterations, I went a step fur
 
 
 ### ThoughtWorks School
+
+2017/02/27 - 2018/09/30
 
 #### Project Description
 
@@ -218,7 +264,9 @@ In the 2017 ThoughtWorks Summer Coding Camp, I directly participated in the foll
   7. Feedback gathering and program data analysis
 
 
-### Self Service
+### Self Service, Major telecom operator in Australia
+
+2016/07/04 - 2017/02/24
 
 #### Project Description
 
@@ -244,7 +292,9 @@ In addition to ensuring the successful delivery, I strived to improve code quali
 
   * Front-end developer, MBB, German luxury car company, 2017/11/20 - 2018/01/26
 
-### ActivityCloud
+### ActivityCloud, Active Network, LLC
+
+2015/03 —2016/06
 
 #### Project Description
 
@@ -262,7 +312,9 @@ In addition to ensuring the successful delivery of iterations, I continued to im
 
   * Found a FireFox browser bug while debugging a production issue, and later submited a bug to Mozila and watched it fixed.
 
-### TenderChase
+### TenderChase, Australian construction company
+
+2014/02 — 2015/02
 
 #### Project Description
 
