@@ -229,7 +229,7 @@ Thoughtworks School is the Thoughtworks China Capacity Building Team responsible
 
 In 2018, as the owner of agile training for graduates in China, in collaboration with the operations team and major business units, designed and implemented the 2018 Thoughtworks China cultural and agile training program for more than 100 graduates nationwide.
 
-In 2017, as the main person in charge of agile training for Wuhan office, I was responsible for 2017 Wuhan graduate training program and 2017 Thoughtworks Summer Coding Camp for more than 60 undergrad students in Wuhan.
+In 2017, as the main person in charge of agile training for the Wuhan office, I was responsible for the 2017 Wuhan graduate training program and 2017 Thoughtworks Summer Coding Camp for more than 60 undergrad students in Wuhan.
 
 #### Team contribution
 
