@@ -62,7 +62,7 @@ Overall, he is an innovative Product Manager / Business Analyst, with a solid te
 
 2022/02/12 - present
 
-Shunfa is the Product / Business Analyst of the offshore delivery team. he worked closely with the client and the team to build an innovate Business Process Integration Platform product from 0 to 1.
+Shunfa is the Product / Business Analyst of the offshore delivery team. He worked closely with the client and the team to build an innovative Business Process Integration Platform product from 0 to 1.
 
 He is responsible for the following:
 
