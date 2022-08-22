@@ -18,7 +18,7 @@ Shunfa serves Thoughtworks as a Senior Consultant, Business Analyst with 9 years
 
 During his 9 years experience of offshoring product delivery, he served clients across several industries, including Telecom, Automobile, Airline, Global Talent Mobility, Tax, Immigration, NGO and Field Service, engaged in various products & projects, ranging from technical projects, such as Microservices & Cloud, to more product focused ones, e.g. Legacy system modernization, SaaS replatform, 0-1 product innovation.
 
-Overall, he is an innovative Product Manager / Busines Analyst, with a solid technical background, experienced in various industries & business domains.
+Overall, he is an innovative Product Manager / Business Analyst, with a solid technical background, experienced in various industries & business domains.
 
 
 ## Working experience
