@@ -76,7 +76,7 @@ He is responsible for the following:
 
 2021/08/16 - 2022/01/28
 
-Shunfa was the Project Manager / Business Analyst of the offshore delivery team. he worked closely with the client and the team to rebuild the first 2 main APIs of their legacy on-pre Mainframe Aftersales system in a Microservices & Cloud environment.
+Shunfa was the Project Manager / Business Analyst of the offshore delivery team. He worked closely with the client and the team to rebuild the first 2 main APIs of their legacy on-pre Mainframe Aftersales system in a Microservices & Cloud environment.
 
 He was responsible for the following:
 
