@@ -82,7 +82,7 @@ He was responsible for the following:
 
 - Client engagement & stakeholder management
 - Product roadmap and prioritization
-- Requirements elaborating & analyzing
+- Requirements elaboration & analysis
 - Sprint planning & release management
 
 
