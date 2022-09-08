@@ -102,7 +102,7 @@ SaaS RePlatform is the SaaS modernization of a legacy field service management s
 
 #### Personal responsibility
 
-As the offshore product manager, responsible for the successful delivery of the SustainChain platform, including:
+As the offshore product manager, responsible for the successful delivery of the modernized SaaS platform, including:
 
 - Client engagement
 - Manage product roadmap
