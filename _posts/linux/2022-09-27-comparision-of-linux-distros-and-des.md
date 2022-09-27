@@ -68,7 +68,7 @@ Below is a summary of my experiences with the 3 main distros and DEs.
 ### UX experience
 
 - Gnome has the best UX design out of the box.
-- More app are made with GTK for Linux.
+- More app are made with GTK in Linux.
 - KDE has good default UX.
 - KDE has better support for Gnome apps then Gnome for KDE apps.
 - KDE apps are more powerful and more customizable.
