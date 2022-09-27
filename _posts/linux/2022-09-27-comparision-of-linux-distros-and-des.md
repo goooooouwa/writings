@@ -3,7 +3,7 @@ published: true
 title: Comparision of Linux distros and desktop environments
 category: linux
 ---
-During the past 2 weeks, I distro-hopped among multiple different distros and Desktop Environments, as listed below (in a timely order):
+During the past 2 weeks, I distro-hopped among multiple different distros and desktop environments. Below is a list of distros I tried on my laptops (in a timely order).
 
 On my Legion R9000p 2021, I tried:
 
