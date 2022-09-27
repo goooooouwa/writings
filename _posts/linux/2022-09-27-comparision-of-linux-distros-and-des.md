@@ -25,6 +25,7 @@ On my Thinkpad X100e 2010, I tried:
 
 - Lubuntu
 - Linux Mint
+- Lakka
 - Manjaro XFCE
 - Xubuntu
 - Zorin OS Lite
