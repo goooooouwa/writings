@@ -5,32 +5,33 @@ category: linux
 ---
 During the past 2 weeks, I distro-hopped among multiple different distros and Desktop Environments, as listed below (in a timely order):
 
-Legion R9000p
+On my Legion R9000p 2021, I tried:
+
 - Ubuntu
 - Manjaro KDE
 - Kubuntu
+- Fedora
 - Elementory OS
 
-MacBook Air:
+On my MacBook Air 2011, I tried:
+
 - Ubuntu
 - Lubuntu
 - Linux Mint
 - Manjaro KDE
 - Kubuntu
 
+On my Thinkpad X100e 2010, I tried:
 
-Thinkpad X100e
 - Lubuntu
 - Linux Mint
 - Manjaro XFCE
 - Xubuntu
-
-
-
+- Zorin OS Lite
 
 Below is a summary of my experiences with these distro and DEs.
 
-## Comparision of Linux distros
+## Comparision of main Linux distros
 
 - Ubuntu
 - Fedora
@@ -54,7 +55,7 @@ Ubuntu has the best hardward support (supported by most OEMs).
 Fedora doesn't include pripertory drivers by default
 Manjaro has built-in hardware detection.
 
-## Comparision of Linux Desktop Environments
+## Comparision of main Linux Desktop Environments
 
 - Gnome
 - KDE
