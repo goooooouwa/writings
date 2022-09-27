@@ -9,7 +9,7 @@ On my Legion R9000p 2021, I tried:
 
 - Ubuntu
 - Manjaro KDE
-- Kubuntu
+- **Kubuntu** (final choice)
 - Fedora KDE
 - Elementory OS
 
@@ -19,7 +19,7 @@ On my MacBook Air 2011, I tried:
 - Lubuntu
 - Linux Mint Cinnamon
 - Chrome OS
-- Manjaro KDE
+- **Manjaro KDE** (final choice)
 
 On my Thinkpad X100e 2010, I tried:
 
@@ -27,7 +27,8 @@ On my Thinkpad X100e 2010, I tried:
 - Linux Mint
 - Lakka
 - Manjaro XFCE
-- Xubuntu
+- Lubuntu 16.04
+- **Xubuntu 16.04** (final choice)
 - Zorin OS Lite
 - antiX Linux
 - Android X86
