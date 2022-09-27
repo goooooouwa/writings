@@ -20,7 +20,6 @@ On my MacBook Air 2011, I tried:
 - Linux Mint Cinnamon
 - Chrome OS
 - Manjaro KDE
-- Kubuntu
 
 On my Thinkpad X100e 2010, I tried:
 
