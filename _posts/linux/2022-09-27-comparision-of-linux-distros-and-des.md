@@ -49,15 +49,17 @@ Manjaro AUR has everything you need.
 
 ### Stability
 
-Ubuntu is mot stable with oldest packages.
-Fedora is more up to date with newer packages, but not as bleeding edge as Manjaro, thus relatively more stable.
-Manjaro is bleeding edge, most up-to-date, but also possible unbootable after update.
+- Ubuntu is mot stable with oldest packages.
+- Fedora is more up to date with newer packages, but not as bleeding edge as Manjaro, thus relatively more stable.
+- Manjaro is bleeding edge, most
+ up-to-date, but also possible unbootable after update.
 
 ### Hardware support
 
-Ubuntu has the best hardward support (supported by most OEMs).
-Fedora doesn't include pripertory drivers by default
-Manjaro has built-in hardware detection.
+U- buntu has the best hardward support (supported by most OEMs).
+- Fedora doesn't include pripertory drivers by default
+- Manjaro has bu
+ilt-in hardware detection.
 
 ## Comparision of main Linux Desktop Environments
 
