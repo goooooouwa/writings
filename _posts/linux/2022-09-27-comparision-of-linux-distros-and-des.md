@@ -7,7 +7,7 @@ During the past 2 weeks, I distro-hopped among multiple different distros and de
 
 On my MSI GT60D 2015, I tried:
 
-- Ubuntu
+- **Ubuntu** (final choice)
 - Pop OS
 
 On my Legion R9000p 2021, I tried:
