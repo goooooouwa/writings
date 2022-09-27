@@ -32,7 +32,7 @@ On my Thinkpad X100e 2010, I tried:
 - antiX Linux
 - Android X86
 
-Below is a summary of my experiences with these distro and DEs.
+Below is a summary of my experiences with the 3 main distros and DEs.
 
 ## Comparision of main Linux distros
 
