@@ -49,9 +49,9 @@ Below is a summary of my experiences with the 3 main distros and DEs.
 
 ### Stability
 
-- Ubuntu is mot stable with oldest packages.
+- Ubuntu is most stable while having oldest packages.
 - Fedora is more up to date with newer packages, but not as bleeding edge as Manjaro, thus relatively more stable.
-- Manjaro is bleeding edge, most up-to-date, but also possible unbootable after update.
+- Manjaro is bleeding edge, most up-to-date, but also possible to become unbootable after update.
 
 ### Hardware support
 
