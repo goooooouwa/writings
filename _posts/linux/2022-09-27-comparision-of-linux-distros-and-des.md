@@ -43,23 +43,21 @@ Below is a summary of my experiences with the 3 main distros and DEs.
 
 ### Package availability
 
-Ubuntu has most pacakges in the official repo
-Fedora has fewer packages in official repo
-Manjaro AUR has everything you need.
+- Ubuntu has most pacakges in the official repo
+- Fedora has fewer packages in official repo
+- Manjaro AUR has everything you need.
 
 ### Stability
 
 - Ubuntu is mot stable with oldest packages.
 - Fedora is more up to date with newer packages, but not as bleeding edge as Manjaro, thus relatively more stable.
-- Manjaro is bleeding edge, most
- up-to-date, but also possible unbootable after update.
+- Manjaro is bleeding edge, most up-to-date, but also possible unbootable after update.
 
 ### Hardware support
 
-U- buntu has the best hardward support (supported by most OEMs).
+- Ubuntu has the best hardward support (supported by most OEMs).
 - Fedora doesn't include pripertory drivers by default
-- Manjaro has bu
-ilt-in hardware detection.
+- Manjaro has built-in hardware detection.
 
 ## Comparision of main Linux Desktop Environments
 
