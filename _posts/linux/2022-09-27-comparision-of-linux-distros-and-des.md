@@ -5,6 +5,11 @@ category: linux
 ---
 During the past 2 weeks, I distro-hopped among multiple different distros and desktop environments. Below is a list of distros I tried on my laptops (in a timely order).
 
+On my MSI GT60D 2015, I tried:
+
+- Ubuntu
+- Pop OS
+
 On my Legion R9000p 2021, I tried:
 
 - Ubuntu
@@ -79,4 +84,3 @@ Below is a summary of my experiences with the 3 main distros and DEs.
 - Gnome is not customizable.
 - KDE is very easy to customize.
 - XFCE is very customizable.
-
