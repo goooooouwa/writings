@@ -12,9 +12,9 @@ On my MSI GT60D 2015, I tried:
 
 On my Legion R9000p 2021, I tried:
 
-- Ubuntu
+- **Ubuntu** (final choice)
 - Manjaro KDE
-- **Kubuntu** (final choice)
+- Kubuntu (close 2nd due to display & driver issue)
 - Fedora KDE
 - Elementory OS
 
