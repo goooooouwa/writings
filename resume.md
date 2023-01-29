@@ -7,10 +7,10 @@ published: true
 
 ## Shunfa Xu
 
-  * Email: gouwa5700 (at) gmail (dot) com
-  * Phone / WeChat: Available on request
-  * Github: [https://github.com/goooooouwa](https://github.com/goooooouwa)
-  * Blog: [https://blog.goooooouwa.tk](https://blog.goooooouwa.tk)
+- Email: gouwa5700 (at) gmail (dot) com
+- Phone / WeChat: Available on request
+- Github: [https://github.com/goooooouwa](https://github.com/goooooouwa)
+- Blog: [https://goooooouwa.github.io](https://goooooouwa.github.io)
 
 ## Introduction
 
@@ -20,27 +20,26 @@ During his 9 years experience of offshore product delivery, he served clients ac
 
 Overall, he is an innovative Product Manager / Business Analyst, with a solid technical background, experienced in various industries & business domains.
 
-
 ## Working experience
 
-  * Business Analyst, Senior Consultant, Thoughtworks Software Technologies (Wuhan) LTD., 2020/03/01 - Present
+- Business Analyst, Senior Consultant, Thoughtworks Software Technologies (Wuhan) LTD., 2020/03/01 - Present
 
-  * Business Analyst, Consultant, Thoughtworks Software Technologies (Wuhan) LTD., 2019/02/26 - 2020/02/29
+- Business Analyst, Consultant, Thoughtworks Software Technologies (Wuhan) LTD., 2019/02/26 - 2020/02/29
 
-  * Developer, Consultant, Thoughtworks Software Technologies (Wuhan) LTD., 2016/07/04 - 2019/02/25
+- Developer, Consultant, Thoughtworks Software Technologies (Wuhan) LTD., 2016/07/04 - 2019/02/25
 
-  * Software Developer - Ruby, ActiveNetwork (Chengdu) Co., Ltd., 2015/03/23 - 2016/06/23
+- Software Developer - Ruby, ActiveNetwork (Chengdu) Co., Ltd., 2015/03/23 - 2016/06/23
 
-  * Junior Software Developer - Ruby, Beijing Shinetech Technology Development Co., Ltd. Wuhan Branch, 2013/04/16 - 2015/02/28
+- Junior Software Developer - Ruby, Beijing Shinetech Technology Development Co., Ltd. Wuhan Branch, 2013/04/16 - 2015/02/28
 
 ## Education
 
-* Bachelor's Degree of Engineering, Automation, Jianghan University, 2009/09/01 - 2013/06/30
+- Bachelor's Degree of Engineering, Automation, Jianghan University, 2009/09/01 - 2013/06/30
 
 ## Languages
 
-* Mandarin Chinese: native
-* English: fluent
+- Mandarin Chinese: native
+- English: fluent
 
 ## Product / Project experience
 
@@ -84,7 +83,6 @@ He was responsible for the following:
 - Product roadmap and prioritization
 - Requirements elaboration & analysis
 - Sprint planning & release management
-
 
 ### SaaS RePlatform, Leading U.S. franchisor of in-home services
 
@@ -161,18 +159,18 @@ As the Digital API team's Business Analyst, responsible for the requirements and
 
 As the first offshore BA for the account, by working closely with our delivery team, I helped achieving:
 
-  * First production release of Digital API
-  * Success delivery of 36 APIs, ranging from Notification to Payment, from scratch
-  * Facilitaing all kinds of scrum meetings like sprint planning, backlog refinement, retrospective and showcases.
-  * Ensuring stable delivery during project migration period
+- First production release of Digital API
+- Success delivery of 36 APIs, ranging from Notification to Payment, from scratch
+- Facilitaing all kinds of scrum meetings like sprint planning, backlog refinement, retrospective and showcases.
+- Ensuring stable delivery during project migration period
 
 Besides ensuring the successful production release of Digital API, I also have a habit of consistently improving our process and ways of working, including:
 
-  * Revised our story template and Definition of Done, which unifies every checkpoint spreading across multiple sub-tasks into one single checklist. This makes it much easier to gaining context and work progress of every story.
-  * Continuiously improve our backlog by elimilating the use of sub-tasks to manage different aspects of story ticket, which greatly reduced our number of tickets in backlog (from 180 tickets to 40)
-  * Utilizing technique like User Story Map to visualize our Beta and MVP release scope and current delivery status, which helps both API team and client teams get a clear picture of our roadmap
-  * Helped team aligning on many conventions, like API naming and time format standardization, which serves as a framework for our future API design
-  * Actively communicate with both API team and client teams, weekly catchup with key roles, to make sure requirements gets understood and delivered exactly as our clients expected, which greatly reduce the number of requirements redo.
+- Revised our story template and Definition of Done, which unifies every checkpoint spreading across multiple sub-tasks into one single checklist. This makes it much easier to gaining context and work progress of every story.
+- Continuiously improve our backlog by elimilating the use of sub-tasks to manage different aspects of story ticket, which greatly reduced our number of tickets in backlog (from 180 tickets to 40)
+- Utilizing technique like User Story Map to visualize our Beta and MVP release scope and current delivery status, which helps both API team and client teams get a clear picture of our roadmap
+- Helped team aligning on many conventions, like API naming and time format standardization, which serves as a framework for our future API design
+- Actively communicate with both API team and client teams, weekly catchup with key roles, to make sure requirements gets understood and delivered exactly as our clients expected, which greatly reduce the number of requirements redo.
 
 ### API Gateway, Thoughtworks TechOps Platform
 
@@ -196,26 +194,25 @@ As the API Gateway team's Tech BA, responsible for the requirements management t
 
 During my time with the team, I participated in the early design and delivery of several major Epics, including:
 
-  * Release of the API self-service publishing feature
+- Release of the API self-service publishing feature
 
-  * Data Events product Inception
+- Data Events product Inception
 
-  * Feasibility validation of the API OAuth OIDC authorization scheme
+- Feasibility validation of the API OAuth OIDC authorization scheme
 
-  * Requirements analysis and functional design for API system reliability monitoring
+- Requirements analysis and functional design for API system reliability monitoring
 
 In addition to ensuring the successful delivery of iterations, I went a step further to optimize team's current requirements management process and improved the overall delivery processes, including:
 
-  * Based on the INVEST principle, bring clearity to the once ambiguous story writing, and made ensure that every story has corresponding Persona, business value, User Journey and clear AC guidelines.
+- Based on the INVEST principle, bring clearity to the once ambiguous story writing, and made ensure that every story has corresponding Persona, business value, User Journey and clear AC guidelines.
 
-  * The Roadmap, which was originally fragmented and ambiguous, was clearly managed using the User Story Map and a periodic Release plan was developed to ensure that everyone knows the value and context of what we're delivering.
+- The Roadmap, which was originally fragmented and ambiguous, was clearly managed using the User Story Map and a periodic Release plan was developed to ensure that everyone knows the value and context of what we're delivering.
 
-  * Actively communicate with all team members, clarified several key but inconsistent concepts, ensured that everyone speak the same language, and effectively improved communication efficiency and made product logic clear.
+- Actively communicate with all team members, clarified several key but inconsistent concepts, ensured that everyone speak the same language, and effectively improved communication efficiency and made product logic clear.
 
-  * Optimized the original fragmented rights management, proposed a complete set of unified rights management rules, ensured that everyone understands the rules the same way, and ensured the accuracy and reliability of rights management.
+- Optimized the original fragmented rights management, proposed a complete set of unified rights management rules, ensured that everyone understands the rules the same way, and ensured the accuracy and reliability of rights management.
 
-  * Shortened the user feedback cycle time, by doing user interviews before each iteration, and verifying the accuracy and prioritization of requirements through product prototypes and user validation before actual development.
-
+- Shortened the user feedback cycle time, by doing user interviews before each iteration, and verifying the accuracy and prioritization of requirements through product prototypes and user validation before actual development.
 
 ### Thoughtworks School
 
@@ -235,34 +232,33 @@ In 2017, as the main person in charge of agile training for the Wuhan office, I 
 
 In the 2018 Thoughtworks China cultural and agile training program, I directly participated in the following activities:
 
-  1. Requirements gathering with various business units, as well as previous participants.
+1. Requirements gathering with various business units, as well as previous participants.
 
-  2. Design of the Training program
+2. Design of the Training program
 
-  3. Design and development of the curriculum
+3. Design and development of the curriculum
 
-  4. Collaboration between more than 60 trainers and 113 graduates nationwide to carry out the agile technical training program
+4. Collaboration between more than 60 trainers and 113 graduates nationwide to carry out the agile technical training program
 
-  5. Work with other agile coaches to provide after-hire agile technical training for graduates from Chengdu and Wuhan.
+5. Work with other agile coaches to provide after-hire agile technical training for graduates from Chengdu and Wuhan.
 
-  6. Feedback gathering and program data analysis
+6. Feedback gathering and program data analysis
 
 In the 2017 Thoughtworks Summer Coding Camp, I directly participated in the following activities:
 
-  1. Visiting major universities in Wuhan, and formed partenership with schools to co-host the Summer Coding Camp
+1. Visiting major universities in Wuhan, and formed partenership with schools to co-host the Summer Coding Camp
 
-  2. Design of the Coding Camp
+2. Design of the Coding Camp
 
-  3. Design and development of the promotion website
+3. Design and development of the promotion website
 
-  4. Marketing and organization of the program
+4. Marketing and organization of the program
 
-  5. Design and development of the curriculum
+5. Design and development of the curriculum
 
-  6. Training more than 60 undergrad students along with 2 other coaches
+6. Training more than 60 undergrad students along with 2 other coaches
 
-  7. Feedback gathering and program data analysis
-
+7. Feedback gathering and program data analysis
 
 ### Self Service, Major telecom operator in Australia
 
@@ -280,17 +276,17 @@ As a member of the development team, responsible for the development and deliver
 
 In addition to ensuring the successful delivery, I strived to improve code quality, test stability and coverage, and improved the development process, including:
 
-  * Shared Ruby development best practices among team members.
+- Shared Ruby development best practices among team members.
 
-  * Successfully fixed dozens of once mysteriously failed test cases, and fixed bugs in the test code itself, improving the stability and coverage of the test.
+- Successfully fixed dozens of once mysteriously failed test cases, and fixed bugs in the test code itself, improving the stability and coverage of the test.
 
-  * Improved the Git collaboration process for the large development team by adopting upstream merge and non-upstream rebase strategy, replacing the old Upstream Rebase strategy (which Git officially not recommend).
+- Improved the Git collaboration process for the large development team by adopting upstream merge and non-upstream rebase strategy, replacing the old Upstream Rebase strategy (which Git officially not recommend).
 
 ### Other Thoughtworks short-term projects
 
-  * Front End Developer, OCAL, REAP Public Welfare Education Game, 2018/10/23 - 2018/11/16
+- Front End Developer, OCAL, REAP Public Welfare Education Game, 2018/10/23 - 2018/11/16
 
-  * Front-end developer, MBB, German luxury car company, 2017/11/20 - 2018/01/26
+- Front-end developer, MBB, German luxury car company, 2017/11/20 - 2018/01/26
 
 ### ActivityCloud, Active Network, LLC
 
@@ -308,9 +304,9 @@ As a member of the API Service Development team, I am responsible for feature de
 
 In addition to ensuring the successful delivery of iterations, I continued to improve code quality at work, including:
 
-  * Implement a data management solution that uses ActiveRecord instead of DTO.
+- Implement a data management solution that uses ActiveRecord instead of DTO.
 
-  * Found a FireFox browser bug while debugging a production issue, and later submited a bug to Mozila and watched it fixed.
+- Found a FireFox browser bug while debugging a production issue, and later submited a bug to Mozila and watched it fixed.
 
 ### TenderChase, Australian construction company
 
@@ -328,6 +324,6 @@ As the only full-stack developer, responsible for product requirements communica
 
 In addition to ensuring the successful delivery of the product, I also improved several product features, including:
 
-  * Redesigned the once complicated and incomprehensible supplier bidding interface to a new interface with clear logic and easy operation, which significantly reduces the difficulty of use and better user experience.
+- Redesigned the once complicated and incomprehensible supplier bidding interface to a new interface with clear logic and easy operation, which significantly reduces the difficulty of use and better user experience.
 
-  * Found missing an API that Dropbox Ruby SDK did not provide while implementing a feature, so submitted a Pull Request to the Dropbox Ruby SDK project which later merged by the maintainer.
+- Found missing an API that Dropbox Ruby SDK did not provide while implementing a feature, so submitted a Pull Request to the Dropbox Ruby SDK project which later merged by the maintainer.
