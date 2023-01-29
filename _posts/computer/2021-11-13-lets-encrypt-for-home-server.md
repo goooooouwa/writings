@@ -2,7 +2,10 @@
 title: 教程：使用Let's Encrypt + freedns为RT-AC86U路由器及其他服务器颁发SSL证书
 category: computer
 published: true
+tags: home-server 破解
 ---
+
+相关文章：[搭建家庭娱乐服务器]({% post_url /computer/2021-11-14-home-media-server-setup %})
 
 关键约束：
 
