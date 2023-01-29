@@ -2,7 +2,7 @@
 title: 搭建家庭娱乐服务器
 category: computer
 published: true
-tag: 破解 htpc home-server
+tags: 破解 htpc home-server
 ---
 
 ## Media Server
