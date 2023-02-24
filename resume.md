@@ -43,6 +43,9 @@ Overall, he is an innovative Product Manager / Business Analyst, with a solid te
 ## Books/Publications Authored
 
 - Co-translator of Austin Govella’s book **Collaborative Product Design** (ISBN: 9787519853297), published in June 2021.
+
+## Projects
+
 - Creator of [GoPlan Web](https://github.com/goooooouwa/goplan-web), an open source web application for task planning.
 
 ## Languages
