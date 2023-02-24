@@ -20,7 +20,7 @@ During his 9 years experience of offshore product delivery, he served clients ac
 
 Overall, he is an innovative Product Manager / Business Analyst, with a solid technical background, experienced in various industries & business domains.
 
-## Working experience
+## Experience
 
 - Business Analyst, Senior Consultant, Thoughtworks Software Technologies (Wuhan) LTD., 2020/03/01 - Present
 
@@ -34,7 +34,16 @@ Overall, he is an innovative Product Manager / Business Analyst, with a solid te
 
 ## Education
 
-- Bachelor's Degree of Engineering, Automation, Jianghan University, 2009/09/01 - 2013/06/30
+- **Bachelor's Degree of Engineering**, Automation, Jianghan University, 2009/09/01 - 2013/06/30
+
+## Awards/Certifications
+
+- Certified **New Product Development Professional** (No. C182148), awarded by PDMA Certification Committee on Sep 24th, 2022.
+
+## Books/Publications Authored
+
+- Co-translator of Austin Govella’s book **Collaborative Product Design** (ISBN: 9787519853297), published in June 2021.
+- Creator of GoPlan, an open source web application for task planning.
 
 ## Languages
 
