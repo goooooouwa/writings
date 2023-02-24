@@ -46,7 +46,7 @@ Overall, he is an innovative Product Manager / Business Analyst, with a solid te
 
 ## Open Source Projects
 
-- Creator of [GoPlan Web](https://github.com/goooooouwa/goplan-web), an open source web application for task planning.
+- Designer and developer of [GoPlan Web](https://github.com/goooooouwa/goplan-web), an open source web application for task planning.
 
 ## Languages
 
