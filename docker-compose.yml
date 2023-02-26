@@ -6,13 +6,16 @@ services:
   jekyllbuild:
     build:
       context: .
+      dockerfile: ./docker/jekyllbuild/Dockerfile
     volumes:
       - static_files:/srv/jekyll/_site
     ports:
       - 4000:4000
 
   nginx:
-    image: linuxserver/nginx:latest
+    build:
+      context: .
+      dockerfile: ./docker/nginx/Dockerfile
     container_name: nginx4jekyll
     environment:
       - PUID=1024
@@ -20,7 +23,6 @@ services:
       - TZ=Asia/Chongqing
     volumes:
       - static_files:/var/www/public
-      - "./nginx.conf:/config/nginx/site-confs/default.conf"
       - /etc/certs:/etc/certs
     depends_on:
       - jekyllbuild
