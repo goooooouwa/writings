@@ -23,7 +23,7 @@ FROM nginx
 # RUN envsubst '$RAILS_ROOT' < /tmp/docker.nginx > /etc/nginx/conf.d/default.conf
 
 # Copy Nginx config template
-COPY docker/nginx/nginx.conf /config/nginx/site-confs/default.conf
+COPY docker/nginx/nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 443
 
