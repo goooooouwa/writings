@@ -8,6 +8,8 @@ services:
       context: .
     volumes:
       - static_files:/srv/jekyll/_site
+    ports:
+      - 4000:4000
 
   nginx:
     image: linuxserver/nginx:latest
