@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  jekyllbuild:
+    build:
+      context: .
+      args:
+        build_command: "bundle exec jekyll build"
+    ports:  
+      - 4000:4000
+  nginx:
+    image: nginx
+    volumes:
+      - "./build:/var/www/public"
+      - "./nginx/nginx.conf:/etc/nginx/nginx.conf"
+      - "./nginx/html/404.html:/usr/share/nginx/html/404.html"
+      - /etc/certs:/etc/certs
+    ports:
+      - 80:80
+      - 443:443
+    restart: unless-stopped
