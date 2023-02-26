@@ -18,8 +18,10 @@ services:
       - TZ=Asia/Chongqing
     volumes:
       - static_files:/var/www/public
-      - ./nginx.conf:/config/nginx/site-confs/default.conf"
+      - ./nginx.conf:/config/nginx/site-confs/default.conf
       - /etc/certs:/etc/certs
+    depends_on:
+      - jekyllbuild
     ports:
       - 8743:443
     restart: unless-stopped
