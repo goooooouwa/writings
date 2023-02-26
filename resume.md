@@ -30,7 +30,7 @@ Overall, he is an innovative Product Manager / Business Analyst, with a solid te
 
 - Software Developer - Ruby, ActiveNetwork (Chengdu) Co., Ltd., 2015/03/23 - 2016/06/23
 
-- Junior Software Developer - Ruby, Beijing Shinetech Technology Development Co., Ltd. Wuhan Branch, 2013/04/16 - 2015/02/28
+- Junior Software Developer - Ruby, Beijing Shinetech Technology Development Co., Ltd. Wuhan Branch, 2013/07/01 - 2015/02/27
 
 ## Education
 
