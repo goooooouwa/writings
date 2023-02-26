@@ -7,7 +7,7 @@ services:
     build:
       context: .
     volumes:
-      - static_files:/srv/jekyll/build
+      - static_files:/srv/jekyll/_site
 
   nginx:
     image: linuxserver/nginx:latest
