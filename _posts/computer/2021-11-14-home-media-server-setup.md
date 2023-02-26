@@ -1,6 +1,8 @@
 ---
-title: Home media server setup
+title: 搭建家庭娱乐服务器
 category: computer
+published: true
+tags: 破解 htpc home-server
 ---
 
 ## Media Server

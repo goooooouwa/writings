@@ -2,6 +2,7 @@
 title: exiftool的使用方法
 layout: post
 category: computer
+published: true
 ---
 
 [exiftool](https://exiftool.org/) 可以查看、批量修改媒体文件的EXIF信息。
@@ -16,7 +17,7 @@ category: computer
 
 ## 基本使用
 
-### 查看文件Exif信息
+### 1. 查看文件Exif信息
 
 语法
 
@@ -51,7 +52,15 @@ Modify Date                     : 2021:01:23 16:04:56+08:00
 ...
 ```
 
-### 重命名文件
+### 2. 修改文件Exif信息
+
+例子：将某个目录内所有照片和视频的`File Create Date`, `Create Date` 和 `Media Create Date`统一修改为creationDate（真正的拍摄时间）
+
+```
+exiftool "-FileCreateDate<CreationDate" "-CreateDate<CreationDate" "-MediaCreateDate<CreationDate" -r H:\Personal\Photos\OrganizedPhotos\2021\2021_01\2021_01_23
+```
+
+### 3. 重命名文件
 
 语法
 
@@ -59,15 +68,9 @@ Modify Date                     : 2021:01:23 16:04:56+08:00
 exiftool "-FileName<CreateDate" DIR
 ```
 
-例子1：将某个目录（及所有子目录）内的照片和视频按照拍摄时间重命名
+例子：将某个目录（及所有子目录）内的照片和视频按照拍摄时间重命名
 
 ```
 exiftool '-filename<CreateDate' -d %Y-%m-%d_%H%M%S%%-c.%%le -r H:\Personal\Photos\OrganizedPhotos\
-```
-
-例子2：将某个目录内所有照片和视频的`File Create Date`, `Create Date` 和 `Media Create Date`统一修改为creationDate（真正的拍摄时间）
-
-```
-exiftool "-FileCreateDate<CreationDate" "-CreateDate<CreationDate" "-MediaCreateDate<CreationDate" -r H:\Personal\Photos\OrganizedPhotos\2021\2021_01\2021_01_23
 ```
 

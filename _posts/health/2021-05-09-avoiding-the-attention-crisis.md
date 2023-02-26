@@ -4,6 +4,7 @@ title: 如何减少手机屏幕使用
 category: health
 tags: attention-crisis
 ---
+
 ## 什么是注意力危机？
 
 > 我们活在精心设计的注意力经济之下，各种便捷性会为我们的改变造成摩擦，最终抵消改变的惯性，直到滑落回起点。
@@ -11,14 +12,16 @@ tags: attention-crisis
 -- 卡尔·纽波特，《数字极简主义》作者
 
 更多内容可以参考这两篇文章：
-- [数字化时代的注意力危机](https://blog.goooooouwa.tk/society/2018/04/13/hooked.html)
+
+- [数字化时代的注意力危机](https://goooooouwa.github.io/society/2018/04/13/hooked.html)
 - [焦虑、疲惫、麻木：那些受社交媒体困扰的人，正在这样做](http://www.woshipm.com/it/4502532.html)
 
 ## 度量
 
 在分析了自己屏幕使用时间后，除了工作，我主要的时间用于：
+
 1. 阅读新闻
-1. 看YouTube视频
+1. 看 YouTube 视频
 1. 刷朋友圈、Twitter
 1. 玩游戏
 
@@ -29,8 +32,9 @@ tags: attention-crisis
 ## 改进
 
 我目前采用了多种手段来最小化联网设备的屏幕使用，包括：
-1. 使用Kindle阅读器完成主要阅读，包括：书籍、新闻和漫画
-1. 使用iOS朗读屏幕功能听书和文章
-1. 利用[iOS shortcut](https://routinehub.co/shortcut/6622/)后台音频播放YouTube视频
+
+1. 使用 Kindle 阅读器完成主要阅读，包括：书籍、新闻和漫画
+1. 使用 iOS 朗读屏幕功能听书和文章
+1. 利用[iOS shortcut](https://routinehub.co/shortcut/6622/)后台音频播放 YouTube 视频
 1. 关闭或卸载各种刷刷刷式的时间黑洞型产品，比如：抖音、朋友圈、微博、instagram
 1. 不玩网游，只在有整块闲暇时间的时候玩玩单机游戏
