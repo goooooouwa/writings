@@ -24,8 +24,6 @@ services:
     volumes:
       - static_files:/var/www/public
       - /etc/certs:/etc/certs
-    depends_on:
-      - jekyllbuild
     ports:
       - 8743:443
     restart: unless-stopped
