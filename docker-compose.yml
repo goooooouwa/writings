@@ -3,6 +3,7 @@ volumes:
   static_files:
     driver_opts:
       type: tmpfs
+      device: tmpfs
 
 services:
   jekyllbuild:
