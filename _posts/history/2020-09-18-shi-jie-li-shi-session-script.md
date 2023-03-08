@@ -24,7 +24,7 @@ headingDivider: 2
 
 #
 
-[![w:1100](https://goooooouwa.fun:8143/static/images/bc9HOJU.png)](https://www.youtube.com/watch?v=kCHGDRHZ4eU)
+[![w:1100](https://goooooouwa.fun:8143/static/images/bc9HOJU.png)](https://www.youtube.com/watch?v=FKxsuy1UxJY)
 
 # 关键时间节点跨度对比
 
