@@ -1,6 +1,8 @@
 version: '3'
 volumes:
-  static_files: {}
+  static_files:
+    driver_opts:
+      type: tmpfs
 
 services:
   jekyllbuild:
