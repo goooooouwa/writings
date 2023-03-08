@@ -6,7 +6,7 @@ tags: todo project-management life product
 ---
 ## TL'DR
 
-经过两个多月的熬夜肝代码，今天GoPlan Web版v1.0正式上线！即刻体验：[https://goooooouwa.tk:8095/welcome](https://goooooouwa.tk:8095/welcome)
+经过两个多月的熬夜肝代码，今天GoPlan Web版v1.0正式上线！即刻体验：[https://goooooouwa.fun:8095/welcome](https://goooooouwa.fun:8095/welcome)
 
 ### 如何获得帮助
 
@@ -23,7 +23,7 @@ GoPlan是一款旨在助您达成目标的应用。有了它，您可以轻松�
 
 ![产品截图](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/202208090949907.png)
 
-[立即使用GoPlan]((https://goooooouwa.tk:8095/welcome))，告别永远处理不完的待办事项，让一起尽在计划之中。
+[立即使用GoPlan](https://goooooouwa.fun:8095/welcome)，告别永远处理不完的待办事项，让一起尽在计划之中。
 
 ## 目标人群和使用场景
 
