@@ -6,10 +6,9 @@ volumes:
       device: tmpfs
 
 services:
-  build:
-    progress: plain
   jekyllbuild:
     build:
+      progress: plain
       context: .
       dockerfile: ./docker/jekyllbuild/Dockerfile
     volumes:
