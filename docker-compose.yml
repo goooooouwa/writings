@@ -8,7 +8,6 @@ volumes:
 services:
   jekyllbuild:
     build:
-      progress: plain
       context: .
       dockerfile: ./docker/jekyllbuild/Dockerfile
     volumes:
