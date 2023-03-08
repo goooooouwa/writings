@@ -6,6 +6,8 @@ volumes:
       device: tmpfs
 
 services:
+  build:
+    progress: plain
   jekyllbuild:
     build:
       context: .
