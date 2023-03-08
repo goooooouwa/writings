@@ -7,7 +7,7 @@ title: 画画学习笔记
 
 ## 透视：关键概念
 
-![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/1hTrISA.jpg](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/1hTrISA.jpg)
+![https://goooooouwa.fun:8143/static/images/1hTrISA.jpg](https://goooooouwa.fun:8143/static/images/1hTrISA.jpg)
 
 ## 透视：什么是measurement points
 
@@ -19,9 +19,9 @@ V点见下图。
 
 找到a，b点后，在LT线上的任意长度线段两端与a（或b）的连线与D'（或D）的交点即该线段在D'（或D）上的等长投影。
 
-![Imgur](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/CW4MgNW.png)
+![Imgur](https://goooooouwa.fun:8143/static/images/CW4MgNW.png)
 
-![Imgur](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/6ZHpdM7.png)
+![Imgur](https://goooooouwa.fun:8143/static/images/6ZHpdM7.png)
 
 
 
@@ -55,5 +55,5 @@ V点见下图。
 
 所谓三点透视，就是视角超过180度的透视。
 
-![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/2m3W0Mt.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/2m3W0Mt.png)
+![https://goooooouwa.fun:8143/static/images/2m3W0Mt.png](https://goooooouwa.fun:8143/static/images/2m3W0Mt.png)
 

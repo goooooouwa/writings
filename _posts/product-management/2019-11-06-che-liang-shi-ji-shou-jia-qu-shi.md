@@ -44,4 +44,4 @@ date: "2019-11-06"
 
 2014 13.6万
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/CxDVVyj.png)
+![](https://goooooouwa.fun:8143/static/images/CxDVVyj.png)

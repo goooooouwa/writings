@@ -67,7 +67,7 @@ Online gaming: 文本协议：HTTP，二进制协议：Protocol Buffer, Apache T
 
 ## 理解Gradle build script
 
-![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/nONnsql.jpg](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/nONnsql.jpg)
+![https://goooooouwa.fun:8143/static/images/nONnsql.jpg](https://goooooouwa.fun:8143/static/images/nONnsql.jpg)
 
 ## Gradle Plugin Portal vs Maven Central Repository
 
@@ -81,11 +81,11 @@ Maven Central Repository
 
 ## Understand IDEA IDEs diff colors
 
-![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/MI94rMA.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/MI94rMA.png)
+![https://goooooouwa.fun:8143/static/images/MI94rMA.png](https://goooooouwa.fun:8143/static/images/MI94rMA.png)
 
 ## What’s IntelliSort
 
-![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/1KbnvF1.png](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/1KbnvF1.png)
+![https://goooooouwa.fun:8143/static/images/1KbnvF1.png](https://goooooouwa.fun:8143/static/images/1KbnvF1.png)
 
 If this option is enabled, you get a more convenient way to view merges by displaying the incoming commits first, directly below the merge commit.
 

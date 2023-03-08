@@ -21,7 +21,7 @@ tags: todo project-management life product
 
 GoPlan是一款旨在助您达成目标的应用。有了它，您可以轻松地将你的目标拆分成一系列可执行的任务，并且随时利用多种直观的时间线轻松管理任务计划。
 
-![产品截图](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/202208090949907.png)
+![产品截图](https://goooooouwa.fun:8143/static/images/202208090949907.png)
 
 [立即使用GoPlan](https://goooooouwa.fun:8095/welcome)，告别永远处理不完的待办事项，让一起尽在计划之中。
 
@@ -70,7 +70,7 @@ GoPlan是一款旨在助您达成目标的应用。有了它，您可以轻松�
 
 ### 技术栈
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/202208091134111.jpg)
+![](https://goooooouwa.fun:8143/static/images/202208091134111.jpg)
 
 - 前端Web框架: React with Node.js
 - 前端UI组件库: Metarial UI

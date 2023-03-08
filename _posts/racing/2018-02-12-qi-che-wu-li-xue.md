@@ -15,21 +15,21 @@ category: racing
 
 The combination of gear and differential acts as a multiplier from the torque on the crankshaft to the torque on the rear wheels. For example, the Corvette in first gear has a multiplier of 2.66 * 3.42 = 9.1. This means each Newton meter of torque on the crankshaft results in 9.1 Nm of torque on the rear axle. Accounting for 30% loss of energy, this leaves 6.4 N.m. Divide this by the wheel radius to get the force exerted by the wheels on the road (and conversely by the road back to the wheels). Let's take a 34 cm wheel radius, that gives us 6.4 N.m/0.34 m = 2.2 N of force per N.m of engine torque. Of course, there's no such thing as a free lunch. You can't just multiply torque and not have to pay something in return. **What you gain in torque, you have to pay back in angular velocity.** You trade off strength for speed. For each rpm of the wheel, the engine has to do 9.1 rpm. The rotational speed of the wheel is directly related to the speed of the car (unless we're skidding). One rpm (revolution per minute) is 1/60th of a revolution per second. Each revolution takes the wheel 2 pi R further, i.e. 2 * 3.14 * 0.34 = 2.14 m. So when the engine is doing 4400 rpm in first gear, that's 483 rpm of the wheels, is 8.05 rotations per second is 17.2 m/s, about 62 km/h.
 
-![Imgur](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/oRBnIEb.jpg)
+![Imgur](https://goooooouwa.fun:8143/static/images/oRBnIEb.jpg)
 
 这个图的彩色曲线是车轮转速和扭矩之间的关系(油门全开时)，黑色是引擎转速和扭矩关系。
 
 下图是斯巴鲁BRZ的轮上扭矩的曲线：
 
-![Imgur](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/dEU7rW6.jpg)
+![Imgur](https://goooooouwa.fun:8143/static/images/dEU7rW6.jpg)
 
 高尔夫GTI 2.0T+DSG的轮上扭矩曲线：
 
-![Imgur](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/zG7Xi4S.jpg)
+![Imgur](https://goooooouwa.fun:8143/static/images/zG7Xi4S.jpg)
 
 结合全油门轮上扭矩图和下面的Engine Torque vs Throttle map 可以绘制出各种油门开度下的轮上扭矩图。
 
-![Imgur](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/mrKze3L.png)
+![Imgur](https://goooooouwa.fun:8143/static/images/mrKze3L.png)
 
 **重视加速性的换挡策略**下，在某一油门开度，最佳换挡时机是，当前档位与下一档位轮上扭矩曲线之间的交叉点对应的引擎转速。如果油门开度变化，则换挡时机随着新的轮上扭矩曲线交叉点的变化而变化。油门开度越小，换挡时机越靠前，即换挡转速越低。**油门深度决定了换挡转速。**
 
@@ -65,7 +65,7 @@ The combination of gear and differential acts as a multiplier from the torque on
 
 For a given throttle in a given gear, there is a unique vehicle speed（车速 ～ 车轮转速～引擎转速） at which an upshift takes place (gear shift goal unknown). The simulation operates similarly for a downshift.
 
-![Imgur](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/KPDoKlS.png)
+![Imgur](https://goooooouwa.fun:8143/static/images/KPDoKlS.png)
 
 查表可知：
 
@@ -80,14 +80,14 @@ For a given throttle in a given gear, there is a unique vehicle speed（车速 �
 
 early and frequent upshift pattern for the transmission. It renders the engine, on average, to operate at a lower speed and high torque region, and hence improving the fuel economy.
 
-![Imgur](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/WbFr33A.png)
+![Imgur](https://goooooouwa.fun:8143/static/images/WbFr33A.png)
 
 ### Driveability-Optimal Gear Shift Strategy
 
 transmission tends to shift up late to ensure a driveability satisfaction.
 Driveability measured by Power reserve = (Max Torque - Current Torque) * Engine Speed
 
-![Imgur](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/Ip41BCf.png)
+![Imgur](https://goooooouwa.fun:8143/static/images/Ip41BCf.png)
 
 a req, fit红色的线表示90%概率的加速需要，所以只要扭矩大于或等于这个加速度即可。所以Method 3的结论其实是说，重视加速性策略下，最佳换挡时机是一个区间，只要发动机扭矩维持在这个区间内，均可满足90%的加速需要（由a req, fit表示）。
 
@@ -110,19 +110,19 @@ Table 2: Throttle schedule for first simulation (passing maneuver)
 
 The first column corresponds to time; the second column corresponds to throttle opening in percent. In this case no brake is applied (brake torque is zero). The vehicle speed starts at zero and the engine at 1000 RPM. Figure 12 shows the plot for the baseline results, using the default parameters. As the driver steps to 60% throttle at t=0, the engine immediately responds by more than doubling its speed. This brings about a low speed ratio across the torque converter and, hence, a large torque ratio (see Figure 6 and Figure 11). The vehicle accelerates quickly (no tire slip is modeled) and both the engine and the vehicle gain speed until about t = 2 sec, at which time a 1-2 upshift occurs. The engine speed characteristically drops abruptly, then resumes its acceleration. The 2-3 and 3-4 upshifts take place at about four and eight seconds, respectively. Notice that the vehicle speed remains much smoother due to its large inertia.
 
-![Imgur](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/ZAl5NJD.png)
+![Imgur](https://goooooouwa.fun:8143/static/images/ZAl5NJD.png)
 
 Figure 12: Passing maneuver simulation time history
 
 At t=15sec, the driver steps the throttle to 100% as might be typical of a passing maneuver. The transmission downshifts to third gear and the engine jumps from about 2600 RPM to about 3700 RPM. The engine torque thus increases somewhat, as well as the mechanical advantage of the transmission. With continued heavy throttle, the vehicle accelerates to about 100 mph and then shifts into overdrive at about t = 21 sec. The vehicle cruises along in fourth gear for the remainder of the simulation. Double click on the ManeuversGUI block and use the graphical interface to vary the throttle and brake history.
 
-![Imgur](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/hhu0mJ1.png)
+![Imgur](https://goooooouwa.fun:8143/static/images/hhu0mJ1.png)
 
 ### 高速转弯时的侧向加速度影响因素
 
 The **sideslip angle b (bèta**) is the difference between the car orientation and the direction of movement. In other words, it's the angle between the longtitudinal axis and the actual direction of travel. So it's similar in concept to what the **slip angle** is for the tyres. 
 
-![Imgur](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/COiKwsi.jpg)
+![Imgur](https://goooooouwa.fun:8143/static/images/COiKwsi.jpg)
 
 The following information is shown on screen: 
 
@@ -134,4 +134,4 @@ The following information is shown on screen:
 * velocity vector relative to car reference frame 
 * velocity vector in world space
 
-![Imgur](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/cPDix4h.jpg)
+![Imgur](https://goooooouwa.fun:8143/static/images/cPDix4h.jpg)

@@ -10,13 +10,13 @@ date: "2019-08-06"
 
 在网上查了好多资料，终于找到了真理所在，向17世纪文艺复兴时期的艺术家们致敬！
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/dj4uectu4aewces.jpeg)
+![](https://goooooouwa.fun:8143/static/images/dj4uectu4aewces.jpeg)
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/dj4uecsuuaaxbou.jpeg)
+![](https://goooooouwa.fun:8143/static/images/dj4uecsuuaaxbou.jpeg)
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/dj4uecsv4aedjjc.jpeg)
+![](https://goooooouwa.fun:8143/static/images/dj4uecsv4aedjjc.jpeg)
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/dj4uecrvsaeot59.jpeg)
+![](https://goooooouwa.fun:8143/static/images/dj4uecrvsaeot59.jpeg)
 
 透视画法资料：  
 https://handprint.com/HP/WCL/perspect1.html  

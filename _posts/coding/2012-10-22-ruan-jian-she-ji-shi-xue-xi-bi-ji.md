@@ -7,9 +7,9 @@ title: 《软件设计师》学习笔记
 
 ## 关系数据库规范化：函数依赖
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/WwnWq9b.jpg)
+![](https://goooooouwa.fun:8143/static/images/WwnWq9b.jpg)
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/NrLAkyB.jpg)
+![](https://goooooouwa.fun:8143/static/images/NrLAkyB.jpg)
 
 
 
@@ -33,9 +33,9 @@ V操作就是释放一个资源(S=S+1)，如果有人排队(S<0)就叫一个上�
 
 ## 基本的设计模式
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/Ab0bZAw.jpg)
+![](https://goooooouwa.fun:8143/static/images/Ab0bZAw.jpg)
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/Hzw32ak.jpg)
+![](https://goooooouwa.fun:8143/static/images/Hzw32ak.jpg)
 
 ## AOE图
 
@@ -51,7 +51,7 @@ AOE图各顶点所有进入边的活动均已完成，从它出发的边上的�
 
 ## 各种基本排序的时间复杂度
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/YmH01Ne.jpg)
+![](https://goooooouwa.fun:8143/static/images/YmH01Ne.jpg)
 
 ## 关系代数运算
 
@@ -63,11 +63,11 @@ P.S. 关系=集合, 元组=记录
 
 ## 分层数据流图例图
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/CA0Wazr.jpg)
+![](https://goooooouwa.fun:8143/static/images/CA0Wazr.jpg)
 
 ## Java异常处理
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/dhUenfF.jpg)
+![](https://goooooouwa.fun:8143/static/images/dhUenfF.jpg)
 
 （4）throw语句用来明确地抛出一个＂异常＂。在catch子句进行异常处理。
 

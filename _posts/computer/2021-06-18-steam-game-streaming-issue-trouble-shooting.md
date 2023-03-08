@@ -35,7 +35,7 @@ hidden: true
 
 `Game polled D3D11 Nv12 + NvENC H264`的Encoder方式如下：
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/20210619083233.jpg)
+![](https://goooooouwa.fun:8143/static/images/20210619083233.jpg)
 
 关于NvFBC, NvIFR, Game-polled, NvENC的更多解释，请见[这里](https://steamcommunity.com/groups/homestream/discussions/0/451850849186356998/)。
 
@@ -212,4 +212,4 @@ Hitman Go
 
 实际效果如下：
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/20210619083002.jpg)
+![](https://goooooouwa.fun:8143/static/images/20210619083002.jpg)

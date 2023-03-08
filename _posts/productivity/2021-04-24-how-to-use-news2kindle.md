@@ -170,17 +170,17 @@ Root cause: worker dyno is not running.
 
 By default your free dyno worker is off. Like this:
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/cfG11FS.png)
+![](https://goooooouwa.fun:8143/static/images/cfG11FS.png)
 
 You need to manually scale up the worker dyno to let the process actually run!
 
 Make sure the worker dyno is on:
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/vr1HpVc.png)
+![](https://goooooouwa.fun:8143/static/images/vr1HpVc.png)
 
 Then you can see the worker is running and generating logs.
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/eFlT8s5.png)
+![](https://goooooouwa.fun:8143/static/images/eFlT8s5.png)
 
 ### Heroku Scheduler not running
 
@@ -195,7 +195,7 @@ Accoridng to the [doc](https://devcenter.heroku.com/articles/scheduler#known-iss
 
 Take a look at the log shown below. Notice the time of the scheduler start and actual worker run.
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/Gb18CrL.png)
+![](https://goooooouwa.fun:8143/static/images/Gb18CrL.png)
 
 ## Next steps
 

@@ -13,11 +13,11 @@ TL;DR: 如果你有遇到OneDrive, Dropbox或Google Sync的文件夹没有同步
 
 Expected（正常显示的同步状态的提示图标）:
 
-![Expected](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/KZGuyYz.png)
+![Expected](https://goooooouwa.fun:8143/static/images/KZGuyYz.png)
 
 Actual（同步状态的提示图标没有显示）:
 
-![Actual](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/jlf1BGf.png)
+![Actual](https://goooooouwa.fun:8143/static/images/jlf1BGf.png)
 
 ## 问题原因：
 Sophos Finder Scan的Finder extension影响了OneDrive, Dropbox和Google Sync的Finder extension的正常工作，导致同步状态的图标不显示。
@@ -28,8 +28,8 @@ Sophos Finder Scan的Finder extension影响了OneDrive, Dropbox和Google Sync的
 
 Step 1: 取消勾选Sophos Finder Scan
 
-![Step 1](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/Kllt6lH.png)
+![Step 1](https://goooooouwa.fun:8143/static/images/Kllt6lH.png)
 
 Step 2: 将Sophos Finder Scan再勾选回去
 
-![Step 2](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/miXpbKF.png)
+![Step 2](https://goooooouwa.fun:8143/static/images/miXpbKF.png)

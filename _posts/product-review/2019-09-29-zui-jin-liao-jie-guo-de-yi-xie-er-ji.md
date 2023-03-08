@@ -29,4 +29,4 @@ https://www.amazon.cn/gp/product/B000AJIF4E/ref=ppx\_yo\_dt\_b\_search\_asin\_ti
 
 （京东现在居然有些产品拆封后不支持7天无理由，真坑
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/efniuqou8aeupan.jpeg)
+![](https://goooooouwa.fun:8143/static/images/efniuqou8aeupan.jpeg)

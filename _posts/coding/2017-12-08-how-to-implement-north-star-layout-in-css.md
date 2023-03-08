@@ -8,7 +8,7 @@ tags: css
 
 
 
-![Desired Style](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/K5AXNzB.png)
+![Desired Style](https://goooooouwa.fun:8143/static/images/K5AXNzB.png)
 
 ## Design Requirements
 
@@ -19,7 +19,7 @@ tab text centering in navigation tab, a red dot relatively positioned at the upp
 navigation tab has `display` set as `flex`, so `float`, `clear` and `vertical-align` will have no effect on children (flex items).
 
 ### Box model
-![Box model](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/4uKCNvQ.png)
+![Box model](https://goooooouwa.fun:8143/static/images/4uKCNvQ.png)
 
 ## Solution
 

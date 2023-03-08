@@ -7,7 +7,7 @@ category: misc
 以下内容转载自App Store故事《[APP × 文化
 还记得小时候看的这些动画片吗？](https://itunes.apple.com/cn/story/id1437370866)》
 
-![标题](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/6QmSX2C.jpg)
+![标题](https://goooooouwa.fun:8143/static/images/6QmSX2C.jpg)
 
 小时候最期待什么？守在电视机前，眼巴巴地等动画片开播绝对算一个。
 
@@ -21,7 +21,7 @@ category: misc
 
 1959年，时任美影厂的美术设计徐景达找到动画摄影师段孝董说：“齐白石的画可以印在脸盆上，看上去很逼真，能不能把它做成动画？”
 
-![小蝌蚪](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/B4eKjMt.jpg)
+![小蝌蚪](https://goooooouwa.fun:8143/static/images/B4eKjMt.jpg)
 
 这是一个很大胆的想法。在《见证者》中，段孝董提到：
 
@@ -29,7 +29,7 @@ category: misc
 
 要拍水墨动画，先得解决技术难题。所以水墨画实验进行了三个月才正式开拍，段孝董还记得当时实验的第一个镜头是“一只青蛙从荷叶上跳下来”。
 
-![水墨画](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/LnVwZCX.jpg)
+![水墨画](https://goooooouwa.fun:8143/static/images/LnVwZCX.jpg)
 
 为了让水墨画中同一笔的浓淡、粗细完全相同，他们还将动画中用到的每种笔法，制作成为一个个“盖章”。所谓“画画”，其实是“盖章”一笔笔盖出来的。按当年的制作条件，动画片的每张画作都要手工绘制，一分钟的短片大概需要1400多张画作．工作量惊人。
 
@@ -41,11 +41,11 @@ category: misc
 
 > 我在家里或者厂里不知道自己试着‘死’过多少次，但都觉得不好看。后来想到我不给观众看见，这一刀下去时转身背对观众，他们也知道你在自刎，但又看不到暴力的东西。
 
-![哪吒自刎](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/9WHtNHv.jpg)
+![哪吒自刎](https://goooooouwa.fun:8143/static/images/9WHtNHv.jpg)
 
 在画风上，这部动画片也颇具特色。总美术设计张仃在设计《哪吒闹海》的人物造型时，将大量中国古代壁画、门神画素材加以提炼运用．并且融入了装饰画的元素。
 
-![哪吒装饰画](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/3xefFGO.jpg)
+![哪吒装饰画](https://goooooouwa.fun:8143/static/images/3xefFGO.jpg)
 
 很多动作设计来自实际观察。在采风过程中，动画人们会去“观察海浪运动的各种轨迹；观察人们在海边戏水走路时的姿态；观察海鸟和花草树木在特定的气候和环境中如何生存和运动”。
 
@@ -55,13 +55,13 @@ category: misc
 
 “妖精，快还我爷爷！”《葫芦兄弟》里七个各具超能力的兄弟组团打怪的画面，是很多人心目中的经典回忆。
 
-![葫芦娃](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/FZYgvjx.jpg)
+![葫芦娃](https://goooooouwa.fun:8143/static/images/FZYgvjx.jpg)
 
 这部作品的灵感，最早来自杨玉良根据民间故事改编的文学剧本梗概《十兄弟》，但这个剧本中十个兄弟的形象各异，还涉及到地主、平民、宫娥等复杂角色。
 
 当时，剪纸片的预算非常少，而一帧画面的成本大概是3元。在成本、时间有限的情况下，对导演胡进庆来说，拍摄《十兄弟》是一个不可能的任务。于是他决定大刀阔斧地修改剧本，将原来十兄弟改为七兄弟，让七个兄弟都长一个样子，并且都是小孩儿。
 
-![葫芦娃七兄弟](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/JSFKkFX.jpg)
+![葫芦娃七兄弟](https://goooooouwa.fun:8143/static/images/JSFKkFX.jpg)
 
 原剧本中，几个兄弟是从坟墓中蹦出来的，但这个设定并不适合儿童。胡进庆想到了葫芦——“葫芦”谐音“福禄”，在中国象征看吉祥、神秘，神话传说中的各路神仙都把葫芦当作法宝，不然就让七兄弟从葫芦里降生吧。“一根藤上七朵花，七个葫芦七个娃”的创意，就这样诞生了。
 

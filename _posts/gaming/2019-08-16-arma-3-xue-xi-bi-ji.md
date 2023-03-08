@@ -7,9 +7,9 @@ title: Arma 3 学习笔记
 
 ## 如何使用Grenade Launchers
 
-![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/WZ1Rc2S.jpg](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/WZ1Rc2S.jpg)
+![https://goooooouwa.fun:8143/static/images/WZ1Rc2S.jpg](https://goooooouwa.fun:8143/static/images/WZ1Rc2S.jpg)
 
-![https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/XAIDe1v.jpg](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/XAIDe1v.jpg)
+![https://goooooouwa.fun:8143/static/images/XAIDe1v.jpg](https://goooooouwa.fun:8143/static/images/XAIDe1v.jpg)
 
 ## 快捷键
 

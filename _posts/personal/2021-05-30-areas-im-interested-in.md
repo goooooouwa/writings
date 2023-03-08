@@ -21,8 +21,8 @@ My passion
 - Developer tools (coding, pipeline, environment, testing)
 - Entertainment (Videos, Movies, Music, TV shows, Anime, Manga, Games)
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/alipay_paycode.jpg)
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/wechat_paycode.jpg)
+![](https://goooooouwa.fun:8143/static/images/alipay_paycode.jpg)
+![](https://goooooouwa.fun:8143/static/images/wechat_paycode.jpg)
 关键词：
 
 - 消费者

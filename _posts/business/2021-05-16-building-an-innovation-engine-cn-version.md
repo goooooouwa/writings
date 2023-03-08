@@ -62,7 +62,7 @@ tags: 'innovation, thoughtworks, translation'
 
 鉴于创新的重要性，组织中往往有许多想要领导创新的人。众所周知，每个组织都有其独特之处，在找到合适自己组织的创新方法之前，让我们先看一些常见的方法，以及它们的优缺点。
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/20210609171504.jpg)
+![](https://goooooouwa.fun:8143/static/images/20210609171504.jpg)
 
 正如我们前面所提到的，这种协作方法要求团队成员拥有多样性的技能背景。如果团队中有成员拥有技术背景，它成功的机会则会很大。这是因为当今最伟大的创新都来自于技术的突破。**技术专长是持续创新的重要基础，用于支持创新活动所要求的复杂性和各种流程。**
 
@@ -72,7 +72,7 @@ tags: 'innovation, thoughtworks, translation'
 
 我们称此旅程为“创新影响框架”。
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/20210609171520.jpg)
+![](https://goooooouwa.fun:8143/static/images/20210609171520.jpg)
 
 该创新影响框架为你提供了创建内部孵化器团队的路线图，这些团队将成为你创新的引擎。该框架还阐明了，在不同的成熟阶段，如何在组织内部和外部扩大其影响力。
 

@@ -48,9 +48,9 @@ Types of military operations, by scope:
 
 https://www.youtube.com/watch?v=nBStKk3fE4E&t=494s
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/p9xzDut.png)
+![](https://goooooouwa.fun:8143/static/images/p9xzDut.png)
 
-![](https://goooooouwa.oss-cn-beijing.aliyuncs.com/img/FiTNTvc.png)
+![](https://goooooouwa.fun:8143/static/images/FiTNTvc.png)
 
 
 
