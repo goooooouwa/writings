@@ -4,7 +4,6 @@ title: Openwrt旁路由设置（ip动态伪装）
 category: computer
 tags: openwrt
 ---
-test1
 
 ### ip动态伪装（等价于iptables masquerade命令)
 
