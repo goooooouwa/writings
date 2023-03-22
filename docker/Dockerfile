@@ -6,7 +6,7 @@ FROM jekyll/jekyll:4.1.0 AS builder
 
 WORKDIR /srv/jekyll
 
-COPY .git .
+COPY . .
 
 RUN jekyll build --trace
 
@@ -17,7 +17,7 @@ FROM nginx
 # Set our working directory inside the image
 WORKDIR /var/www/public
 
-COPY --from=builder /srv/jekyll/_site .
+COPY --from=builder /srv/jekyll/ .
 
 # Copy Nginx config template
 COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
