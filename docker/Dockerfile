@@ -17,7 +17,7 @@ FROM nginx
 # Set our working directory inside the image
 WORKDIR /var/www/public
 
-COPY --from=builder /srv/jekyll/ .
+COPY --from=builder /srv/jekyll/_site .
 
 # Copy Nginx config template
 COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
