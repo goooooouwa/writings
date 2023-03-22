@@ -2,8 +2,7 @@
 published: true
 title: 如何使用小米手环6模拟加密门禁卡
 category: computer
-tags: 'mi-band, nfc, iphone'
-hidden: true
+tags: mi-band nfc ios
 ---
 因为苹果手机不支持NFC模拟加密门禁卡，于是买了个小米手环6NFC版打算用它刷门禁，结果买回来发现小米手环6不支持模拟加密门禁卡。
 

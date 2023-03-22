@@ -2,7 +2,7 @@
 published: true
 title: 译文｜建立创新引擎
 category: business
-tags: 'innovation, thoughtworks, translation'
+tags: innovation thoughtworks translation
 ---
 原文地址：[https://www.thoughtworks.com/insights/articles/building_an_innovation_engine](https://www.thoughtworks.com/insights/articles/building_an_innovation_engine)
 

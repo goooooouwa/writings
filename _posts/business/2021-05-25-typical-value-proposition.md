@@ -2,7 +2,7 @@
 published: true
 title: 读书笔记｜《商业模式新生代》2 典型的价值主张要素
 category: business
-tags: 'value-proposition, business-model'
+tags: value-proposition business-model
 ---
 价值主张构造块用来描绘为特定客户细分创造价值的系列产品和服务
 
