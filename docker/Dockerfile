@@ -6,7 +6,7 @@ FROM jekyll/jekyll:4.1.0 AS builder
 
 WORKDIR /srv/jekyll
 
-COPY . .
+COPY .git .
 
 RUN jekyll build --trace
 
