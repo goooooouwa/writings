@@ -2,7 +2,7 @@
 published: true
 title: Understand singleton class in module
 category: coding
-tags: ruby module singleton_class
+tags: ruby module singleton-class
 ---
 
 Take a look at this code example from [Stack Overflow](https://stackoverflow.com/questions/30757126/why-the-module-classmethods-defined-and-extended-in-the-same-namespace):

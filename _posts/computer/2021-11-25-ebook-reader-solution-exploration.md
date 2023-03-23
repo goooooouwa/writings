@@ -2,7 +2,7 @@
 published: true
 title: 电子书阅读器跨平台解决方案探索
 category: computer
-tags: ebook ePub Mobi eReader
+tags: ebook epub mobi e-reader
 ---
 ## Best free iOS ePub reader with continuious speak content
 

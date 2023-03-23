@@ -4,13 +4,12 @@ title: 分类
 published: true
 ---
 <h1>分类</h1>
-
-{% assign myposts = site.posts | group_by: 'category' | sort: 'size' | reverse %}
-{% for category in myposts %}
+{% assign categories = site.categories | sort %}
+{% for category in categories %}
 <span class="site-tag">
-  <a href="/category/{{ category.name | slugify }}/"
-    style="font-size: {{ category.items.size | times: 5 | plus: 80 }}%">
-    {{ category.name | capitalize }},
+  <a href="/category/{{ category | first | slugify }}/"
+    style="font-size: {{ category | last | size | times: 5 | plus: 80 }}%">
+    {{ category | first | capitalize }},
   </a>
 </span>
 {% endfor %}

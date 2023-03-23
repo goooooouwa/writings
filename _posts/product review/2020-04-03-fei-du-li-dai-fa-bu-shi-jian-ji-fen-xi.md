@@ -1,5 +1,5 @@
 ---
-category: product management
+category: product review
 title: "飞度历代发布时间及分析"
 date: "2020-04-03"
 ---
@@ -18,5 +18,5 @@ date: "2020-04-03"
 中国 2020-2026
 
 结论：  
-3年小改款  
-6年一换代
+3 年小改款  
+6 年一换代

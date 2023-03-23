@@ -2,7 +2,7 @@
 published: true
 title: acme.sh安装使用教程
 category: computer
-tags: ssl lets_encrypt acme.sh
+tags: ssl lets-encrypt acme.sh
 ---
 参考资料：
 

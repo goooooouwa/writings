@@ -3,12 +3,49 @@ layout: post
 title: C1 自然数 S1 整数的计算
 date: '2011-11-13T20:41:00.000-08:00'
 author: Greg Xu
-tags:
-- Subject Math
-- Study notes
+tags: subject-math study-notes
 modified_time: '2013-03-16T20:26:36.301-07:00'
 blogger_id: tag:blogger.com,1999:blog-6718771122536593574.post-186996484788941743
 blogger_orig_url: https://goooooouwa.blogspot.com/2011/11/c1-s1_13.html
 ---
 
-<span style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">个人心得：</span><br /><span style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">其实我们说自己会计算，只是会在位置记法表示的数下重复而单调地套用对应数制的加法表和乘法表罢了。离开位置记法，我们只会依赖直观的加法运算，这就是我们对数的先天认识。</span><br /><span style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;"><br /></span><br /><span style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">算术的规律</span><br /><span style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">由人类智慧所创造的数，可用来数各种集合中的对象的个数，它和对象所特有的性质无关。</span><br /><span style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">整数的加法和乘法服从某些规律，即五个算术基本规律：</span><br /><span style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">1)a+b=b+a</span><br /><span style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">2)ab=ba</span><br /><span style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">3)a+(b+c)=(a+b)+c</span><br /><span style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">4)(ab)c=a(bc)</span><br /><span style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">5)a(b+c)=ab+ac</span><br /><span style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">这五个基本规律是具有高度对称和统一性的。前两个是加法和乘法的交换律，第三四个是加法和乘法的结合律，最后一个是分配律（可以把它看作加法和乘法的统一规律）。数和数的运算规律是独立于数的表示方法存在的，即在任何表示方法下数的运算规律不变。</span><br /><span style="background-color: white; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px;"><br /></span><br /><span style="background-color: white; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px;">整数的表示</span><br /><div style="background-color: white; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px;">一个较大的正整数，例如＂三百七十二＂可表示为</div><div style="background-color: white; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px;">300+70+2=3*10^2+7*10+2</div><div style="background-color: white; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px;">的形式，而这在十进位制中用符号372表示。这里重要的是，数码符号3，7，2的意义依赖于它们在个位、十位、百位的位置。有了这个＂位置记法＂，我们用十个数码符号的各种组合就可以表示出任何整数。表示一个整数的一般规则可以用</div><div style="background-color: white; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px;">z=a*10^3+b*10^2+c*10+d</div><div style="background-color: white; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px;">来说明。这里数码a,b,c,d是从零到九的整数。这时，我们用缩写符号abcd来表示整数z。</div><div style="background-color: white; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px;"><br /></div><div style="background-color: white; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px;"><div>数的表示：进位制</div>十进位制与其他任何进位制，没有任何一个是特殊的，均是等价的，只是＂满十进一＂的概念先入为主了。<div>但为何人类选择十进位制肯定是有其他原因的，但绝对不是数学原因。是由于人们用十个手指进行计算的缘故。</div><div><br /></div><div>加法记法</div><div>类似于方框中加点的几何模型（如古代算盘），一直到中世纪的后期都被广泛地用在数值计算上，从中世纪以后，它们才逐渐被建立在十进制上的更高级的符号方法所代替。</div><div>早期的数字系统是建立在纯粹的加法规则上的。例如在罗马人的符号表示中，</div><div>CXVIII=壹佰+拾+伍+壹+壹+壹。</div><div>在任何纯粹的加法记法中,有一个不方便之处，就是当数变大时需要越来越多的新符号。古代系统（例如罗马系统）的一个主要缺点是，数的计算十分困难以至于除了最简单的问题外，只有专家才能掌握。</div><div><br /></div><div><div>位置记法</div><div>位置记法的优点就是容易计算。用位置记法所表示的数，其计算规则可以用这些数码的加法表和乘法表的形式来表示，而且一旦记住，便可永远运用自如。</div></div></div>
+<span style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">个人心得：</span><br /><span
+  style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">其实我们说自己会计算，只是会在位置记法表示的数下重复而单调地套用对应数制的加法表和乘法表罢了。离开位置记法，我们只会依赖直观的加法运算，这就是我们对数的先天认识。</span><br /><span
+  style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;"><br /></span><br /><span
+  style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">算术的规律</span><br /><span
+  style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">由人类智慧所创造的数，可用来数各种集合中的对象的个数，它和对象所特有的性质无关。</span><br /><span
+  style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">整数的加法和乘法服从某些规律，即五个算术基本规律：</span><br /><span
+  style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">1)a+b=b+a</span><br /><span
+  style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">2)ab=ba</span><br /><span
+  style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">3)a+(b+c)=(a+b)+c</span><br /><span
+  style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">4)(ab)c=a(bc)</span><br /><span
+  style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">5)a(b+c)=ab+ac</span><br /><span
+  style="font-family: Helvetica, Arial, Verdana, sans-serif; font-size: x-small;">这五个基本规律是具有高度对称和统一性的。前两个是加法和乘法的交换律，第三四个是加法和乘法的结合律，最后一个是分配律（可以把它看作加法和乘法的统一规律）。数和数的运算规律是独立于数的表示方法存在的，即在任何表示方法下数的运算规律不变。</span><br /><span
+  style="background-color: white; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px;"><br /></span><br /><span
+  style="background-color: white; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px;">整数的表示</span><br />
+<div style="background-color: white; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px;">
+  一个较大的正整数，例如＂三百七十二＂可表示为</div>
+<div style="background-color: white; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px;">
+  300+70+2=3*10^2+7*10+2</div>
+<div style="background-color: white; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px;">
+  的形式，而这在十进位制中用符号372表示。这里重要的是，数码符号3，7，2的意义依赖于它们在个位、十位、百位的位置。有了这个＂位置记法＂，我们用十个数码符号的各种组合就可以表示出任何整数。表示一个整数的一般规则可以用</div>
+<div style="background-color: white; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px;">
+  z=a*10^3+b*10^2+c*10+d</div>
+<div style="background-color: white; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px;">
+  来说明。这里数码a,b,c,d是从零到九的整数。这时，我们用缩写符号abcd来表示整数z。</div>
+<div style="background-color: white; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px;"><br /></div>
+<div style="background-color: white; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 13px;">
+  <div>数的表示：进位制</div>十进位制与其他任何进位制，没有任何一个是特殊的，均是等价的，只是＂满十进一＂的概念先入为主了。<div>
+    但为何人类选择十进位制肯定是有其他原因的，但绝对不是数学原因。是由于人们用十个手指进行计算的缘故。</div>
+  <div><br /></div>
+  <div>加法记法</div>
+  <div>类似于方框中加点的几何模型（如古代算盘），一直到中世纪的后期都被广泛地用在数值计算上，从中世纪以后，它们才逐渐被建立在十进制上的更高级的符号方法所代替。</div>
+  <div>早期的数字系统是建立在纯粹的加法规则上的。例如在罗马人的符号表示中，</div>
+  <div>CXVIII=壹佰+拾+伍+壹+壹+壹。</div>
+  <div>在任何纯粹的加法记法中,有一个不方便之处，就是当数变大时需要越来越多的新符号。古代系统（例如罗马系统）的一个主要缺点是，数的计算十分困难以至于除了最简单的问题外，只有专家才能掌握。</div>
+  <div><br /></div>
+  <div>
+    <div>位置记法</div>
+    <div>位置记法的优点就是容易计算。用位置记法所表示的数，其计算规则可以用这些数码的加法表和乘法表的形式来表示，而且一旦记住，便可永远运用自如。</div>
+  </div>
+</div>
