@@ -56,9 +56,8 @@ author:
 
 minima:
   social_links:
-    twitter: Goooooouwa
-    github: goooooouwa
-    linkedin: gregxu
+    - { platform: github,  user_url: "https://github.com/goooooouwa" }
+    - { platform: twitter, user_url: "https://twitter.com/Goooooouwa" }
 
 show_excerpts: false
 
