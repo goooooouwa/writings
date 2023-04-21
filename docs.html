@@ -1,7 +1,16 @@
 ---
 layout: default
-title: 共享文档
+title: Docs
 ---
-<h1>Google Drive</h1>
+<h1>Docs ({{ site.docs.size }})</h1>
 
-<iframe src="https://drive.google.com/embeddedfolderview?id=1Pr5TJlaRk5RP4K1HCVDP78EfBvxbwmNf#list" style="width:100%; height:600px; border:0;"></iframe>
+{% assign mydocs = site.docs | group_by: 'category' %}
+{% for cat in mydocs %}
+<h2>{{ cat.name | capitalize }}</h2>
+    <ul>
+      {% assign items = cat.items | sort: 'order' %}
+      {% for item in items %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+{% endfor %}

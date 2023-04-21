@@ -21,7 +21,16 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 permalink: /:slugified_categories/:year/:month/:day/:slug:output_ext
 
+collections:
+  docs:
+    output: true
+
 defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "post"
   - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
@@ -69,6 +78,7 @@ google_analytics: G-669F0VG7BL
 header_pages:
   - categories.html
   - tags.html
+  - docs.html
   - about.md
 
 # Plugin settings
