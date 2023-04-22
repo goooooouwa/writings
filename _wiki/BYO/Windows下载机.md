@@ -1,3 +1,8 @@
+---
+title: Windows下载机
+category: BYO
+---
+
 硬件：GK41迷你主机（J4125 CPU + 8G内存 + 128G SSD）
 
 虚拟机平台：PVE
