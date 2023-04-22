@@ -1,5 +1,6 @@
 ---
-category: 
+category: Coding
+published: true
 ---
 docker-compose
 
