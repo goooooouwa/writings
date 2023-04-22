@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Docs
+title: Wiki
 ---
-<h1>Docs ({{ site.docs.size }})</h1>
+<h1>Wiki ({{ site.wiki.size }})</h1>
 
-{% assign mydocs = site.docs | group_by: 'category' %}
-{% for cat in mydocs %}
+{% assign mywiki = site.wiki | group_by: 'category' %}
+{% for cat in mywiki %}
 <h2>{{ cat.name | capitalize }}</h2>
     <ul>
       {% assign items = cat.items | sort: 'order' %}

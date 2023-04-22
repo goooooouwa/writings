@@ -22,13 +22,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /:slugified_categories/:year/:month/:day/:slug:output_ext
 
 collections:
-  docs:
+  wiki:
     output: true
 
 defaults:
   - scope:
       path: ""
-      type: "docs"
+      type: "wiki"
     values:
       layout: "post"
   - scope:
@@ -78,7 +78,7 @@ google_analytics: G-669F0VG7BL
 header_pages:
   - categories.html
   - tags.html
-  - docs.html
+  - wiki.html
   - about.md
 
 # Plugin settings
