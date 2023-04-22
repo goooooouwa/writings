@@ -1,3 +1,6 @@
+---
+category: 
+---
 Simplenote官网：[https://simplenote.com/](https://simplenote.com/)
 
 ## Pros
