@@ -27,19 +27,15 @@ collections:
 
 defaults:
   - scope:
-      path: ""
-      type: "wiki"
-    values:
-      layout: "post"
-  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
       layout: "post"
   - scope:
       path: ""
+      type: "wiki"
     values:
-      layout: "default"
+      layout: "post"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
