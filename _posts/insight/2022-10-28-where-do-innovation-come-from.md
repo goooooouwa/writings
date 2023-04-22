@@ -1,6 +1,6 @@
 ---
 published: true
-title: Where do Innovation come from?
+title: Where does Innovation come from?
 category: insight
 tags: product-innovation problem-solving product-management
 ---
