@@ -1,4 +1,5 @@
 ---
-category: 
+category: Gadgets
 ---
-暴风酷播云1期: N3106 + 2G内存 + 32G SSD
+
+暴风酷播云 1 期: N3106 + 2G 内存 + 32G SSD

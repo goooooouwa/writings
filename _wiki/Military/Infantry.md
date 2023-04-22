@@ -1,6 +1,7 @@
 ---
-category: 
+category: Military
 ---
+
 常用军事术语
 
 军事行动阶段

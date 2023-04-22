@@ -1,9 +1,9 @@
 ---
-category: 
+category: Racing
 ---
+
 ## 所有车型
 
-* AE86
-* RX7
-* EVO
-
+- AE86
+- RX7
+- EVO
