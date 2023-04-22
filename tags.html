@@ -9,6 +9,6 @@ published: true
 <span class="site-tag">
   <a href="/tag/{{ tag | first | slugify }}/" style="font-size: {{ tag | last | size | times: 15 | plus: 80 }}%">
     {{ tag | first | replace:'-', ' ' | capitalize }}
-  </a>{% unless forloop.last %},{% endunless %}
+  </a>{% unless forloop.last %}|{% endunless %}
 </span>
 {% endfor %}

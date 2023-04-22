@@ -10,6 +10,6 @@ published: true
   <a href="/category/{{ category | first | slugify }}/"
     style="font-size: {{ category | last | size | times: 5 | plus: 80 }}%">
     {{ category | first | capitalize }}
-  </a>{% unless forloop.last %},{% endunless %}
+  </a>{% unless forloop.last %}|{% endunless %}
 </span>
 {% endfor %}
