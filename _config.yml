@@ -60,6 +60,7 @@ author:
   email: gouwa5700 (at) gmail (dot) com
 
 minima:
+  skin: solarized
   social_links:
     - { platform: github,  user_url: "https://github.com/goooooouwa" }
     - { platform: twitter, user_url: "https://twitter.com/Goooooouwa" }
