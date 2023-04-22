@@ -2,6 +2,10 @@
 layout: base
 title: Wiki
 ---
+<div class="simple-search">
+  {% include simple-search.html %}
+</div>
+
 <h1>Wiki ({{ site.wiki.size }})</h1>
 
 {% assign mywiki = site.wiki | group_by: 'category' %}
