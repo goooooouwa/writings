@@ -5,8 +5,6 @@ category: computer
 tags: openwrt
 ---
 
-1
-
 ### ip动态伪装（等价于iptables masquerade命令)
 
 Openwrt如果不设置ip动态伪装，则无法从内网访问国内网站（但是可以正常科学上网）。
