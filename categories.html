@@ -9,7 +9,7 @@ published: true
 <span class="site-tag">
   <a href="/category/{{ category | first | slugify }}/"
     style="font-size: {{ category | last | size | times: 5 | plus: 80 }}%">
-    {{ category | first | capitalize }},
+    {{ category | first | capitalize }}{% unless forloop.last %},{% endunless %}
   </a>
 </span>
 {% endfor %}
