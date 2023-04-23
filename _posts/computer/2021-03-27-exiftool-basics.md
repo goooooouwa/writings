@@ -74,3 +74,8 @@ exiftool "-FileName<CreateDate" DIR
 exiftool '-filename<CreateDate' -d %Y-%m-%d_%H%M%S%%-c.%%le -r H:\Personal\Photos\OrganizedPhotos\
 ```
 
+例子：将某个目录（及所有子目录）内的照片和视频按照拍摄时间创建目录分组
+
+```
+exiftool '-filename<CreateDate' -d %Y/%Y_%m/%Y_%m_%d/%Y-%m-%d_%H%M%S%%-c.%%le -r H:\Personal\Photos\OrganizedPhotos\
+```
