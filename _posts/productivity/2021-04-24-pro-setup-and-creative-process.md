@@ -2,7 +2,7 @@
 published: true
 title: build system isn't key to the creative process
 category: productivity
-tags: setup creative
+tags: creative process
 ---
 The build system isn’t the most important thing to the creative process. It’s like pipeline to coders, it’s necessary but not how code is written, ideally is set it and forget about it.
 
