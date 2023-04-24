@@ -16,7 +16,7 @@ published: true
     T2[Workflow 2: 观看本地电影] -.-> D
 
     D[用ExFAT格式的移动硬盘存储电影]
-    D --> E[将电影同步到OneDrive（Student 5TB账号）]
+    D --> E[将电影同步到OneDrive]
     E --> G[通过OneDrive/Kodi with OneDrive plugin]
     G --> J[在iPhone, iPad, Mac, PC & Chromecast with Google TV上播放电影]
   
