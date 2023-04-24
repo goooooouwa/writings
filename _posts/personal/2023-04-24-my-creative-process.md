@@ -2,6 +2,6 @@
 published: true
 title: 我的创作流程
 category: personal
-tags: process
+tags: creativeprocess
 ---
 ![Creative process](https://goooooouwa.fun:8143/static/images/creative-process.png)
