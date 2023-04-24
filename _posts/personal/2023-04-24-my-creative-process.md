@@ -1,6 +1,6 @@
 ---
 published: true
-title: 我的创作方式
+title: 我的创作流程
 category: personal
 tags: process
 ---
