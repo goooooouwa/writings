@@ -19,7 +19,7 @@ published: true
 
     T2[Workflow 2: 备份硬盘] -.-> I
 
-    I[定期备份硬盘到OneDrive（Student 5TB账号）]
+    I[定期备份硬盘到OneDrive]
 </div>
 
 ## 照片存储
