@@ -6,5 +6,5 @@ tags: mindmap
 ---
 ## My Lifestyle
 
-![Lifestyle mindmap]({{site.baseurl}}/https://goooooouwa.fun:8143/static/images/lifestyle-mindmap.png)
+![Lifestyle mindmap](https://goooooouwa.fun:8143/static/images/lifestyle-mindmap.png)
 
