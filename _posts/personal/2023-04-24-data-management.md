@@ -1,6 +1,6 @@
 ---
 published: true
-title: 我的数据管理方式
+title: 我的数据管理
 category: personal
 tags: data management
 ---
