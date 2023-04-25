@@ -5,4 +5,4 @@ category: personal
 tags: cross_platform
 ---
 
-![Cross Platform]({{site.baseurl}}/https://goooooouwa.fun:8544/Media/public/static/images/cross-platform.png)
+![Cross Platform](https://goooooouwa.fun:8143/static/images/cross-platform.png)
