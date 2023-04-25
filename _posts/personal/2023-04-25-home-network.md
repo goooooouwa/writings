@@ -1,6 +1,6 @@
 ---
 published: true
-title: 我的家庭网络设置
+title: 我的家庭网络
 category: personal
 tags: home_network network setup
 ---
