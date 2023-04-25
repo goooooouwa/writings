@@ -1,1 +1,0 @@
-![Home Network](https://goooooouwa.fun:8143/static/images/home-network.png)
