@@ -1,8 +1,9 @@
 ---
 date: 2019-04-03
 title: BA onboarding actions
-category: business analysis
+category: business_analysis
 ---
+
 # BA onboarding actions
 
 Stakeholders ( org mapping, 职能，诉求）
@@ -11,11 +12,11 @@ Team map in jira ( people in Xi’an and Melbourne)
 
 公司远景、目标、SWOT、PESTEL
 
-项目成员（技能、成长方向、对BA期望）
+项目成员（技能、成长方向、对 BA 期望）
 
 合作伙伴、获取信息的渠道（Dermot, Adam）
 
-BA主要活动
+BA 主要活动
 
 BA weekly catchup
 

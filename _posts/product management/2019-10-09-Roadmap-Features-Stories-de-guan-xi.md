@@ -1,5 +1,5 @@
 ---
-category: product management
+category: product_management
 title: "Roadmap, Features, Stories 的关系"
 date: "2019-10-09"
 ---

@@ -1,5 +1,5 @@
 ---
-category: product review
+category: product_review
 title: "飞度历代发布时间及分析"
 date: "2020-04-03"
 ---

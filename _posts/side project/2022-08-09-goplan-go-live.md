@@ -1,7 +1,7 @@
 ---
 published: true
 title: GoPlan Web版v1.0正式上线
-category: side project
+category: side_project
 tags: todo project_management life product
 ---
 

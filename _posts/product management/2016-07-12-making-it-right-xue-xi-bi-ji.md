@@ -1,8 +1,9 @@
 ---
 date: 2016-07-12
 title: 《Making It Right》学习笔记
-category: product management
+category: product_management
 ---
+
 《Making It Right》学习笔记
 
 How important is business for a company?

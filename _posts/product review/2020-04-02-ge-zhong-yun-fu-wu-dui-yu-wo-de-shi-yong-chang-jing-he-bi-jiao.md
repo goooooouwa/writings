@@ -1,5 +1,5 @@
 ---
-category: product review
+category: product_review
 title: "各种云服务对于我的使用场景和比较"
 date: "2020-04-02"
 ---
@@ -37,11 +37,11 @@ on demand 看漫画
 
 50GB
 
-需要连VPN
+需要连 VPN
 
 250M
 
-Box免费容量大，漫画完全在文件大小限制之内，非常适合。
+Box 免费容量大，漫画完全在文件大小限制之内，非常适合。
 
 Dropbox
 
@@ -49,11 +49,11 @@ Dropbox
 
 20GB
 
-需要连VPN
+需要连 VPN
 
 不知道
 
-1Password跨平台同步只支持Dropbox
+1Password 跨平台同步只支持 Dropbox
 
 Google Drive
 
@@ -61,11 +61,11 @@ Google Docs + Google Photos
 
 15GB
 
-需要连VPN
+需要连 VPN
 
 不知道
 
-Google Docs只能使用Google Drive；用Google Photos免费在线展示硬盘里照片
+Google Docs 只能使用 Google Drive；用 Google Photos 免费在线展示硬盘里照片
 
 文件免费容量太小，但是无限高清照片和视频容量
 
@@ -83,7 +83,7 @@ iPhone backups + family Photo library
 
 seamlessly 备份手机，同步照片
 
-好用，不需要VPN，价格便宜，缺点是不太可靠，无法保持文件离线，不支持Android
+好用，不需要 VPN，价格便宜，缺点是不太可靠，无法保持文件离线，不支持 Android
 
 OneDrive
 
@@ -97,9 +97,9 @@ document files
 
 无
 
-不需要VPN，跨平台，免费容量够用，适合文档同步。
+不需要 VPN，跨平台，免费容量够用，适合文档同步。
 
-微软还想把以前送的40G容量收回，坑爹。有些特殊文件不支持。
+微软还想把以前送的 40G 容量收回，坑爹。有些特殊文件不支持。
 
 Local hard drive
 
@@ -127,11 +127,11 @@ VR Movies
 
 不知道
 
-每6小时允许下载3GB流量
+每 6 小时允许下载 3GB 流量
 
-Mega是国外资源的主要分享源，下载速度很快，容量足够
+Mega 是国外资源的主要分享源，下载速度很快，容量足够
 
-很良心的服务，就是免费账号有6小时3GB下载限制
+很良心的服务，就是免费账号有 6 小时 3GB 下载限制
 
 百度网盘
 

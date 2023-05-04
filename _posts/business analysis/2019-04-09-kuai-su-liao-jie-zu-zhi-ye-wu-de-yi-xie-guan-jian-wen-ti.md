@@ -1,11 +1,10 @@
 ---
 date: 2019-04-09
 title: 快速了解组织业务的一些关键问题
-category: business analysis
+category: business_analysis
 ---
+
 # 快速了解组织业务的一些关键问题
-
-
 
 ## 列出关键问题并寻找答案
 

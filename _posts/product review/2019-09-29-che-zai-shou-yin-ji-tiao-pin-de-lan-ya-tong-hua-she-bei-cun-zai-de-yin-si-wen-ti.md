@@ -1,5 +1,5 @@
 ---
-category: product review
+category: product_review
 title: "车载收音机调频的蓝牙通话设备存在的隐私问题"
 date: "2019-09-29"
 ---

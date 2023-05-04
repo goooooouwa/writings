@@ -1,8 +1,9 @@
 ---
 date: 2019-03-08
 title: 需求采集和分析的四种方法
-category: product management
+category: product_management
 ---
+
 # 需求采集和分析的四种方法
 
 1.定性地说：用户访谈
@@ -28,7 +29,5 @@ category: product management
 用户访谈必须用，可用性测试推荐用，调查问卷和数据分析根据产品成熟度实施。
 
 需求采集和分析主要完成验证与量化需求。
-
-
 
 摘自：《人人都是产品经理》

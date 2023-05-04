@@ -1,5 +1,5 @@
 ---
-category: business analysis
+category: business_analysis
 title: "Relationship between user story feature and epic"
 date: "2019-10-09"
 ---
@@ -9,5 +9,5 @@ date: "2019-10-09"
 Epic: 大方向  
 Features/User story: 具体功能  
 AC: 场景案例  
-User journey关注用户在系统的旅程  
-Customer experience map关注用户体验
+User journey 关注用户在系统的旅程  
+Customer experience map 关注用户体验

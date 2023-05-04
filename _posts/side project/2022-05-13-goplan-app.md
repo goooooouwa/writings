@@ -1,7 +1,7 @@
 ---
 published: true
 title: "GoPlan app：帮你轻松实现个人目标"
-category: side project
+category: side_project
 tags: todo project_management life
 ---
 

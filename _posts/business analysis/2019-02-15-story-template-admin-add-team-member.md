@@ -1,8 +1,9 @@
 ---
 date: 2019-02-15
 title: Story template Admin add team member
-category: business analysis
+category: business_analysis
 ---
+
 # Story template: Admin: add team member
 
 ```
@@ -94,7 +95,7 @@ link: https://preview.uxpin.com/c8d4194e8f4122661829775772b1a94109300243#/pages/
 *Screenshots*
 
 *Add Team Member*
-placeholder: 
+placeholder:
 {noformat}
 Add team member here...
 {noformat}
@@ -118,7 +119,7 @@ Order: [a-z 其他字符(按ASCII排序)]
 see examples in TMA-386
 
 *Autocomplete Dropdown (users)*
-1. dropdown item text format: 
+1. dropdown item text format:
 {noformat}
 Shunfa Xu (sfxu@thoughtworks.com)
 {noformat}
@@ -143,11 +144,11 @@ Sun, S Xa, Shunfaxu, Shunfa L, sxu, sxu@thoughtworks.com,  ShunfaXu sfxu@thought
 {noformat}
 
 4. Max length of dropdown: 6个item的高度，所有匹配结果全部加载，dropdown可以上下滚动
-5. Pagination support: NO 
+5. Pagination support: NO
 4. Sort by: none
 
 *Text*
-PLACEHOLDER 
+PLACEHOLDER
 {noformat}
 type here...
 {noformat}
@@ -182,7 +183,7 @@ There is no record that match your search
 # Publisher can't see add button/area in user center - team member area & editText.
 # Admin can input member name or email in editText. It will show a list which include input,(top 10)
 # member list name should not same with publisher's team.
-# Admin only can select user in list, it input info which not include, it will not save. 
+# Admin only can select user in list, it input info which not include, it will not save.
 # Admin click add button, it will add new member. When page get response, add button is not clickable. And after add successful.
 # Open two same center page, choice one create a member and save it. Then input same member in another page, it will show error message which means it have been exciting.
 ```

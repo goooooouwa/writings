@@ -1,8 +1,9 @@
 ---
 date: 2019-02-15
 title: Story template Consumer view health status of ThoughtAPI
-category: business analysis
+category: business_analysis
 ---
+
 # Story template: Consumer: view health status of ThoughtAPI
 
 ```
@@ -141,7 +142,7 @@ h4. UI Text:
 90 days ago
 {noformat}
 
-Uptime percentage of Past 90 Days (uptime保留小数点后两位，小数点后末位0不展示), e.g. 
+Uptime percentage of Past 90 Days (uptime保留小数点后两位，小数点后末位0不展示), e.g.
 {noformat}
 [99.99]% uptime
 {noformat}
@@ -150,12 +151,12 @@ Uptime percentage of Past 90 Days (uptime保留小数点后两位，小数点后
 Today
 {noformat}
 
-Date of Single Day selected (default is Today), e.g. 
+Date of Single Day selected (default is Today), e.g.
 {noformat}
 2019.01.03 UTC+0
 {noformat}
 
-Uptime Percentage of Single Day selected (default is Today,  uptime保留小数点后两位，小数点后末位0不展示), e.g. 
+Uptime Percentage of Single Day selected (default is Today,  uptime保留小数点后两位，小数点后末位0不展示), e.g.
 {noformat}
 [99.99]%
 {noformat}

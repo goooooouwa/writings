@@ -1,5 +1,5 @@
 ---
-category: side project
+category: side_project
 title: 翻译计划
 tag: plan
 published: true
@@ -7,7 +7,7 @@ published: true
 
 ## 目标
 
-2021年4月1日开始，到2021年7月1日，在3个月内翻译完3篇产品相关文章。
+2021 年 4 月 1 日开始，到 2021 年 7 月 1 日，在 3 个月内翻译完 3 篇产品相关文章。
 
 <div class="mermaid">
     gantt
@@ -18,4 +18,5 @@ published: true
     《Innovation part 1》 :2021-03-29, 30d
     《Innovation part 2》 :30d
     《Innovation part 3》 :30d
+
 </div>

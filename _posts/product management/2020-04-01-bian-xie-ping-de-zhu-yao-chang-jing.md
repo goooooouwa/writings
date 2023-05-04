@@ -1,5 +1,5 @@
 ---
-category: product management
+category: product_management
 title: "便携屏的主要场景"
 date: "2020-04-01"
 ---
@@ -14,4 +14,4 @@ date: "2020-04-01"
 手机拓展屏（接蓝牙键盘鼠标）提升搜索购物效率  
 树莓派显示器
 
-Cforce 太厚了，不便携，我可不想背2个MacBook Pro出门。
+Cforce 太厚了，不便携，我可不想背 2 个 MacBook Pro 出门。

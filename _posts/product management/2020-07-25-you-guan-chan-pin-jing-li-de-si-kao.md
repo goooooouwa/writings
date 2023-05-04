@@ -1,8 +1,9 @@
 ---
-category: product management
+category: product_management
 date: 2020-07-25
 title: 有关产品经理的思考
 ---
+
 # 有关产品经理的思考
 
 ## 产品经理与市场营销人员的区别

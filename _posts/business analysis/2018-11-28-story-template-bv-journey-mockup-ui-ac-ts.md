@@ -1,13 +1,14 @@
 ---
 date: 2018-11-28
 title: story template (bv, journey, mockup, ui, ac, ts)
-category: business analysis
+category: business_analysis
 ---
+
 # story template (bv, journey, mockup, ui, ac, ts)
 
 ```
 h2. Business Value
- !Feng Admin.png|thumbnail! 
+ !Feng Admin.png|thumbnail!
 *As a* ,
 *I want to* ,
 *So that* .
@@ -56,7 +57,7 @@ h3. UI
 * if mouse hover, mouse icon turn into forbidden sign.
 
 h3. Text
-PLACEHOLDER 
+PLACEHOLDER
 {noformat}
 type here...
 {noformat}

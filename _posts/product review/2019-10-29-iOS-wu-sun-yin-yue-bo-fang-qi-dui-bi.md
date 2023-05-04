@@ -1,15 +1,15 @@
 ---
-category: product review
+category: product_review
 title: "iOS无损音乐播放器对比"
 date: "2019-10-29"
 ---
 
-对iOS上的几款无损音乐播放器作了一下简单的对比，我主要关注了：
+对 iOS 上的几款无损音乐播放器作了一下简单的对比，我主要关注了：
 
-1. 是否支持Flac格式的CUE文件
-2. 是否支持Flac格式快进快退
+1. 是否支持 Flac 格式的 CUE 文件
+2. 是否支持 Flac 格式快进快退
 
-Vox music player明显胜出，国产的FiioMusic功能也齐全，只是UI和用户体验差了不少。其次是FiiOMusic（飞傲音乐），支持Android。
+Vox music player 明显胜出，国产的 FiioMusic 功能也齐全，只是 UI 和用户体验差了不少。其次是 FiiOMusic（飞傲音乐），支持 Android。
 
 **Music Player**
 

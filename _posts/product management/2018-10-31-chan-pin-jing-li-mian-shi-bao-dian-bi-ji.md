@@ -1,8 +1,9 @@
 ---
 date: 2018-10-31
 title: 产品经理面试宝典笔记
-category: product management
+category: product_management
 ---
+
 # 产品经理面试宝典笔记
 
 AIDA 购买行为
@@ -12,8 +13,6 @@ AIDA 购买行为
 - Desire
 - Action
 
-
-
 SWOT
 
 - Strength
@@ -21,16 +20,12 @@ SWOT
 - Opportunity
 - Threat
 
-
-
 4P
 
 - Product
 - Price
 - Promotion
 - Place
-
-
 
 5C
 
@@ -40,9 +35,7 @@ SWOT
 - Collaborator
 - Climate
 
-
-
-波特5力
+波特 5 力
 
 - 现有竞争者的竞争力
 - 供应商的议价能力

@@ -2,7 +2,7 @@
 layout: post
 title: 译文｜客戶体验与用户体验的区别
 date: "2019-04-27"
-category: product management
+category: product_management
 tags: user_experience
 ---
 

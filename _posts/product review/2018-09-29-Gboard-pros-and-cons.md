@@ -1,5 +1,5 @@
 ---
-category: product review
+category: product_review
 title: "Gboard pros and cons"
 date: "2018-09-29"
 ---
