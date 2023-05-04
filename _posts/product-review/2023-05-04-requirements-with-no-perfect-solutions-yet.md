@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 目前没有完美体验的产品类别
 category: product-review
 tags: ebook_reader digital_note_taking living_room web_browsing
