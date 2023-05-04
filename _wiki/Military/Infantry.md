@@ -1,5 +1,5 @@
 ---
-category: Military
+category: military
 ---
 
 常用军事术语

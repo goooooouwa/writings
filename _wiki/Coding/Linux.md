@@ -1,6 +1,7 @@
 ---
-category: Coding
+category: coding
 ---
+
 command line
 
 package manager

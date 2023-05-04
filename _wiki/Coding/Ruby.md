@@ -1,3 +1,3 @@
 ---
-category: Coding
+category: coding
 ---

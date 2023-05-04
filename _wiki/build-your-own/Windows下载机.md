@@ -1,6 +1,6 @@
 ---
 title: Windows下载机
-category: BYO
+category: build-your-own
 ---
 
 硬件：GK41迷你主机（J4125 CPU + 8G内存 + 128G SSD）

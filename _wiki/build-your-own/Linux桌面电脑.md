@@ -1,6 +1,6 @@
 ---
 title: 'Linux桌面电脑'
-category: BYO
+category: build-your-own
 ---
 
 

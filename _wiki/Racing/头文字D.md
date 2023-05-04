@@ -1,5 +1,5 @@
 ---
-category: Racing
+category: racing
 ---
 
 ## 所有车型

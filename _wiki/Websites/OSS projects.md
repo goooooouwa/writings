@@ -1,5 +1,5 @@
 ---
-category: Websites
+category: websites
 ---
 
 - [Gollum](https://github.com/gollum/gollum) - Git-based Wiki

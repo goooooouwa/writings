@@ -1,4 +1,5 @@
 ---
-category: Coding
+category: coding
 ---
+
 git commands

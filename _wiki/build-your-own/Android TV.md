@@ -1,6 +1,6 @@
 ---
 title: Android TV
-category: BYO
+category: build-your-own
 published: true
 ---
 

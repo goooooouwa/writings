@@ -1,5 +1,5 @@
 ---
-category: Software
+category: software
 ---
 
 Simplenote 官网：[https://simplenote.com/](https://simplenote.com/)

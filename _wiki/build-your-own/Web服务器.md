@@ -1,6 +1,6 @@
 ---
 title: Web服务器
-category: BYO
+category: build-your-own
 ---
 
 Base OS: OMV

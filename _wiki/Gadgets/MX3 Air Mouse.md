@@ -1,5 +1,5 @@
 ---
-category: Gadgets
+category: gadgets
 ---
 产品链接：
 

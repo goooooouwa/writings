@@ -1,5 +1,5 @@
 ---
-category: GoPlan
+category: goplan
 ---
 
 ## Short term focus

@@ -1,5 +1,5 @@
 ---
-category: Websites
+category: websites
 ---
 
 - [Pocket](https://getpocket.com/) - 免费的在线书签管理应用
