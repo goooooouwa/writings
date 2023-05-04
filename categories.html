@@ -5,11 +5,14 @@ published: true
 ---
 <h1>分类</h1>
 {% assign categories = site.categories | sort %}
-{% for category in categories %}
-<span class="site-tag">
-  <a href="/category/{{ category | first | slugify }}/"
-    style="font-size: {{ category | last | size | times: 5 | plus: 80 }}%">
-    {{ category | first | replace:'_', ' ' | capitalize }}
-  </a>{% unless forloop.last %}|{% endunless %}
-</span>
-{% endfor %}
+<ul>
+  {% for category in categories %}
+  <li>
+    <span class="site-tag">
+      <a href="/category/{{ category | first | slugify }}/">
+        {{ category | first | replace:'_', ' ' | capitalize }} ({{ category | last | size }})
+      </a>
+    </span>
+  </li>
+  {% endfor %}
+</ul>
