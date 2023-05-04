@@ -10,7 +10,7 @@ title: Wiki
 
 {% assign mywiki = site.wiki | group_by: 'category' %}
 {% for cat in mywiki %}
-<h2>{{ cat.name | capitalize }}</h2>
+<h2>{{ cat.name | replace:'-', ' ' | capitalize }}</h2>
     <ul>
       {% assign items = cat.items | sort: 'order' %}
       {% for item in items %}
