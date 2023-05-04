@@ -10,7 +10,7 @@ published: true
   <li>
     <span class="site-tag">
       <a href="/category/{{ category | first | slugify }}/">
-        {{ category | first | replace:'_', ' ' | capitalize }} ({{ category | last | size }})
+        {{ category | first | replace:'-', ' ' | capitalize }} ({{ category | last | size }})
       </a>
     </span>
   </li>
