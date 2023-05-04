@@ -1,7 +1,7 @@
 ---
 published: true
 title: 2021业余活动计划
-category: side_project
+category: side-project
 tags: plan
 hidden: true
 ---

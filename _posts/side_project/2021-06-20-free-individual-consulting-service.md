@@ -1,7 +1,7 @@
 ---
 published: true
 title: 有问题，找发哥：免费1对1问答服务
-category: side_project
+category: side-project
 ---
 
 ## 一句话介绍

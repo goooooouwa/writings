@@ -1,5 +1,5 @@
 ---
-category: product_management
+category: product-management
 title: "《Product Management Desk Reference》读后感"
 date: "2019-10-29"
 ---

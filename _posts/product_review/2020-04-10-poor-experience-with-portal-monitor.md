@@ -1,7 +1,7 @@
 ---
 published: true
 title: 便携屏实际使用感受
-category: product_review
+category: product-review
 ---
 
 使用了便携显示屏后，也意识到笔记本自带屏幕的便利性。使用 switch 外接显示屏玩游戏完全没有直接使用笔记本玩游戏轻松（只需给笔记本供电，然后连接手柄即可）。首先需要将 switch 用支架支起来，连接屏幕，给屏幕供电，如果是有线手柄还要想办法给手柄供电。步骤繁多。

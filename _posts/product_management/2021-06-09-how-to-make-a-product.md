@@ -1,7 +1,7 @@
 ---
 published: true
 title: 如何打造一款产品
-category: product_management
+category: product-management
 tags: innovation
 ---
 

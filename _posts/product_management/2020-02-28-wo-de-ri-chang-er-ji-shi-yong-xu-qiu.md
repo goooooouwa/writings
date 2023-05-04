@@ -1,5 +1,5 @@
 ---
-category: product_management
+category: product-management
 title: "我的日常耳机使用需求"
 date: "2020-02-28"
 ---

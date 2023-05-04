@@ -1,5 +1,5 @@
 ---
-category: side_project
+category: side-project
 title: 写作计划
 tag: plan
 published: true

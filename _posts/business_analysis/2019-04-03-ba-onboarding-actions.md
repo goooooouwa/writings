@@ -1,7 +1,7 @@
 ---
 date: 2019-04-03
 title: BA onboarding actions
-category: business_analysis
+category: business-analysis
 ---
 
 # BA onboarding actions

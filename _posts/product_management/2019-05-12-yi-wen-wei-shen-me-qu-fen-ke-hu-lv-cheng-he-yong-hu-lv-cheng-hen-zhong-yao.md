@@ -2,7 +2,7 @@
 layout: post
 title: 译文｜为什么区分客户旅程和用户旅程很重要
 date: "2019-05-12"
-category: product_management
+category: product-management
 ---
 
 原文链接：https://www.answerdigital.com/retail/customer-journey-vs-user-journey

@@ -2,7 +2,7 @@
 date: 2016-03-05
 title: iPad Pro vs MacBook，谁才是未来个人电脑的主流？
 layout: post
-category: product_review
+category: product-review
 ---
 
 继推出 12 寸的 iPad Pro 后，苹果又推出了全新 MacBook。为什么苹果要同时推出两款功能如此接近的产品？到底哪一款会成为未来个人电脑的主流？

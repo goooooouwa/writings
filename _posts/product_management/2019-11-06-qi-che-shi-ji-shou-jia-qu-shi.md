@@ -1,5 +1,5 @@
 ---
-category: product_management
+category: product-management
 title: "汽车实际售价趋势"
 date: "2019-11-06"
 ---

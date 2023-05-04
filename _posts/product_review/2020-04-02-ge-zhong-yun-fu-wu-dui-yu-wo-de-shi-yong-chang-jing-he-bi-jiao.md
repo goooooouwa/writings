@@ -1,5 +1,5 @@
 ---
-category: product_review
+category: product-review
 title: "各种云服务对于我的使用场景和比较"
 date: "2020-04-02"
 ---

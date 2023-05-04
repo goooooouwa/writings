@@ -1,5 +1,5 @@
 ---
-category: product_review
+category: product-review
 title: "NUT 3 防丢失芯片实用性如何？"
 date: "2019-02-22"
 ---

@@ -1,7 +1,7 @@
 ---
 published: true
 title: how to generate product ideas?
-category: product_management
+category: product-management
 tags: ideation
 ---
 

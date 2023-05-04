@@ -1,5 +1,5 @@
 ---
-category: product_review
+category: product-review
 title: "L.A. Noire Switch版本体验"
 date: "2020-04-01"
 ---

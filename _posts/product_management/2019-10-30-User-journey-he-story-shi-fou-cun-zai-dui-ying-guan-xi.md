@@ -1,5 +1,5 @@
 ---
-category: product_management
+category: product-management
 title: "User journey和story是否存在对应关系"
 date: "2019-10-30"
 ---

@@ -1,5 +1,5 @@
 ---
-category: product_management
+category: product-management
 title: "Product Thinking"
 date: "2019-04-03"
 ---

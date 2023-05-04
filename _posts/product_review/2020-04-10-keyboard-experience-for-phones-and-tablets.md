@@ -1,7 +1,7 @@
 ---
 published: true
 title: 体验手机平板外接键盘
-category: product_review
+category: product-review
 ---
 
 在手机上使用键盘是一件很傻的事情，体验很差。不在于键盘手感，而是手机的摆放，键盘的携带，已经手机放置后视野的狭窄。

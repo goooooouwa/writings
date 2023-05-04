@@ -1,7 +1,7 @@
 ---
 date: 2016-07-12
 title: 《Making It Right》学习笔记
-category: product_management
+category: product-management
 ---
 
 《Making It Right》学习笔记

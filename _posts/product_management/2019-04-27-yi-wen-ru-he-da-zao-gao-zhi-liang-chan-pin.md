@@ -2,7 +2,7 @@
 layout: post
 title: 译文｜如何打造高质量的产品
 date: "2019-04-27"
-category: product_management
+category: product-management
 ---
 
 原文链接：[https://medium.com/the-year-of-the-looking-glass/how-to-make-things-high-quality-f466f875227d](https://medium.com/the-year-of-the-looking-glass/how-to-make-things-high-quality-f466f875227d)

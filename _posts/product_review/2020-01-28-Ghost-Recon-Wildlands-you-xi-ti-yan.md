@@ -1,5 +1,5 @@
 ---
-category: product_review
+category: product-review
 title: "Ghost Recon Wildlands游戏体验"
 date: "2020-01-28"
 ---

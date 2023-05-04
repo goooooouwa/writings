@@ -1,5 +1,5 @@
 ---
-category: product_review
+category: product-review
 title: "iOS无损音乐播放器对比"
 date: "2019-10-29"
 ---

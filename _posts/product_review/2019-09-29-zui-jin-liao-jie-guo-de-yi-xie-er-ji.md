@@ -1,5 +1,5 @@
 ---
-category: product_review
+category: product-review
 title: "最近了解过的一些耳机"
 date: "2019-09-29"
 ---

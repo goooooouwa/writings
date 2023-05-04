@@ -1,5 +1,5 @@
 ---
-category: product_review
+category: product-review
 title: "Webpage highlight & annotation tool comparison"
 date: "2019-01-25"
 ---

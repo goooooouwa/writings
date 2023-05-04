@@ -1,5 +1,5 @@
 ---
-category: product_management
+category: product-management
 date: 2020-07-27
 title: 我和Ace关于产品经理、市场分析和用户研究的讨论
 ---
