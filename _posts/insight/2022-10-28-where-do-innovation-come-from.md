@@ -2,8 +2,9 @@
 published: true
 title: Where does Innovation come from?
 category: insight
-tags: product-innovation problem-solving product-management
+tags: product_innovation problem_solving product_management
 ---
+
 Innovation starts with a deep understanding of the problem before any attempt to solve it.
 
 This usually comes from the observation on how users live & interact with the products (via various user research tools, e.g. user interview, focus group, field research, etc).

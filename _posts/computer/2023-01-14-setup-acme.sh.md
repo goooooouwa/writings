@@ -2,17 +2,17 @@
 published: true
 title: acme.sh安装使用教程
 category: computer
-tags: ssl lets-encrypt acme.sh
+tags: ssl lets_encrypt acme.sh
 ---
+
 参考资料：
 
 - [How to Install](https://github.com/acmesh-official/acme.sh#1-how-to-install)
-- [使用DNS作为验证方式](https://github.com/acmesh-official/acme.sh/wiki/%E8%AF%B4%E6%98%8E#2-%E6%89%8B%E5%8A%A8-dns-%E6%96%B9%E5%BC%8F-%E6%89%8B%E5%8A%A8%E5%9C%A8%E5%9F%9F%E5%90%8D%E4%B8%8A%E6%B7%BB%E5%8A%A0%E4%B8%80%E6%9D%A1-txt-%E8%A7%A3%E6%9E%90%E8%AE%B0%E5%BD%95-%E9%AA%8C%E8%AF%81%E5%9F%9F%E5%90%8D%E6%89%80%E6%9C%89%E6%9D%83)
+- [使用 DNS 作为验证方式](https://github.com/acmesh-official/acme.sh/wiki/%E8%AF%B4%E6%98%8E#2-%E6%89%8B%E5%8A%A8-dns-%E6%96%B9%E5%BC%8F-%E6%89%8B%E5%8A%A8%E5%9C%A8%E5%9F%9F%E5%90%8D%E4%B8%8A%E6%B7%BB%E5%8A%A0%E4%B8%80%E6%9D%A1-txt-%E8%A7%A3%E6%9E%90%E8%AE%B0%E5%BD%95-%E9%AA%8C%E8%AF%81%E5%9F%9F%E5%90%8D%E6%89%80%E6%9C%89%E6%9D%83)
 - [Use FreeDNS as DNS provider](https://github.com/acmesh-official/acme.sh/wiki/dnsapi#15-use-freedns)
 - [更新证书](https://github.com/acmesh-official/acme.sh/wiki/%E8%AF%B4%E6%98%8E#5-%E6%9B%B4%E6%96%B0%E8%AF%81%E4%B9%A6)
 
-
-### Step 1: 安装acme.sh
+### Step 1: 安装 acme.sh
 
 `curl https://get.acme.sh | sh -s email=email@example.com`
 
@@ -35,7 +35,7 @@ Shell Output:
 
 Close and reopen your terminal to start using acme.sh.
 
-### Step 2: 使用FREEDNS DNS验证方式SSL证书
+### Step 2: 使用 FREEDNS DNS 验证方式 SSL 证书
 
 ```
 export FREEDNS_User="xxx"
@@ -128,5 +128,3 @@ crontab  -l
 
 56 * * * * "/root/.acme.sh"/acme.sh --cron --home "/root/.acme.sh" > /dev/null
 ```
-
-

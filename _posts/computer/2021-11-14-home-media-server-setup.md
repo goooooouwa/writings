@@ -2,14 +2,14 @@
 title: 搭建家庭娱乐服务器
 category: computer
 published: true
-tags: 破解 htpc home-server
+tags: 破解 htpc home_server
 ---
 
 ## Media Server
 
 ### Hardware
 
-Raspberry Pi 3B + USB hard disk 
+Raspberry Pi 3B + USB hard disk
 
 ### Software
 
@@ -28,10 +28,10 @@ hd-idle (tried hdparam, not working for USB disks)
 
 #### Access over Internet
 
-1. 破解电信光猫（获取superadmin），上网方式从路由改为桥接，关闭光猫无线功能，光猫仅仅做一件事情：桥接merlin路由器来拨号上网。（tried光猫上的端口转发，不work）
+1. 破解电信光猫（获取 superadmin），上网方式从路由改为桥接，关闭光猫无线功能，光猫仅仅做一件事情：桥接 merlin 路由器来拨号上网。（tried 光猫上的端口转发，不 work）
 2. 路由器拨号上网
-3. 其他路由器以AP模式接入主路由器
-4. 其他路由器暂时关闭无线功能（一方面华硕主路由器信号已经不错，另一方面，没有Mesh功能，多个无线网络无法无缝漫游，以后需要再打开，手动切换）
+3. 其他路由器以 AP 模式接入主路由器
+4. 其他路由器暂时关闭无线功能（一方面华硕主路由器信号已经不错，另一方面，没有 Mesh 功能，多个无线网络无法无缝漫游，以后需要再打开，手动切换）
 5. 主路由器打开端口转发
 
 #### All HTTPs connections (including merlin Router) with Let’s encrypt
@@ -62,7 +62,6 @@ ARM-based Mini Linux PC is the ideal home server. Merlin router is mostly good a
 
 Steamlink + Gaming laptop + Xbox one OG controller with wireless adapter
 
-
 ### Software
 
 Steam
@@ -72,10 +71,10 @@ Steam
 1. Replace dead battery
 2. Upgrade BIOS to support s5 (shutdown) wake on lan
 
-
 #### Xbox one OG controller with wireless adapter
 
 As xow is already bundled with steamlink, it should work. Caveats:
+
 1. xow doesn’t support pairing, need to pair on pc before using on steamlink
 2. VirtualHere conflicts with xow, need to stop sharing adapter in virtualHere
 
@@ -90,7 +89,6 @@ As xow is already bundled with steamlink, it should work. Caveats:
 7. Reconnect power to boot steamlink
 8. Once booted, press button on wireless adapter and Xbox one controller sync button (the one on the side), should both light up and connected
 9. Next time just press button on wireless adapter and the wake button(with logo) on Xbox one controller, should reconnect pretty fast.
-
 
 ## Previous home media server
 

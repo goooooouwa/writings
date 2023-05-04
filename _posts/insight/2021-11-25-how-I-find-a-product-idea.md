@@ -2,15 +2,16 @@
 published: true
 title: 我打算如何做产品？
 category: insight
-tags: product-management
+tags: product_management
 ---
+
 我的思路：
 
 1. 意识到我有某种个人的需求（比如独立管理个人照片）
-2. 搜索并试用主流推荐产品以了解该领域的existing players（state of the market）
+2. 搜索并试用主流推荐产品以了解该领域的 existing players（state of the market）
 3. 通过比较它们之间的功能、用户体验、价格等差异，从中寻找最能满足我个人需求的产品
-   - 如果能找到一款能完美满足我需求的产品（比如PiGallery2 for my personal Photo hosting needs），便结束（说明该产品领域已经存在完美的满足目标需求的解决方案）；
-   - 如果找不到一款能完美满足我需求的产品（比如cross platform free ebook & manga reading and listening），便说明该产品领域还不存在能完美的满足目标需求的解决方案。这里面可能有潜在的产品机会。
+   - 如果能找到一款能完美满足我需求的产品（比如 PiGallery2 for my personal Photo hosting needs），便结束（说明该产品领域已经存在完美的满足目标需求的解决方案）；
+   - 如果找不到一款能完美满足我需求的产品（比如 cross platform free ebook & manga reading and listening），便说明该产品领域还不存在能完美的满足目标需求的解决方案。这里面可能有潜在的产品机会。
 4. 下一步就要分析，为何目前并不存在能完美的满足目标需求的解决方案，可能的制约因素有哪些？
    - 有该需求的用户群太少？比如，有意识并且在意个人数据独立性的人还不够多。
    - 满足需求的技术难度很大？

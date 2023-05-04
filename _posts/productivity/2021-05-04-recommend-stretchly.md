@@ -2,12 +2,12 @@
 published: true
 title: Stretchly是一款强提醒休息的app
 category: productivity
-tags: app take-a-break
+tags: app take_a_break
 ---
 
 ## TL;DR
 
-如果你和我一样每天长时间面对电脑，推荐一款app [Stretchly](https://hovancik.net/stretchly)，它会定时弹出全屏信息，强力提醒你休息。
+如果你和我一样每天长时间面对电脑，推荐一款 app [Stretchly](https://hovancik.net/stretchly)，它会定时弹出全屏信息，强力提醒你休息。
 
 I recommend [Stretchly](https://hovancik.net/stretchly) to anyone who couldn't help but stare at the computer screen for too long.
 
@@ -41,12 +41,12 @@ After playing around with several apps in this category, I find myself having se
 
 ## Comparision of take-a-break apps
 
-|                                                              | Can force break?                     | Configurable?             | Cross platform?                  | Price | Other       |
-| ------------------------------------------------------------ | ------------------------------------ | ------------------------- | -------------------------------- | ----- | ----------- |
+|                                                                                              | Can force break?                     | Configurable?             | Cross platform?                  | Price | Other       |
+| -------------------------------------------------------------------------------------------- | ------------------------------------ | ------------------------- | -------------------------------- | ----- | ----------- |
 | [Take a Break](https://apps.apple.com/us/app/take-a-break-timer-reminder/id1457158844?mt=12) | Yes, full screen break, can not exit | No, not for free version. | No, only Mac                     | ¥12   |             |
-| [Time Out](https://apps.apple.com/us/app/time-out-break-reminders/id402592703?mt=12) | No, click to exit break screen       | No, not for free version. | No, only Mac                     | ¥18   |             |
-| [BreakTimer](https://breaktimer.app/)                        | No, swipe to exit break screen       | Yes                       | Yes, Chrome, Mac, Windows, Linux | Free  | Open Source |
-| [Stretchly](https://hovancik.net/stretchly)                  | Yes, full screen break, can not exit | Yes                       | Yes, Mac, Windows, Linux         | Free  | Open Source |
+| [Time Out](https://apps.apple.com/us/app/time-out-break-reminders/id402592703?mt=12)         | No, click to exit break screen       | No, not for free version. | No, only Mac                     | ¥18   |             |
+| [BreakTimer](https://breaktimer.app/)                                                        | No, swipe to exit break screen       | Yes                       | Yes, Chrome, Mac, Windows, Linux | Free  | Open Source |
+| [Stretchly](https://hovancik.net/stretchly)                                                  | Yes, full screen break, can not exit | Yes                       | Yes, Mac, Windows, Linux         | Free  | Open Source |
 
 ## Personal Recommendation
 

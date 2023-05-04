@@ -2,20 +2,21 @@
 published: true
 title: 运行Forza Horizon 3遇到的问题及解决办法
 category: gaming
-tags: forza-horizon
+tags: forza_horizon
 hidden: true
 ---
-## 问题1：Windows 10 1903系统Forza horizon 3启动闪退
+
+## 问题 1：Windows 10 1903 系统 Forza horizon 3 启动闪退
 
 ### 解决办法
 
-follow这个教程：https://bbs.3dmgame.com/thread-5996797-1-1.html
+follow 这个教程：https://bbs.3dmgame.com/thread-5996797-1-1.html
 
-## 问题2：雪山DLC没有购买
+## 问题 2：雪山 DLC 没有购买
 
-follow这个教程：https://bbs.3dmgame.com/thread-6002502-1-1.html
+follow 这个教程：https://bbs.3dmgame.com/thread-6002502-1-1.html
 
-## 问题3：Forza horizon 3手柄和方向盘识别不稳定
+## 问题 3：Forza horizon 3 手柄和方向盘识别不稳定
 
 手柄和方向盘在游戏中连接不断地断开又重连。
 
@@ -25,4 +26,4 @@ follow这个教程：https://bbs.3dmgame.com/thread-6002502-1-1.html
 
 ### 解决办法
 
-在任务栏的synaptics定点装置软件中禁用触控板。
+在任务栏的 synaptics 定点装置软件中禁用触控板。

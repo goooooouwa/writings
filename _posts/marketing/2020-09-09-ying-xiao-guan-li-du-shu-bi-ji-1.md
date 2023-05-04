@@ -2,12 +2,13 @@
 category: marketing
 date: 2020-09-09
 title: 读书笔记｜《营销管理》第1章
-tags: marketing-management
+tags: marketing_management
 ---
 
-* TOC
-{:toc}
-## 第1章 定义营销新现实
+- TOC
+  {:toc}
+
+## 第 1 章 定义营销新现实
 
 ### 什么是市场营销？
 
@@ -153,14 +154,13 @@ tags: marketing-management
 推销观念（selling concept）认为，如果任其自然发展，消费者和企业并不会足量购买所需要的产品。
 
 **营销观念**
-营销观念（marketing concept）是在20世纪50年代中期出现的，强调“以顾客为中心”，“先感知再反应”。
+营销观念（marketing concept）是在 20 世纪 50 年代中期出现的，强调“以顾客为中心”，“先感知再反应”。
 
 **全方位营销观念**
 全方位营销（holistic marketing）观念是以开发、设计和实施营销计划、过程及活动为基础的，但同时也深刻地认识到上述营销计划、营销过程和营销活动的广度和彼此之间的相互依赖性。全方位营销者认为，在营销实践中每个细节都是特别重要的，广泛的、整合的视角不可或缺。
 
 它的四个主题：**关系营销、整合营销、内部营销和绩效营销**。
 
-### 对4P进行更新
+### 对 4P 进行更新
 
-麦卡锡（McCarthy）把不同的营销活动概括成四大类营销组合工具，即营销中的4p：**产品（product）、价格（price）、地点（place）和促销（promotion）**。
-
+麦卡锡（McCarthy）把不同的营销活动概括成四大类营销组合工具，即营销中的 4p：**产品（product）、价格（price）、地点（place）和促销（promotion）**。

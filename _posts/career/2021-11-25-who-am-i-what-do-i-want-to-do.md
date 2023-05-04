@@ -2,47 +2,36 @@
 published: true
 title: 我是谁？我要干嘛？
 category: career
-tags: product-management
+tags: product_management
 ---
+
 子曰：吾日三省吾身。要经常灵魂三问：
 
 1. 我是谁？
 2. 我在哪？
 3. 我要去哪？
 
-
-
 **Q: 我想做什么？设计软件代码？还是设计软件产品？**
 
 设计软件产品。
-
-
 
 **Q: 我想设计什么软件产品？能满足人们所需的软件产品？还是能满足个人所需的软件产品？**
 
 能满足个人所需的软件产品。
 
-
-
 **Q: 产品的核心是什么？产品逻辑？用户体验？**
 
 产品逻辑。
 
-
-
 **Q: why 软件？**
 
 软件自由度极高，it can do almost anything.
-
-
 
 软件能满足我个人最大的需求：
 
 1. 信息获取（搜索，阅读，问答）
 2. 多媒体互动娱乐（文本、图形、视频、音频、游戏）
 3. 创造（编程、写作）
-
-
 
 软件能满足我的其他需求还有：
 
@@ -55,11 +44,7 @@ tags: product-management
 - 教育
 - 办公
 
-
-
 Software is eating the world. Everything is going digital. Smarter, autonomous, capable, versatile.
-
-
 
 我其他不用软件也可以很好（或者更好）满足的需求：
 
@@ -68,18 +53,12 @@ Software is eating the world. Everything is going digital. Smarter, autonomous, 
 - 创意（sketching）
 - 看书
 
-
-
 **Q: 我该如何活着？我想做的核心活动是什么？**
 
 我最想设计软件产品，改进软件产品。
 
-
-
 **Q: 设计软件产品 to what extent？**
 
 产品逻辑，体验，质量，产品的内核。不太在意产品的外围，比如营销，运营，服务，售后等（愿意与相应职能角色配合）。
-
-
 
 Then, 软件产品经理 is my best guess.
