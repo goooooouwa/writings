@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 电子书阅读器使用体验（海信Touch和墨案迷你阅）
 category: product-review
 tags: ebook-reader
