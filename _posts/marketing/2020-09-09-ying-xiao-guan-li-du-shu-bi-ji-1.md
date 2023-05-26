@@ -2,7 +2,7 @@
 category: marketing
 date: 2020-09-09
 title: 读书笔记｜《营销管理》第1章
-tags: marketing_management
+tags: marketing-management
 ---
 
 - TOC

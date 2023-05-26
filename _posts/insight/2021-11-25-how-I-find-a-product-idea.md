@@ -2,7 +2,7 @@
 published: true
 title: 我打算如何做产品？
 category: insight
-tags: product_management
+tags: product-management
 ---
 
 我的思路：

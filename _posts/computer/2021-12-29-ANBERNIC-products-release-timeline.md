@@ -2,7 +2,7 @@
 published: true
 title: ANBERNIC products release timeline
 category: computer
-tags: retro_gaming
+tags: retro-gaming
 ---
 
 | Device  | Release Date |

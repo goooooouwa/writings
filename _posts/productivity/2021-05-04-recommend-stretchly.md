@@ -2,7 +2,7 @@
 published: true
 title: Stretchly是一款强提醒休息的app
 category: productivity
-tags: app take_a_break
+tags: app take-a-break
 ---
 
 ## TL;DR

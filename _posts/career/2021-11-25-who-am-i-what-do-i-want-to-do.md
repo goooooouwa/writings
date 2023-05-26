@@ -2,7 +2,7 @@
 published: true
 title: 我是谁？我要干嘛？
 category: career
-tags: product_management
+tags: product-management
 ---
 
 子曰：吾日三省吾身。要经常灵魂三问：

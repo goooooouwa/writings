@@ -2,7 +2,7 @@
 published: true
 title: 如何在小米路由器上安装ssh工具（以及如何解决mini版亮红灯问题）
 category: computer
-tags: mi_router ssh
+tags: mi-router ssh
 ---
 
 小米路由器安装 ssh 的[YouTube 视频教程](https://www.youtube.com/watch?v=Ni1niDKr66w)。

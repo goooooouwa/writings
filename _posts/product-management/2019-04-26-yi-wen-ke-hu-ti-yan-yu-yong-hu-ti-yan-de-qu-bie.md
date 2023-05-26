@@ -3,7 +3,7 @@ layout: post
 title: 译文｜客戶体验与用户体验的区别
 date: "2019-04-27"
 category: product-management
-tags: user_experience
+tags: user-experience
 ---
 
 原文：https://blog.kloud.com.au/2016/09/13/how-does-customer-experience-cx-differ-from-user-experience-ux/

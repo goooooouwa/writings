@@ -2,14 +2,15 @@
 published: true
 title: 目前没有完美体验的产品类别
 category: product-review
-tags: ebook_reader digital_note_taking living_room web_browsing
+tags: ebook-reader digital-note-taking living-room web-browsing
 ---
+
 以下这些使用场景我目前还没有找到完全满足使用需求、拥有完美体验的产品：
 
 1. 数字笔记
 1. 阅读电子书和漫画
 1. 客厅网页浏览
-3. 客厅轻度办公
+1. 客厅轻度办公
 
 ## 数字笔记
 
@@ -26,14 +27,12 @@ tags: ebook_reader digital_note_taking living_room web_browsing
 - 公开发布笔记
 - 保存网页内容
 
-
 **Nice to have**
 
 - 手写笔记
-- Markdown格式
-- PDF标记
+- Markdown 格式
+- PDF 标记
 - 电子书标注
-
 
 ### 不错的笔记产品
 
@@ -55,14 +54,13 @@ Cons:
 Pros:
 
 - 基于文件管理笔记
-- 支持Markdown
+- 支持 Markdown
 - 使用体验流畅
 - 轻松关联笔记
 
 Cons:
 
-- 免费版不支持iCloud以外的云存储。
-
+- 免费版不支持 iCloud 以外的云存储。
 
 ### 关于笔记的思考
 
@@ -74,53 +72,50 @@ Cons:
 
 whatever suits your style.
 
-
-
 ## 阅读电子书和漫画
 
 ### 看电子书
 
 目前没有很好的全平台看电子书方案。我当前的做法是：
 
-- 在家用Kindle看书
-- 出门用手机App Kybooks看书
-- 电脑用Apple Books/Koodo reader/Foliate看书
+- 在家用 Kindle 看书
+- 出门用手机 App Kybooks 看书
+- 电脑用 Apple Books/Koodo reader/Foliate 看书
 
 ### 看漫画
 
-Kindle Oasis看漫画已经接近完美，还有几个缺点：
+Kindle Oasis 看漫画已经接近完美，还有几个缺点：
 
-1. 屏幕不够大（10寸更理想）
+1. 屏幕不够大（10 寸更理想）
 2. 界面操作速度不够快
 3. 脆弱的屏幕和金属外壳无法随意取放
-4. Web浏览器功能受限（不支持Javascript，不能下载PDF文件）
+4. Web 浏览器功能受限（不支持 Javascript，不能下载 PDF 文件）
 
-iPad可以更加随心所欲地看漫画，体验更佳，唯一的缺点是不是墨水屏，短暂使用完全没问题。
-
+iPad 可以更加随心所欲地看漫画，体验更佳，唯一的缺点是不是墨水屏，短暂使用完全没问题。
 
 ## 客厅网页浏览
 
 ### 需求
 
-- 坐在沙发前一键打开网页浏览器，无需setup
+- 坐在沙发前一键打开网页浏览器，无需 setup
 - 可浏览桌面网站
 
 ### 可能的方案：
 
-1. Android TV运行Android版Web浏览器
-2. 小主机电脑运行桌面Web浏览器
-3. Steam deck运行桌面Web浏览器
-4. Laptop运行桌面Web浏览器
+1. Android TV 运行 Android 版 Web 浏览器
+2. 小主机电脑运行桌面 Web 浏览器
+3. Steam deck 运行桌面 Web 浏览器
+4. Laptop 运行桌面 Web 浏览器
 
-目前方案1（Android TV安装Web浏览器）是最接近理想体验的。
+目前方案 1（Android TV 安装 Web 浏览器）是最接近理想体验的。
 
 Pros:
 
-- 坐在沙发前一键打开网页浏览器，无需setup（需要配合鼠标使用）
-- Android TV支持遥控器语音输入
+- 坐在沙发前一键打开网页浏览器，无需 setup（需要配合鼠标使用）
+- Android TV 支持遥控器语音输入
 - 可浏览桌面网站
-- Edge浏览器自带广告屏蔽
-- Chromecase with Google TV体积小巧，不占空间
+- Edge 浏览器自带广告屏蔽
+- Chromecase with Google TV 体积小巧，不占空间
 
 Cons：
 
@@ -130,7 +125,7 @@ Cons：
 
 ### 关于客厅网页浏览的思考
 
-如果只是单纯的网页浏览，Android TV运行Web浏览器完全足以胜任。
+如果只是单纯的网页浏览，Android TV 运行 Web 浏览器完全足以胜任。
 
 ## 客厅轻度办公
 
@@ -141,21 +136,20 @@ Cons：
 ### 可能的方案：
 
 1. 电脑接电视，坐沙发上用无线键鼠操作电脑
-2. 坐沙发上使用Laptop
+2. 坐沙发上使用 Laptop
 
-方案1（电脑接电视坐沙发上办公）主要的挑战是如何坐在沙发上操作电脑，可能需要配一套无线键鼠，整体体验上可能还不如直接坐沙发上使用Laptop，唯一的好处是大屏看得更舒服。
+方案 1（电脑接电视坐沙发上办公）主要的挑战是如何坐在沙发上操作电脑，可能需要配一套无线键鼠，整体体验上可能还不如直接坐沙发上使用 Laptop，唯一的好处是大屏看得更舒服。
 
 ### 关于客厅轻度办公的思考
 
-**我内心是希望Windows/Mac电脑能提供一套可供在客厅环境轻松办公的TV UI界面**（比如，Front Row是专为遥控器优化的界面，而Steam Big Picture是专为游戏控制器优化的界面）。如果我想在客厅浏览网页，一个鼠标就足够了，可是如果想做更复杂的交互，比如轻度办公，就离不开键盘输入了，而一旦引入键盘，就没有客厅的轻松氛围了。由此可见，没有比桌面环境更适合轻度办公的了，要办公就乖乖地用电脑吧。
-
+**我内心是希望 Windows/Mac 电脑能提供一套可供在客厅环境轻松办公的 TV UI 界面**（比如，Front Row 是专为遥控器优化的界面，而 Steam Big Picture 是专为游戏控制器优化的界面）。如果我想在客厅浏览网页，一个鼠标就足够了，可是如果想做更复杂的交互，比如轻度办公，就离不开键盘输入了，而一旦引入键盘，就没有客厅的轻松氛围了。由此可见，没有比桌面环境更适合轻度办公的了，要办公就乖乖地用电脑吧。
 
 ## 总结
 
 以上这些使用场景我目前的方案及主观打分如下：
 
-1. 数字笔记 -> Notion (90分）
-1. 阅读电子书 -> Kindle + Kybooks + Apple Books （80分）
-1. 看漫画 -> Kindle + iPad（90分）
-1. 客厅网页浏览 -> Android TV + Edge浏览器（90分）
-3. 客厅轻度办公 -> Laptop (95分)
+1. 数字笔记 -> Notion (90 分）
+1. 阅读电子书 -> Kindle + Kybooks + Apple Books （80 分）
+1. 看漫画 -> Kindle + iPad（90 分）
+1. 客厅网页浏览 -> Android TV + Edge 浏览器（90 分）
+1. 客厅轻度办公 -> Laptop (95 分)

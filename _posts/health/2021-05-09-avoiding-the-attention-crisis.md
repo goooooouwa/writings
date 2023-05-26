@@ -2,7 +2,7 @@
 published: true
 title: 如何减少手机屏幕使用
 category: health
-tags: attention_crisis
+tags: attention-crisis
 ---
 
 ## 什么是注意力危机？

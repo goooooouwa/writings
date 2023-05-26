@@ -2,7 +2,7 @@
 published: true
 title: Retro gaming device setup
 category: computer
-tags: retro_gaming retroarch lakka
+tags: retro-gaming retroarch lakka
 ---
 
 ## My needs for a retro gaming device:

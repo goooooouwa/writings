@@ -2,7 +2,7 @@
 published: true
 title: 读书笔记｜《商业模式新生代》1 客户细分类型
 category: business
-tags: business_model
+tags: business-model
 ---
 
 ## 客户细分

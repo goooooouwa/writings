@@ -2,7 +2,7 @@
 published: true
 title: Steam游戏串流遇到的问题及解决办法
 category: computer
-tags: steam game_streaming steam_link
+tags: steam game-streaming steam-link
 hidden: true
 ---
 

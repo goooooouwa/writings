@@ -2,7 +2,7 @@
 published: true
 title: Where does Innovation come from?
 category: insight
-tags: product_innovation problem_solving product_management
+tags: product-innovation problem-solving product-management
 ---
 
 Innovation starts with a deep understanding of the problem before any attempt to solve it.

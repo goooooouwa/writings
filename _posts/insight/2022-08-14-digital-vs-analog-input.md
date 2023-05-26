@@ -1,7 +1,7 @@
 ---
 title: "数字输入与手写手绘"
 category: insight
-tags: digital analog drawing writing note_taking journal
+tags: digital analog drawing writing note-taking journal
 published: true
 ---
 

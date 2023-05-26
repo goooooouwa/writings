@@ -3,7 +3,7 @@ date: 2018-12-25
 title: 是否可以比计划中提前地准备下个月第1个iteration卡？
 layout: post
 category: agile
-tags: agile product_management
+tags: agile product-management
 ---
 
 ## TLDR

@@ -2,7 +2,7 @@
 published: true
 title: 如何在小米路由器上安装shadowsocks
 category: computer
-tags: shadowsocks mi_router
+tags: shadowsocks mi-router
 ---
 
 前提：

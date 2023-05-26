@@ -2,7 +2,7 @@
 published: true
 title: 我是该成为产品经理还是独立开发者？
 category: career
-tags: indie_developer product_manager
+tags: indie-developer product-manager
 hidden: true
 ---
 

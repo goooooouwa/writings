@@ -2,7 +2,7 @@
 published: true
 title: How to use news2kindle
 category: productivity
-tags: rss kindle reddit google_news news2kindle
+tags: rss kindle reddit google-news news2kindle
 ---
 
 ## Background

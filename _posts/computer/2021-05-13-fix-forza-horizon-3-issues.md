@@ -2,7 +2,7 @@
 published: true
 title: 运行Forza Horizon 3遇到的问题及解决办法
 category: gaming
-tags: forza_horizon
+tags: forza-horizon
 hidden: true
 ---
 

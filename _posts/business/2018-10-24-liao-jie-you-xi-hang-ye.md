@@ -3,7 +3,7 @@ date: 2018-10-24
 title: 了解游戏行业
 layout: post
 category: business
-tags: gaming_industry
+tags: gaming-industry
 ---
 
 引子：列出 PS4, XBOX, Switch 硬件配置，与电脑(iMac)和手机(iPhone)配置对比
