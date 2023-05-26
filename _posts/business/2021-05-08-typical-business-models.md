@@ -6,7 +6,7 @@ tags: business-model
 ---
 
 - TOC
-  {:toc}
+{:toc}
 
 ## 五种典型的商业模式
 

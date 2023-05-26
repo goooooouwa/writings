@@ -6,7 +6,7 @@ tags: marketing-management
 ---
 
 - TOC
-  {:toc}
+{:toc}
 
 ## 第 2 章 制定营销战略与营销计划
 

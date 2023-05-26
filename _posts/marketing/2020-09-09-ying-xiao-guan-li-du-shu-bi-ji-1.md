@@ -6,7 +6,7 @@ tags: marketing-management
 ---
 
 - TOC
-  {:toc}
+{:toc}
 
 ## 第 1 章 定义营销新现实
 

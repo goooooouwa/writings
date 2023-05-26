@@ -6,7 +6,7 @@ tags: marketing-management
 ---
 
 - TOC
-  {:toc}
+{:toc}
 
 ## 第 3 章 信息收集与需求预测
 

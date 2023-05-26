@@ -6,7 +6,7 @@ tags: innovation
 ---
 
 - TOC
-  {:toc}
+{:toc}
 
 ## 前言
 
