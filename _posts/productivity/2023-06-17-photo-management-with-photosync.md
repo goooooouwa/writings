@@ -9,6 +9,8 @@ I can now use PhotoSync to wirelessly transfer my photos directly to my NAS (via
 
 ## PhotoSync configuration
 
+![](https://goooooouwa.fun:8143/static/images/photosync-webdav-configuration.jpg)
+
 ## Result folder & filename
 
-
+![](https://goooooouwa.fun:8143/static/images/photosync-folder-filename-example.jpg)
