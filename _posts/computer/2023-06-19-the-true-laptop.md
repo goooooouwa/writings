@@ -36,7 +36,7 @@ Nice to have：
 - Intel / AMD 笔记本能耗比低，续航普遍不行，没有例外。
 - Windows 笔记本电池管理不如 macOS 高效。
 - macOS 的系统交互逻辑非常一致（比如一致的键盘快捷键），熟悉快捷键之后与触控板结合一起使用的操作效率极高，指哪打哪，容易进入心流模式，只需专注完成手头的任务。
-- Nvidia和AMD显卡对 Linux 的支持不如Intel集显好，AMD > Nvidia，Linux Desktop不适合图形设计、玩游戏，但是最适合编程。
+- Nvidia和AMD显卡对 Linux 的支持不如Intel集显好，AMD > Nvidia，Linux Desktop不适合图形设计、玩游戏，但是非常适合编程。
 - Windows & Linux 触控板体验不够好，不适合作为日常轻办公的笔记本使用。
 - Linux笔记本最适合编程；Windows笔记本最适合生产力、游戏；Macbook笔记本最全能，除了游戏。
 - 苹果电脑的优势：
