@@ -4,7 +4,7 @@ title: 真正意义上的笔记本电脑
 category: computer
 tags: laptop macOS Windows Linux
 ---
-## 真正意义上的笔记本电脑的特质
+## 真正意义上的笔记本电脑应该具有的特质
 
 Must have：
 
