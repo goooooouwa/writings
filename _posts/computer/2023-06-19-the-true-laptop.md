@@ -30,7 +30,7 @@ Nice to have：
 - Legion R9000P 16 inch 2021 with Windows 11
 - Legion R9000P 16 inch 2021 with Kubuntu 22.04
 
-**使用体验总结**
+使用体验总结
 
 - 游戏本不是理想的笔记本，因为体积笨重，能耗比低，需要随时充电。
 - Intel / AMD 笔记本能耗比低，续航普遍不行，没有例外。
