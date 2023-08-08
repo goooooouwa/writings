@@ -1,6 +1,6 @@
 ---
 published: true
-title: 电子设备功能改进
+title: 电子设备的一些改进
 category: computer
 ---
 ## Improvements of devices
