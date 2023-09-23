@@ -8,16 +8,6 @@ title: Wiki
 
 <h1>Wiki ({{ site.wiki.size }})</h1>
 
-{% assign mywiki = site.wiki | group_by: 'category' %}
-{% for cat in mywiki %}
-<h2>{{ cat.name | replace:'-', ' ' | capitalize }}</h2>
-    <ul>
-      {% assign items = cat.items | sort: 'order' %}
-      {% for item in items %}
-        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-      {% endfor %}
-    </ul>
-{% endfor %}
 <h2>透视原理（翻译自<a href="https://www.handprint.com/HP/WCL/tech10.html">hand print perspective</a>）</h2>
 <ul>
   <li>
@@ -42,3 +32,14 @@ title: Wiki
     <a href="/wiki/handprint-perspective/手印：阴影、反射和氛围%206.html">透视原理（七）：阴影、反射和环境</a>
   </li>
 </ul>
+
+{% assign mywiki = site.wiki | group_by: 'category' %}
+{% for cat in mywiki %}
+<h2>{{ cat.name | replace:'-', ' ' | capitalize }}</h2>
+    <ul>
+      {% assign items = cat.items | sort: 'order' %}
+      {% for item in items %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+{% endfor %}
