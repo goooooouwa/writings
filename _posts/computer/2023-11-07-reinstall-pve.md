@@ -15,6 +15,7 @@ tags: pve
 4. （Optional）[PCI passthrough](https://youtu.be/t_1o0rM3S7o?si=wey-mHQo953OEHhn&t=766)
 5. （Optional）Install [hd-idle](https://github.com/adelolmo/hd-idle) (not sure if this is needed)
 6. Upload SSL certificate
+7. Enable 2FA
 
 ## 关于USB硬盘休眠
 
