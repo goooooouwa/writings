@@ -15,3 +15,33 @@ tags: pve
 4. [PCI passthrough](https://youtu.be/t_1o0rM3S7o?si=wey-mHQo953OEHhn&t=766)
 5. Install [hd-idle](https://github.com/adelolmo/hd-idle) (not sure if this is needed)
 6. Upload SSL certificate
+
+## 关于USB硬盘休眠
+
+如果想让虚拟机（比如OMV）自动休眠所连接的USB硬盘，需要在使用USB硬盘的虚拟机（如OMV）里安装hd-idle，不确定是否需要PCI直通，也不确定是否需要在PVE上安装hd-idle。
+
+通过`/etc/fstab`挂载到虚拟机（比如OMV），开机后硬盘可能会持续运转（硬盘等持续闪烁），一段时间后会停止运转（硬盘灯常亮），10分钟后会自动休眠（硬盘灯呼吸）。
+
+## /etc/fstab配置
+
+```bash
+# Exfat drive
+# /dev/disk/by-uuid/0413-1C25             /srv/dev-disk-by-uuid-0413-1C25 exfat   defaults,nofail,uid=1024,gid=100        0 2
+# /dev/disk/by-uuid/0413-1C25             /media/usb/backup exfat   defaults,nofail,uid=1024,gid=100        0 2
+# /dev/disk/by-uuid/C657-6B4A             /srv/dev-disk-by-uuid-C657-6B4A exfat   defaults,nofail,uid=1024,gid=100        0 2
+
+# Media drive
+192.168.50.51:/volume1/Media             /mnt/nas nfs   defaults        0 0
+192.168.50.51:/volume1/Backup             /mnt/backup nfs   defaults        0 0
+192.168.50.51:/volume1/homes             /mnt/homes nfs   defaults        0 0
+
+# >>> [openmediavault]
+/dev/disk/by-uuid/0413-1C25             /srv/dev-disk-by-uuid-0413-1C25 exfat   defaults,nofail 0 2
+# <<< [openmediavault]
+```
+
+## /etc/crontab配置
+
+```bash
+15 3    1 * *   root    RESTIC_PASSWORD=****** restic -r /srv/dev-disk-by-uuid-0413-1C25/restic-repo backup --verbose /mnt/nas/Personal /mnt/nas/Manga /mnt/nas/calibre-book-library /mnt/nas/public >> /home/admin/restic-log.txt
+```
