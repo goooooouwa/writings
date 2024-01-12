@@ -13,7 +13,6 @@ tags: pve
 3. Connect to external drive and restore all vms
 4. [Remove local-lvm](https://icn.ink/pve/20.html) (no need to do if set maximumvz as 0)
 4. （Optional）[PCI passthrough](https://youtu.be/t_1o0rM3S7o?si=wey-mHQo953OEHhn&t=766)
-5. （Optional）Install [hd-idle](https://github.com/adelolmo/hd-idle) (not sure if this is needed)
 6. Upload SSL certificate
 7. Enable 2FA
 
@@ -27,8 +26,8 @@ tags: pve
 1. 在虚拟机（如OMV)中禁用磁盘相关设置，包括：  
 	- 高级电源管理
 	- 停转时间
-1. PCI直通
-1. 在PVE上安装hd-idle
+1. ~~PCI直通~~
+1. ~~在PVE上安装hd-idle~~ (no need)
 
 ## OMV虚拟机配置
 
