@@ -9,11 +9,11 @@ I can now use PhotoSync to wirelessly transfer my photos directly to my NAS (via
 
 ## PhotoSync configuration
 
-![](https://goooooouwa.fun:8143/static/images/photosync-webdav-configuration.jpg)
+![](https://goooooouwa.eu.org:8143/static/images/photosync-webdav-configuration.jpg)
 
 ## Result folder & filename
 
-![](https://goooooouwa.fun:8143/static/images/photosync-folder-filename-example.jpg)
+![](https://goooooouwa.eu.org:8143/static/images/photosync-folder-filename-example.jpg)
 
 ## Comparision with photo transfer with USB cable
 
@@ -25,4 +25,3 @@ My previous workflow is using USB cable to transfer photos to PC than run some L
 - PhotoSync导出的照片日期更准确，USB导出照片经过Linux commands处理后，可能得到的不是真正的拍摄日期。比如有一张2023-04-30拍摄的照片，USB导出并处理后被命名为2023-04-22.jpg。
 
 结论：PhotoSync is better in every aspect.
-
