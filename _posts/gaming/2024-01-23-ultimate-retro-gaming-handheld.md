@@ -19,7 +19,7 @@ tags: retro-gaming handheld
 
 ### Switch
 
-定位：多人游玩利器。
+定位：多人游玩利器
 
 优点：硬件出色，稳定可靠。
 
@@ -27,7 +27,7 @@ tags: retro-gaming handheld
 
 ### 安卓手机+手柄+天马G
 
-定位：便携电子游戏博物馆。
+定位：便携电子游戏博物馆
 
 优点：硬件性能优秀，软件生态强大，中文社区资源丰富。
 
@@ -35,7 +35,7 @@ tags: retro-gaming handheld
 
 ### Steam deck + Emudeck
 
-定位：最后的答案。
+定位：单人客厅游戏机
 
 优点：掌机性能天花板，通吃PS3以前所有模拟器。Steam OS系统硬件软件一体化程度高。Emudeck模拟器操控一致性高，工具丰富，方便折腾。
 
