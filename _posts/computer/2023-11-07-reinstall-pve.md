@@ -41,16 +41,17 @@ tags: pve
 
 # Media drive
 192.168.50.51:/volume1/Media             /mnt/nas nfs   defaults        0 0
-192.168.50.51:/volume1/Backup             /mnt/backup nfs   defaults        0 0
+192.168.50.51:/volume2/Games             /mnt/games nfs   defaults        0 0
+192.168.50.51:/volume2/Backup             /mnt/backup nfs   defaults        0 0
 192.168.50.51:/volume1/homes             /mnt/homes nfs   defaults        0 0
 
 # >>> [openmediavault]
-/dev/disk/by-uuid/0413-1C25             /srv/dev-disk-by-uuid-0413-1C25 exfat   defaults,nofail 0 2
+/dev/disk/by-uuid/A8E7-EFD6             /srv/dev-disk-by-uuid-A8E7-EFD6 exfat   defaults,nofail 0 2
 # <<< [openmediavault]
 ```
 
 ### /etc/crontab配置
 
 ```bash
-15 3    1 * *   root    RESTIC_PASSWORD=****** restic -r /srv/dev-disk-by-uuid-0413-1C25/restic-repo backup --verbose /mnt/nas/Personal /mnt/nas/Manga /mnt/nas/calibre-book-library /mnt/nas/public >> /home/admin/restic-log.txt
+15 3    1 * *   root    RESTIC_PASSWORD=****** restic -r /srv/dev-disk-by-uuid-A8E7-EFD6/restic-repo backup --verbose /mnt/nas/Personal /mnt/homes /mnt/nas/Manga /mnt/nas/calibre-book-library /mnt/nas/public /mnt/backup/backup >> /home/admin/restic-log.txt
 ```
