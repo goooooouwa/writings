@@ -1,6 +1,6 @@
 ---
 published: true
-title: Portainer GitHub repo stack build image issue
+title: 'Issue: Portainer GitHub repo stack not able to pull update'
 category: computer
 tags: portainer docker issue
 ---
