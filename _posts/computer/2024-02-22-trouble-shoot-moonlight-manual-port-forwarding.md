@@ -38,5 +38,12 @@ published: true
 
 以上仅是我的推测，还有待进一步研究。至少连接X86小主机的问题是解决了。那么，剩下的问题就是，我该如何在外网使用moonlight客户端远程串流内网B里的N卡游戏本呢？这个我暂时打算使用Moonlight Internet Hosting Tool通过Automatic configuration的方式来远程访问N卡游戏本，因为我大部分时候游戏本是在身边的。希望这种方式能在不添加端口映射的情况下自动工作。有待验证。
 
+实验证明，我当前内网B的旁路由作为网关的拓扑结构下，Moonlight Internet Hosting Tool的Automatic configuration方式是无法工作的，Tester工具检测后提示[Connected through another router error](https://github.com/moonlight-stream/moonlight-docs/wiki/Internet-Streaming-Errors#connected-through-another-router-error).
 
-实验证明，我当前内网B的旁路由作为网关的拓扑结构下，Moonlight Internet Hosting Tool的Automatic configuration方式是无法工作的，Tester工具检测后提示[Connected through another router error](https://github.com/moonlight-stream/moonlight-docs/wiki/Internet-Streaming-Errors#connected-through-another-router-error).看来对于内网B我的选择就只剩下ZeroTier了。
+当我尝试在旁路由上开启UPnP服务然后从外网访问N卡游戏本时，结果发现moonlight串流的所有端口都被占用了。
+
+后来一番排查才发现，原来moonlight串流所需的端口已经在UPnP服务中被自动设置了映射规则，映射到了N卡游戏本IP（如下图）。
+
+可是为什么即使映射了端口，外网仍然无法串流到内网B的N卡游戏本呢？可能还是由于我的旁路由网络拓扑结构所致吧。网上简单搜了一下，也没有找到好用的旁路由设置UPnP的教程，懒得折腾了，卸载了旁路由上的UPnP，避免端口再次被悄悄占用。
+
+看来对于从外网串流内网B的设备，我还是老老实实先用ZeroTier凑合着吧，以后游戏本串流得多了再研究其他办法。
