@@ -32,6 +32,8 @@ published: true
 
 当我将旁路由的moonlight端口映射规则禁用后，问题就解决了，可以在内网B使用moonlight客户端访问内网A的X86小主机了。
 
+![屏幕截图 2024-02-22 171930.png]({{site.baseurl}}/_posts/computer/屏幕截图 2024-02-22 171930.png)
+
 我怀疑moonlight串流需要客户端所在网络和服务器所在网络均能使用UDP+TCP: 47984 - 48010来完成网络连接，由于我在内网B将UDP+TCP: 47984 - 48010端口映射到了N卡游戏本IP，便导致当我尝试从内网B使用moonlight客户端访问内网A的X86小主机时所需的端口被占用了（X86小主机尝试将请求发给moonlight客户端，但是请求被映射到了N卡游戏本IP）。
 
 以上仅是我的推测，还有待进一步研究。至少连接X86小主机的问题是解决了。那么，剩下的问题就是，我该如何在外网使用moonlight客户端远程串流内网B里的N卡游戏本呢？这个我暂时打算使用Moonlight Internet Hosting Tool通过Automatic configuration的方式来远程访问N卡游戏本，因为我大部分时候游戏本是在身边的。希望这种方式能在不添加端口映射的情况下自动工作。有待验证。
