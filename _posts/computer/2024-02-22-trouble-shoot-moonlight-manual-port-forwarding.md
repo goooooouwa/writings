@@ -42,7 +42,7 @@ published: true
 
 当我尝试在旁路由上开启UPnP服务然后从外网访问N卡游戏本时，结果发现moonlight串流的所有端口都被占用了。
 
-![]({{site.baseurl}}_posts/computer/Screenshot_20240222-193529.jpg)
+![moonlight client error]({{site.baseurl}}_posts/computer/Screenshot_20240222-193529.jpg)
 
 后来一番排查才发现，原来moonlight串流所需的端口已经在UPnP服务中被自动设置了映射规则，映射到了N卡游戏本IP（如下图）。
 
