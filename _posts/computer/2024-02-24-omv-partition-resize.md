@@ -10,8 +10,8 @@ OMV主分区扩容本质上需要以下3步：
 1. resize文件系统来使用全部分区大小（比如使用命令resize2fs）
 
 有2种方式进行分区扩容操作：
-1. Linux系统通过命令行给主分区扩容：https://forum.openmediavault.org/index.php?thread/41271-expand-file-system-size-to-disk-size/
-1. OMV通过GParted Live图形界面给主分区扩容：https://www.wnark.com/archives/118.html
+1. [Linux系统通过命令行给主分区扩容](https://forum.openmediavault.org/index.php?thread/41271-expand-file-system-size-to-disk-size/)
+1. [OMV通过GParted Live图形界面给主分区扩容](https://www.wnark.com/archives/118.html)
 
 ![IMG_4196.JPG]({{site.baseurl}}/_posts/computer/IMG_4196.JPG)
 
