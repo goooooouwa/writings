@@ -2,7 +2,7 @@
 # 1) Jekyll image for building static blog site
 # 2) nginx stage to serve static site
 
-FROM jekyll/jekyll:4.1.0 AS builder
+FROM jekyll/jekyll:4.2.2 AS builder
 
 WORKDIR /srv/jekyll
 
