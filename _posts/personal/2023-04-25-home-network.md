@@ -5,4 +5,4 @@ category: personal
 tags: home-network network setup
 ---
 
-![Home Network](https://goooooouwa.fun:8143/static/images/home-network.png)
+![Home Network](https://goooooouwa.eu.org:8143/static/images/home-network.png)

@@ -3,8 +3,8 @@ category: coding
 date: 2012-11-15
 title: 《UNIX环境高级编程》学习笔记
 ---
-# 《UNIX环境高级编程》学习笔记
 
+# 《UNIX 环境高级编程》学习笔记
 
 Thread synchronization, deadlock avoidance( same locking order)
 
@@ -22,7 +22,7 @@ Basically a system treats an atomic operation as failed by default from the begi
 
 So data lose caused by failure is inevitable, atomicity only means if it fails, if fails completely.
 
-Any state before the final state is treated  as failure in an atomic operation.
+Any state before the final state is treated as failure in an atomic operation.
 
 ## The difference between Noblocking IO and Asyncronous IO
 
@@ -34,25 +34,25 @@ Asyncronous IO is to let the system notify the caller when the file is available
 
 Unix system calls( write, create, etc) are wrappers of CPU instructions( MOV, ADD, CALL, etc).
 
-微机原理学的是CPU指令，与操作系统无关的。操作系统调用是对CPU指令的封装。而C库函数又是对系统调用的封装。
+微机原理学的是 CPU 指令，与操作系统无关的。操作系统调用是对 CPU 指令的封装。而 C 库函数又是对系统调用的封装。
 
 ## IPC
 
 Chapter 5 Interprocess Communication
 In this chapter, we discuss five types of interprocess communication:
 
-* Shared memory permits processes to communicate by simply reading and writing to a specified memory location.
-* Mapped memory is similar to shared memory, except that it is associated with a file in the filesystem.
-* Pipes permit sequential communication from one process to a related process.
-* FIFOs are similar to pipes, except that unrelated processes can communicate because the pipe is given a name in the filesystem.
-* Sockets support communication between unrelated processes even on different computers.
+- Shared memory permits processes to communicate by simply reading and writing to a specified memory location.
+- Mapped memory is similar to shared memory, except that it is associated with a file in the filesystem.
+- Pipes permit sequential communication from one process to a related process.
+- FIFOs are similar to pipes, except that unrelated processes can communicate because the pipe is given a name in the filesystem.
+- Sockets support communication between unrelated processes even on different computers.
 
 These types of IPC differ by the following criteria:
 
-* Whether they restrict communication to related processes (processes with a common ancestor), to unrelated processes sharing the same filesystem, or to any computer connected to a network
-* Whether a communicating process is limited to only write data or only read data
-* The number of processes permitted to communicate
-* Whether the communicating processes are synchronized by the IPC — for example, a reading process halts until data is available to read
+- Whether they restrict communication to related processes (processes with a common ancestor), to unrelated processes sharing the same filesystem, or to any computer connected to a network
+- Whether a communicating process is limited to only write data or only read data
+- The number of processes permitted to communicate
+- Whether the communicating processes are synchronized by the IPC — for example, a reading process halts until data is available to read
 
 ### 5.1 Shared Memory
 
@@ -94,7 +94,7 @@ A pipe’s data capacity is limited. If the writer process writes faster than th
 
 A socket is a bidirectional communication device that can be used to communicate with another process on the same machine or with a process running on other machines.
 
-**Sockets are the only interprocess communication we’ll discuss in this chapter that** 
+**Sockets are the only interprocess communication we’ll discuss in this chapter that**
 
 **permit communication between processes on different computers.** Internet programs such as Telnet, rlogin, FTP, talk, and the World Wide Web use sockets.
 
@@ -102,8 +102,8 @@ A socket is a bidirectional communication device that can be used to communicate
 
 **Physical and virtual memory maps**
 
-![https://goooooouwa.fun:8143/static/images/XqsBMgx.png](https://goooooouwa.fun:8143/static/images/XqsBMgx.png)
+![https://goooooouwa.eu.org:8143/static/images/XqsBMgx.png](https://goooooouwa.eu.org:8143/static/images/XqsBMgx.png)
 
 The physical map of a system is usually available with the technical literature accompanying your hardware. In the case of the iPAQ, the StrongARM manual, the SA-1110 Developer's manual, is available from Intel's web site.
 
-The physical map is important, because it provides you with information on how to configure the kernel and how to develop custom drivers. During the kernel's configuration, for instance, you may need to specify the location of the flash devices in your system. During development, you may also need to write a driver for a memory-mapped peripheral. You will also need to provide your bootloader with information regarding the components it has to load. For these reasons, it is good practice to take the time to establish your system's physical memory map before starting software development. 
+The physical map is important, because it provides you with information on how to configure the kernel and how to develop custom drivers. During the kernel's configuration, for instance, you may need to specify the location of the flash devices in your system. During development, you may also need to write a driver for a memory-mapped peripheral. You will also need to provide your bootloader with information regarding the components it has to load. For these reasons, it is good practice to take the time to establish your system's physical memory map before starting software development.

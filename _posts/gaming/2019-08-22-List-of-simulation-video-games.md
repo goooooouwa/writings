@@ -59,4 +59,4 @@ date: "2019-08-22"
 
 ## List of simulation video game
 
-![](https://goooooouwa.fun:8143/static/images/JkS3x6c.jpg)
+![](https://goooooouwa.eu.org:8143/static/images/JkS3x6c.jpg)

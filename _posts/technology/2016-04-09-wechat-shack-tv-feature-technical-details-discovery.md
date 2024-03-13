@@ -19,11 +19,11 @@ category: technology
 1. 服务器通过对比用户上传的节目声音与各个电视台实时传来的节目声音进行对比，成功找出匹配的节目；
 1. 最后将节目的互动信息发送给用户。
 
-![Shake TV 3](https://goooooouwa.fun:8143/static/images/UW6sw9e.jpg)
-![Shake TV 4](https://goooooouwa.fun:8143/static/images/wzozYQq.jpg)
-![Shake TV 5](https://goooooouwa.fun:8143/static/images/LoVEsLG.jpg)
-![Shake TV 6](https://goooooouwa.fun:8143/static/images/7k5cmja.jpg)
+![Shake TV 3](https://goooooouwa.eu.org:8143/static/images/UW6sw9e.jpg)
+![Shake TV 4](https://goooooouwa.eu.org:8143/static/images/wzozYQq.jpg)
+![Shake TV 5](https://goooooouwa.eu.org:8143/static/images/LoVEsLG.jpg)
+![Shake TV 6](https://goooooouwa.eu.org:8143/static/images/7k5cmja.jpg)
 
 ## 后记
 
-百度百科上找到关于摇电视更详细的介绍。原来还真是人工智能😱。http://wapbaike.baidu.com/item/摇电视
+百度百科上找到关于摇电视更详细的介绍。原来还真是人工智能 😱。http://wapbaike.baidu.com/item/摇电视

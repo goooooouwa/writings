@@ -5,7 +5,7 @@ tag: setup
 published: true
 ---
 
-![](https://goooooouwa.fun:8143/static/images/MfukOPo.png)
+![](https://goooooouwa.eu.org:8143/static/images/MfukOPo.png)
 
 ```mermaid
     graph TD
@@ -36,7 +36,7 @@ Typora
 
 Google Drive
 
-## 图片hosting
+## 图片 hosting
 
 imgur
 
@@ -50,4 +50,4 @@ Git Push (VS Code)
 
 Prose.io
 
-GitHub网站
+GitHub 网站

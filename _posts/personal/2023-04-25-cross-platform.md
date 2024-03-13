@@ -5,4 +5,4 @@ category: personal
 tags: cross-platform setup
 ---
 
-![Cross Platform](https://goooooouwa.fun:8143/static/images/cross-platform.png)
+![Cross Platform](https://goooooouwa.eu.org:8143/static/images/cross-platform.png)

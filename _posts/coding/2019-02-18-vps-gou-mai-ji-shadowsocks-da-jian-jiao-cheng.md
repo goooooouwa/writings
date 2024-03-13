@@ -5,12 +5,12 @@ category: coding
 tags: vpn shadowsocks
 ---
 
-## 服务端安装Shadowsocks
+## 服务端安装 Shadowsocks
 
 跟着[官方教程](https://github.com/shadowsocks/shadowsocks/tree/master)运行以下命令：
 
 ```
-apt update 
+apt update
 
 # if you don't have git installed
 apt-get install git
@@ -19,31 +19,31 @@ apt-get install python-pip
 pip install git+https://github.com/shadowsocks/shadowsocks.git@master
 ```
 
-到此shadowsocks安装成功。
+到此 shadowsocks 安装成功。
 
 ### 配置
 
-复制官网教程的基本配置，后台运行shadowsock，服务端就OK了。
+复制官网教程的基本配置，后台运行 shadowsock，服务端就 OK 了。
 
 ## 客户端
 
-iOS客户端官网推荐的[Outline](https://itunes.apple.com/app/outline-app/id1356177741)（美国App Store免费下载）。我简单搜索了一下，中国区商店一类shadowsocks客户端貌似都下架了。
+iOS 客户端官网推荐的[Outline](https://itunes.apple.com/app/outline-app/id1356177741)（美国 App Store 免费下载）。我简单搜索了一下，中国区商店一类 shadowsocks 客户端貌似都下架了。
 
 ### 配置信息二维码生成说明：
 
-根据官方的配置说明，可以看到SS协议采用的协议格式为：
+根据官方的配置说明，可以看到 SS 协议采用的协议格式为：
 
 `ss://method[-auth]:password@hostname:port`
 
-并且采用BASE64的加密方式对SS协议的内容进行加密操作`method[-auth]:password@hostname:port`，然后再与`ss://`进行拼接即可。
+并且采用 BASE64 的加密方式对 SS 协议的内容进行加密操作`method[-auth]:password@hostname:port`，然后再与`ss://`进行拼接即可。
 
 `ss://BASE64-ENCODED-STRING-WITHOUT-PADDING`
 
-可以在Chrome Console中使用JavaScript的`btoa()`方法进行base64编码，如下：
+可以在 Chrome Console 中使用 JavaScript 的`btoa()`方法进行 base64 编码，如下：
 
-![](https://goooooouwa.fun:8143/static/images/SSzucyN.png)
+![](https://goooooouwa.eu.org:8143/static/images/SSzucyN.png)
 
-例如，将`ss://bf-cfb-auth:test@192.168.100.1:8888`，这个内容转换成标准的SS协议内容就成了：
+例如，将`ss://bf-cfb-auth:test@192.168.100.1:8888`，这个内容转换成标准的 SS 协议内容就成了：
 
 `ss://YmYtY2ZiLWF1dGg6dGVzdEAxOTIuMTY4LjEwMC4xOjg4ODg=`
 
@@ -51,30 +51,30 @@ iOS客户端官网推荐的[Outline](https://itunes.apple.com/app/outline-app/id
 
 ## Update 2019-07-18
 
-Bandwagon推出了一款专用于Shadowsocks的服务，Just My Socks，价格比VPS稍贵。该服务提供域名连接，会定期更换IP，再也不用因为IP被封所烦恼了。
+Bandwagon 推出了一款专用于 Shadowsocks 的服务，Just My Socks，价格比 VPS 稍贵。该服务提供域名连接，会定期更换 IP，再也不用因为 IP 被封所烦恼了。
 
 ## Update 2019-02-28
 
-用了5天VPS的IP就被封了，网上搜了一通发现2017年就有人反应shadowsocks[被封IP的问题](https://github.com/shadowsocks/shadowsocks/issues/993)，看来作者被请喝茶之后，Shadowsocks基本就被ZF掌握了。
+用了 5 天 VPS 的 IP 就被封了，网上搜了一通发现 2017 年就有人反应 shadowsocks[被封 IP 的问题](https://github.com/shadowsocks/shadowsocks/issues/993)，看来作者被请喝茶之后，Shadowsocks 基本就被 ZF 掌握了。
 
-换了一个IP，如果短时间再被封，就放弃shadowsocks了。网上又推荐[v2ray](https://github.com/v2ray)，以后再看吧。
+换了一个 IP，如果短时间再被封，就放弃 shadowsocks 了。网上又推荐[v2ray](https://github.com/v2ray)，以后再看吧。
 
 ---
 
-## 购买VPS
+## 购买 VPS
 
-跟着教程选择VPS，结果发现搬瓦工10G $19.99/yr的套餐下架了，最便宜的20G $49.99/yr（342.62元）；Vultr最便宜的$3.5/mon，算下来$42/yr（287.86元/年），稍微便宜一点。
+跟着教程选择 VPS，结果发现搬瓦工 10G $19.99/yr 的套餐下架了，最便宜的 20G $49.99/yr（342.62 元）；Vultr 最便宜的$3.5/mon，算下来$42/yr（287.86 元/年），稍微便宜一点。
 
-准备买Vultr，比较了一下服务器，湖北电信ping洛杉矶的服务器[延迟最低](https://zhuanlan.zhihu.com/p/38166614)，[另一篇文章](https://www.cnvultr.com/368.html)也印证这一点。
+准备买 Vultr，比较了一下服务器，湖北电信 ping 洛杉矶的服务器[延迟最低](https://zhuanlan.zhihu.com/p/38166614)，[另一篇文章](https://www.cnvultr.com/368.html)也印证这一点。
 
-在Vultr界面选择洛杉矶，结果下面没有$3.5/mon套餐，最便宜的套餐是$5/mon ($60/yr)。很郁闷，是不是过个年也准备涨价了？给Support发了封邮件，秒回:
+在 Vultr 界面选择洛杉矶，结果下面没有$3.5/mon 套餐，最便宜的套餐是$5/mon ($60/yr)。很郁闷，是不是过个年也准备涨价了？给 Support 发了封邮件，秒回:
 
 > ...currently sold out in that location ...
 > the new capacity will be online within the next 2 to 4 weeks.
 
-于是换了几个服务器试了一下，只有Atlanta下面有$3.5套餐。觉得有点坑爹，又在网上搜了一下搬瓦工和Vultr的对比，感觉旗鼓相当，决定就选搬瓦工，先入为主吧。
+于是换了几个服务器试了一下，只有 Atlanta 下面有$3.5 套餐。觉得有点坑爹，又在网上搜了一下搬瓦工和 Vultr 的对比，感觉旗鼓相当，决定就选搬瓦工，先入为主吧。
 
-于是买了半年$25.99（176元）的Los Angales服务器。继续跟着教程进行下一步。
+于是买了半年$25.99（176 元）的 Los Angales 服务器。继续跟着教程进行下一步。
 
 ## 中间的曲折
 
@@ -87,7 +87,7 @@ yum install python-setuptools && easy_install pip
 pip install git+https://github.com/shadowsocks/shadowsocks.git@master
 ```
 
-第一个命令成功，结果运行第二个命令pip报了Syntax error。即使单独运行pip也会报同样的错误，输出如下：
+第一个命令成功，结果运行第二个命令 pip 报了 Syntax error。即使单独运行 pip 也会报同样的错误，输出如下：
 
 ```
 [root@host ~]# pip
@@ -110,13 +110,13 @@ _blocking_errnos = {errno.EAGAIN, errno.EWOULDBLOCK}
 SyntaxError: invalid syntax
 ```
 
-不知道什么原因，网上也没搜到好的回答，决定重装一下CentOS（目前是centos 6 x86），网上搜了个[教程](https://segmentfault.com/a/1190000010528542)，重装了系统到centos 6 x86_64。突然想到，之前的报错是不是安装包之前没有运行`yum update`？哎...程序员的工具体验真是差。
+不知道什么原因，网上也没搜到好的回答，决定重装一下 CentOS（目前是 centos 6 x86），网上搜了个[教程](https://segmentfault.com/a/1190000010528542)，重装了系统到 centos 6 x86_64。突然想到，之前的报错是不是安装包之前没有运行`yum update`？哎...程序员的工具体验真是差。
 
 系统重装后，赶紧先运行一下`yum update`。重新尝试，结果还是不行，同样的错误。
 
 崩溃...
 
-最后还是换了Ubuntu，然后一下子就安装成功了。还是Ubuntu对新手友好。安装完了，才看到shadowsocks[中文教程](https://github.com/shadowsocks/shadowsocks/wiki/Shadowsocks-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)上有一句：
+最后还是换了 Ubuntu，然后一下子就安装成功了。还是 Ubuntu 对新手友好。安装完了，才看到 shadowsocks[中文教程](https://github.com/shadowsocks/shadowsocks/wiki/Shadowsocks-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)上有一句：
 
 > 除非有明确理由，不建议用对新手不友好的 CentOS。
 

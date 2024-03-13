@@ -7,7 +7,7 @@ tags: todo project-management life product
 
 ## TL'DR
 
-经过两个多月的熬夜肝代码，今天 GoPlan Web 版 v1.0 正式上线！即刻体验：[https://goooooouwa.fun:8095/welcome](https://goooooouwa.fun:8095/welcome)
+经过两个多月的熬夜肝代码，今天 GoPlan Web 版 v1.0 正式上线！即刻体验：[https://goooooouwa.eu.org:8095/welcome](https://goooooouwa.eu.org:8095/welcome)
 
 ### 如何获得帮助
 
@@ -23,9 +23,9 @@ tags: todo project-management life product
 
 GoPlan 是一款旨在助您达成目标的应用。有了它，您可以轻松地将你的目标拆分成一系列可执行的任务，并且随时利用多种直观的时间线轻松管理任务计划。
 
-![产品截图](https://goooooouwa.fun:8143/static/images/202208090949907.png)
+![产品截图](https://goooooouwa.eu.org:8143/static/images/202208090949907.png)
 
-[立即使用 GoPlan](https://goooooouwa.fun:8095/welcome)，告别永远处理不完的待办事项，让一起尽在计划之中。
+[立即使用 GoPlan](https://goooooouwa.eu.org:8095/welcome)，告别永远处理不完的待办事项，让一起尽在计划之中。
 
 ## 目标人群和使用场景
 
@@ -73,7 +73,7 @@ GoPlan 是一款旨在助您达成目标的应用。有了它，您可以轻松�
 
 ### 技术栈
 
-![](https://goooooouwa.fun:8143/static/images/202208091134111.jpg)
+![](https://goooooouwa.eu.org:8143/static/images/202208091134111.jpg)
 
 - 前端 Web 框架: React with Node.js
 - 前端 UI 组件库: Metarial UI
