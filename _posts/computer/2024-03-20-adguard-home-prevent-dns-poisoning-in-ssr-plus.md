@@ -1,5 +1,5 @@
 ---
-title: 如何在SSR Plus下使用Adguard Home过滤广告的同时避免DNS污染
+title: 如何在SSR Plus下配合使用Adguard Home过滤广告同时避免DNS污染
 category: computer
 tags: adguard-home openwrt ssr-plus dns
 published: true
