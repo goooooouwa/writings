@@ -22,7 +22,7 @@ published: true
 
 那么，问题来了，该如何配置SSR Plus来使用不受污染的DNS分别来解析国内和国外的域名呢？由于只有一个Adguard Home的instance，该如何为国外和国内的DNS请求分流呢？即让国内的请求走国内的安全DNS，国外的请求走国外的安全DNS？
 
-管不了那么多了，统一给我用Google的安全DNS吧，哪怕可能会慢一点，至少不会被DNS污染。统一设置成Google安全DNS之后，就能正常访问以上被污染的域名了。
+后来又转念一想，管不了那么多了，统一给我用Google的安全DNS吧，哪怕可能会慢一点，至少不会被DNS污染。统一设置成Google安全DNS之后，就能正常访问以上被污染的域名了。
 
 后来，我又在Adguard Home的上游DNS里加上了阿里的安全DNS，Adguard Home使用负载均衡规则自动选择DNS。目前使用了一段时间，并没有遇到DNS污染。以后有啥新发现再记录吧。
 
