@@ -16,7 +16,7 @@ published: true
 
 刚开始以为是Adguard Home过滤规则误伤了。后来搜索Adguard Home查询记录发现这2个域名并没有过滤或拦截这两个域名，是正常解析的。结合这2个域名的特点，都是国外主流的服务，看起来像是DNS被污染了，才导致查不到域名ip。
 
-这让我意识到，Adguard Home的上游DNS不能设置为主路由DNS（上游其实是本地电信运营商的默认DNS），国内运营商的DNS是很会被污染的。我需要将上游DNS配置成采用HTTPS的安全DNS，比如：
+这让我意识到，Adguard Home的上游DNS不能设置为主路由DNS（上游其实是本地电信运营商的默认DNS），国内运营商的DNS是会被污染的。我需要将上游DNS配置成采用HTTPS的安全DNS，比如：
 - https://dns.google/dns-query
 - https://dns.alidns.com/dns-query
 
