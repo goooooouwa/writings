@@ -10,7 +10,7 @@ published: true
 
 树莓派 + 7寸触摸屏 + Rasbpian OS + Chromium + Google Remote Desktop。用小屏树莓派通过Google Remote Desktop远程访问Xubuntu虚拟机，当作电子相册、日历、视频播放器。
 
-还尝试过用Rasbian OS+Steamlink串流的方式访问Xubuntu，实践后发现行不通。首先steam和steamlink很占资源（分别占用服务器和客户端的CPU和内存），其次虚拟机本身显卡性能就比较差，实际串流的延迟很高。
+还尝试过用Rasbian OS+Steamlink串流的方式访问Xubuntu，实践后发现行不通。首先steam和steamlink很占资源（分别占用服务器和客户端的CPU和内存），其次虚拟机本身显卡性能就比较差，实际串流的延迟很高。steamlink串流游戏本又没必要，所以基本没用。
 
 ### 阿里云盘4k高清播放器
 
