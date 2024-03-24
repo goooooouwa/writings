@@ -18,6 +18,7 @@ tags: pve
 8. (Optional) 设置[动态IP地址和网关](https://forum.proxmox.com/threads/set-a-dynamic-address-to-pve.119847/)
 9. Upload SSL certificate
 10. Enable 2FA
+11. Enable repo for [pve-no-subscription](https://pve.proxmox.com/wiki/Package_Repositories#_proxmox_ve_7_x_repositories) & Disable pve-enterprise-subscription
 
 ## 关于USB硬盘休眠
 
