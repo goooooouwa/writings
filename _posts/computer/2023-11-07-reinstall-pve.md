@@ -7,15 +7,16 @@ tags: pve
 ## 记录这次PVE重装的所有步骤
 
 1. Backup all vms in Stop mode to an external drive (e.g. NAS)
-2. Reinstall PVE (all data cleared)  
+2. 将网口连接网线以便PVE自动识别IP
+3. Reinstall PVE (all data cleared)  
 	- set maxvz as 0 (no local-lvm data)
 	- set domain as pve@example.com
-3. [Remove local-lvm](https://icn.ink/pve/20.html) (no need to do if set maxvz as 0)
-4. `lvextend -rl +100%FREE /dev/pve/root` ([resize pve/root](https://foxi.buduanwang.vip/virtualization/pve/1434.html) to take the whole disk space)
-5. Connect to external drive and restore all vms
-6. （Optional）[PCI passthrough](https://youtu.be/t_1o0rM3S7o?si=wey-mHQo953OEHhn&t=766)
-7. Upload SSL certificate
-8. Enable 2FA
+4. [Remove local-lvm](https://icn.ink/pve/20.html) (no need to do if set maxvz as 0)
+5. `lvextend -rl +100%FREE /dev/pve/root` ([resize pve/root](https://foxi.buduanwang.vip/virtualization/pve/1434.html) to take the whole disk space)
+6. 在数据中心中添加external drive and restore all vms
+7. （Optional）[PCI passthrough](https://youtu.be/t_1o0rM3S7o?si=wey-mHQo953OEHhn&t=766)
+8. Upload SSL certificate
+9. Enable 2FA
 
 ## 关于USB硬盘休眠
 
