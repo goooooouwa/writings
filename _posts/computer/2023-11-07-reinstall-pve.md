@@ -8,13 +8,14 @@ tags: pve
 
 1. Backup all vms in Stop mode to an external drive (e.g. NAS)
 2. Reinstall PVE (all data cleared)  
-	- set maximumvz as 0 (no local-lvm data)
+	- set maxvz as 0 (no local-lvm data)
 	- set domain as pve@example.com
-3. Connect to external drive and restore all vms
-4. [Remove local-lvm](https://icn.ink/pve/20.html) (no need to do if set maximumvz as 0)
-4. （Optional）[PCI passthrough](https://youtu.be/t_1o0rM3S7o?si=wey-mHQo953OEHhn&t=766)
-6. Upload SSL certificate
-7. Enable 2FA
+3. [Remove local-lvm](https://icn.ink/pve/20.html) (no need to do if set maxvz as 0)
+4. `lvextend -rl +100%FREE /dev/pve/root` (resize pve/root to take the whole disk space)
+5. Connect to external drive and restore all vms
+6. （Optional）[PCI passthrough](https://youtu.be/t_1o0rM3S7o?si=wey-mHQo953OEHhn&t=766)
+7. Upload SSL certificate
+8. Enable 2FA
 
 ## 关于USB硬盘休眠
 
