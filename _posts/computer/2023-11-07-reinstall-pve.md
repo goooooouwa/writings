@@ -14,9 +14,10 @@ tags: pve
 4. [Remove local-lvm](https://icn.ink/pve/20.html) (no need to do if set maxvz as 0)
 5. `lvextend -rl +100%FREE /dev/pve/root` ([resize pve/root](https://foxi.buduanwang.vip/virtualization/pve/1434.html) to take the whole disk space)
 6. 在数据中心中添加external drive and restore all vms
-7. （Optional）[PCI passthrough](https://youtu.be/t_1o0rM3S7o?si=wey-mHQo953OEHhn&t=766)
-8. Upload SSL certificate
-9. Enable 2FA
+7. (Optional) [PCI passthrough](https://youtu.be/t_1o0rM3S7o?si=wey-mHQo953OEHhn&t=766)
+8. (Optional) 设置[动态IP地址和网关](https://forum.proxmox.com/threads/set-a-dynamic-address-to-pve.119847/)
+9. Upload SSL certificate
+10. Enable 2FA
 
 ## 关于USB硬盘休眠
 
