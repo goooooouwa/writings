@@ -63,14 +63,16 @@ Figma社区共享资源:
 
 ### 文本编辑
 
-1. Basic: 输入法文本替换（`System Preferences -> Keyboard -> Text`）
-2. Advanced: dynamic snippets with [Alfred](https://www.alfredapp.com/)
-3. Clipboard history with [CopyClip](https://apps.apple.com/cn/app/copyclip-clipboard-history/id595191960?l=en&mt=12)
-4. Markdown editor:
+1. Basic文本替换: 输入法（`System Preferences -> Keyboard -> Text`）
+3. Advanced文本替换:
+    - [Espanso](https://espanso.org/)
+    - dynamic snippets with [Alfred](https://www.alfredapp.com/)
+5. Clipboard history with [CopyClip](https://apps.apple.com/cn/app/copyclip-clipboard-history/id595191960?l=en&mt=12)
+6. Markdown editor:
 	1. [Typora](https://typora.io/)
     1. [MarkText](https://github.com/marktext/marktext/releases)
 	2. markdown slides with [Marp](https://marp.app/)
-5. 永不中断的语音输入 with [Drafts](https://getdrafts.com/)
+7. 永不中断的语音输入 with [Drafts](https://getdrafts.com/)
 
 
 ### 文档处理
