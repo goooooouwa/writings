@@ -22,7 +22,9 @@ Overall, he is an innovative Product Manager / Business Analyst, with a solid te
 
 ## Experience
 
-- Business Analyst, Senior Consultant, Thoughtworks Software Technologies (Wuhan) LTD., 2020/03/01 - Present
+- Product Manager, Senior Consultant, Thoughtworks Inc., 2024/05/27 - Present
+
+- Business Analyst, Senior Consultant, Thoughtworks Software Technologies (Wuhan) LTD., 2020/03/01 - 2024/05/26
 
 - Business Analyst, Consultant, Thoughtworks Software Technologies (Wuhan) LTD., 2019/02/26 - 2020/02/29
 
