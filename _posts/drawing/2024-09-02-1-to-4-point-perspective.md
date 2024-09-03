@@ -12,4 +12,4 @@ published: true
 当正方体某一侧面垂直于视线（同时顶面与视线平行）时，当正方体在水平方向或者竖直方向一直延申到视锥外，视觉图像开始扭曲形变，水平方向或者竖直方向也会分别收敛并各在2个消失点相交，这属于4点透视，或者鱼眼透视（周围视觉）。
 
 
-视锥即90° circle of view defined in [the perspective setup](https://handprint.com/HP/WCL/perspect1.html#setup).
+视锥即90° circle of view defined in [the perspective setup](https://handprint.com/HP/WCL/perspect1.html#setup) as The Circle of View Framework.
