@@ -8,7 +8,6 @@ tags: perspective
 ![20230916_073333000_iOS.png]({{site.baseurl}}/assets/images/20230916_073333000_iOS.png)
 ![20230916_073426000_iOS.png]({{site.baseurl}}/assets/images/20230916_073426000_iOS.png)
 ![20240911_065745817_iOS.png]({{site.baseurl}}/assets/images/20240911_065745817_iOS.png)
-![20240911_061325138_iOS.png]({{site.baseurl}}/assets/images/20240911_061325138_iOS.png)
 
 90度视锥约定了view distance与view height相等,degree of vision cone为90度，此设定下，viewpoint经过向上翻折后，正好落在view circle上面，为透视绘画提供了很多便利。
 
@@ -40,9 +39,9 @@ tags: perspective
 
 到这里我们会发现很重要的一点，the ground line is always the "actual size" ruler. ground line反应的是物体的实际大小。
 
-最后一个关键问题是，当物体离groundline或median line比较远的时候，以上的构造方法就不实用了。这时我们就需要用到measure bar，即一种缩小scale后的ground line ruler（后文会介绍具体使用方法）。
-
 Obviously the crucial step is still missing: how do we work with objects that are very far from the median line and/or ground line? These create ground line measure points and/or intersection points that cannot conveniently be located on the perspective drawing ground line. This challenge requires the artist to reduce the scale of the ground line ruler as a substitute for working with unreasonably large dimensions in actual size. This reduced ruler is called a measure bar, and its use is explained below.
+
+最后一个关键问题是，当物体离groundline或median line比较远的时候，以上的构造方法就不实用了。这时我们就需要用到measure bar，即一种缩小scale后的ground line ruler（后文会介绍具体使用方法）。
 
 ## One point perspective（一点透视）
 
@@ -94,8 +93,11 @@ Diagonal lines from each point to the mp **transfer these measures into perspect
 
 ## distance & size（距离和大小）
 
+![20240911_061325138_iOS.png]({{site.baseurl}}/assets/images/20240911_061325138_iOS.png)
+
 ## scaling the drawing（缩放画面）
 
+![Screenshot 2024-09-14 at 12.04.54 PM.png]({{site.baseurl}}/assets/images/Screenshot 2024-09-14 at 12.04.54 PM.png)
 
 缩放的具体步骤是：
 
