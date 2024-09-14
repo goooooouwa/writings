@@ -41,7 +41,18 @@ Obviously the crucial step is still missing: how do we work with objects that ar
 
 ### Unequal Spacing in Depth（不相等的深度间距）
 
-如果知道不相等的深度间距之间的比例，就可以用measure bar在画面中重现同样比例的不相等的深度间距。无论是水平还是垂直间距。
+借助measure bar我们可以在画面中将任意长度转换为对应的深度，不用只局限于单位长度。
+
+具体的步骤是：
+
+1. 画一条水平条线；
+1. 在水平条线上标记你像画的任意长度；
+1. 连接measure bar上的任一measure point与对立的左侧（或者右侧）的dvp得到一条直线；
+1. 连接measure bar的0刻度的点与vanishing point得到第2条直线；
+1. 两条直线的交点即为该measure point对应长度在画面中的深度。
+
+Diagonal lines from each point to the mp **transfer these measures into perspective depth** at the points where the lines intersect the vanishing line.
+
 
 ### Shifting the Unit Dimension
 
