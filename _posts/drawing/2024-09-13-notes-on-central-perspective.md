@@ -27,8 +27,15 @@ tags: perspective
 
 到这里我们会发现很重要的一点，the ground line is always the "actual size" ruler. ground line反应的是物体的实际大小。
 
-最后一个关键问题是，当物体离groundline或median line比较远的时候，以上的构造方法就不实用了。这时我们就需要用到measure bar，即一种缩小scale后的ground line ruler。
+最后一个关键问题是，当物体离groundline或median line比较远的时候，以上的构造方法就不实用了。这时我们就需要用到measure bar，即一种缩小scale后的ground line ruler（后文会介绍具体使用方法）。
 
 Obviously the crucial step is still missing: how do we work with objects that are very far from the median line and/or ground line? These create ground line measure points and/or intersection points that cannot conveniently be located on the perspective drawing ground line. This challenge requires the artist to reduce the scale of the ground line ruler as a substitute for working with unreasonably large dimensions in actual size. This reduced ruler is called a measure bar, and its use is explained below.
 
+## One point perspective（一点透视）
+
+### Diagonals and the Unit Depth（纵深线和单位深度）
+
+a line drawn from either unit dimension endpoint (a or b, diagram above) to its opposite dvp (so that the diagonal vanishing line crosses the opposite orthogonal) intersects the orthogonal at a point x which defines a line segment bx that is equal in length to the unit dimension ab. But now it is the unit depth
+
+通过连接单位垂直线条的上端点与视锥下方的dvp（或者下端点与视锥上方的dvp）得到一条直线，然后连接单位线条的另一个端点与pp得到第2条直线（即一条纵深线），两条线相交的点与单位垂直线条的连线与单位长度相等，即为单位深度。
 
