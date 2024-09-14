@@ -21,7 +21,11 @@ tags: perspective
 
 另外一种定位物体在画面中的位置的方法是先找到物体某条边的消失点（Visual Rays and Vanishing Points所介绍的方法），然后将俯视图中物体的这条边的延长线与ground line相交，连接消失点和ground line上的交点得到一条直线，然后将该线条在plan上的点与翻折后的viewpoint相连得到第2条直线（即双折法的第1条构造线条），这2条直线交叉的点即为该物体这条线在画面中的位置。
 
-该方法同样只适用于物体离groundline和median line比较近的情况，当物体离groundline和median line稍远的情况，连接物体在plan上的点与翻折后的viewpoint就变得比较困难（线条会比较长），这时可以改用双折法的第2条构造线条，即将该物体在俯视图中的线条的两个端点(end point)的垂直线与ground line（地线）的交点与princial point(direction of view与画面的交点)连接得到的直线。一个快速寻找端点(end point)垂直线与ground line（地线）的交点的方法是，根据物体在俯视图中距离median line的距离，直接在ground line上测量出交点所在的位置。
+该方法同样只适用于物体离groundline和median line比较近的情况。
+
+当物体离groundline和median line较远的情况，连接物体在plan上的点与翻折后的viewpoint就变得比较困难（线条会很长），这时可以改用双折法的第2条构造线条，即将该物体在俯视图中的线条的两个端点(end point)的垂直线与ground line（地线）的交点与princial point(direction of view与画面的交点)连接得到的直线。一个快速寻找端点(end point)垂直线与ground line（地线）的交点的方法是，根据物体在俯视图中距离median line的距离，直接在ground line上测量出交点所在的位置。
+
+到这里我们会发现很重要的一点，the ground line is always the "actual size" ruler. 我们可以利用ground line来测量物体的实际大小。
 
 对于物体离median line很远的情况，就需要使用后面介绍的measure points和measure bar来定位了。
 
