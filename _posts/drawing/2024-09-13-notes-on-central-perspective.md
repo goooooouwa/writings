@@ -9,7 +9,7 @@ tags: perspective
 
 ### The Double Fold（双折）
 
-视觉射线法通过将viewpoint向上翻折，同时将地面向下翻折，与画面处于同一平面，我们能够便利地定位物体在画面上的位置。只需在地面俯视图（Plan）上将物体按俯视角度确定其大小和位置，然后通过连接其在plan上的点与翻折后的viewpoint得到一条直线，再将该点的垂直线与ground line（地线）的交点与vanishing point连接得到第2条直线，此时这2条直线交叉的点即为该物体的某个点在画面中的位置。
+视觉射线法通过将viewpoint向上翻折，同时将地面向下翻折，与画面处于同一平面，我们能够便利地定位物体在画面上的位置。只需在地面俯视图（Plan）上将物体按俯视角度确定其大小和位置，然后通过连接其在plan上的点与翻折后的viewpoint得到一条直线，再将该点的垂直线与ground line（地线）的交点与vanishing point连接得到第2条直线，这2条直线交叉的点即为该物体的某个点在画面中的位置。
 
 这个基本用法只适用于物体离groundline和median line比较近的情况，如果物体离groundline和median line很远，就需要使用后面介绍的measure points和measure bar来定位了。
 
@@ -19,5 +19,10 @@ tags: perspective
 
 ### Visual Rays and the "Principal Foundation"
 
-另外一种定位物体在画面中的位置的方法是通过寻找物体某条线的消失点及其延长线与ground line的交点，然后通过连接消失点和延长线与ground line的交点得到一条线条，再将该线条两个端点(end point)的垂直线与ground line（地线）的交点与vanishing point连接得到第2条直线，此时这2条直线交叉的点即为该物体这条线在画面中的位置。
+另外一种定位物体在画面中的位置的方法是先找到物体某条边的消失点（Visual Rays and Vanishing Points所介绍的方法），然后将俯视图中物体的这条边的延长线与ground line相交，连接消失点和ground line上的交点得到一条直线，然后将该线条在plan上的点与翻折后的viewpoint相连得到第2条直线（即双折法的第1条构造线条），这2条直线交叉的点即为该物体这条线在画面中的位置。
 
+该方法同样只适用于物体离groundline和median line比较近的情况，当物体离groundline和median line稍远的情况，连接物体在plan上的点与翻折后的viewpoint就变得比较困难（线条会比较长），这时可以改用双折法的第2条构造线条，即将该物体在俯视图中的线条的两个端点(end point)的垂直线与ground line（地线）的交点与princial point(direction of view与画面的交点)连接得到的直线。一个快速寻找端点(end point)垂直线与ground line（地线）的交点的方法是，根据物体在俯视图中距离median line的距离，直接在ground line上测量出交点所在的位置。
+
+对于物体离median line很远的情况，就需要使用后面介绍的measure points和measure bar来定位了。
+
+另外一种定位物体在画面中的位置的方法是通过寻找物体某条线的消失点及其延长线与ground line的交点，然后连接这2点得到一条线，再将该线条在俯视图中的两个端点(end point)的垂直线与ground line（地线）的交点与princial point(direction of view与画面的交点)连接得到第2条直线，此时这2条直线交叉的点即为该物体这条线在画面中的位置。
