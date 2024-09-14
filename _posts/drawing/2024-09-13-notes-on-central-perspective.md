@@ -84,14 +84,18 @@ Diagonal lines from each point to the mp **transfer these measures into perspect
 
 ## slanting & sloping planes（倾斜面和坡斜面）
 
+![20240911_055615053_iOS.png]({{site.baseurl}}/assets/images/20240911_055615053_iOS.png)
 
 画倾斜面的方法很简单，只需将纸张以同样角度旋转，让倾斜面看起来水平即可当作普通水平面处理。
+
+![20240911_060337731_iOS.png]({{site.baseurl}}/assets/images/20240911_060337731_iOS.png)
 
 画坡斜面的办法是，将viewpoint向视锥左（或右）侧翻折（与dvp重合），然后在dvp画一个与坡斜面相同的角度，其中一条线与视平线重合，另一条线与median line的交点即该坡斜面的slope vanishing point（斜坡消失点）。找到斜坡消失点，剩下的就很简单了。
 
 ## distance & size（距离和大小）
 
 ## scaling the drawing（缩放画面）
+
 
 缩放的具体步骤是：
 
@@ -100,6 +104,8 @@ Diagonal lines from each point to the mp **transfer these measures into perspect
 1. 接下来我们就可以以画面中的该单位长度为参考，相应的画出其他尺寸的物体。
 
 ## constructing a 1PP cube
+
+![constructing-1pp-cube.png]({{site.baseurl}}/assets/images/constructing-1pp-cube.png)
 
 构造1点透视的具体步骤是：
 
