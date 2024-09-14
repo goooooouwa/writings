@@ -55,6 +55,16 @@ Obviously the crucial step is still missing: how do we work with objects that ar
 
 画倾斜面的方法很简单，只需将纸张以同样角度旋转，让倾斜面看起来水平即可当作普通水平面处理。
 
-画坡斜面的办法是，将viewpoint向视锥左（或右）侧翻折（与dvp重合），然后在dvp画一个与坡斜面相同的角度，其中一条线与视平线重合，另一条线与median line的交点即该坡斜面的slope vanishing point（斜坡消失点）。
+画坡斜面的办法是，将viewpoint向视锥左（或右）侧翻折（与dvp重合），然后在dvp画一个与坡斜面相同的角度，其中一条线与视平线重合，另一条线与median line的交点即该坡斜面的slope vanishing point（斜坡消失点）。找到斜坡消失点，剩下的就很简单了。
 
+## distance & size（距离和大小）
 
+## scaling the drawing（缩放画面）
+
+缩放的具体步骤是：
+
+1. 根据设想的view distance，view height，结合ground line来画出单位长度的实际大小（比如1米）；
+1. 通过缩放（scaling）将实际的大小缩放相应的倍数（比如缩小10倍），令其完整的出现在所选择的format（画材）的画面中，此时我们就得到了一个单位长度在画面中特定透视深度的大小（具体深度距离可以通过scale的倍数算出来）；
+1. 接下来我们就可以以画面中的该单位长度为参考，相应的画出其他尺寸的物体。
+
+## constructing a 1PP cube
