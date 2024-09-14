@@ -60,7 +60,7 @@ author:
 minima:
   skin: auto
   social_links:
-    - { platform: github,  user_url: "https://github.com/goooooouwa" }
+    - { platform: github, user_url: "https://github.com/goooooouwa" }
     - { platform: twitter, user_url: "https://twitter.com/Goooooouwa" }
 
 show_excerpts: false
@@ -105,3 +105,8 @@ google_custom_engine: 001725026263712877590:9lrhbwyoknb
 
 jekyll_compose:
   auto_open: true
+
+# Prose.io editor configurations
+prose:
+  rooturl: "_posts"
+  media: "assets/images"
