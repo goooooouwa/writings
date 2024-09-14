@@ -13,12 +13,15 @@ tags: perspective
 
 ### The Double Fold（双折）
 
-视觉射线法通过将viewpoint向上翻折，同时将地面向下翻折，与画面处于同一平面，我们能够便利地定位物体在画面上的位置。只需在地面俯视图（Plan）上将物体按俯视角度确定其大小和位置，然后通过连接其在plan上的点与翻折后的viewpoint得到一条直线，再将该点的垂直线与ground line（地线）的交点与vanishing point连接得到第2条直线，这2条直线交叉的点即为该物体的某个点在画面中的位置。
+视觉射线法通过将viewpoint向上翻折，同时将地面向下翻折，与画面处于同一平面，我们能够便利地定位物体在画面上的位置。
 
 ![20240911_051309809_iOS.png]({{site.baseurl}}/assets/images/20240911_051309809_iOS.png)
+
+只需在地面俯视图（Plan）上将物体按俯视角度确定其大小和位置，然后通过连接其在plan上的点与翻折后的viewpoint得到一条直线，再将该点的垂直线与ground line（地线）的交点与vanishing point连接得到第2条直线，这2条直线交叉的点即为该物体的某个点在画面中的位置。
+
 ![20240911_051404447_iOS.png]({{site.baseurl}}/assets/images/20240911_051404447_iOS.png)
 
-这个基本用法只适用于物体离groundline和median line比较近的情况，如果物体离groundline和median line很远，就需要使用后面介绍的measure points和measure bar来定位了。
+这个基本用法只适用于物体离ground line和median line比较近的情况，如果物体离ground line和median line很远，就需要使用后面介绍的measure points和measure bar来定位了。
 
 ### Visual Rays and Vanishing Points
 
