@@ -5,16 +5,19 @@ tags: perspective
 ---
 ## The visual ray method（视觉射线法）
 
-视觉射线法约定了view distance与view height相等,degree of vision cone为90度，此设定下，viewpoint经过向上翻折后，正好落在view circle上面，为透视绘画提供了很多便利。
+90度视锥约定了view distance与view height相等,degree of vision cone为90度，此设定下，viewpoint经过向上翻折后，正好落在view circle上面，为透视绘画提供了很多便利。
 
-## Double Fold（双折）
+### The Double Fold（双折）
 
-通过将viewpoint向上翻折，同时将地面向下翻折，与画面处于同一平面，我们能够便利地定位物体在画面上的位置。只需在地面俯视图（Plan）上将物体按俯视角度确定其大小和位置，然后通过连接其在plan上的点与翻折后的viewpoint得到一条直线，再将该点的垂直线与ground line（地线）的交点与vanishing point连接得到第2条直线，2条直接交叉的点即为该物体的某个点在画面中的位置。
+视觉射线法通过将viewpoint向上翻折，同时将地面向下翻折，与画面处于同一平面，我们能够便利地定位物体在画面上的位置。只需在地面俯视图（Plan）上将物体按俯视角度确定其大小和位置，然后通过连接其在plan上的点与翻折后的viewpoint得到一条直线，再将该点的垂直线与ground line（地线）的交点与vanishing point连接得到第2条直线，此时这2条直线交叉的点即为该物体的某个点在画面中的位置。
 
 这个基本用法只适用于物体离groundline和median line比较近的情况，如果物体离groundline和median line很远，就需要使用后面介绍的measure points和measure bar来定位了。
 
-## Visual Rays and Vanishing Points
+### Visual Rays and Vanishing Points
 
 使用视觉射线法可以轻松的找到任意物体在画面中的消失点。只需将地面俯视图（Plan）上将物体平移，并将任一个顶点与翻折后的viewpoint重合，然后沿着顶点所在的任一条边画延长线与视平线相交，即该物体这条边所在的平面在画面中的消失点。
 
+### Visual Rays and the "Principal Foundation"
+
+另外一种定位物体在画面中的位置的方法是通过寻找物体某条线的消失点及其延长线与ground line的交点，然后通过连接消失点和延长线与ground line的交点得到一条线条，再将该线条两个端点(end point)的垂直线与ground line（地线）的交点与vanishing point连接得到第2条直线，此时这2条直线交叉的点即为该物体这条线在画面中的位置。
 
