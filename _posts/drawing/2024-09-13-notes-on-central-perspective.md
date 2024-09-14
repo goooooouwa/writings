@@ -5,6 +5,10 @@ tags: perspective
 ---
 ## The visual ray method（视觉射线法）
 
+![20240911_070034871_iOS.png]({{site.baseurl}}/assets/images/20240911_070034871_iOS.png)
+![20230916_073333000_iOS.png]({{site.baseurl}}/assets/images/20230916_073333000_iOS.png)
+![20230916_073426000_iOS.png]({{site.baseurl}}/assets/images/20230916_073426000_iOS.png)
+
 90度视锥约定了view distance与view height相等,degree of vision cone为90度，此设定下，viewpoint经过向上翻折后，正好落在view circle上面，为透视绘画提供了很多便利。
 
 ### The Double Fold（双折）
