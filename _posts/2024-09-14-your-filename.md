@@ -1,3 +1,6 @@
+---
+published: false
+---
 ## A New Post
 
 ![Screenshot 2024-09-07 at 2.00.10 PM.png]({{site.baseurl}}/assets/images/Screenshot 2024-09-07 at 2.00.10 PM.png)
