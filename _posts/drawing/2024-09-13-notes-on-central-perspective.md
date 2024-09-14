@@ -68,3 +68,14 @@ Obviously the crucial step is still missing: how do we work with objects that ar
 1. 接下来我们就可以以画面中的该单位长度为参考，相应的画出其他尺寸的物体。
 
 ## constructing a 1PP cube
+
+构造1点透视的具体步骤是：
+
+1. 确定画面中的anchor point和anchor line；
+1. 根据anchor point和anchor line画出立方体的正面（如果是长方形则需要根据其实际长宽比来画）；
+1. 将立方体的四个顶点与vanishing point相连；
+1. 如果该立方体是正方体，则只需将立方体的四个顶点与对应方向的dvp相连，每条直线分别与上面四条直线的交点即为正方体在画面中的另外4个顶点；
+1. 如果是深度与长度或宽度不相等的立方体，则可以通过利用measure bar将相同的长度或宽度映射成对应的深度。
+
+至此得到1点透视画面中的立方体。
+
