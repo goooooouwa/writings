@@ -35,8 +35,6 @@ Obviously the crucial step is still missing: how do we work with objects that ar
 
 ### Diagonals and the Unit Depth（纵深线和单位深度）
 
-a line drawn from either unit dimension endpoint (a or b, diagram above) to its opposite dvp (so that the diagonal vanishing line crosses the opposite orthogonal) intersects the orthogonal at a point x which defines a line segment bx that is equal in length to the unit dimension ab. But now it is the unit depth
-
 通过连接单位垂直线条的上端点与视锥下方的dvp（或者下端点与视锥上方的dvp）得到一条直线，然后连接单位线条的另一个端点与pp得到第2条直线（即一条纵深线），两条线相交的点与单位垂直线条的连线与单位长度相等，即为单位深度。
 
 同样的，对于单位水平线条，可以通过连接其左端点与视锥右侧的dvp（或者右端点与视锥左侧的dvp）得到一条类似的直线，然后连接单位线条的另一个端点与pp得到第2条直线（即一条纵深线），两条线相交的点与单位垂直线条的连线与单位长度相等，同样可以得到单位深度。
@@ -48,4 +46,15 @@ a line drawn from either unit dimension endpoint (a or b, diagram above) to its 
 ### Shifting the Unit Dimension
 
 单位水平或垂直长度可以在画面中同一透视深度上任意的反转（rotate）或平移，其长度不变。
+
+### Unit depth dimensions may not be shifted or rotated
+
+但是单位深度无法自由地反转（rotate）或平移，因为不同位置深度会因为透视而有所不同。
+
+## slanting & sloping planes（倾斜面和坡斜面）
+
+画倾斜面的方法很简单，只需将纸张以同样角度旋转，让倾斜面看起来水平即可当作普通水平面处理。
+
+画坡斜面的办法是，将viewpoint向视锥左（或右）侧翻折（与dvp重合），然后在dvp画一个与坡斜面相同的角度，其中一条线与视平线重合，另一条线与median line的交点即该坡斜面的slope vanishing point（斜坡消失点）。
+
 
