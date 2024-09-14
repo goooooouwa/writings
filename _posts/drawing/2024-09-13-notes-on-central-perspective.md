@@ -25,8 +25,10 @@ tags: perspective
 
 当物体离groundline和median line较远的情况，连接物体在plan上的点与翻折后的viewpoint就变得比较困难（线条会很长），这时可以改用双折法的第2条构造线条，即将该物体在俯视图中的线条的两个端点(end point)的垂直线与ground line（地线）的交点与princial point(direction of view与画面的交点)连接得到的直线。一个快速寻找端点(end point)垂直线与ground line（地线）的交点的方法是，根据物体在俯视图中距离median line的距离，直接在ground line上测量出交点所在的位置。
 
-到这里我们会发现很重要的一点，the ground line is always the "actual size" ruler. 我们可以利用ground line来测量物体的实际大小。
+到这里我们会发现很重要的一点，the ground line is always the "actual size" ruler. ground line反应的是物体的实际大小。
 
-对于物体离median line很远的情况，就需要使用后面介绍的measure points和measure bar来定位了。
+最后一个关键问题是，当物体离groundline或median line比较远的时候，以上的构造方法就不实用了。这时我们就需要用到measure bar，即一种缩小scale后的ground line ruler。
 
-另外一种定位物体在画面中的位置的方法是通过寻找物体某条线的消失点及其延长线与ground line的交点，然后连接这2点得到一条线，再将该线条在俯视图中的两个端点(end point)的垂直线与ground line（地线）的交点与princial point(direction of view与画面的交点)连接得到第2条直线，此时这2条直线交叉的点即为该物体这条线在画面中的位置。
+Obviously the crucial step is still missing: how do we work with objects that are very far from the median line and/or ground line? These create ground line measure points and/or intersection points that cannot conveniently be located on the perspective drawing ground line. This challenge requires the artist to reduce the scale of the ground line ruler as a substitute for working with unreasonably large dimensions in actual size. This reduced ruler is called a measure bar, and its use is explained below.
+
+
