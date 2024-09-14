@@ -1,5 +1,5 @@
 ---
-title: 笔记：一点透视
+title: 一点透视学习笔记
 category: drawing
 tags: perspective
 ---
@@ -78,4 +78,3 @@ Obviously the crucial step is still missing: how do we work with objects that ar
 1. 如果是深度与长度或宽度不相等的立方体，则可以通过利用measure bar将相同的长度或宽度映射成对应的深度。
 
 至此得到1点透视画面中的立方体。
-
