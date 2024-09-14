@@ -33,6 +33,8 @@ tags: perspective
 
 该方法同样只适用于物体离groundline和median line比较近的情况。
 
+![20240911_050144353_iOS.png]({{site.baseurl}}/assets/images/20240911_050144353_iOS.png)
+
 当物体离groundline和median line较远的情况，连接物体在plan上的点与翻折后的viewpoint就变得比较困难（线条会很长），这时可以改用双折法的第2条构造线条，即将该物体在俯视图中的线条的两个端点(end point)的垂直线与ground line（地线）的交点与princial point(direction of view与画面的交点)连接得到的直线。一个快速寻找端点(end point)垂直线与ground line（地线）的交点的方法是，根据物体在俯视图中距离median line的距离，直接在ground line上测量出交点所在的位置。
 
 到这里我们会发现很重要的一点，the ground line is always the "actual size" ruler. ground line反应的是物体的实际大小。
