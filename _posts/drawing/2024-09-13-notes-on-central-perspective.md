@@ -5,9 +5,10 @@ tags: perspective
 ---
 ## The visual ray method（视觉射线法）
 
-![20240911_070034871_iOS.png]({{site.baseurl}}/assets/images/20240911_070034871_iOS.png)
 ![20230916_073333000_iOS.png]({{site.baseurl}}/assets/images/20230916_073333000_iOS.png)
 ![20230916_073426000_iOS.png]({{site.baseurl}}/assets/images/20230916_073426000_iOS.png)
+![20240911_065745817_iOS.png]({{site.baseurl}}/assets/images/20240911_065745817_iOS.png)
+![20240911_061325138_iOS.png]({{site.baseurl}}/assets/images/20240911_061325138_iOS.png)
 
 90度视锥约定了view distance与view height相等,degree of vision cone为90度，此设定下，viewpoint经过向上翻折后，正好落在view circle上面，为透视绘画提供了很多便利。
 
@@ -82,6 +83,7 @@ Diagonal lines from each point to the mp **transfer these measures into perspect
 但是单位深度无法自由地反转（rotate）或平移，因为不同位置深度会因为透视而有所不同。
 
 ## slanting & sloping planes（倾斜面和坡斜面）
+
 
 画倾斜面的方法很简单，只需将纸张以同样角度旋转，让倾斜面看起来水平即可当作普通水平面处理。
 
