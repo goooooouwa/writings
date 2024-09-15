@@ -2,13 +2,13 @@
 # 1) Jekyll image for building static blog site
 # 2) nginx stage to serve static site
 
-FROM jekyll/jekyll:4.2.2 AS builder
+FROM jekyll/jekyll:latest AS builder
 
 WORKDIR /srv/jekyll
 
 COPY . .
 
-# RUN jekyll build --trace
+RUN jekyll build --trace
 
 # 2) Nginx stage for serving content
 
