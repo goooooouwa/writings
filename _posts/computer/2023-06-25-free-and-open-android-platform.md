@@ -8,8 +8,6 @@ tags: android
 
 - Game Emulators 游戏模拟器（包括ONS 模拟器）
 - 电视TV上运行手机应用（接鼠标键盘，side load apps）
-- Piracy 盗版软件
-- Porn 色情软件 (Discord的某些社群)
 - 第三方app store（apkpure)
 - 跨平台的应用开发环境 (Android Studio for Mac / Windows / Linux)
 - 支持第三方硬件，比如：
