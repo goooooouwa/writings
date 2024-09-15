@@ -8,7 +8,7 @@ WORKDIR /srv/jekyll
 
 COPY . .
 
-RUN jekyll build --trace
+# RUN jekyll build --trace
 
 # 2) Nginx stage for serving content
 
