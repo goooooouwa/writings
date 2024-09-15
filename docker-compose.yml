@@ -5,7 +5,8 @@ services:
       context: .
       dockerfile: ./docker/Dockerfile
     volumes:
-      - /etc/certs:/etc/certs
+      - ${SSL_CERTIFICATE}:/certs/fullchain.cer
+      - ${SSL_CERTIFICATE_KEY}:/certs/private.key
     ports:
       - 8743:443
     restart: unless-stopped
