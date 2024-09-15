@@ -6,3 +6,5 @@ _site
 .Ulysses-Group.plist
 .Ulysses-favorites.plist
 .DS_Store
+.env
+
