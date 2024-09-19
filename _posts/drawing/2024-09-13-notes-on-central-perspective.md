@@ -1,7 +1,7 @@
 ---
 title: 笔记：一点透视
 category: drawing
-tags: perspective
+tags: perspective study-notes
 ---
 ## The visual ray method（视觉射线法）
 
