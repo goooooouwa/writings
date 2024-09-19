@@ -2,7 +2,7 @@
 title: 家庭娱乐服务器Setup
 category: computer
 published: true
-tags: htpc home-server raspberry-pi omv
+tags: htpc home-server raspberry-pi omv setup
 ---
 
 ## Media Server
