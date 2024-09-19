@@ -2,7 +2,7 @@
 title: 搭建家庭娱乐服务器
 category: computer
 published: true
-tags: 破解 htpc home-server
+tags: superadmin htpc home-server
 ---
 
 ## Media Server
@@ -28,7 +28,7 @@ hd-idle (tried hdparam, not working for USB disks)
 
 #### Access over Internet
 
-1. 破解电信光猫（获取 superadmin），上网方式从路由改为桥接，关闭光猫无线功能，光猫仅仅做一件事情：桥接 merlin 路由器来拨号上网。（tried 光猫上的端口转发，不 work）
+1. 获取电信光猫superadmin账号密码，上网方式从路由改为桥接，关闭光猫无线功能，光猫仅仅做一件事情：桥接 merlin 路由器来拨号上网。（tried 光猫上的端口转发，不 work）
 2. 路由器拨号上网
 3. 其他路由器以 AP 模式接入主路由器
 4. 其他路由器暂时关闭无线功能（一方面华硕主路由器信号已经不错，另一方面，没有 Mesh 功能，多个无线网络无法无缝漫游，以后需要再打开，手动切换）
