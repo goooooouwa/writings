@@ -1,6 +1,6 @@
 ---
-category: drawing
-date: 2020-05-31
+category: drawing perspective study-notes
+date: 2020-05-31T00:00:00.000Z
 title: 《hardprint perspective》学习笔记
 ---
 
