@@ -1,6 +1,7 @@
 ---
 title: 绘画学习笔记
-category: drawing perspective study-notes
+category: drawing
+tags: perspective study-notes
 ---
 
 # 绘画学习笔记
