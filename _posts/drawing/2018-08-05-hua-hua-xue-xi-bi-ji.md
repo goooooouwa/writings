@@ -1,10 +1,9 @@
 ---
-category: drawing
-date: 2018-08-05
-title: 画画学习笔记
+title: 绘画学习笔记
+category: drawing perspective study-notes
 ---
 
-# 画画学习笔记
+# 绘画学习笔记
 
 ## 透视：关键概念
 
