@@ -1,5 +1,5 @@
 ---
-title: 'Mp3Tag: how to use directory name when converting file name to tag'
+title: 'Mp3Tag: how to convert directory name to tag'
 category: computer
 published: true
 ---
