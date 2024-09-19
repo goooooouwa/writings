@@ -5,11 +5,11 @@ published: true
 tags: home-server lets-encrypt acme.sh freedns dns asus rt-ac86u
 ---
 
-相关文章：[搭建家庭娱乐服务器]({% post_url /computer/2021-11-14-home-media-server-setup %})
+相关文章：[教程：如何通过公网访问家庭服务器]({% post_url /computer/2021-11-13-how-to-setup-internet-access-for-home-server %})
 
 关键约束：
 
-1. 国内家用宽带 80、433 端口都被电信封了，无法使用 HTTP 方式进行 Let's Encrypt 验证，只能使用 DNS 验证方式（而且这种方式要求 DNS 服务支持通过 API 方式修改 DNS record，才能做到通过 acme 客户端全自动更新证书，否则需定期人工操作）-> 因此需要一个支持 API 的 DNS provider
+1. 国内家用宽带 80、433 端口都被电信封了，无法使用RT-AC86U路由器内置的 HTTP 方式进行 Let's Encrypt 验证，只能使用 DNS 验证方式（而且这种方式要求 DNS 服务支持通过 API 方式修改 DNS record，才能做到通过 acme 客户端全自动更新证书，否则需定期人工操作）-> 因此需要一个支持 API 的 DNS provider
 2. 尽管 CloudFlare 提供免费的 DNS 服务，但华硕路由器不支持 CloudFlare as DDNS
 3. 华硕路由器也不支持 aliyun DNS 和腾讯 dnsPod as DDNS -> 只有 freedns 满足：
 
@@ -39,3 +39,5 @@ tags: home-server lets-encrypt acme.sh freedns dns asus rt-ac86u
 2. Open Media Vault: copy and paste the fullchain cert and private key in the admin page (need to manual update if new cert issued)
 3. Portainer: upload the fullchain cert and private key in the settings page (need to re-upload if new cert issued)
 4. For the containers, e.g. nginx, plex etc, just reference the fullchain cert and private key stored in `~/.acme.sh/` directory (just restart the containers if new cert issued)
+
+
