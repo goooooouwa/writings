@@ -1,6 +1,6 @@
 ---
 published: true
-title: 我的跨平台方案
+title: 跨平台解决方案setup
 category: personal
 tags: cross-platform setup
 ---
