@@ -2,7 +2,7 @@
 title: 搭建家庭娱乐服务器
 category: computer
 published: true
-tags: superadmin htpc home-server
+tags: superadmin htpc home-server raspberry-pi omv modem
 ---
 
 ## Media Server
