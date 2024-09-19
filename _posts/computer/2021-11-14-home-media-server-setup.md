@@ -1,5 +1,5 @@
 ---
-title: 搭建家庭娱乐服务器
+title: 家庭娱乐服务器Setup
 category: computer
 published: true
 tags: htpc home-server raspberry-pi omv
