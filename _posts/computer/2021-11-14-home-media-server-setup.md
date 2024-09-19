@@ -2,7 +2,7 @@
 title: 搭建家庭娱乐服务器
 category: computer
 published: true
-tags: superadmin htpc home-server raspberry-pi omv modem
+tags: htpc home-server raspberry-pi omv
 ---
 
 ## Media Server
@@ -25,21 +25,6 @@ Raspberry Pi 3B + USB hard disk
 #### USB hard disk auto idling
 
 hd-idle (tried hdparam, not working for USB disks)
-
-#### Access over Internet
-
-1. 获取电信光猫superadmin账号密码，上网方式从路由改为桥接，关闭光猫无线功能，光猫仅仅做一件事情：桥接 merlin 路由器来拨号上网。（tried 光猫上的端口转发，不 work）
-2. 路由器拨号上网
-3. 其他路由器以 AP 模式接入主路由器
-4. 其他路由器暂时关闭无线功能（一方面华硕主路由器信号已经不错，另一方面，没有 Mesh 功能，多个无线网络无法无缝漫游，以后需要再打开，手动切换）
-5. 主路由器打开端口转发
-
-#### All HTTPs connections (including merlin Router) with Let’s encrypt
-
-1. Using DNS challenge (tried Merlin Router built in HTTP challenge approach, not working due to 80/443 ports blocked)
-2. Freenom domain (tried freedns secondary domain, only primary domain supported; aliyun domain and DNS probably will also work, as it’s supported by merlin Router)
-3. Freedns nameserver + ddns (tried CloudFlare, not supported by Merlin router)
-4. acme.sh on Raspberry Pi
 
 ### Overall experience
 
