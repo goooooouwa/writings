@@ -9,4 +9,4 @@ tags: perspective study-notes
 
 Reference:
 
-[https://www.youtube.com/watch?v=OB3UEpxFlj8]()
+[https://www.youtube.com/watch?v=OB3UEpxFlj8](https://www.youtube.com/watch?v=OB3UEpxFlj8)
