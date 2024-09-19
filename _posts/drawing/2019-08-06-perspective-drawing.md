@@ -1,7 +1,7 @@
 ---
-category: drawing
 title: "透视画法"
-date: "2019-08-06"
+category: drawing
+tags: perspective study-notes
 ---
 
 困扰我 15 年的透视画法（如何全凭想象真实还原人眼看到的景象）终于得到解答了。
