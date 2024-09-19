@@ -1,6 +1,6 @@
 ---
 published: true
-title: 我的数据管理
+title: 数据管理setup
 category: personal
 tags: data management setup
 ---
