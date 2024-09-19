@@ -1,6 +1,7 @@
 ---
 title: 《hardprint perspective》学习笔记
-category: drawing perspective study-notes
+category: drawing
+tag: perspective study-notes
 ---
 
 # 《hardprint perspective》学习笔记
