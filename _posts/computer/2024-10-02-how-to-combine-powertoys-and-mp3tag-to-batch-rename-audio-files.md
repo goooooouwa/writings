@@ -1,5 +1,5 @@
 ---
-title: 组合使用PowerToys和Mp3tag将音频文件批量重命名并按月进行文件夹分类
+title: 如何将音频文件批量按年月进行文件夹分类
 category: computer
 tags: powertoys mp3tag
 published: true
